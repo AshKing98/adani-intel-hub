@@ -83,18 +83,27 @@ HEADLINES>>>
 
 
 def _gemini(prompt: str) -> dict:
-    last = None
+    """Call Gemini with a hard time budget. Per model: try with 'thinking' switched off (fast), then plain.
+    A timeout or overload moves on to the next model instead of ending the run."""
+    last, deadline = None, time.monotonic() + 420
     for model in GEMINI_MODELS:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        body = {"contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.4}}
-        for attempt in range(2):
+        for fast in (True, False):
+            if time.monotonic() > deadline:
+                raise RuntimeError(f"Gemini time budget used up ({last})")
+            cfg = {"responseMimeType": "application/json", "temperature": 0.4, "maxOutputTokens": 8192}
+            if fast:
+                cfg["thinkingConfig"] = {"thinkingBudget": 0}
             try:
-                r = requests.post(url, json=body, headers={"x-goog-api-key": GEMINI_KEY}, timeout=60)
+                r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg},
+                                  headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
+                if r.status_code == 400 and fast:
+                    last = f"{model}: 400 (thinking option not accepted)"
+                    continue                       # same model, without the thinking option
                 if r.status_code in (429, 503):
                     last = f"{model}: {r.status_code}"
-                    time.sleep(20)
-                    continue
+                    time.sleep(15)
+                    break                          # next model
                 if r.status_code == 404:
                     last = f"{model}: not found"
                     break
@@ -106,11 +115,12 @@ def _gemini(prompt: str) -> dict:
                     raise ValueError("response is not an object")
                 out["_model"] = model
                 return out
+            except requests.exceptions.Timeout:
+                last = f"{model}: timed out"
+                break                              # next model
             except Exception as e:
-                last = f"{model}: {e}"
-                if isinstance(e, requests.exceptions.Timeout):
-                    raise RuntimeError(f"Gemini timed out ({model})")   # don't burn the job's time budget
-                time.sleep(5)
+                last = f"{model}: {type(e).__name__}"
+                break
     raise RuntimeError(f"Gemini unavailable ({last})")
 
 
@@ -191,7 +201,7 @@ def build(items: list, focus: list) -> dict:
     from news import is_noise
     items = [i for i in items if not is_noise(i["title"], i["source"])
              and not is_noise((i.get("read") or {}).get("desc", ""), "")]
-    ranked = _distinct(sorted(items, key=lambda x: priority(x, focus), reverse=True))[:30]
+    ranked = _distinct(sorted(items, key=lambda x: priority(x, focus), reverse=True))[:20]
     if not ranked:
         return {"headline": "Quiet day", "summary": "No new Adani stories found in the last 48 hours.",
                 "stories": [], "concept": None, "question": None,
@@ -201,7 +211,7 @@ def build(items: list, focus: list) -> dict:
     if GEMINI_KEY:
         slim = [{"id": i["id"], "title": i["title"], "source": i["source"], "tier": i["tier"],
                  "companies": i["companies"], "date": i["date"][:10], "outlets": i.get("coverage", 1),
-                 "text": " ".join(((i.get("read") or {}).get("paras") or [])[:3])[:900]
+                 "text": " ".join(((i.get("read") or {}).get("paras") or [])[:2])[:600]
                          or (i.get("read") or {}).get("desc", "")} for i in ranked]
         try:
             out = _gemini(PROMPT.format(today=today.strftime("%d %B %Y"),
