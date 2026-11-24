@@ -403,7 +403,7 @@
   ],
   "snippet": "India has copper refining capacity of nearly 1.3 million tpy but remains dependent on imported concentrates and refined metal, as some processors operate below capacity, as per the federal mines minis ...",
   "official": false,
-  "coverage": 15,
+  "coverage": 16,
   "also": [
    {
     "source": "Business Today",
@@ -789,7 +789,13 @@
   "official": false,
   "coverage": 1,
   "also": [],
-  "first_seen": "2026-11-24T21:56:17.686126+05:30"
+  "first_seen": "2026-11-24T21:56:17.686126+05:30",
+  "read": {
+   "link": "https://www.indianmandarins.com/news/jeet-adani-outlines-vision-for-aviation-commerce-logistics-ecosystems-beyond-transit-hubs/33752",
+   "desc": "",
+   "paras": [],
+   "image": "https://api.indianmandarins.com/public/blogImages/Adani_Airport_Reception.png"
+  }
  },
  {
   "id": "4a4d391fd7d7",
@@ -1867,7 +1873,7 @@
   ],
   "snippet": "",
   "official": false,
-  "coverage": 1,
+  "coverage": 16,
   "also": [],
   "first_seen": "2026-11-24T19:34:17.958991+05:30",
   "read": {
