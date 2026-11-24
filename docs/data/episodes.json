@@ -1,17 +1,17 @@
 [
  {
   "date": "2026-11-24",
-  "kind": "daily",
-  "title": "Top Adani headlines",
-  "file": "audio/daily/2026-11-24.mp3",
-  "words": 189,
-  "secs": 125
- },
- {
-  "date": "2026-11-24",
   "kind": "weekly",
   "title": "Week in review",
   "file": "audio/weekly/2026-11-24.mp3",
-  "secs": 146
+  "secs": 136
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "daily",
+  "title": "Adani expands across airports, green power, defense, and power transmission infrastructure.",
+  "file": "audio/daily/2026-11-24.mp3",
+  "words": 490,
+  "secs": 267
  }
 ]
