@@ -1,22 +1,22 @@
 {
  "headline": "Top Adani headlines",
- "summary": "56 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+ "summary": "51 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
  "stories": [
   {
-   "id": "d026dc0ce1b0",
+   "id": "faf8b0152ec5",
    "company": "ael",
-   "what": "Adani Enterprises signs a 1 billion dollar deal with Attero to source copper anode for its Kutch Copper smelter, aiming to reduce import reliance.",
+   "what": "Adani’s reported $1 billion deal with Attero will enable Kutch Copper to source 2,000 tonnes of recycled copper anode monthly. The agreement could reduce the smelter’s import dependence by around 5%, highlighting the growing role of e-waste recycling in India’s critical mineral supply chains.",
    "why": "",
    "evidence": "independent",
    "watch": "",
-   "title": "Adani signs $1 billion copper supply deal with recycler Attero to cut import dependence: Reuters",
-   "url": "https://www.cnbctv18.com/business/companies/adani-signs-usd-1-billion-copper-supply-deal-with-recycler-attero-to-cut-import-dependence-reuters-20040525.htm",
-   "source": "CNBCTV18",
+   "title": "Adani's $1 billion copper deal with Attero: Can recycled metal reduce India's import dependence?",
+   "url": "https://www.businesstoday.in/latest/corporate/story/adanis-1-billion-copper-deal-with-attero-can-recycled-metal-reduce-indias-import-dependence-569246-2026-11-24",
+   "source": "Business Today",
    "coverage": 16,
    "also": [
     {
-     "source": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQ0JRa2lJV3NUZmtQeXRnblJqeHp5SEtiSGZFWXZlXzJZU3c3TDc4T3ZCUUZyNXdXUm5sSDY4N0d0ZFBuYm0xWUE0bGF5OElXOHR0NmxuYWVVYlhwaG15dkhjdDFsNW9wc1VpbEFEUjh6ZjZiRkluVDdjRVFzN0ltcHU2OU5jNmdRaXA1aHdhdDlQQy1NWHYtS3MxM0hvUFdSN1B0MnRtR1BzR3BZY1FROUtGR0ttUXBvWHc0UHcyaFhLOUtKdTN0ZE5ZRGxLTUVMTjJaRVNfeWF4T2FQQVVDV21B0gHnAUFVX3lxTE1OUjdJYjE1N2xqS29Qbkx1cWc4N1BlWjJWNS1FekFta2JMZk1zMmtLVVQtZE0yQURTcDlWWVN3aC0wc2JwRG5GNkdQbmFQZmNvWUFhZnM0SEV4SmhvRm9JSmZ5NjB5UlBoZGJBQXd5eFBQSEV1OTRYSUVIQmpFUl85dVFlTjNUSVZkaE1ZeUxXUHhfM2lQRjlJaURRMGdQZU15cWtIQ3ZlMjJzd1d4R0RvbDhpMUlLWF92eC0zMXRDNHZCdXhCeHNvMWpGUjh0Ml9xVk5JeE8taEUzUmVBUXhtOUFUY2lEYw?oc=5"
+     "source": "CNBCTV18",
+     "url": "https://www.cnbctv18.com/business/companies/adani-signs-usd-1-billion-copper-supply-deal-with-recycler-attero-to-cut-import-dependence-reuters-20040525.htm"
     },
     {
      "source": "Reuters",
@@ -27,8 +27,8 @@
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWWNzQXh6SUxzUGZvOXplVXA3Wll4X3E1cEt2c2pONE13LXkwUXpUT1pFY3ZwTWQyS19Tb2RLSTBlZVF4Z0dPd3lEMk1DQzJXZ0V1T2h0Qy0xRlhldmZBTk5TUmtSUGJsa0ZHajJibGhfNk9JRnVZRjZIN29ZdFhrZmI0ZmVRWVJwblBUb1FOay16RFZBLUU0M2Z2VUt2eEJ4MzV0SlFvUGtmVjRVNzVxeUNIdDEwSm4taUlaTU1TWkFncW9hTHfSAcYBQVVfeXFMTlljc0F4eklMc1Bmbzl6ZVVwN1pZeF9xNXBLdnNqTjRNdy15MFF6VE9aRWN2cE1kMktfU29kS0kwZWVReGdHT3d5RDJNQ0MyV2dFdU9odEMtMUZYZXZmQU5OU1JrUlBibGtGR2oyYmxoXzZPSUZ1WUY2SDdvWXRYa2ZiNGZlUVlScG5QVG9RTmstekRWQS1FNDNmdlVLdnhCeDM1dEpRb1BrZlY0VTc1cXlDSHQxMEpuLWlJWk1NU1pBZ3FvYUx3?oc=5"
     },
     {
-     "source": "Business Today",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcUJ5Rnhma281VXlHdTA4UHVhdVcxc0dXM292dHNtSWpmMmFXOG9iMDB0d0hwN3ZqRnNwUUVqVWE0OThQaGdWMC1KbHhhNWhBNGFoUHZQMDF3VWszTWRSNG1tRjltNlFpRTlkaHRfOWdSUGxxYUVmLW1PZmZtSUpwWUItVVRUR3hWTGRmV2dLRkROOE4yRUJneGZZbWU1M0IyRTdYNXE4MldweXVJdWFTdEVCVnA3VFc3cjZOZmdfTUx3WW1EZDc4Qjk4Z29WWDFMS25OZmp5aFkySTRzQjZIRFJ6LXFQZkY5VVdkOUNSSHdKVmfSAfgBQVVfeXFMUFZhOHRIaWRubk5Fa3BCeHRBN2xhZ0RFUlZpcWc2V2RYcVlYaE9Fckg0bWJ6dXI4aUVjUWx6ZkpVVUhvd1RlWl96UkJLbUJDT05rWHRLbFdCazlucXhJRDJGb2JNNmtpaEZ3RHFSdlk0QUtuVFRvZDZhaWFEN05TLU1WNEU2X3RSWmZ1eV9KdDV2ZFpMRDJyeVhxa2RaeXdYSWlRVFV0WTJxRWg1dnk1TnZvU19aZzY5NDd0VERQc1VBcm9CbV9Rb0NZdkpPMGZtQXZFRUlSZzRGd2hQS2NNWVRtZzdGUExjdlRLNDlPWlh5UC0yQmpEdFc?oc=5"
+     "source": "CNBC TV18",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRlRabXhMYTZ0TTRxdUgyUHVFcHo2WWFUTW9yQ0ZyN0xCaEpLSGpHeDZIbEcwZmZUb2lBck1rbFFtQjlwTXhFaXlYQW40M0ZieVNoV1RtTWpFX0pzZFhNUHZCeFlXZkhyNEl6SG5KdEhpQ0lLbGc0aTh6ZEkzcFRSemVvbHA0M2phMDZmX0JVNGJDa0xKUC1RMzcxR2NLemZHQVl6QkcwMF9HTG5hX3ZUNWdoUHNNdk5najVhdzVrZnc4QThNYXdZRUtwSFZvSGs3TGxteUIxOURGdzd4UTNZSEpyUndKSWk0UzctbmpDX2bSAfABQVVfeXFMTUZUWm14TGE2dE00cXVIMlB1RXB6NllhVE1vckNGcjdMQmhKS0hqR3g2SGxHMGZmVG9pQXJNa2xRbUI5cE14RWl5WEFuNDNGYnlTaFdUbU1qRV9Kc2RYTVB2QnhZV2ZIcjRJekhuSnRIaUNJS2xnNGk4emRJM3BUUnplb2xwNDNqYTA2Zl9CVTRiQ2tMSlAtUTM3MUdjS3pmR0FZekJHMDBfR0xuYV92VDVnaFBzTXZOZ2o1YXc1a2Z3OEE4TWF3WUVLcEhWb0hrN0xsbXlCMTlERnc3eFEzWUhKclJ3SklpNFM3LW5qQ19m?oc=5"
     }
    ]
   },
@@ -42,7 +42,7 @@
    "title": "Adani Group planning $120 bn in capex over next 5-6 years: Jefferies",
    "url": "https://www.business-standard.com/companies/news/adani-group-plans-120-billion-investment-over-next-5-6-years-jefferies-126112400462_1.html",
    "source": "Business Standard",
-   "coverage": 12,
+   "coverage": 9,
    "also": [
     {
      "source": "Moneycontrol",
@@ -59,14 +59,6 @@
     {
      "source": "Free Press Journal",
      "url": "https://www.freepressjournal.in/business/adani-group-bets-big-on-infrastructure-data-centres-with-120-billion-plus-investment-plan-targets-debt-discipline"
-    },
-    {
-     "source": "News9live",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1MtQzA1ak91U3NCNkZlUThzQTRpN2piVWZoUk9rU3dLTkpBdVZ5M3FhVUNva3RlM1FIQWRrTHZnb1g1aHNQRjVIdF85TEc3cWg3dmNMUXN2ZzJOQlc3QXVqTGYyTU1mQUE0R3NhUHpmVmpGQndWMm9yMTZNMW5OVEFUMklFQmFWOTVwSVY2aEFpUGlBZE52bElDNlZqVjhySHRtZG5IRHphRzctX2UycFAxQ3ZTRG9GdWRz0gHAAUFVX3lxTE90YmMtUktGOFFLMHp4a3pXZDFZa3VqT25ZeWxaVWFmcS1DVUxKLWt5Y1ZsZEdZMzJjQTR3Wi03Zm9fTW9NNkljU2sxbUZLMlo1RVdMSDlSUThJa3p3aTVPZDVwRHpEeklJZ2R6emRPVG9DTG9BVm1hZEVkNVItLW1Uakd1VHlBVENwQXE4MVRHeWRVQWh4WHFGN1dvTlRtQUxTVjVodExmak5Mb2loNlJBQTIzSnMzTTFQZlhOSE9CTQ?oc=5"
-    },
-    {
-     "source": "TradingView",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObzFucTFWTmEzV2FKbzd3MEstRk1jYldQQVhNVXpWem95UkZLSHY4OG1obEQ3TG5KVmFtdFlqV3otaVJRaTdtV3BUa0xwUDhZbHlxTmZHRzRucC1COTVfLUtTNGZvVXB3Vml4d0R4NFUzN2VOYlp6c0FYRHl6TkNibGNVdUEwbEF2b190UVRfMnBORmJISHhFUGhneUw0QXVVWmRJd1JQS2tROXZScU5KV3Ywa200MmlHYTROMUtVRVM3N3pxZTA0?oc=5"
     }
    ]
   },
@@ -119,36 +111,6 @@
    ]
   },
   {
-   "id": "5968b5f5fadb",
-   "company": "aesl",
-   "what": "AESL arm secures 1,750 MW RE-RTC supply contract from WBSEDCL",
-   "why": "",
-   "evidence": "independent",
-   "watch": "",
-   "title": "AESL arm secures 1,750 MW RE-RTC supply contract from WBSEDCL",
-   "url": "https://powerline.net.in/news/aesl-arm-secures-1750-mw-re-rtc-supply-contract-from-wbsedcl-12833057",
-   "source": "Powerline Magazine",
-   "coverage": 8,
-   "also": [
-    {
-     "source": "BW Businessworld",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcm1TT3ptVGRkTTg2dENZU2E2V1hNSmw2blRNbHo2djJuRFN5Si1ZekxjQzE1VmpPa2RZaWFVYnByYnNja1J0X3l3Q211SU1ZRy14TTZoMG9CMERVa3NhS3hpYU9xUGlnSFFBdGFfRWgwbk1GbFNsakwzNmFoSzcybzFzTEtUbGFxTkE0VFFFd0lQUXF2SF9aUTNIQXpWS3hrVDk5ZVdmM2x1ejFhR1R3bEcydEh1VFNzZ1M3UTBn?oc=5"
-    },
-    {
-     "source": "Sahi",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzhlRmhQbWpabGxGa01wemxRbE1QZkxfdWtuM2ZDWDFyMXdtSzBPU1BZVU1vZFVFd2ZqcmhxVEtVRmYyR3I4TFJQNmY3NzFMTFRYU2pBZkNuMUx3SVlsYk03eWVCOEZwMkxCWUN6My1DRndUc2daaUJXV0k0WldzREdmdjFRYzVzLVY5Y0lhZElfblo2SDVHbFFUcjJzSWdBdnF0bHBNSjF0S0lyclE?oc=5"
-    },
-    {
-     "source": "Dainik Jagran MP CG",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLXlHQXVEM2h5WG1tcUgxalIybGdxY1FZaUViNG81VElTcFgtaGRBWGwydmQwcENzdWZ0V0IyTFR1Q3JOYmQtOEF5eUk0a2htak9DbmxWRUtkMTdBRkRPcGVIYlFUSm5fTVhsaWJjNnJZVG5OLURNQUlINEpkNTIzWXVDV1Z3Y21TR1loZ2tmck0yWDB0NTBhZmh4RFZTWXJnU2lTZkE4UU9NeURZeVlBOGs4QnRUUURhU1BuZlpDV2xlTzlx?oc=5"
-    },
-    {
-     "source": "SolarQuarter",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUJTbXRfOEwyYWJSem10aFIzajNQLVBLQkRtSEJKSE5NeGRBdE1CZTlsUmlCVUhZUWllMEMweHkyUTBUX3JxLW5pZTY5a3RtY2ZCWUY1TFZhUHQyeE84VG50VDItUzdVMHdZMTEteVZLbDZoNVgxY2FTNEgzcVV1YzlCQWRBSW5xaU1iaEJJTUtZX2c0d05PRm90V0VBOXNpcE5md2UzclMzQTF4d0x6V0JNOWVTQktsVlJrYl9B?oc=5"
-    }
-   ]
-  },
-  {
    "id": "4d034fcf3a88",
    "company": "airports",
    "what": "Adani Airports raises $300 million from 360 ONE Asset to expand infrastructure, airport cities, and non-aeronautical services.",
@@ -175,6 +137,28 @@
     {
      "source": "The Financial Express",
      "url": "https://www.financialexpress.com/business/airlines-aviation-adani-airports-raises-rs-2790-crore-from-360-one-asset-at-18-billion-valuation-4391890/"
+    }
+   ]
+  },
+  {
+   "id": "1453cb4c2e6f",
+   "company": "agel",
+   "what": "The 1,750 MW deal could rise to 2,500 MW if WBSEDCL exercises the greenshoe option, expanding West Bengal’s long-term renewable power procurement.",
+   "why": "",
+   "evidence": "independent",
+   "watch": "",
+   "title": "Adani Energy Receives 1,750 MW RTC Renewable Power Supply Deal from WBSEDCL",
+   "url": "https://www.saurenergy.com/solar-energy-news/adani-energy-solutions-wins-1750-mw-rtc-renewable-power-supply-deal-from-wbsedcl-12832928",
+   "source": "Saur Energy",
+   "coverage": 8,
+   "also": [
+    {
+     "source": "Urban Acres",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX05EbGEwSUpuVjB3RlBQRmUwZEZtTEIwalRiOF9PaEFWRy02ekZqVUlBVl9hSl9ucDBSei1vWEFRX3JsandmdVRRTnlGXzF4X1c0a1lEVEJrdEhSRnlqalJiRFVrR3ZuQXNWcUgtQVVWM203NUtDZm9GUWNuSm5sMXRDWjJHR0ZKN0FCN2I4Sy1uQTVkNjdtbDkwbFJWbUp2?oc=5"
+    },
+    {
+     "source": "https://megaproject.com/",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGxoeDAzT1NCR3hlclU1UEF3YXpKRWZxTTZ3LUhMOFlyLWlyZ2JNMmxhMnpkd3YwUHZnVlpDZDBrQ3h6U2NjZVJReGJXMEIySlE1d2lHalU4MEk5N0J2SUhtNmo3M2JDX1JZeUVIZzNnWjZ0bDZxaFppNmtya0NDN0Q4REh2VGVMTWFyWTMtYnhvWUw4dWEteU1PWDFXcW9lX19tRU5qMWNEdw?oc=5"
     }
    ]
   },
@@ -225,12 +209,12 @@
  ],
  "concept": null,
  "question": null,
- "script": "Good morning, Aashish. Here is your Adani briefing for Tuesday, 24 November. The AI summary was unavailable today, so these are the top headlines. Story 1, Adani Enterprises. Adani signs $1 billion copper supply deal with recycler Attero to cut import dependence: Reuters. Source: CNBCTV18. Story 2, Adani Group. Adani Group planning $120 bn in capex over next 5-6 years: Jefferies. Source: Business Standard. Story 3, Adani Green Energy. Adani’s Tarali project: The dispute over its cost and wildlife fee. Source: The Indian Express. Story 4, Adani Group. Adani Foundation supports audio-described Ramayan for blind, low-vision audiences. Source: Social News XYZ. Story 5, Adani Energy Solutions. AESL arm secures 1,750 MW RE-RTC supply contract from WBSEDCL. Source: Powerline Magazine. Story 6, Adani Airports. Adani Airports raises ~USD 300 million primary equity from 360 ONE Asset. Source: Adani newsroom · Adani Airports. Story 7, AdaniConneX (data centres). New data centre cable business helps Diamond Power reduce reliance on Adani Group. Source: Mint. Story 8, Adani Group. From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?. Source: ET Education. Open the app to read the full stories. That's all for today.",
+ "script": "Good morning, Aashish. Here is your Adani briefing for Tuesday, 24 November. The AI summary was unavailable today, so these are the top headlines. Story 1, Adani Enterprises. Adani's $1 billion copper deal with Attero: Can recycled metal reduce India's import dependence?. Source: Business Today. Story 2, Adani Group. Adani Group planning $120 bn in capex over next 5-6 years: Jefferies. Source: Business Standard. Story 3, Adani Green Energy. Adani’s Tarali project: The dispute over its cost and wildlife fee. Source: The Indian Express. Story 4, Adani Group. Adani Foundation supports audio-described Ramayan for blind, low-vision audiences. Source: Social News XYZ. Story 5, Adani Airports. Adani Airports raises ~USD 300 million primary equity from 360 ONE Asset. Source: Adani newsroom · Adani Airports. Story 6, Adani Green Energy. Adani Energy Receives 1,750 MW RTC Renewable Power Supply Deal from WBSEDCL. Source: Saur Energy. Story 7, AdaniConneX (data centres). New data centre cable business helps Diamond Power reduce reliance on Adani Group. Source: Mint. Story 8, Adani Group. From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?. Source: ET Education. Open the app to read the full stories. That's all for today.",
  "_model": "fallback",
  "date": "2026-11-24",
- "generated": "2026-11-24T21:55:18.665107+05:30",
+ "generated": "2026-11-24T22:15:36.299563+05:30",
  "counts": {
-  "fresh": 56,
-  "archive": 66
+  "fresh": 51,
+  "archive": 69
  }
 }
