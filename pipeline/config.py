@@ -15,8 +15,8 @@ CONTENT = ROOT / "content"
 SITE_URL = os.environ.get("SITE_URL", "")          # e.g. https://<you>.github.io/adani-intel-hub/
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODELS = [m for m in [os.environ.get("GEMINI_MODEL", ""),
-                             "gemini-flash-latest", "gemini-flash-lite-latest",
-                             "gemini-2.5-flash"] if m]
+                             "gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite",
+                             "gemini-flash-latest"] if m]
 TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
 

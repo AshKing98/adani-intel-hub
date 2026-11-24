@@ -3,6 +3,7 @@
 Falls back to a rules-based briefing if no key / quota exhausted / bad JSON.
 """
 import json
+import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -82,15 +83,43 @@ HEADLINES>>>
 """
 
 
+def _discover_models() -> list:
+    """Ask the API which models THIS key can call, and return flash-class ones, newest first."""
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"pageSize": 200},
+                         headers={"x-goog-api-key": GEMINI_KEY}, timeout=(5, 20))
+        r.raise_for_status()
+        names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+    except Exception as e:
+        print("[digest] model list unavailable:", type(e).__name__)
+        return []
+    skip = ("image", "tts", "live", "audio", "thinking", "embedding", "exp", "omni", "native", "robotics", "computer")
+    flash = [n for n in names if "flash" in n and not any(x in n for x in skip)]
+
+    def ver(n):
+        m = re.search(r"(\d+(?:\.\d+)?)", n)
+        return float(m.group(1)) if m else 0.0
+    flash.sort(key=lambda n: (-ver(n), "lite" in n, "preview" in n, n))        # newest, full-size, stable first
+    print("[digest] usable flash models:", ", ".join(flash[:8]) or "none found")
+    return flash
+
+
 def _gemini(prompt: str) -> dict:
-    """Call Gemini with a hard time budget. Per model: try with 'thinking' switched off (fast), then plain.
-    A timeout or overload moves on to the next model instead of ending the run."""
-    last, deadline = None, time.monotonic() + 420
-    for model in GEMINI_MODELS:
+    """Call Gemini with a hard time budget. Candidates = your override, models your key can actually use, then defaults.
+    Every attempt is recorded so the log shows exactly what happened with each model."""
+    deadline = time.monotonic() + 420
+    candidates, seen = [], set()
+    for m in [m for m in GEMINI_MODELS[:1] if os.environ.get("GEMINI_MODEL")] + _discover_models()[:4] + GEMINI_MODELS:
+        if m and m not in seen:
+            seen.add(m); candidates.append(m)
+    trail = []
+    for model in candidates[:6]:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         for fast in (True, False):
             if time.monotonic() > deadline:
-                raise RuntimeError(f"Gemini time budget used up ({last})")
+                trail.append("time budget used up")
+                raise RuntimeError("Gemini unavailable (" + "; ".join(trail) + ")")
             cfg = {"responseMimeType": "application/json", "temperature": 0.4, "maxOutputTokens": 8192}
             if fast:
                 cfg["thinkingConfig"] = {"thinkingBudget": 0}
@@ -98,16 +127,17 @@ def _gemini(prompt: str) -> dict:
                 r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg},
                                   headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
                 if r.status_code == 400 and fast:
-                    last = f"{model}: 400 (thinking option not accepted)"
-                    continue                       # same model, without the thinking option
-                if r.status_code in (429, 503):
-                    last = f"{model}: {r.status_code}"
-                    time.sleep(15)
-                    break                          # next model
-                if r.status_code == 404:
-                    last = f"{model}: not found"
-                    break
-                r.raise_for_status()
+                    trail.append(f"{model}: 400 with thinking option, retrying without")
+                    continue
+                if r.status_code != 200:
+                    try:
+                        msg = r.json().get("error", {}).get("message", "")[:110]
+                    except Exception:
+                        msg = ""
+                    trail.append(f"{model}: HTTP {r.status_code} {msg}".strip())
+                    if r.status_code in (429, 503):
+                        time.sleep(10)
+                    break                                   # next model
                 txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip())
                 out = json.loads(txt)
@@ -116,12 +146,12 @@ def _gemini(prompt: str) -> dict:
                 out["_model"] = model
                 return out
             except requests.exceptions.Timeout:
-                last = f"{model}: timed out"
-                break                              # next model
-            except Exception as e:
-                last = f"{model}: {type(e).__name__}"
+                trail.append(f"{model}: timed out")
                 break
-    raise RuntimeError(f"Gemini unavailable ({last})")
+            except Exception as e:
+                trail.append(f"{model}: {type(e).__name__}")
+                break
+    raise RuntimeError("Gemini unavailable (" + "; ".join(trail) + ")")
 
 
 _URL = re.compile(r"(https?://|www\.)\S+", re.I)
