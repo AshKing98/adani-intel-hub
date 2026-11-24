@@ -116,7 +116,7 @@ def _gemini(prompt: str) -> dict:
     trail = []
     for model in candidates[:6]:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        for fast in (True, False):
+        for fast, attempt in ((True, 0), (True, 1), (True, 2), (False, 0)):
             if time.monotonic() > deadline:
                 trail.append("time budget used up")
                 raise RuntimeError("Gemini unavailable (" + "; ".join(trail) + ")")
@@ -128,15 +128,23 @@ def _gemini(prompt: str) -> dict:
                                   headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
                 if r.status_code == 400 and fast:
                     trail.append(f"{model}: 400 with thinking option, retrying without")
-                    continue
+                    attempt = 0
+                    fast = False
+                    cfg.pop("thinkingConfig", None)
+                    r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg},
+                                      headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
+                    if r.status_code != 200:
+                        trail.append(f"{model}: HTTP {r.status_code}")
+                        break
                 if r.status_code != 200:
                     try:
-                        msg = r.json().get("error", {}).get("message", "")[:110]
+                        msg = r.json().get("error", {}).get("message", "")[:90]
                     except Exception:
                         msg = ""
                     trail.append(f"{model}: HTTP {r.status_code} {msg}".strip())
-                    if r.status_code in (429, 503):
-                        time.sleep(10)
+                    if r.status_code in (429, 503) and attempt < 2:
+                        time.sleep(20 * (attempt + 1))      # busy: wait, then retry the same model
+                        continue
                     break                                   # next model
                 txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip())

@@ -1,5 +1,6 @@
 """Text-to-speech with Microsoft Edge neural voices (free, no key) via the `edge-tts` package."""
 import asyncio
+import time
 import re
 from pathlib import Path
 
@@ -33,16 +34,20 @@ async def _speak(text: str, path: Path, voice: str):
 
 
 def synth(text: str, path: Path, voice: str = VOICE) -> bool:
+    """Best-effort: a failed voice must never stop the written briefing from publishing."""
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".tmp")
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             asyncio.run(_speak(text, tmp, voice))
             if tmp.exists() and tmp.stat().st_size > 2000:
                 tmp.replace(path)          # atomic: never leave a half-written MP3 in place
                 return True
         except Exception as e:
-            print(f"[tts] attempt {attempt + 1} failed: {e}")
+            print(f"[tts] attempt {attempt + 1} failed: {type(e).__name__}")
+        time.sleep(5)
+    tmp.unlink(missing_ok=True)
+    print("[tts] no audio this run; the written briefing still publishes")
     return False
 
 
