@@ -1,6 +1,6 @@
 {
  "headline": "Top Adani headlines",
- "summary": "51 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+ "summary": "52 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
  "stories": [
   {
    "id": "faf8b0152ec5",
@@ -212,9 +212,9 @@
  "script": "Good morning, Aashish. Here is your Adani briefing for Tuesday, 24 November. The AI summary was unavailable today, so these are the top headlines. Story 1, Adani Enterprises. Adani's $1 billion copper deal with Attero: Can recycled metal reduce India's import dependence?. Source: Business Today. Story 2, Adani Group. Adani Group planning $120 bn in capex over next 5-6 years: Jefferies. Source: Business Standard. Story 3, Adani Green Energy. Adani’s Tarali project: The dispute over its cost and wildlife fee. Source: The Indian Express. Story 4, Adani Group. Adani Foundation supports audio-described Ramayan for blind, low-vision audiences. Source: Social News XYZ. Story 5, Adani Airports. Adani Airports raises ~USD 300 million primary equity from 360 ONE Asset. Source: Adani newsroom · Adani Airports. Story 6, Adani Green Energy. Adani Energy Receives 1,750 MW RTC Renewable Power Supply Deal from WBSEDCL. Source: Saur Energy. Story 7, AdaniConneX (data centres). New data centre cable business helps Diamond Power reduce reliance on Adani Group. Source: Mint. Story 8, Adani Group. From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?. Source: ET Education. Open the app to read the full stories. That's all for today.",
  "_model": "fallback",
  "date": "2026-11-24",
- "generated": "2026-11-24T22:15:36.299563+05:30",
+ "generated": "2026-11-24T22:37:29.249112+05:30",
  "counts": {
-  "fresh": 51,
-  "archive": 69
+  "fresh": 52,
+  "archive": 70
  }
 }
