@@ -2,7 +2,7 @@
  {
   "date": "2026-11-24",
   "headline": "Top Adani headlines",
-  "summary": "51 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+  "summary": "56 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
   "stories": [
    {
     "id": "d026dc0ce1b0",
@@ -14,7 +14,7 @@
     "title": "Adani signs $1 billion copper supply deal with recycler Attero to cut import dependence: Reuters",
     "url": "https://www.cnbctv18.com/business/companies/adani-signs-usd-1-billion-copper-supply-deal-with-recycler-attero-to-cut-import-dependence-reuters-20040525.htm",
     "source": "CNBCTV18",
-    "coverage": 12,
+    "coverage": 16,
     "also": [
      {
       "source": "The Economic Times",
@@ -35,32 +35,40 @@
     ]
    },
    {
-    "id": "38cde06bc156",
+    "id": "99ebc330d81b",
     "company": "group",
-    "what": "At the investor conference, management identified construction and execution capacity as the principal constraints on its expansion plans and said it had centralised project-building capabilities ...",
+    "what": "The group plans annual capex of ₹2 trillion-₹2.2 trillion from FY27 to FY31, even as Jefferies estimates its net debt-to-Ebitda ratio at 3.7 times in FY27 and FY28",
     "why": "",
     "evidence": "independent",
     "watch": "",
-    "title": "Adani targets $120 billion-plus in capex as group pitches leverage discipline to investors",
-    "url": "https://www.moneycontrol.com/news/business/companies/adani-targets-120-billion-plus-in-capex-as-group-pitches-leverage-discipline-to-investors-14087956.html",
-    "source": "Moneycontrol",
-    "coverage": 8,
+    "title": "Adani Group planning $120 bn in capex over next 5-6 years: Jefferies",
+    "url": "https://www.business-standard.com/companies/news/adani-group-plans-120-billion-investment-over-next-5-6-years-jefferies-126112400462_1.html",
+    "source": "Business Standard",
+    "coverage": 12,
     "also": [
      {
-      "source": "ET EnergyWorld",
-      "url": "https://energy.economictimes.indiatimes.com/news/power/adani-targets-120-billion-plus-in-capex-as-group-pitches-leverage-discipline-to-investors/136124802"
-     },
-     {
-      "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRWcxdFNyUWViUlRlMjVJc0Nrd0lKT1J3UGUtQm9IMVdWUEpOWUFJM2lMTmhYbllGQXREVWlSVnJIRVIwcW9iZDk0Y1NabzB0eXh3SnV6NzF0RzFZRW1YWk9SNlVaUlltTE9lY2ZIUWxWb05tVDRiTGZ1RmxXWDRhYmtib1JRRW8wODlHd3NRcnE0OXk4bjJlX3drd3dxVFIzaTg2eGM1eklCcndRazk4QWcwaHlkWUZYTklvT0Z0c19laDNxU0g5WGFQQWN2d28wSWZrVldB0gHbAUFVX3lxTE1vMWkxdE13TWFuUEp2b0NGZzROU2hQNHdSa04teHNLZ21NRms1eGExczNoaVR1dWZwc1pOeTFmWDZEZHFXWFhIWTZxV3FPM3dDMUlFSkZLSlBaaktwOGtIUk40TW4zYVo5eXd0bEpYel9xZ2FlczROeWdPeDRKR2lIcnlmenpRN01DQXNpUzZKWjJBYXBNcXNseFFUdnd3bzRRU3ljeDRvR0E5cmoyQ1U5bmw3UFc5LUxSWXpUMGV4YmZCU09mX2o5dnozVDdIS2kxU2xxODF2VjNJOA?oc=5"
+      "source": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/companies/adani-targets-120-billion-plus-in-capex-as-group-pitches-leverage-discipline-to-investors-14087956.html"
      },
      {
       "source": "The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQOFlVVUN3MXhIWGY4aG9udkZYaDFPcDRjU0hSSS1XdXM0SEZoSDhveUtGajFMUkVfTmhpQklUQWk0dzU2cVpldG12cFR1TEJxbnN4VzU4Tk5rdU40aEgxcncyTXhHWVk4NXdhMVNhaEVNU01zVVRRNHJwaDM4dHRUQzVtT29keGZfckl2bEozTFZiaFAwOW5TbVhMVi1HcWh1a1NOcWhRNWEybXpuWGtVUUwxeUxTbXBpekxQOFltSmNmYkZTOVhOaUR1NGg0aUVNcjE5VHZzU2IyamZ0R0VWbzdyazNlOWZ0ZlVTb2FITnpYMDIwdnJoV2JadTdFMjk2d19ybnhGOFd1eFNkSUpwWtIBowJBVV95cUxPYVRKUmlhWmtSaEpLU0gtbmRLTmdBYjc4MFI0NzI5WVY5VTFXQmNmQVpfV1dWWHF5cGY5ckZkQlFrcFExRk5ld1lYQWE5RGJhVnp3X3pSSlhnUFp0aUtfcDVCQ0VKd3VDRkIxcTN3TG9SX1ZDTkFmek16anNEZ0l3cE5VWjNJdl93ZkNBS3d5RUw4SkZOaDYwbHlROGQ5R2tNUWdEZWoxUTV4ZXN5WFlaZ3BlemhQdjJQSjg3enFNUFJTYlZ2ZDNNb3YyT05QUkNPc01xRzlYSjYxTEhzaU9TV1RFclpkWVlyeFlfcHMxRTNVaW0tTU81cXMxU2VIMmcwbUVPbWZ4VGZXOV9NUnNoTFctZ21NRFNxNTZNRmlOOWdDTWs?oc=5"
      },
      {
-      "source": "NewsBytes",
-      "url": "https://www.newsbytesapp.com/news/business/adani-group-announces-over-120b-infrastructure-and-data-centers-plan/tldr"
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUdIB8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUQ?oc=5"
+     },
+     {
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/business/adani-group-bets-big-on-infrastructure-data-centres-with-120-billion-plus-investment-plan-targets-debt-discipline"
+     },
+     {
+      "source": "News9live",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1MtQzA1ak91U3NCNkZlUThzQTRpN2piVWZoUk9rU3dLTkpBdVZ5M3FhVUNva3RlM1FIQWRrTHZnb1g1aHNQRjVIdF85TEc3cWg3dmNMUXN2ZzJOQlc3QXVqTGYyTU1mQUE0R3NhUHpmVmpGQndWMm9yMTZNMW5OVEFUMklFQmFWOTVwSVY2aEFpUGlBZE52bElDNlZqVjhySHRtZG5IRHphRzctX2UycFAxQ3ZTRG9GdWRz0gHAAUFVX3lxTE90YmMtUktGOFFLMHp4a3pXZDFZa3VqT25ZeWxaVWFmcS1DVUxKLWt5Y1ZsZEdZMzJjQTR3Wi03Zm9fTW9NNkljU2sxbUZLMlo1RVdMSDlSUThJa3p3aTVPZDVwRHpEeklJZ2R6emRPVG9DTG9BVm1hZEVkNVItLW1Uakd1VHlBVENwQXE4MVRHeWRVQWh4WHFGN1dvTlRtQUxTVjVodExmak5Mb2loNlJBQTIzSnMzTTFQZlhOSE9CTQ?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObzFucTFWTmEzV2FKbzd3MEstRk1jYldQQVhNVXpWem95UkZLSHY4OG1obEQ3TG5KVmFtdFlqV3otaVJRaTdtV3BUa0xwUDhZbHlxTmZHRzRucC1COTVfLUtTNGZvVXB3Vml4d0R4NFUzN2VOYlp6c0FYRHl6TkNibGNVdUEwbEF2b190UVRfMnBORmJISHhFUGhneUw0QXVVWmRJd1JQS2tROXZScU5KV3Ywa200MmlHYTROMUtVRVM3N3pxZTA0?oc=5"
      }
     ]
    },
@@ -91,24 +99,24 @@
     ]
    },
    {
-    "id": "7fbd1c34b213",
+    "id": "280ff013f3cf",
     "company": "group",
-    "what": "Shiv Nadar tops India’s philanthropy list with ₹2,593 crore donation; Adani’s giving jumps 127%.",
+    "what": "New Delhi, Nov 24 (SocialNews.XYZ) The Adani Foundation has supported the accessibility of all 78 episodes of Ramanand Sagar",
     "why": "",
-    "evidence": "independent",
+    "evidence": "other",
     "watch": "",
-    "title": "From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?",
-    "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478",
-    "source": "ET Education",
+    "title": "Adani Foundation supports audio-described Ramayan for blind, low-vision audiences",
+    "url": "https://www.socialnews.xyz/2026/11/24/adani-foundation-supports-audio-described-ramayan-for-blind-low-vision-audiences/amp/",
+    "source": "Social News XYZ",
     "coverage": 3,
     "also": [
      {
-      "source": "People Matters",
-      "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478"
+      "source": "Lokmat Times",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0ZNQ1Y2ZWZHcFRENksxUnlhajVzWjBoWkQ4TjVsSWRnYi01UlVXUDdDcVpUM3FqRXp0blhFRTN1UmxXMTkySWZfdlR2eHI5LWxPN3JBUEpfNG1LY2tKU002d2FLM2dTcEFxTWdVUVo3WFV2dlVrUGpjRFdNWUh6OHFGazhuUmhQZ0o2QXNFZ0V6QlFRZzBaTW53dnRBejdxTlN6TS1RWDZhTFZUeW1GWFYwSjU3aWE2bmhqM9IBwgFBVV95cUxQZ2N1RGNOZkZzVEtEWEJDVGw4RkZYQ1Itbi1lRnRwc1FfVmdIWkhhbS1Kc2N3ejZvM2duVjJIZlVIdlkxT1V4V2JOV29vaHZmNzdSb3B6RnBhMDVhQ2RISHhFUWh2MkxQaW5pb3ZsU2ZuZEVvNFgwN1VUaVdUN1lrVnJEem5vb0pjbno5U29pcTZHTm5oV3BjdDZPX0JwNU82VHJFVnBxcDZhRTFqVml6ZktIbm9lNmFEek0wbjNFSUJPdw?oc=5"
      },
      {
-      "source": "People Matters - HR News",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcVFESmJJMi1KZkwyTWxRalBGUW5aSGJjYm1vM2xDUkl2cUNNZWduXy13MU9IUjdBOHk3bkRrekNoUUFzQU9nd3ZyZHI5N2lBN2stY0l3SGlsMG1XRlhvM0txUll6bmktRGNfWlpPUFF4UFA1M25iQkV1aDF4UExIUFMxYVhQdTJnWnVvYUZ3V012UmdTRFR0dUpBWkZnWWRndWNPMTJHdXItZDZLQXhmTzJNdU1RSElMYVZJZUw5cEc1UTZ1STdEWmpiVlpib0k1clk4VDR5WmRvdzg?oc=5"
+      "source": "tennews.in",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGRSRUdFNVJRM05iMzJVaGViZ0VrVHFTaDlIOW5WLV93WXA5UlI0OGhSZFcyd3pab3RyQUxEODJJT1NOQ01fOG9tQ05vcVZXOXpkZGhTRGg2eHhBUVFVUkMwRl84Q0toSlBpbVo2YkVJM3lXNEUzem9xN09SM2xKbm1MMlp6d1R3TjV1RGVtNEVCVjZYdHhQbF9mNmJEWnVYdXc?oc=5"
      }
     ]
    },
@@ -120,7 +128,7 @@
     "evidence": "independent",
     "watch": "",
     "title": "AESL arm secures 1,750 MW RE-RTC supply contract from WBSEDCL",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVl9lWmtIZkRtMkI2Y2RvSWF5ai1hNXFKZVh0UEhuRk0wTGw3emVSRGxBMEVLUlI0TkFCSG9wT1BkWS1lV2FVZE14R3N1cWx6cnVGOWYxVUtWaXJ3X19xRUo4eUdmYkV0Uld3UWJxTXZaYXJmaEplSUxKMW1KWGlCVzBjUl9sWlkydGRibFBOVkx0a0ZJaTdtOTZjazlfcklM?oc=5",
+    "url": "https://powerline.net.in/news/aesl-arm-secures-1750-mw-re-rtc-supply-contract-from-wbsedcl-12833057",
     "source": "Powerline Magazine",
     "coverage": 8,
     "also": [
@@ -139,28 +147,6 @@
      {
       "source": "SolarQuarter",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUJTbXRfOEwyYWJSem10aFIzajNQLVBLQkRtSEJKSE5NeGRBdE1CZTlsUmlCVUhZUWllMEMweHkyUTBUX3JxLW5pZTY5a3RtY2ZCWUY1TFZhUHQyeE84VG50VDItUzdVMHdZMTEteVZLbDZoNVgxY2FTNEgzcVV1YzlCQWRBSW5xaU1iaEJJTUtZX2c0d05PRm90V0VBOXNpcE5md2UzclMzQTF4d0x6V0JNOWVTQktsVlJrYl9B?oc=5"
-     }
-    ]
-   },
-   {
-    "id": "1e5ff54b8430",
-    "company": "dc",
-    "what": "The early traction marks a significant step in the Diamond Power’s efforts to diversify beyond the Adani Group, which has dominated its order book.",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
-    "title": "New data centre cable business helps Diamond Power reduce reliance on Adani Group",
-    "url": "https://www.livemint.com/companies/news/new-data-centre-cable-business-helps-diamond-power-reduce-reliance-on-adani-group-11795442059444.html",
-    "source": "Mint",
-    "coverage": 3,
-    "also": [
-     {
-      "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzFoLUdVUVFDazBFTkQ1ZjU0cFJVRC1IdlJKcWtadTRIcmRzZTQ1VFl0c0tOelhLeUR0N0llbnpFX1A0SHBkeUpMeXpBd1BVaVEtdmpoUk9qdTdObWw4WnpQazZ0Nl9BVXpIS1RhUE9tSkNmN1JVcHJhSkItSUpoYWR3QmUzUzVsUXdGMjJtOFdNODRzN0RLWXNUTVRqNlVvYW05Y01NZGt1ZGdJZ0lvWVBDekpHcmpfNmxScGJZTVB3YU1rc0VGanpLT1k1SVpHb1FQck05S1TSAd4BQVVfeXFMUER2cHhIT1k4c2tBNF9ibzJtUUhXRjcxdF9LbXFrWUctLWs5Qlp6N0diTTNsQXJVU0Y2QllJaTRPTXpLSVlHNnpicUxyT09pelpRYUFKc0RaeXVvMXVrUVZuYmJ6R1psZmFnczVtSDY1S0tZMk5KMkppQm5DV3NsUkJPQk5KTGNMTWNfVmdqXzRtbzlCSHR2Zjdhb2RwQnVQalVZdmFXVEVOVFQ5WEJLTjBrZXJobmtiQ2xoNExYVXFxdFc3RlJ0bHQ1WVlDZUEwTGI0c1F3bVAyNE5fc3Bn?oc=5"
-     },
-     {
-      "source": "https://megaproject.com/",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1NjRk5EdXk2SDZEMjNUQ1JLMHZDN0dDSmp2X0FlRW1BSzRMNms5LVdUbXMtcm9VeEJCdWFySkQyWkRRbjRiM3hmMXRLeGRWTHBsMjFTdkZUT2JEOE5adkhYN0RzWEVlVEpOLWNhVHh3aUZ3eGNCVzNfSG12Qm83aEhKb0E5eFdTY0RIVmZBY09FWFN2NkpPRmowYjlUd2ZYRUhYOXRR?oc=5"
      }
     ]
    },
@@ -195,32 +181,46 @@
     ]
    },
    {
-    "id": "3290aac6be25",
-    "company": "aesl",
-    "what": "Adani Energy Solutions shares are likely to remain in focus after the company signed an agreement to acquire a 100% stake in Vikramshila Power Transmission. The cash-based acquisition is linked to a 2,400 MW power project in Bihar and is expected to strengthen the company",
+    "id": "1e5ff54b8430",
+    "company": "dc",
+    "what": "The early traction marks a significant step in the Diamond Power’s efforts to diversify beyond the Adani Group, which has dominated its order book.",
     "why": "",
     "evidence": "independent",
     "watch": "",
-    "title": "Adani Energy Solutions stock to be in focus after signing deal to acquire Vikramshila Power",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-energy-solutions-stock-to-be-in-focus-after-signing-deal-to-acquire-vikramshila-power/articleshow/136088334.cms",
-    "source": "The Economic Times",
-    "coverage": 15,
+    "title": "New data centre cable business helps Diamond Power reduce reliance on Adani Group",
+    "url": "https://www.livemint.com/companies/news/new-data-centre-cable-business-helps-diamond-power-reduce-reliance-on-adani-group-11795442059444.html",
+    "source": "Mint",
+    "coverage": 3,
     "also": [
      {
-      "source": "Powerline Magazine",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPanBWcm9hOV9NM2tLNFhoTy15RVA1RFkyTVQwTkJ4dU1pMk82MkI5cUYxWGxlRFRiNy1oaXJmWVpQZ0dLMG9HSzZRbzhvZnktdjlwWlRxUGVORWZhQWtRdE5hQzdDNFNOcmJRY3ZtZHBLd2RuN3J3enpPN3U3REl1VlpMZlItZ0xyMHBoaDktRk9JLUc2N1l3MzhtUmV1d3hS?oc=5"
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzFoLUdVUVFDazBFTkQ1ZjU0cFJVRC1IdlJKcWtadTRIcmRzZTQ1VFl0c0tOelhLeUR0N0llbnpFX1A0SHBkeUpMeXpBd1BVaVEtdmpoUk9qdTdObWw4WnpQazZ0Nl9BVXpIS1RhUE9tSkNmN1JVcHJhSkItSUpoYWR3QmUzUzVsUXdGMjJtOFdNODRzN0RLWXNUTVRqNlVvYW05Y01NZGt1ZGdJZ0lvWVBDekpHcmpfNmxScGJZTVB3YU1rc0VGanpLT1k1SVpHb1FQck05S1TSAd4BQVVfeXFMUER2cHhIT1k4c2tBNF9ibzJtUUhXRjcxdF9LbXFrWUctLWs5Qlp6N0diTTNsQXJVU0Y2QllJaTRPTXpLSVlHNnpicUxyT09pelpRYUFKc0RaeXVvMXVrUVZuYmJ6R1psZmFnczVtSDY1S0tZMk5KMkppQm5DV3NsUkJPQk5KTGNMTWNfVmdqXzRtbzlCSHR2Zjdhb2RwQnVQalVZdmFXVEVOVFQ5WEJLTjBrZXJobmtiQ2xoNExYVXFxdFc3RlJ0bHQ1WVlDZUEwTGI0c1F3bVAyNE5fc3Bn?oc=5"
      },
      {
-      "source": "hdfcsky",
-      "url": "https://hdfcsky.com/news/adani-energy-solutions-acquires-vikramshila-power-transmission-for-bihar-project-shares-rise"
+      "source": "https://megaproject.com/",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1NjRk5EdXk2SDZEMjNUQ1JLMHZDN0dDSmp2X0FlRW1BSzRMNms5LVdUbXMtcm9VeEJCdWFySkQyWkRRbjRiM3hmMXRLeGRWTHBsMjFTdkZUT2JEOE5adkhYN0RzWEVlVEpOLWNhVHh3aUZ3eGNCVzNfSG12Qm83aEhKb0E5eFdTY0RIVmZBY09FWFN2NkpPRmowYjlUd2ZYRUhYOXRR?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "7fbd1c34b213",
+    "company": "group",
+    "what": "Shiv Nadar tops India’s philanthropy list with ₹2,593 crore donation; Adani’s giving jumps 127%.",
+    "why": "",
+    "evidence": "independent",
+    "watch": "",
+    "title": "From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?",
+    "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478",
+    "source": "ET Education",
+    "coverage": 3,
+    "also": [
+     {
+      "source": "People Matters",
+      "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478"
      },
      {
-      "source": "Daily Excelsior",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQzJlN3BrT21QV1BSamxDb1hyLVdvWEdfWHVhZHN2SWFMU0xRbmhEY282dW5KWlgzOFlxRVdfRWFUZjh6eHR1X2RNOEQtV01vQWdpX1RsNWhZSUVPdWNPMGJfOWNRckNjbFJPUUJjc0d0dzBEREc4SVNsaVNOc3VxeTE0eWxDbmVMQ0HSAYoBQVVfeXFMTkMyZTdwa09tUFdQUmpsQ29Yci1Xb1hHX1h1YWRzdklhTFNMUW5oRGNvNnVuSlpYMzhZcUVXX0VhVGY4enh0dV9kTThELVdNb0FnaV9UbDVoWUlFT3VjTzBiXzljUXJDY2xST1FCY3NHdHcwRERHOElTbGlTTnN1cXkxNHlsQ25lTENB?oc=5"
-     },
-     {
-      "source": "The Pioneer",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTklPc1J5R1QyT2JqZ0J2YzNSdGZwU3VPaG94bnRaY25yazZVNjc0ZVZENXZ1MjVYYkJWMWQ1OHBVRkZtZUFaLTh4TENadUcxLUdXXzVaRHd4eUZ5Yi02aEVobDFfalNVM3J0SzkzWHdoanh5bWdhODRvWnVjMHFUR180WUtrWGVKUnZqTG1Xb2J0aldwX1ZpejJrVEpPeFBrVE5pY3hxN1h2RjhCUEVKNFpSTDLSAcIBQVVfeXFMTVJPazg0d1NKZGo3aS1DR3BKZnpOT2VlcWpxcGNzTC1faUtNUkRhclkyQmktSV94ZHlmY1ZnRWsxTFJYLXpaUVUyZXZDbEZJOW1hODFUUjI2OG5DNGgyUjlMNWNYLWFJV1M2aVFCLWpWaVF4WWdnQ1p4eHF4MTdscEEzNU9MOUJmY0xOeXpWM1FCRENlR1hiZmo1RmJYRjVyOU1JbHM1a0pjUXBvMUlHdEtpZWZpSnYtUDN1bU9mWHdkd0E?oc=5"
+      "source": "People Matters - HR News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcVFESmJJMi1KZkwyTWxRalBGUW5aSGJjYm1vM2xDUkl2cUNNZWduXy13MU9IUjdBOHk3bkRrekNoUUFzQU9nd3ZyZHI5N2lBN2stY0l3SGlsMG1XRlhvM0txUll6bmktRGNfWlpPUFF4UFA1M25iQkV1aDF4UExIUFMxYVhQdTJnWnVvYUZ3V012UmdTRFR0dUpBWkZnWWRndWNPMTJHdXItZDZLQXhmTzJNdU1RSElMYVZJZUw5cEc1UTZ1STdEWmpiVlpib0k1clk4VDR5WmRvdzg?oc=5"
      }
     ]
    }
