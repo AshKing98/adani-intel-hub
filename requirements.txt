@@ -1,0 +1,4 @@
+# Pinned exact versions (verified 24 Nov 2026). Update deliberately, not automatically.
+requests==2.34.2
+feedparser==6.0.14
+edge-tts==7.3.1

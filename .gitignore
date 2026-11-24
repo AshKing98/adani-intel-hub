@@ -1,0 +1,10 @@
+# Never commit your private profile, even if you move it here by mistake
+my-profile.json
+*profile*.json
+.env
+# Daily/weekly audio is kept in the Actions cache, not git (see daily.yml)
+docs/audio/daily/
+docs/audio/weekly/
+__pycache__/
+*.pyc
+.DS_Store

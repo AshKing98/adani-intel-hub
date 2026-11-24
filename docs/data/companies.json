@@ -1,0 +1,233 @@
+{
+ "verified": "2026-11-24",
+ "note": "Structured company profiles that power the Companies tab and the diagrams. Periods are shown on every number. ESG scores are from the Adani Portfolio ESG snapshot for H1 FY27 (Nov 2026) and company reports; for Sustainalytics risk scores, lower is better.",
+ "clusters": [
+  {"id": "energy", "name": "Energy & utilities", "color": "#0D6964", "members": ["agel", "power", "aesl", "atgl", "anil"]},
+  {"id": "transport", "name": "Transport & logistics", "color": "#2B5B88", "members": ["apsez", "airports", "roads"]},
+  {"id": "materials", "name": "Materials & industry", "color": "#9A6A00", "members": ["cement", "copper", "mining"]},
+  {"id": "digital", "name": "Digital & new bets", "color": "#5A4AA3", "members": ["dc", "defence", "media"]}
+ ],
+ "flows": [
+  ["anil", "agel", "Modules and wind turbines"], ["agel", "aesl", "Green power to evacuate"], ["power", "aesl", "Baseload power"],
+  ["aesl", "dc", "Grid to data centres"], ["agel", "dc", "Renewable power to data centres"], ["apsez", "power", "Imported coal and logistics"],
+  ["apsez", "cement", "Clinker and cement freight"], ["power", "cement", "Fly ash for cement"], ["cement", "airports", "Building material (NMIA)"],
+  ["mining", "power", "Coal from mining services"], ["copper", "aesl", "Copper for conductors and cables"]
+ ],
+ "timeline": [
+  {"y": 1988, "t": "Adani Exports founded", "d": "A commodity trading house in Ahmedabad; it is today's Adani Enterprises.", "c": "ael"},
+  {"y": 1994, "t": "Listed on the stock exchanges", "d": "Adani Exports goes public.", "c": "ael"},
+  {"y": 1998, "t": "Mundra port begins", "d": "A jetty at Mundra for the group's own trade grows into India's largest commercial port.", "c": "apsez"},
+  {"y": 1999, "t": "Adani Wilmar JV", "d": "Edible oils (Fortune brand). The group exited fully in 2025.", "c": "group"},
+  {"y": 2006, "t": "Power generation", "d": "Adani Power is set up; Mundra thermal plant follows.", "c": "power"},
+  {"y": 2015, "t": "Platforms separate", "d": "Demergers create separately listed ports, power, transmission and renewables companies.", "c": "group"},
+  {"y": 2019, "t": "Airports win", "d": "Six AAI airports won in bidding (Mumbai followed in 2021).", "c": "airports"},
+  {"y": 2021, "t": "Data centres and gas", "d": "AdaniConneX JV with EdgeConneX; ATGL partnership with TotalEnergies.", "c": "dc"},
+  {"y": 2022, "t": "Cement and media", "d": "Ambuja and ACC acquired from Holcim (about $6.4 bn); NDTV acquired.", "c": "cement"},
+  {"y": 2023, "t": "Hindenburg report", "d": "Short-seller allegations, a market-cap crash, then deleveraging and new investors such as GQG.", "c": "legal"},
+  {"y": 2024, "t": "US indictment", "d": "DOJ and SEC actions over AGEL bond disclosures (November 2024).", "c": "legal"},
+  {"y": 2025, "t": "NMIA opens", "d": "Navi Mumbai International Airport begins commercial flights on 25 December.", "c": "airports"},
+  {"y": 2026, "t": "Reset year", "d": "US criminal case dismissed (Aug); SEBI settlements (Sep); Evos deal (Nov); AGEL passes 20 GW.", "c": "group"}
+ ],
+ "companies": [
+  {
+   "key": "ael", "name": "Adani Enterprises", "short": "AEL", "ticker": "ADANIENT", "listed": true, "cluster": "energy",
+   "role": "The flagship and incubator. New businesses start here and are separated once they mature.",
+   "model": "Established cash businesses (mining services, commodities trading) fund new infrastructure: airports, ANIL, data centres, roads and copper.",
+   "promoter": 71.97, "promoterNote": "Promoter holding in AEL, per the APSEZ Q2 FY27 deck.",
+   "kpis": [
+    {"l": "H1 FY27 total income", "v": "₹71,569 cr", "t": "official"},
+    {"l": "H1 FY27 EBITDA", "v": "₹11,958 cr", "t": "official", "note": "Up 56% YoY"},
+    {"l": "Copper sales, H1 FY27", "v": "145.3 kt", "t": "official", "note": "5.2x YoY"},
+    {"l": "Airport passengers, H1 FY27", "v": "45.4 mn", "t": "official"}
+   ],
+   "chart": {"title": "H1 EBITDA mix, ₹ cr", "type": "bar", "unit": "₹ cr", "bars": [["Incubating (core infra)", 5993], ["Established", 5965]], "note": "H1 FY27; the incubating businesses are now about half of EBITDA"},
+   "esg": {"netZero": 2050, "sust": [21.01, "Medium risk"], "cdp": "A", "nse": "61"},
+   "people": ["Rajesh Adani, MD", "Hemant Nerurkar, Director"],
+   "watch": ["Separation of airports and ANIL as standalone platforms", "Copper plant ramp-up", "Data-centre capital needs"],
+   "src": "https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results"
+  },
+  {
+   "key": "apsez", "name": "Adani Ports & SEZ", "short": "APSEZ", "ticker": "ADANIPORTS", "listed": true, "cluster": "transport",
+   "role": "India's largest port operator, becoming a global integrated transport utility.",
+   "model": "Four engines: domestic ports (72.5% EBITDA margin), international ports, logistics (rail, MMLPs, warehousing) and marine services. Revenue comes from cargo tariffs, often on long contracts.",
+   "promoter": 66.03,
+   "kpis": [
+    {"l": "Q2 FY27 revenue", "v": "₹11,340 cr", "t": "official", "note": "+24% YoY"},
+    {"l": "Q2 FY27 EBITDA", "v": "₹6,807 cr", "t": "official", "note": "+23% YoY"},
+    {"l": "All-India cargo share", "v": "27.3%", "t": "official", "note": "Container share 44.4%"},
+    {"l": "Net debt / EBITDA", "v": "1.8x", "t": "official", "note": "Ceiling 2.5x"}
+   ],
+   "chart": {"title": "Q2 FY27 revenue by engine, ₹ cr", "type": "bar", "unit": "₹ cr", "bars": [["Domestic ports", 7177], ["International ports", 1839], ["Logistics", 1273], ["Marine", 1007], ["SEZ", 44]]},
+   "esg": {"netZero": 2040, "sust": [10.5, "Low risk"], "cdp": "A-", "nse": "70", "care": "84.3"},
+   "people": ["Karan Adani, MD", "Ashwani Gupta, Whole-Time Director and CEO"],
+   "watch": ["Evos approvals (EU), with completion indicated within 15 months", "Vizhinjam transshipment ramp-up", "FY27 guidance: EBITDA ₹26,000–27,000 cr"],
+   "src": "https://www.adaniports.com/newsroom/media-releases/one-platform-four-growth-engines-apsez-delivers-24-revenue"
+  },
+  {
+   "key": "power", "name": "Adani Power", "short": "APL", "ticker": "ADANIPOWER", "listed": true, "cluster": "energy",
+   "role": "India's largest private thermal power producer: the baseload anchor.",
+   "model": "Sells power under long-term PPAs and PSAs (capacity plus energy charges) and in merchant markets. Key drivers are coal cost, plant load factor (PLF) and tariff pass-through.",
+   "promoter": 74.96,
+   "kpis": [
+    {"l": "Operating capacity", "v": "18,150 MW", "t": "official"},
+    {"l": "Q2 FY27 PLF", "v": "70.1%", "t": "official", "note": "62.8% a year ago"},
+    {"l": "Q2 FY27 continuing EBITDA", "v": "₹6,321 cr", "t": "official", "note": "+18.5% YoY"},
+    {"l": "Under construction", "v": "23,720 MW", "t": "official", "note": "Target about 41.9 GW by FY32"}
+   ],
+   "chart": {"title": "Capacity, MW", "type": "bar", "unit": "MW", "bars": [["Operating now", 18150], ["Target FY32", 41870]], "note": "Target per Ambuja's FY26 integrated report portfolio page"},
+   "esg": {"netZero": 2070, "sust": [31.69, "High risk"], "cdp": "B", "nse": "66", "note": "Emission intensity 0.86 tCO2e/MWh (FY26); 93% fly-ash utilisation"},
+   "people": ["Anil Sardana, MD (also AESL)"],
+   "watch": ["Korba II and Mahan II commissioning", "BHEL orders execution", "Hydro: Alaknanda and the Bhutan JV"],
+   "src": "https://www.adanipower.com/newsroom/media-releases/adani-power-announces-q2-fy27-results"
+  },
+  {
+   "key": "agel", "name": "Adani Green Energy", "short": "AGEL", "ticker": "ADANIGREEN", "listed": true, "cluster": "energy",
+   "role": "India's largest renewable energy company: solar, wind, hybrid and storage.",
+   "model": "Builds solar, wind and hybrid plants and sells power on 25-year fixed-tariff PPAs. Margins are about 92% because there is no fuel cost. Economics depend on CUF, tariff and cost of debt. Storage (BESS, PSP) turns the output into firm power.",
+   "promoter": 62.43,
+   "kpis": [
+    {"l": "Operational capacity", "v": "20.8 GW", "t": "official", "note": "H1 FY27"},
+    {"l": "Battery storage", "v": "6.63 GWh", "t": "official", "note": "More than 50% of India's operational BESS"},
+    {"l": "H1 FY27 EBITDA (power supply)", "v": "₹7,957 cr", "t": "official", "note": "+41% YoY"},
+    {"l": "Net debt / run-rate EBITDA", "v": "5.6x", "t": "official"}
+   ],
+   "chart": {"title": "Capacity path, GW", "type": "line", "unit": "GW", "points": [["FY25 end", 14.2], ["FY26 end", 19.3], ["Q1 FY27", 20.1], ["H1 FY27", 20.8], ["2030 target", 50]], "note": "FY25 end ≈ FY26 end minus 5.05 GW added in FY26"},
+   "esg": {"netZero": 2050, "sust": [12.91, "Low risk"], "cdp": "A", "nse": "78", "note": "26.69 mn t CO2 avoided (FY26); water positive at 100% of sites"},
+   "people": ["Vneet S. Jaain, MD", "Sagar Adani, Executive Director"],
+   "watch": ["Tarali PSP stop-work notice (NBWL)", "Curtailment and transmission bottlenecks", "Khavda build-out toward 30 GW"],
+   "src": "https://www.adanigreenenergy.com/newsroom/media-releases/adani-green-energys-energy-sales-grew-32-percent-yoy-to-25point8-billion-units"
+  },
+  {
+   "key": "aesl", "name": "Adani Energy Solutions", "short": "AESL", "ticker": "ADANIENSOL", "listed": true, "cluster": "energy",
+   "role": "Transmission, distribution (Mumbai) and smart metering: the grid business.",
+   "model": "Transmission lines are won by competitive bidding (TBCB) and earn a fixed annual tariff for 35 years, an annuity-like business. Distribution in Mumbai (AEML) is regulated. Smart meters are rolled out under RDSS on long contracts.",
+   "promoter": 73.39,
+   "kpis": [
+    {"l": "Transmission network", "v": "29,802 ckm", "t": "official", "note": "Availability 99.8%"},
+    {"l": "Under-construction orderbook", "v": "₹87,222 cr", "t": "official"},
+    {"l": "Smart meters installed", "v": "14.8 mn", "t": "official", "note": "24.6 mn orderbook"},
+    {"l": "H1 FY27 EBITDA", "v": "₹6,726 cr", "t": "official", "note": "+62% YoY"}
+   ],
+   "chart": {"title": "Smart meters, mn", "type": "bar", "unit": "mn", "bars": [["Installed", 14.8], ["Orderbook", 24.6]]},
+   "esg": {"netZero": 2050, "sust": [18.29, "Low risk"], "cdp": "A-", "nse": "71", "note": "S&P Global ESG score 90/100 (MSA review, 2026)"},
+   "people": ["Anil Sardana, MD"],
+   "watch": ["West Bengal RE-RTC award (politically debated)", "Smart-meter installation pace", "New TBCB wins"],
+   "src": "https://www.adanienergysolutions.com/-/media/project/transmission/investor/documents/new-results-presentations/aesl_q2-fy27_results-presentation_vf.pdf"
+  },
+  {
+   "key": "atgl", "name": "Adani Total Gas", "short": "ATGL", "ticker": "ATGL", "listed": true, "cluster": "energy",
+   "role": "City gas distribution, CNG and EV charging: urban energy retail.",
+   "model": "Pipes gas to homes and industries and sells CNG in 34 geographical areas. Margin depends on gas sourcing (APM vs LNG) and pricing. TotalEnergies is a 37.4% co-owner.",
+   "promoter": 37.40, "promoterNote": "Adani 37.4%, TotalEnergies 37.4%, public 25.2%",
+   "kpis": [
+    {"l": "FY26 revenue", "v": "₹6,415 cr", "t": "official"},
+    {"l": "FY26 EBITDA", "v": "₹1,225 cr", "t": "official"},
+    {"l": "Geographical areas", "v": "34 (+19 via IOAGPL JV)", "t": "official"},
+    {"l": "Net zero (Scope 1+2)", "v": "2045", "t": "target"}
+   ],
+   "chart": {"title": "Ownership, %", "type": "bar", "unit": "%", "bars": [["Adani", 37.4], ["TotalEnergies", 37.4], ["Public", 25.2]]},
+   "esg": {"netZero": 2045, "sust": [24.3, "Medium risk"], "note": "Water positive by 2030 aspiration; 44% cut in emission intensity vs FY22"},
+   "people": ["Suresh Manglani, Executive Director"],
+   "watch": ["APM gas allocation cuts", "EV charging scale", "Biogas (ATBL)"],
+   "src": "https://www.adanigas.com/-/media/Project/AdaniGas/Sustainability/Reports/Sustainability/Sustainability-Reports/ATGL-ESG-Report---2026.pdf"
+  },
+  {
+   "key": "cement", "name": "Ambuja · ACC · Orient", "short": "Cement", "ticker": "AMBUJACEM", "listed": true, "cluster": "materials",
+   "role": "India's second-largest cement platform, consolidating into 'One Cement'.",
+   "model": "A regional, cost-led business: winners have the lowest cost per tonne (power, fuel, freight) and are close to markets. Ambuja is merging ACC and Orient in to simplify the structure and capture synergies.",
+   "promoter": 67.29, "promoterNote": "Promoter holding in Ambuja; Ambuja owns 50.05% of ACC and 72.66% of Orient (pre-merger)",
+   "kpis": [
+    {"l": "Cement capacity", "v": "113.5 MTPA", "t": "official", "note": "119 by Mar '27, 155 by FY30"},
+    {"l": "Cost per tonne", "v": "₹4,410", "t": "official", "note": "Q2 FY27; target ~₹4,000 by FY28"},
+    {"l": "Green power share", "v": "61%", "t": "official", "note": "Q2 FY27"},
+    {"l": "Expansion capex", "v": "₹14,500 cr", "t": "target"}
+   ],
+   "chart": {"title": "Capacity, MTPA", "type": "line", "unit": "MTPA", "points": [["At acquisition (2022)", 68], ["Sep 2026", 113.5], ["Mar 2027 target", 119], ["FY30 target", 155]]},
+   "esg": {"netZero": 2050, "sust": [21.1, "Medium risk"], "cdp": "B / A water", "nse": "65", "note": "SBTi-validated; 12x water positive"},
+   "people": ["Vinod Bahety, Whole-Time Director and CEO, Ambuja"],
+   "watch": ["NCLT sanction of the merger (expected Jan '27)", "Cement price trend", "Fuel cost (geopolitics)"],
+   "src": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Newsroom/2026-media-release/Media-ReleaseAmbuja-Cements-Firms-Up-Its-Next-Growth-Phase-with-30-MTPA-Expansion-by-FY30.ashx"
+  },
+  {
+   "key": "airports", "name": "Adani Airports (AAHL)", "short": "Airports", "ticker": null, "listed": false, "parent": "ael", "cluster": "transport",
+   "role": "India's largest private airport operator: 8 airports including Mumbai and Navi Mumbai.",
+   "model": "Aero revenue (regulated by AERA) plus non-aero revenue (retail, F&B, parking, city-side real estate). Value increasingly comes from non-aero and land.",
+   "kpis": [
+    {"l": "Share of India's passengers", "v": "~23%", "t": "official", "note": "and ~29% of air cargo"},
+    {"l": "H1 FY27 EBITDA", "v": "₹3,275 cr", "t": "official", "note": "+52% YoY"},
+    {"l": "Equity raised from investors", "v": "~$1.3 bn", "t": "independent", "note": "Incl. $300 mn from 360 ONE (Nov '26)"},
+    {"l": "Implied valuation", "v": "~$18 bn", "t": "independent"}
+   ],
+   "chart": {"title": "H1 EBITDA, ₹ cr", "type": "bar", "unit": "₹ cr", "bars": [["H1 FY26", 2157], ["H1 FY27", 3275]]},
+   "people": ["Jeet Adani, Director", "Arun Bansal, CEO"],
+   "watch": ["NMIA ramp-up and Terminal 2 phase 2 (construction from Nov '26)", "AERA tariff orders", "Possible separation from AEL"],
+   "src": "https://www.adanienterprises.com/-/media/project/enterprisesv1/investors/investor-downloads/earnings-call-transcripts/ael_q2fy27earningscall_transcript.pdf"
+  },
+  {
+   "key": "anil", "name": "Adani New Industries (ANIL)", "short": "ANIL", "ticker": null, "listed": false, "parent": "ael", "cluster": "energy",
+   "role": "Green manufacturing: solar modules and cells, wind turbines, green hydrogen.",
+   "model": "Manufactures equipment for AGEL and third parties. Benefits from PLI schemes and domestic-content rules (DCR). Hydrogen is still at an early stage.",
+   "kpis": [
+    {"l": "Module line capacity", "v": "10 GW", "t": "official", "note": "4.3 GW TOPCon added Sep '26"},
+    {"l": "Cell line under construction", "v": "6 GW", "t": "official"},
+    {"l": "Module sales, H1 FY27", "v": "2,818 MW", "t": "official"},
+    {"l": "Wind turbine sets, H1 FY27", "v": "99", "t": "official"}
+   ],
+   "people": ["Vneet S. Jaain, CEO"],
+   "watch": ["Cell line commissioning", "DCR enforcement on solar manufacturers"],
+   "src": "https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results"
+  },
+  {
+   "key": "dc", "name": "AdaniConneX", "short": "Data centres", "ticker": null, "listed": false, "parent": "ael", "cluster": "digital",
+   "role": "Hyperscale and AI data centres (50:50 JV with EdgeConneX).",
+   "model": "Leases powered capacity (MW of IT load) to cloud and AI firms on long contracts. The edge is cheap green power, land, grid access and connectivity.",
+   "kpis": [
+    {"l": "Operational capacity", "v": "94.6 MW", "t": "official"},
+    {"l": "Capacity tied up", "v": "1.2+ GW", "t": "official", "note": "Incl. 240 MW Navi Mumbai order"},
+    {"l": "Group AI infra commitment", "v": "$100 bn by 2035", "t": "target"}
+   ],
+   "people": ["Jeyakumar Janakaraj, CEO"],
+   "watch": ["Funding of the build-out (loans being raised)", "Power sourcing from AGEL"],
+   "src": "https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results"
+  },
+  {
+   "key": "defence", "name": "Adani Defence & Aerospace", "short": "Defence", "ticker": null, "listed": false, "parent": "ael", "cluster": "digital",
+   "role": "UAVs, small arms, ammunition, missiles and aerospace MRO.",
+   "model": "Sells to the armed forces through procurement cycles. Indigenisation policy favours domestic makers. Partnerships bring in technology.",
+   "kpis": [
+    {"l": "Recent milestone", "v": "Anti-tank missile test", "t": "official", "note": "Pokhran, Nov '26"},
+    {"l": "New area", "v": "Aircraft engine MRO", "t": "independent"}
+   ],
+   "people": ["Ashish Rajvanshi, CEO"],
+   "watch": ["Orders from the armed forces", "Indigenous content levels"],
+   "src": "https://www.adani.com/businesses/defence-and-aerospace"
+  },
+  {
+   "key": "copper", "name": "Kutch Copper", "short": "Copper", "ticker": null, "listed": false, "parent": "ael", "cluster": "materials",
+   "role": "Copper smelter at Mundra, phase 1 of a planned 1 MTPA.",
+   "model": "Earns treatment and refining charges plus by-products (sulphuric acid). Supplies cables, transmission and EV demand.",
+   "kpis": [{"l": "Sales volume, Q2 FY27", "v": "80.6 kt", "t": "official", "note": "Up from 11.8 kt"}],
+   "watch": ["Supply deals (e.g. Attero recycled copper, reported Nov '26)"],
+   "src": "https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results"
+  },
+  {
+   "key": "roads", "name": "Adani Road Transport", "short": "Roads", "ticker": null, "listed": false, "parent": "ael", "cluster": "transport",
+   "role": "Highway concessions (HAM, TOT, BOT).",
+   "model": "Hybrid annuity (HAM): the government pays 40% during construction and an annuity afterwards. TOT and BOT projects earn toll revenue.",
+   "kpis": [{"l": "Recent", "v": "New SPVs (e.g. NH-60 flyover)", "t": "independent"}], "watch": [], "src": ""
+  },
+  {
+   "key": "mining", "name": "Mining services", "short": "Mining", "ticker": null, "listed": false, "parent": "ael", "cluster": "materials",
+   "role": "Mine developer and operator (MDO) for coal blocks; commodity trading (IRM).",
+   "model": "Fee per tonne mined and delivered. Cash generative, it funds the incubation of new businesses.",
+   "kpis": [{"l": "Dispatch, H1 FY27", "v": "22.5 MMT", "t": "official"}], "watch": [], "src": ""
+  },
+  {
+   "key": "media", "name": "NDTV", "short": "NDTV", "ticker": "NDTV", "listed": true, "cluster": "digital",
+   "role": "News broadcaster and digital media.",
+   "model": "Advertising and subscription revenue. Small relative to the group; strategically about media presence.",
+   "promoter": 69.02,
+   "kpis": [{"l": "Market cap", "v": "See Markets tab", "t": "official"}], "watch": [], "src": ""
+  }
+ ]
+}

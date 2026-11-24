@@ -1,0 +1,861 @@
+{
+ "version": "3.0",
+ "verified": "2026-11-24",
+ "note": "Evergreen modules. Numbers carry their period. Tags: official = company filing/release, regulator = order/govt doc, independent = reputable media, target = forward-looking ambition, reported = single-source / unconfirmed.",
+ "modules": [
+  {
+   "id": "mental-model",
+   "title": "How to think about the Group",
+   "minutes": 3,
+   "lede": "Don't think of Adani as a conglomerate with many unrelated companies. Think of it as one infrastructure system built on adjacencies: assets create demand for more assets, operating assets produce contracted cash flow, and that cash flow plus balance-sheet capacity funds the next build.",
+   "blocks": [
+    {
+     "h": "The loop",
+     "items": [
+      {
+       "t": "Capital",
+       "d": "Debt and equity, increasingly from global long-term investors (for example 360 ONE in airports, TotalEnergies in gas and renewables)."
+      },
+      {
+       "t": "Build",
+       "d": "Ports, power, transmission, airports, cement capacity."
+      },
+      {
+       "t": "Operate",
+       "d": "Regulated or contracted cash flows: tariffs, PPAs, take-or-pay, concessions."
+      },
+      {
+       "t": "Adjacency",
+       "d": "Each asset opens the next: ports bring logistics, then storage (Evos); renewables bring transmission, storage and data centres."
+      },
+      {
+       "t": "Incubate inside AEL",
+       "d": "New bets such as airports, ANIL, data centres, copper and roads grow inside the flagship."
+      },
+      {
+       "t": "Scale or unlock",
+       "d": "Mature platforms raise their own capital or are separated (demerger or listing)."
+      }
+     ]
+    },
+    {
+     "h": "Your one-line answer",
+     "p": "Adani's edge is the ability to originate, build, operate and integrate infrastructure across adjacent value chains, with Adani Enterprises as the incubator for the next platform."
+    }
+   ],
+   "tldr": [
+    "Think of an infrastructure system, not a conglomerate.",
+    "Each asset creates demand for the next one (adjacency).",
+    "AEL incubates; mature platforms list or raise their own capital."
+   ],
+   "diagram": "loop",
+   "icon": "◎"
+  },
+  {
+   "id": "business-map",
+   "title": "Business map: the platforms",
+   "minutes": 7,
+   "lede": "For each platform, know the business model, two or three current KPIs, and the strategic link to the rest of the group. Figures are H1 or Q2 FY27 (to 30 Sep 2026) unless marked.",
+   "blocks": [
+    {
+     "items": [
+      {
+       "t": "Adani Enterprises (AEL): flagship and incubator",
+       "d": "H1 FY27 total income ₹71,569 cr and EBITDA ₹11,958 cr. Incubating core infrastructure (ANIL, AdaniConneX, airports, roads) sits beside established businesses (mining services, commodities, copper). Copper sales were up 5.2x in H1. A one-time OFAC settlement of ₹2,644 cr was booked in Q1.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Ports & SEZ (APSEZ): integrated transport utility",
+       "d": "Q2 revenue ₹11,340 cr and EBITDA ₹6,807 cr. Domestic ports run at a 72.5% EBITDA margin on 671 MMT of capacity, with 27.3% all-India cargo share and 44.4% container share. The four engines are domestic ports, international ports, logistics and marine. Evos adds European liquids storage.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Power (APL): thermal baseload",
+       "d": "18,150 MW operating, Q2 PLF 70.1%, 23,720 MW under expansion (Korba II, Mahan II, Raipur II, Raigarh II). Hydro is being added through GVK Alaknanda (330 MW) and a 770 MW Bhutan JV.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Green Energy (AGEL): renewables and storage",
+       "d": "20.8 GW operational and 6.63 GWh of BESS, with Khavda as the anchor site. Target: 50 GW by 2030. Net debt to run-rate EBITDA is 5.6x. Grid curtailment and the Tarali PSP dispute are live issues.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Energy Solutions (AESL): transmission, distribution, meters",
+       "d": "29,802 ckm network at 99.8% availability, ₹87,222 cr under-construction orderbook, 14.8 mn smart meters installed out of a 24.6 mn orderbook, and the Mumbai discom (AEML). New: renewable round-the-clock supply award from WBSEDCL.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Total Gas (ATGL): urban energy distribution",
+       "d": "City gas, CNG and EV charging, in partnership with TotalEnergies. Think of it as urban energy retail, not just a gas company."
+      },
+      {
+       "t": "Ambuja, ACC and Orient (One Cement)",
+       "d": "113.5 MTPA, aiming for 119 MTPA by March 2027 and 155 MTPA by FY30, with ₹14,500 cr of capex. Cost target is about ₹4,000 per tonne by FY28; green power share was 61% in Q2. The merger awaits NCLT sanction.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Airports (AAHL, under AEL)",
+       "d": "Eight airports including Mumbai and Navi Mumbai (NMIA). H1 traffic was 45.4 mn passengers. Value comes from non-aero revenue, cargo and city-side real estate. About $1.3 bn of equity has been raised.",
+       "tag": "official"
+      },
+      {
+       "t": "AdaniConneX: data centres (JV with EdgeConneX)",
+       "d": "94.6 MW operational and 1.2+ GW tied up, including a 240 MW hyperscale order at Navi Mumbai. The thesis combines energy, land, grid, compute and connectivity.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani New Industries (ANIL, under AEL)",
+       "d": "Solar module line at 10 GW (4.3 GW TOPCon added in September 2026), a 6 GW cell line under construction, wind turbines, and green hydrogen. Hydrogen numbers are targets.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Defence & Aerospace",
+       "d": "UAVs, ammunition, missiles (an anti-tank system was test-fired at Pokhran in November 2026), and plans for aircraft-engine MRO. The business depends on government procurement cycles."
+      },
+      {
+       "t": "Others",
+       "d": "Kutch Copper (Mundra smelter), roads (ARTL), Navbharat Mega Developers (Dharavi redevelopment), Adani Realty, NDTV, PVC, and petrochemicals."
+      }
+     ]
+    },
+    {
+     "h": "Memorise the links, not the cards",
+     "p": "Ports connect to logistics and storage; power connects to renewables, transmission and storage; airports to city-side real estate; renewables to data centres; and all of it to manufacturing (modules, copper, cement). That network is how management thinks about the portfolio."
+    }
+   ],
+   "sources": [
+    {
+     "t": "AEL Q2 FY27 results",
+     "u": "https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results"
+    },
+    {
+     "t": "APSEZ Q2 FY27 results",
+     "u": "https://www.adaniports.com/newsroom/media-releases/one-platform-four-growth-engines-apsez-delivers-24-revenue"
+    },
+    {
+     "t": "Adani Power Q2 FY27",
+     "u": "https://www.adanipower.com/newsroom/media-releases/adani-power-announces-q2-fy27-results"
+    },
+    {
+     "t": "AESL Q2 FY27 presentation",
+     "u": "https://www.adanienergysolutions.com/-/media/project/transmission/investor/documents/new-results-presentations/aesl_q2-fy27_results-presentation_vf.pdf"
+    },
+    {
+     "t": "Ambuja 30 MTPA expansion",
+     "u": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Newsroom/2026-media-release/Media-ReleaseAmbuja-Cements-Firms-Up-Its-Next-Growth-Phase-with-30-MTPA-Expansion-by-FY30.ashx"
+    }
+   ],
+   "tldr": [
+    "10 listed companies plus five big platforms incubated inside AEL.",
+    "Four clusters: energy, transport, materials and digital.",
+    "Learn how the businesses feed each other, not 12 isolated facts."
+   ],
+   "diagram": "structure",
+   "icon": "▦"
+  },
+  {
+   "id": "history",
+   "title": "Chronology: trading to integrated infrastructure",
+   "minutes": 4,
+   "lede": "Six phases. For each one, know what changed in the group's operating model, not just the dates.",
+   "blocks": [
+    {
+     "items": [
+      {
+       "t": "1988–1994 · Trading to public markets",
+       "d": "Adani Exports (now Adani Enterprises) starts as a commodity trader in Ahmedabad and lists in 1994.",
+       "tag": "official"
+      },
+      {
+       "t": "1994–2001 · Mundra",
+       "d": "The Mundra jetty, then port, turns a trading network into owned logistics infrastructure. This is the original adjacency move."
+      },
+      {
+       "t": "1999–2010 · Adjacent expansion",
+       "d": "Edible oils (Adani Wilmar), coal trading and mining, thermal power, overseas resources."
+      },
+      {
+       "t": "2011–2019 · Platformisation",
+       "d": "Ports, power, transmission and renewables become separately listed platforms, and the demerger model takes shape."
+      },
+      {
+       "t": "2020–2022 · Deeper stack",
+       "d": "Airports, data centres (AdaniConneX), city gas, cement (Ambuja and ACC acquired in 2022) and media (NDTV)."
+      },
+      {
+       "t": "2023–2025 · Shock, deleveraging, execution",
+       "d": "January 2023 Hindenburg report; capital-market stress; prepayment of share-backed debt; November 2024 US indictment and SEC complaint; exit from Adani Wilmar; operations keep expanding."
+      },
+      {
+       "t": "2026 · Energy, transport and digital converge",
+       "d": "NMIA opens (25 Dec 2025, international from Jul 2026); US criminal case dismissed (Aug); SEBI settlements (Sep); Evos deal (Nov); AI data-centre and nuclear ambitions; group capex estimated at $100bn+.",
+       "tag": "official"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "t": "Adani: Our Journey",
+     "u": "https://www.adani.com/about-us/our-journey"
+    }
+   ],
+   "tldr": [
+    "1988 trader to 1998 Mundra port: owning the logistics was the leap.",
+    "The 2015–19 demergers created separately listed platforms.",
+    "2023 Hindenburg shock, then deleveraging; 2026 brought a legal reset and a record build-out."
+   ],
+   "diagram": "timeline",
+   "icon": "⟿"
+  },
+  {
+   "id": "since-sep",
+   "title": "What changed since 8 September",
+   "minutes": 4,
+   "lede": "Your v2 file froze on 8 September 2026. These are the developments from the eleven weeks since that you would otherwise have missed.",
+   "blocks": [
+    {
+     "h": "Regulatory",
+     "items": [
+      {
+       "t": "SEBI settled the Hindenburg-linked disclosure case",
+       "d": "On 22 September 2026, SEBI's adjudicating officer disposed of proceedings against AEL, ATGL, AGEL, AESL and AWL Agri over alleged related-party disclosure lapses, after a settlement payment of about ₹1.5 crore. The order reserves SEBI's right to restore the proceedings if any representation proves untrue.",
+       "tag": "regulator"
+      },
+      {
+       "t": "SEBI disposed of the minimum-public-shareholding case",
+       "d": "On 28 September 2026, a SEBI whole-time member passed a final order in the MPS matter involving Gautam Adani and four group companies, with some noticees settling separately. Reuters reported the proceedings as disposed of.",
+       "tag": "regulator"
+      },
+      {
+       "t": "APSEZ's CEO and CFO settled disclosure charges",
+       "d": "On 10 September 2026, they settled a case involving PMC Projects, paying ₹13.7 lakh each without admitting or denying wrongdoing (Reuters).",
+       "tag": "independent"
+      }
+     ]
+    },
+    {
+     "h": "Deals and capital",
+     "items": [
+      {
+       "t": "APSEZ agreed to buy Evos for an enterprise value of €2.56 bn",
+       "d": "Evos is Europe's second-largest independent liquid-storage operator: eight terminals in five countries, 56% EBITDA margin, valued at 11.7x CY25 EV/EBITDA. The deal is debt-funded and still subject to approvals. It takes APSEZ to 28 ports and terminals in 10 countries.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Airports raised about $300 mn from 360 ONE",
+       "d": "The buyer took roughly 1.55% for ₹2,790 crore. Media put the implied valuation near $18 bn and total equity raised at about $1.3 bn.",
+       "tag": "official"
+      },
+      {
+       "t": "Jefferies initiated coverage of six group stocks with Buy ratings",
+       "d": "It estimated roughly $120 bn of group capex over five to six years. This is an analyst estimate, not company guidance.",
+       "tag": "independent"
+      }
+     ]
+    },
+    {
+     "h": "Operations (Q2 FY27, quarter ended 30 Sep 2026)",
+     "items": [
+      {
+       "t": "AGEL operational capacity reached 20.8 GW",
+       "d": "Battery storage reached 6.63 GWh, which the company says is more than half of India's operational BESS. Its H1 results also flagged transmission bottlenecks and curtailment.",
+       "tag": "official"
+      },
+      {
+       "t": "APSEZ raised FY27 guidance",
+       "d": "Revenue guidance is now ₹44,000–46,000 cr, EBITDA ₹26,000–27,000 cr, and capex ₹15,000–17,000 cr. Net debt to EBITDA stood at 1.8x.",
+       "tag": "official"
+      },
+      {
+       "t": "AEL's flagship business keeps maturing",
+       "d": "Copper sales volume rose 5.2x in H1, the ANIL module line reached 10 GW, and AdaniConneX has 1.2+ GW of capacity tied up.",
+       "tag": "official"
+      },
+      {
+       "t": "Adani Power reported Q2 PAT of ₹7,019 cr",
+       "d": "This includes one-time prior-period revenue. Its expansion pipeline is 23,720 MW, including the GVK Alaknanda hydro resolution and a 770 MW Bhutan hydro JV.",
+       "tag": "official"
+      },
+      {
+       "t": "Ambuja shareholders approved the ACC and Orient mergers",
+       "d": "Approvals came on 28–29 September. NCLT sanction is expected by January 2027. The company firmed up a ₹14,500 cr plan to reach 155 MTPA by FY30.",
+       "tag": "official"
+      }
+     ]
+    },
+    {
+     "h": "Scrutiny to track",
+     "items": [
+      {
+       "t": "Tarali pumped-storage project halted",
+       "d": "On 13 November 2026, Maharashtra's forest department issued a stop-work notice for AGEL's 1,500 MW Tarali PSP in Satara, citing missing NBWL wildlife approval. The Indian Express had reported that the project cost submitted to the forest department was revised from ₹5,675 cr to ₹56.75 cr, which cuts the conservation deposit. AGEL says no protected area or forest land is involved and all clearances were obtained.",
+       "tag": "independent"
+      },
+      {
+       "t": "Political debate over the West Bengal power deal",
+       "d": "Opposition parties have questioned AESL's long-term renewable round-the-clock supply award from WBSEDCL.",
+       "tag": "independent"
+      }
+     ]
+    },
+    {
+     "h": "Corrections to your v2 file",
+     "items": [
+      {
+       "t": "Adani Power output",
+       "d": "v2 said FY26 generation 'exceeded 100 billion units'. The company's Q2 release shows FY26 units sold at 99.1 BU, so use 'about 99 BU sold'."
+      },
+      {
+       "t": "Hindenburg/SEBI track",
+       "d": "v2 said enforcement 'continues'. Two SEBI tracks have since been settled or disposed of (September 2026). Be precise: name the proceeding and its outcome."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "t": "SEBI settlement order, 22 Sep 2026",
+     "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790075703744_1.pdf"
+    },
+    {
+     "t": "SEBI final order (MPS), 28 Sep 2026",
+     "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/ORDER_1790584774.pdf"
+    },
+    {
+     "t": "APSEZ–Evos release",
+     "u": "https://www.adaniports.com/newsroom/media-releases/apsez-agrees-to-acquire-100-percent-of-evos-bv"
+    },
+    {
+     "t": "AGEL H1 FY27 release",
+     "u": "https://www.adanigreenenergy.com/newsroom/media-releases/adani-green-energys-energy-sales-grew-32-percent-yoy-to-25point8-billion-units"
+    },
+    {
+     "t": "Indian Express on Tarali stop-work",
+     "u": "https://indianexpress.com/article/cities/pune/adani-hydropower-project-maharashtra-forest-department-work-halted-10965184"
+    }
+   ],
+   "tldr": [
+    "SEBI closed two Hindenburg-era cases through settlement or disposal (22 and 28 Sep).",
+    "APSEZ is buying Europe's Evos for €2.56 bn EV, its biggest overseas move yet.",
+    "AGEL passed 20.8 GW, but its Tarali project got a stop-work notice.",
+    "Ambuja shareholders approved the ACC and Orient merger; NCLT sanction is next."
+   ],
+   "icon": "✦"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers you should be able to explain",
+   "minutes": 3,
+   "lede": "Don't recite these numbers. Explain them: say what each one tells you about the business model.",
+   "blocks": [
+    {
+     "items": [
+      {
+       "t": "72.5%: APSEZ domestic ports EBITDA margin (Q2 FY27)",
+       "d": "Ports are a high fixed-cost, high-operating-leverage business, so each extra tonne of cargo is mostly profit.",
+       "tag": "official"
+      },
+      {
+       "t": "1.8x: APSEZ net debt to EBITDA",
+       "d": "The ceiling is 2.5x. Evos takes it to about 2.76x pro forma, falling to roughly 2.5x by FY27 end. This is the number to watch for financing discipline.",
+       "tag": "official"
+      },
+      {
+       "t": "5.6x: AGEL net debt to run-rate EBITDA",
+       "d": "This is normal for a renewable developer in build mode: capex comes first and cash flows follow over 25-year PPAs.",
+       "tag": "official"
+      },
+      {
+       "t": "92%: AGEL EBITDA margin on power supply (Q2)",
+       "d": "Renewables have almost no fuel cost. The economics are capacity utilisation factor (CUF), tariff and cost of debt.",
+       "tag": "official"
+      },
+      {
+       "t": "70.1%: Adani Power PLF (Q2)",
+       "d": "Plant load factor shows how hard the fleet runs. Rising power demand lifts it.",
+       "tag": "official"
+      },
+      {
+       "t": "₹87,222 cr: AESL transmission orderbook",
+       "d": "This gives revenue visibility. Transmission is a regulated or tariff-based (TBCB) annuity-like business.",
+       "tag": "official"
+      },
+      {
+       "t": "₹4,000/t: Ambuja cost target (FY28)",
+       "d": "Cement is a cost game. The levers are green power, logistics lead distance, fuel and scale.",
+       "tag": "target"
+      },
+      {
+       "t": "11.7x: EV/EBITDA paid for Evos",
+       "d": "Compare it with APSEZ's own trading multiple and with infrastructure M&A benchmarks.",
+       "tag": "official"
+      }
+     ]
+    }
+   ],
+   "tldr": [
+    "72.5%: the APSEZ domestic port margin shows operating leverage.",
+    "1.8x vs 5.6x leverage: it depends on whether a business is mature or still building.",
+    "₹87,222 cr AESL orderbook = years of revenue visibility."
+   ],
+   "diagram": "leverage",
+   "icon": "#"
+  },
+  {
+   "id": "strategy",
+   "title": "Strategy: the bets for 2026 and beyond",
+   "minutes": 4,
+   "lede": "One thesis runs through these bets: physical infrastructure (energy, land, grid) becomes the foundation for digital infrastructure (AI compute).",
+   "blocks": [
+    {
+     "items": [
+      {
+       "t": "AI and data centres",
+       "d": "A $100 bn direct commitment through 2035 for renewable-powered, AI-ready capacity (group announcement). AdaniConneX already has 1.2+ GW tied up.",
+       "tag": "target"
+      },
+      {
+       "t": "Grid and storage",
+       "d": "AESL transmission plus AGEL BESS (6.63 GWh, guidance above 10 GWh in FY27). Curtailment shows that the grid is the bottleneck.",
+       "tag": "official"
+      },
+      {
+       "t": "Thermal and hydro baseload",
+       "d": "Adani Power's 23,720 MW expansion, with BHEL as a key supplier, plus hydro (Alaknanda, Bhutan).",
+       "tag": "official"
+      },
+      {
+       "t": "Nuclear",
+       "d": "An ambition of up to 10 GW by 2035. The enabling SHANTI Act was notified in December 2025, but its rules are still being framed, so private participation is not yet operational.",
+       "tag": "target"
+      },
+      {
+       "t": "Global transport platform",
+       "d": "Haifa, Colombo West, Tanzania and NQXT Australia, now Evos in Europe. International ports EBITDA margin reached a record 47.7% in Q2.",
+       "tag": "official"
+      },
+      {
+       "t": "Materials and manufacturing",
+       "d": "One Cement at 155 MTPA, copper, solar modules and cells, wind turbines. This aligns with import substitution and the PLI schemes."
+      },
+      {
+       "t": "Capital recycling",
+       "d": "Minority stakes sold to long-term investors (airports, gas, renewables) to fund growth without straining the balance sheet."
+      }
+     ]
+    }
+   ],
+   "tldr": [
+    "One thesis: physical infrastructure becomes the base for digital and AI infrastructure.",
+    "Grid and storage are both the bottleneck and the bridge.",
+    "Nuclear and the $100 bn AI plan are targets, not assets yet."
+   ],
+   "diagram": "thesis",
+   "icon": "↗"
+  },
+  {
+   "id": "legal",
+   "title": "Scrutiny and legal status: the precise version",
+   "minutes": 5,
+   "lede": "Rule: never say 'cleared', 'exonerated' or 'resolved' without naming the exact proceeding, forum, date and legal effect.",
+   "blocks": [
+    {
+     "h": "India: SEBI and Hindenburg",
+     "items": [
+      {
+       "t": "January 2023",
+       "d": "Hindenburg alleged stock manipulation, accounting fraud and undisclosed related parties. Adani denied wrongdoing. The Supreme Court-appointed expert committee and SEBI investigations followed."
+      },
+      {
+       "t": "September 2025",
+       "d": "SEBI passed final orders on specific Hindenburg allegations: transactions with Adicorp, Milestone Tradelinks and Rehvar Infrastructure.",
+       "tag": "regulator"
+      },
+      {
+       "t": "22 September 2026",
+       "d": "Settlement order: the related-party disclosure (LODR) adjudication against five companies was disposed of on payment of about ₹1.5 cr. SEBI can restore it if representations prove untrue.",
+       "tag": "regulator"
+      },
+      {
+       "t": "28 September 2026",
+       "d": "Final order in the minimum public shareholding matter (Gautam Adani and four companies), with a separate settlement order for other noticees.",
+       "tag": "regulator"
+      },
+      {
+       "t": "Ongoing",
+       "d": "Reuters reported in September 2026 that SEBI is pursuing actions linked to offshore trading around the Hindenburg episode. Track this separately.",
+       "tag": "independent"
+      }
+     ]
+    },
+    {
+     "h": "United States",
+     "items": [
+      {
+       "t": "20 November 2024",
+       "d": "DOJ criminal indictment and SEC civil complaint against Gautam Adani, Sagar Adani and others, over alleged bribery and misleading investors in connection with AGEL bonds.",
+       "tag": "regulator"
+      },
+      {
+       "t": "14 May 2026",
+       "d": "The SEC filed proposed consent judgments with penalties of $6m and $12m, subject to court approval. Check the current status on sec.gov.",
+       "tag": "regulator"
+      },
+      {
+       "t": "18 May 2026",
+       "d": "OFAC announced a $275m settlement with AEL over apparent Iran-sanctions violations (booked as ₹2,644 cr one-time in Q1 FY27).",
+       "tag": "regulator"
+      },
+      {
+       "t": "10 August 2026",
+       "d": "A US judge dismissed the criminal case with prejudice after DOJ moved to drop it. With prejudice means it cannot be refiled in the same form; it is not a finding that the allegations were false.",
+       "tag": "independent"
+      }
+     ]
+    },
+    {
+     "h": "Project-level and political",
+     "items": [
+      {
+       "t": "Tarali PSP, Maharashtra (November 2026)",
+       "d": "Forest department stop-work notice over NBWL approval and a dispute over the project cost; the company contests it.",
+       "tag": "independent"
+      },
+      {
+       "t": "Kenya (2024 onward)",
+       "d": "Cancelled airport and transmission deals. Regional media report exit-cost disputes.",
+       "tag": "reported"
+      },
+      {
+       "t": "Political criticism",
+       "d": "Power purchase deals (for example West Bengal) recur in opposition politics. Know the facts; stay neutral."
+      }
+     ]
+    },
+    {
+     "h": "How to talk about it",
+     "p": "Lead with the exact legal outcome, then say what remains open, then the business implication for financing cost, investor base, governance disclosures and international expansion. Stay factual and calm; don't be defensive or editorialise."
+    }
+   ],
+   "sources": [
+    {
+     "t": "SEBI orders on Adani",
+     "u": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&search=Adani"
+    },
+    {
+     "t": "SEC litigation release",
+     "u": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26554"
+    },
+    {
+     "t": "OFAC settlement",
+     "u": "https://ofac.treasury.gov/recent-actions/20260518"
+    }
+   ],
+   "tldr": [
+    "Always name the proceeding, forum, date and legal effect; never just say 'cleared'.",
+    "India: SEBI settled or disposed of two cases in September 2026; some enforcement continues.",
+    "US: the criminal case was dismissed with prejudice (Aug 2026), plus SEC consent judgments and a $275m OFAC settlement."
+   ],
+   "diagram": "legal",
+   "icon": "§"
+  },
+  {
+   "id": "leadership",
+   "title": "Leadership and people map",
+   "minutes": 4,
+   "lede": "Titles are as listed on adani.com/about-us/leadership (checked 24 Nov 2026). The hub re-checks that page weekly and flags any change.",
+   "blocks": [
+    {
+     "h": "Family and chairman's office",
+     "items": [
+      {
+       "t": "Gautam Adani",
+       "d": "Founder and Chairman, Adani Group."
+      },
+      {
+       "t": "Rajesh Adani",
+       "d": "Managing Director, Adani Enterprises."
+      },
+      {
+       "t": "Pranav Adani",
+       "d": "Managing Director, Agro, Oil & Gas."
+      },
+      {
+       "t": "Karan Adani",
+       "d": "Managing Director, Adani Ports & SEZ."
+      },
+      {
+       "t": "Sagar Adani",
+       "d": "Executive Director, Adani Green Energy."
+      },
+      {
+       "t": "Jeet Adani",
+       "d": "Director, Airports."
+      },
+      {
+       "t": "Dr. Priti Adani",
+       "d": "Chairperson, Adani Foundation."
+      },
+      {
+       "t": "Aman Kumar Singh",
+       "d": "President and Head, Strategy & Chairman's Office."
+      }
+     ]
+    },
+    {
+     "h": "Business heads",
+     "items": [
+      {
+       "t": "Jugeshinder 'Robbie' Singh",
+       "d": "Group CFO. He fronts capital markets and investor communication."
+      },
+      {
+       "t": "Ashwani Gupta",
+       "d": "Whole-Time Director and CEO, APSEZ."
+      },
+      {
+       "t": "Vneet S. Jaain",
+       "d": "MD, Adani Green Energy, and CEO, Adani New Industries."
+      },
+      {
+       "t": "Anil Sardana",
+       "d": "MD, AESL and Adani Power, and CEO, Navbharat Mega Developers (Dharavi)."
+      },
+      {
+       "t": "Arun Bansal",
+       "d": "CEO, Airports."
+      },
+      {
+       "t": "Jeyakumar Janakaraj",
+       "d": "CEO, AdaniConneX."
+      },
+      {
+       "t": "Ashish Rajvanshi",
+       "d": "CEO, Adani Defence & Aerospace."
+      },
+      {
+       "t": "Suresh Manglani",
+       "d": "Executive Director, Adani Total Gas."
+      },
+      {
+       "t": "Dr. Vinay Prakash",
+       "d": "CEO, Adani Natural Resources."
+      },
+      {
+       "t": "Jayant Parimal",
+       "d": "CEO, Petrochemicals."
+      },
+      {
+       "t": "Sudipta Bhattacharya",
+       "d": "Chief Transformation Officer."
+      },
+      {
+       "t": "Hemant Nerurkar",
+       "d": "Director, Adani Enterprises."
+      },
+      {
+       "t": "Samir Vora",
+       "d": "Executive Director, Adani Australia."
+      },
+      {
+       "t": "Pranav Vora",
+       "d": "CEO, Adani Shipping and Adani Harbour Services."
+      },
+      {
+       "t": "Dr. Malay Mahadevia",
+       "d": "Director, AAHL and Healthcare."
+      }
+     ]
+    },
+    {
+     "h": "Partners worth knowing",
+     "p": "TotalEnergies (ATGL, AGEL), EdgeConneX (AdaniConneX), QIA and IHC (various stakes), 360 ONE (airports), GQG Partners (a large minority investor since 2023), BHEL (thermal EPC), MUFG (Evos financing)."
+    }
+   ],
+   "sources": [
+    {
+     "t": "Adani leadership page",
+     "u": "https://www.adani.com/about-us/leadership"
+    }
+   ],
+   "tldr": [
+    "Family members hold the MD and director roles; professional CEOs run operations.",
+    "Robbie Singh (Group CFO) fronts the capital markets.",
+    "Know the head of whichever vertical you join."
+   ],
+   "icon": "◉"
+  },
+  {
+   "id": "sector",
+   "title": "Competitors and policy context",
+   "minutes": 6,
+   "lede": "Senior people judge an intern on whether they understand the industry, not only the company. Here is each vertical's competitive set and the policy levers that move it.",
+   "blocks": [
+    {
+     "h": "Competitive set",
+     "items": [
+      {
+       "t": "Ports and logistics",
+       "d": "JSW Infrastructure, JNPA (government), DP World, APM Terminals, PSA. APSEZ's edge is its network across both coasts, rail and MMLPs, and marine services."
+      },
+      {
+       "t": "Thermal power",
+       "d": "NTPC (the largest), Tata Power, JSW Energy, Torrent. The key factors are coal linkage (SHAKTI), PPA tenure and plant efficiency."
+      },
+      {
+       "t": "Renewables",
+       "d": "NTPC Green, ReNew, Tata Power Renewables, JSW Neo, Greenko, Avaada. The differentiators are scale, cost of capital, land and evacuation (transmission), and storage."
+      },
+      {
+       "t": "Transmission and distribution",
+       "d": "Power Grid (the largest), Tata Power, Resonia (ex-Sterlite Power), IndiGrid. Smart meters: Genus, IntelliSmart (now with AESL), Tata Power."
+      },
+      {
+       "t": "City gas",
+       "d": "IGL, MGL, Gujarat Gas, Torrent Gas, AG&P. Economics depend on APM gas allocation and CNG penetration."
+      },
+      {
+       "t": "Cement",
+       "d": "UltraTech (the leader, over 180 MTPA), Shree, Dalmia, JK Cement, Nuvoco. It is a regional, logistics-driven, cost-led industry."
+      },
+      {
+       "t": "Airports",
+       "d": "GMR (Delhi, Hyderabad, Goa), Fairfax (Bengaluru), AAI. Returns are driven by regulated aero tariffs (AERA) plus non-aero revenue."
+      },
+      {
+       "t": "Data centres",
+       "d": "NTT, CtrlS, Yotta, Sify, STT GDC, plus Reliance and the hyperscalers' own builds. The binding constraints are power and land."
+      },
+      {
+       "t": "Defence",
+       "d": "HAL, BEL, L&T, Tata Advanced Systems, Bharat Forge (Kalyani), Solar Industries."
+      }
+     ]
+    },
+    {
+     "h": "Policy levers",
+     "items": [
+      {
+       "t": "ISTS waiver taper",
+       "d": "The 100% inter-state transmission charge waiver covered solar and wind commissioned by 30 June 2025 and now steps down 25% a year. Co-located BESS keeps the full waiver until June 2028, and PSP keeps it for projects awarded by June 2028.",
+       "tag": "regulator"
+      },
+      {
+       "t": "RDSS smart metering",
+       "d": "20.33 crore smart meters are sanctioned, but only about 7.24 crore were installed across all schemes by mid-2026. This is the market AESL's metering business is chasing.",
+       "tag": "regulator"
+      },
+      {
+       "t": "Storage push",
+       "d": "Viability gap funding for 43.8 GWh of BESS; PLI for advanced chemistry cells (₹18,100 cr, 50 GWh); tariff-based bidding guidelines for BESS and PSP.",
+       "tag": "regulator"
+      },
+      {
+       "t": "SHANTI Act 2025 (nuclear)",
+       "d": "Opens nuclear to private players under licence. Rules are still being framed. The national target is 100 GW by 2047.",
+       "tag": "regulator"
+      },
+      {
+       "t": "Capacity momentum",
+       "d": "India added about 55.3 GW of non-fossil capacity in FY26, including 44.6 GW of solar.",
+       "tag": "regulator"
+      },
+      {
+       "t": "Ports and aviation",
+       "d": "Sagarmala and Maritime India Vision 2030 (port capacity, coastal shipping); UDAN regional connectivity; AERA tariff orders."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "t": "PIB: ISTS waiver framework",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241170"
+    },
+    {
+     "t": "PIB: RDSS smart meters",
+     "u": "https://pib.gov.in/PressReleasePage.aspx?PRID=2222217"
+    }
+   ],
+   "tldr": [
+    "Every vertical has a strong state or private rival (NTPC, Power Grid, UltraTech, GMR).",
+    "Policy moves the economics: the ISTS waiver taper, RDSS, storage VGF and the SHANTI Act."
+   ],
+   "icon": "⚖"
+  },
+  {
+   "id": "playbook",
+   "title": "Intern playbook",
+   "minutes": 4,
+   "lede": "Knowing a hundred facts won't set you apart. What sets you apart is connecting one project-level KPI to a group-level thesis, then naming what could break it.",
+   "blocks": [
+    {
+     "h": "Before day one (now to March 2027)",
+     "items": [
+      {
+       "t": "Every day",
+       "d": "Listen to the morning briefing (five minutes) and do one flashcard round."
+      },
+      {
+       "t": "Every week",
+       "d": "Read one primary document, such as a results presentation or an investor deck, and write three bullet takeaways."
+      },
+      {
+       "t": "Once your vertical is allotted",
+       "d": "Set it as your focus in content/settings.json. The briefing will then prioritise it."
+      }
+     ]
+    },
+    {
+     "h": "During the internship",
+     "items": [
+      {
+       "t": "Days 1–20: map the system",
+       "d": "Who owns what, the five to seven KPIs that matter, and the decision-makers."
+      },
+      {
+       "t": "Days 21–45: understand the economics",
+       "d": "Unit economics, capex intensity, contracts (PPA, concession, take-or-pay) and value drivers."
+      },
+      {
+       "t": "Days 46–60: think like management",
+       "d": "Deliver a five-slide memo: where value can be created or destroyed, with numbers."
+      }
+     ]
+    },
+    {
+     "h": "Questions seniors ask",
+     "items": [
+      {
+       "t": "Why is Mundra strategic?",
+       "d": "It is an industrial operating system, not just a port. Port, SEZ, power, copper, solar manufacturing and logistics sit in one cluster."
+      },
+      {
+       "t": "Why does AEL exist alongside the listed companies?",
+       "d": "Incubation lets new infrastructure businesses de-risk before they can raise capital on their own."
+      },
+      {
+       "t": "Why do renewables need transmission and storage?",
+       "d": "Generation is intermittent and far from demand. Without evacuation, capacity gets curtailed, which is exactly AGEL's H1 issue."
+      },
+      {
+       "t": "Is Evos a good deal?",
+       "d": "Weigh the hard-currency, take-or-pay cash flows and the 56% margin against an 11.7x multiple, debt funding (about 2.76x pro forma leverage) and integration risk."
+      },
+      {
+       "t": "What's the biggest risk to the model?",
+       "d": "Execution, capital intensity, cost of capital and regulatory or reputational risk. The answer differs for each business."
+      }
+     ]
+    }
+   ],
+   "tldr": [
+    "Before you join: a 5-minute briefing and flashcards every day.",
+    "During the internship: map the business, then its economics, then write a management memo.",
+    "Link one KPI to one group thesis to one risk."
+   ],
+   "icon": "✓"
+  }
+ ]
+}

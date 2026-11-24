@@ -1,0 +1,493 @@
+{
+ "terms": [
+  {
+   "t": "EBITDA",
+   "d": "Earnings before interest, tax, depreciation and amortisation. A proxy for operating cash generation, and the main yardstick for infrastructure because depreciation is large.",
+   "cat": "finance",
+   "alias": [
+    "EBITDA"
+   ]
+  },
+  {
+   "t": "Net debt / EBITDA",
+   "d": "How many years of operating cash it would take to repay net debt. APSEZ caps itself at 2.5x; renewable developers in build mode run 5–6x.",
+   "cat": "finance",
+   "alias": [
+    "net debt to EBITDA",
+    "Net debt / EBITDA",
+    "net debt-to-EBITDA",
+    "Net debt-to-EBITDA"
+   ]
+  },
+  {
+   "t": "EV/EBITDA",
+   "d": "Enterprise value divided by EBITDA. The standard multiple for infrastructure M&A; APSEZ paid 11.7x CY25 for Evos.",
+   "cat": "finance",
+   "alias": [
+    "EV/EBITDA"
+   ]
+  },
+  {
+   "t": "Run-rate EBITDA",
+   "d": "Annualised EBITDA of the assets already operating, including those commissioned only recently. AGEL uses it for leverage ratios.",
+   "cat": "finance",
+   "alias": [
+    "run-rate EBITDA"
+   ]
+  },
+  {
+   "t": "Cash profit",
+   "d": "PAT plus depreciation, deferred tax and exceptional items. AGEL reports it to show cash generation that accounting profit hides.",
+   "cat": "finance",
+   "alias": [
+    "cash profit"
+   ]
+  },
+  {
+   "t": "Capex intensity",
+   "d": "Capital expenditure relative to revenue or EBITDA. It explains why financing access is the central constraint for the group.",
+   "cat": "finance",
+   "alias": [
+    "capex intensity",
+    "capital intensity"
+   ]
+  },
+  {
+   "t": "Take-or-pay",
+   "d": "A contract in which the customer pays for reserved capacity whether it uses it or not. It underpins Evos and many port and gas contracts.",
+   "cat": "contracts",
+   "alias": [
+    "take-or-pay"
+   ]
+  },
+  {
+   "t": "PPA",
+   "d": "Power Purchase Agreement. A long-term (often 25-year) contract to sell power at a fixed or formula tariff to a discom or corporate buyer.",
+   "cat": "contracts",
+   "alias": [
+    "PPA",
+    "PPAs"
+   ]
+  },
+  {
+   "t": "PSA",
+   "d": "Power Supply Agreement. The thermal-side equivalent of a PPA (for example, Adani Power's 1,320 MW PSA with Uttarakhand).",
+   "cat": "contracts",
+   "alias": [
+    "PSA"
+   ]
+  },
+  {
+   "t": "LoA",
+   "d": "Letter of Award. The buyer's notice that a bid has won; the formal PPA or contract follows.",
+   "cat": "contracts",
+   "alias": [
+    "LoA",
+    "LOA"
+   ]
+  },
+  {
+   "t": "TBCB",
+   "d": "Tariff-Based Competitive Bidding. Transmission and storage projects are awarded to the lowest annual tariff bid for 35 years; this is how AESL wins its lines.",
+   "cat": "contracts",
+   "alias": [
+    "TBCB"
+   ]
+  },
+  {
+   "t": "RE-RTC",
+   "d": "Renewable round-the-clock power. Renewables combined with storage or other sources to supply firm power around the clock (for example, AESL's WBSEDCL award).",
+   "cat": "power",
+   "alias": [
+    "RE-RTC",
+    "round-the-clock"
+   ]
+  },
+  {
+   "t": "FDRE",
+   "d": "Firm and Dispatchable Renewable Energy. Tenders requiring renewables to meet demand-following supply profiles.",
+   "cat": "power",
+   "alias": [
+    "FDRE"
+   ]
+  },
+  {
+   "t": "PLF",
+   "d": "Plant Load Factor. Actual output as a share of the maximum possible for thermal plants; Adani Power ran at 70.1% in Q2 FY27.",
+   "cat": "power",
+   "alias": [
+    "PLF"
+   ]
+  },
+  {
+   "t": "CUF",
+   "d": "Capacity Utilisation Factor. The renewable equivalent of PLF; solar typically runs 20–30%, wind 25–40%.",
+   "cat": "power",
+   "alias": [
+    "CUF"
+   ]
+  },
+  {
+   "t": "Curtailment",
+   "d": "When the grid cannot absorb generation and the plant is told to back down. Lost revenue for renewables, and a symptom of weak transmission.",
+   "cat": "power",
+   "alias": [
+    "curtailment"
+   ]
+  },
+  {
+   "t": "BESS",
+   "d": "Battery Energy Storage System, measured in MW (power) and MWh/GWh (energy). AGEL had 6.63 GWh installed by Q2 FY27.",
+   "cat": "power",
+   "alias": [
+    "BESS"
+   ]
+  },
+  {
+   "t": "PSP",
+   "d": "Pumped Storage Project. Water is pumped uphill when power is cheap and released through turbines when it is needed. Tarali is AGEL's 1,500 MW PSP.",
+   "cat": "power",
+   "alias": [
+    "PSP",
+    "pumped storage"
+   ]
+  },
+  {
+   "t": "ISTS",
+   "d": "Inter-State Transmission System. Its charge waiver for renewables tapers 25% a year after June 2025.",
+   "cat": "power",
+   "alias": [
+    "ISTS"
+   ]
+  },
+  {
+   "t": "ckm",
+   "d": "Circuit kilometres. Transmission line length multiplied by the number of circuits; AESL operates about 29,800 ckm.",
+   "cat": "power",
+   "alias": [
+    "ckm"
+   ]
+  },
+  {
+   "t": "Discom",
+   "d": "Distribution company that sells power to end consumers (for example AEML in Mumbai). Discom finances drive payment risk for generators.",
+   "cat": "power",
+   "alias": [
+    "discom",
+    "discoms"
+   ]
+  },
+  {
+   "t": "RDSS",
+   "d": "Revamped Distribution Sector Scheme (2021). Central scheme funding loss reduction and about 20 crore smart meters.",
+   "cat": "policy",
+   "alias": [
+    "RDSS"
+   ]
+  },
+  {
+   "t": "AT&C losses",
+   "d": "Aggregate Technical and Commercial losses: power that is lost or not billed or collected. Smart meters aim to reduce them.",
+   "cat": "power",
+   "alias": [
+    "AT&C"
+   ]
+  },
+  {
+   "t": "SHAKTI",
+   "d": "Coal linkage allocation policy that gives power plants assured coal supply tied to PPAs.",
+   "cat": "policy",
+   "alias": [
+    "SHAKTI"
+   ]
+  },
+  {
+   "t": "SHANTI Act 2025",
+   "d": "Nuclear law notified in December 2025 that opens nuclear power to licensed private players. Its rules are still being framed.",
+   "cat": "policy",
+   "alias": [
+    "SHANTI Act"
+   ]
+  },
+  {
+   "t": "PLI",
+   "d": "Production Linked Incentive. Subsidies tied to domestic manufacturing output (solar modules, battery cells); relevant to ANIL.",
+   "cat": "policy",
+   "alias": [
+    "PLI"
+   ]
+  },
+  {
+   "t": "MMT / MTPA",
+   "d": "Million metric tonnes (cargo handled) / million tonnes per annum (capacity: ports, cement).",
+   "cat": "ports",
+   "alias": [
+    "MMT",
+    "MTPA"
+   ]
+  },
+  {
+   "t": "TEU",
+   "d": "Twenty-foot equivalent unit, the standard measure of container volume.",
+   "cat": "ports",
+   "alias": [
+    "TEU",
+    "TEUs"
+   ]
+  },
+  {
+   "t": "Draft",
+   "d": "Water depth at a berth. Deeper draft lets larger ships call; Mundra and Vizhinjam are deep-draft ports.",
+   "cat": "ports",
+   "alias": []
+  },
+  {
+   "t": "Transshipment",
+   "d": "Moving cargo from one ship to another at a hub port. Vizhinjam aims to capture India's transshipment that today goes via Colombo and Singapore.",
+   "cat": "ports",
+   "alias": [
+    "transshipment"
+   ]
+  },
+  {
+   "t": "MMLP",
+   "d": "Multi-Modal Logistics Park, linking rail, road and warehousing inland; part of APSEZ's 'shore-to-door' offering.",
+   "cat": "ports",
+   "alias": [
+    "MMLP",
+    "MMLPs"
+   ]
+  },
+  {
+   "t": "SEZ",
+   "d": "Special Economic Zone, an industrial land area with tax and customs benefits. Mundra SEZ hosts group manufacturing.",
+   "cat": "ports",
+   "alias": [
+    "SEZ"
+   ]
+  },
+  {
+   "t": "Aero vs non-aero revenue",
+   "d": "Aero comes from regulated landing and passenger charges (set by AERA). Non-aero comes from retail, F&B, parking and city-side real estate, which drives airport value.",
+   "cat": "airports",
+   "alias": [
+    "non-aero"
+   ]
+  },
+  {
+   "t": "AERA",
+   "d": "Airports Economic Regulatory Authority. It sets aeronautical tariffs at major airports.",
+   "cat": "airports",
+   "alias": [
+    "AERA"
+   ]
+  },
+  {
+   "t": "ATM",
+   "d": "In aviation, Air Traffic Movement: one take-off or landing.",
+   "cat": "airports",
+   "alias": [
+    "ATMs"
+   ]
+  },
+  {
+   "t": "Hyperscale",
+   "d": "Very large data-centre capacity leased to cloud and AI firms; measured in MW of IT load, not square feet.",
+   "cat": "digital",
+   "alias": [
+    "hyperscale"
+   ]
+  },
+  {
+   "t": "PUE",
+   "d": "Power Usage Effectiveness: total facility power divided by IT power. Lower is better, with 1.2–1.4 considered efficient.",
+   "cat": "digital",
+   "alias": [
+    "PUE"
+   ]
+  },
+  {
+   "t": "Cost per tonne (PMT)",
+   "d": "The key cement metric. Ambuja targets about ₹4,000 per tonne by FY28 through green power, logistics and fuel savings.",
+   "cat": "cement",
+   "alias": [
+    "per tonne",
+    "PMT"
+   ]
+  },
+  {
+   "t": "Clinker",
+   "d": "The intermediate product of a cement kiln, ground with gypsum or fly ash to make cement. Clinker capacity limits cement capacity.",
+   "cat": "cement",
+   "alias": [
+    "clinker"
+   ]
+  },
+  {
+   "t": "Grinding unit (GU)",
+   "d": "A plant that grinds clinker into cement close to markets, cutting lead distance and freight costs.",
+   "cat": "cement",
+   "alias": [
+    "grinding unit",
+    "grinding units"
+   ]
+  },
+  {
+   "t": "WHRS",
+   "d": "Waste Heat Recovery System, which generates power from kiln exhaust heat. It is part of cement decarbonisation.",
+   "cat": "cement",
+   "alias": [
+    "WHRS"
+   ]
+  },
+  {
+   "t": "LODR",
+   "d": "SEBI Listing Obligations and Disclosure Requirements regulations, which govern related-party disclosures and other listed-company obligations.",
+   "cat": "legal",
+   "alias": [
+    "LODR"
+   ]
+  },
+  {
+   "t": "MPS",
+   "d": "Minimum Public Shareholding: listed companies must keep at least 25% public float. It was the subject of a SEBI order in September 2026.",
+   "cat": "legal",
+   "alias": [
+    "MPS",
+    "minimum public shareholding",
+    "minimum-public-shareholding"
+   ]
+  },
+  {
+   "t": "Settlement order (SEBI)",
+   "d": "A proceeding disposed of on payment without admitting or denying wrongdoing. SEBI can restore it if representations prove untrue.",
+   "cat": "legal",
+   "alias": [
+    "settlement order"
+   ]
+  },
+  {
+   "t": "Dismissed with prejudice",
+   "d": "A US case dismissal that bars refiling the same claims. It is not a factual finding of innocence.",
+   "cat": "legal",
+   "alias": [
+    "with prejudice"
+   ]
+  },
+  {
+   "t": "NBWL",
+   "d": "National Board for Wildlife. It must clear projects in or near protected areas or eco-sensitive zones (the issue at Tarali).",
+   "cat": "legal",
+   "alias": [
+    "NBWL"
+   ]
+  },
+  {
+   "t": "NCLT",
+   "d": "National Company Law Tribunal. It sanctions mergers such as Ambuja with ACC and Orient.",
+   "cat": "legal",
+   "alias": [
+    "NCLT"
+   ]
+  },
+  {
+   "t": "Incubation model",
+   "d": "Adani's practice of starting new businesses inside AEL and separating them (listing or demerger) once mature.",
+   "cat": "strategy",
+   "alias": [
+    "incubator",
+    "incubation"
+   ]
+  },
+  {
+   "t": "Capital recycling",
+   "d": "Selling minority stakes in operating assets to long-term investors to fund new builds, as in Adani Airports with 360 ONE.",
+   "cat": "strategy",
+   "alias": [
+    "capital recycling"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "q": "What is APSEZ's ceiling for net debt to EBITDA?",
+   "a": "Up to 2.5x. It was 1.8x at Q2 FY27, and about 2.76x pro forma with Evos."
+  },
+  {
+   "q": "AGEL's operational renewable capacity at H1 FY27?",
+   "a": "20.8 GW, with 6.63 GWh of BESS. The target is 50 GW by 2030."
+  },
+  {
+   "q": "What did APSEZ agree to buy in November 2026, and at what value?",
+   "a": "Evos B.V., a European liquid-storage operator with 8 terminals in 5 countries, at an enterprise value of €2.56 bn (11.7x EV/EBITDA)."
+  },
+  {
+   "q": "Domestic ports EBITDA margin in Q2 FY27?",
+   "a": "72.5%."
+  },
+  {
+   "q": "APSEZ's all-India cargo and container share (Q2 FY27)?",
+   "a": "27.3% of cargo and 44.4% of containers."
+  },
+  {
+   "q": "Adani Power's operating capacity and Q2 FY27 PLF?",
+   "a": "18,150 MW at a 70.1% PLF, with 23,720 MW under expansion."
+  },
+  {
+   "q": "AESL's transmission orderbook?",
+   "a": "₹87,222 cr under construction across 15 projects, plus 24.6 mn smart meters on order."
+  },
+  {
+   "q": "Ambuja's cement capacity now, and its targets?",
+   "a": "113.5 MTPA now, 119 MTPA by March 2027 and 155 MTPA by FY30 (₹14,500 cr of capex)."
+  },
+  {
+   "q": "What happened on 22 September 2026 at SEBI?",
+   "a": "A settlement order disposed of the related-party disclosure (LODR) adjudication against five Adani companies, on payment of about ₹1.5 cr."
+  },
+  {
+   "q": "What did the US court do on 10 August 2026?",
+   "a": "It dismissed the criminal case with prejudice after DOJ moved to drop it. This bars refiling but is not a finding of innocence."
+  },
+  {
+   "q": "What is the OFAC settlement?",
+   "a": "AEL agreed to a $275m settlement (May 2026) for apparent Iran-sanctions violations, booked as ₹2,644 cr one-time in Q1 FY27."
+  },
+  {
+   "q": "Why was work stopped at Tarali?",
+   "a": "Maharashtra's forest department said work began without NBWL wildlife approval. It also emerged that the cost submitted to the department had been cut from ₹5,675 cr to ₹56.75 cr. AGEL contests both points."
+  },
+  {
+   "q": "Who is the Group CFO?",
+   "a": "Jugeshinder 'Robbie' Singh."
+  },
+  {
+   "q": "Who is CEO of APSEZ?",
+   "a": "Ashwani Gupta (Whole-Time Director and CEO). Karan Adani is MD."
+  },
+  {
+   "q": "Who heads AGEL and ANIL?",
+   "a": "Vneet S. Jaain: MD of AGEL and CEO of ANIL."
+  },
+  {
+   "q": "When did Navi Mumbai International Airport start operations?",
+   "a": "Commercial operations began on 25 December 2025; international flights followed in July 2026."
+  },
+  {
+   "q": "What valuation did 360 ONE's investment imply for Adani Airports?",
+   "a": "About $18 bn, for roughly 1.55% at ₹2,790 cr (media reports)."
+  },
+  {
+   "q": "AdaniConneX: operational and tied-up capacity?",
+   "a": "94.6 MW operational and 1.2+ GW tied up, including a 240 MW Navi Mumbai hyperscale order."
+  },
+  {
+   "q": "What is the ISTS waiver status for new solar and wind?",
+   "a": "Full waiver ended for projects commissioned after 30 June 2025; it now tapers 25% a year to zero after June 2028."
+  },
+  {
+   "q": "What is the group's one-line strategic thesis?",
+   "a": "Originate, build, operate and integrate infrastructure across adjacent value chains, with AEL as incubator, and now extend physical infrastructure into digital and AI infrastructure."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "note": "Curated forward-looking milestones. 'approx': true = month-level estimate, not a fixed date. NSE board meetings are added automatically each day.",
+ "items": [
+  {
+   "date": "2026-12-15",
+   "approx": true,
+   "title": "One Cement: NCLT final sanction expected",
+   "company": "cement",
+   "kind": "milestone",
+   "detail": "Ambuja expects NCLT approval and effectiveness of the ACC and Orient amalgamations by January 2027. Watch for the NCLT Ahmedabad order.",
+   "source": "Ambuja Q2 FY27 investor deck",
+   "url": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Investor/Investor-Presentations/ACL_Investor-Presentation-1.ashx"
+  },
+  {
+   "date": "2027-01-31",
+   "approx": true,
+   "title": "Q3 FY27 results season (Oct–Dec quarter)",
+   "company": "group",
+   "kind": "results",
+   "detail": "Last year, Q3 results came out between late January and early February (APSEZ Q3 FY26 was announced on 3 Feb 2026). Exact dates appear here automatically once companies notify NSE.",
+   "source": "Pattern from FY26",
+   "url": "https://www.adaniports.com/Newsroom/Media-Releases"
+  },
+  {
+   "date": "2027-03-31",
+   "approx": true,
+   "title": "Ambuja capacity target: 119 MTPA",
+   "company": "cement",
+   "kind": "target",
+   "detail": "5.6 MTPA expected to commission or ramp up in H2 FY27 (Bathinda, Jodhpur, Warisaliganj).",
+   "source": "Ambuja media release, 2 Nov 2026",
+   "url": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Newsroom/2026-media-release/Media-ReleaseAmbuja-Cements-Firms-Up-Its-Next-Growth-Phase-with-30-MTPA-Expansion-by-FY30.ashx"
+  },
+  {
+   "date": "2027-03-31",
+   "approx": true,
+   "title": "Adani Power: Korba II unit 2 commissioning",
+   "company": "power",
+   "kind": "target",
+   "detail": "The second 660 MW unit of Korba Phase II is expected in Q4 FY27; Mahan Phase II follows in early FY28.",
+   "source": "Adani Power Q2 FY27 release",
+   "url": "https://www.adanipower.com/newsroom/media-releases/adani-power-announces-q2-fy27-results"
+  },
+  {
+   "date": "2027-03-31",
+   "approx": true,
+   "title": "AGEL: BESS guidance above 10 GWh for FY27",
+   "company": "agel",
+   "kind": "target",
+   "detail": "6.63 GWh installed by Q2. The company says it may exceed its 10 GWh guidance.",
+   "source": "AGEL H1 FY27 release",
+   "url": "https://www.adanigreenenergy.com/newsroom/media-releases/adani-green-energys-energy-sales-grew-32-percent-yoy-to-25point8-billion-units"
+  },
+  {
+   "date": "2027-04-30",
+   "approx": true,
+   "title": "Q4 FY27 and full-year results season",
+   "company": "group",
+   "kind": "results",
+   "detail": "Full-year results and FY28 guidance usually come late April to mid May.",
+   "source": "Pattern from FY26",
+   "url": ""
+  },
+  {
+   "date": "2027-06-30",
+   "approx": true,
+   "title": "Annual reports, AGMs and ESG reports",
+   "company": "group",
+   "kind": "milestone",
+   "detail": "Integrated annual reports, BRSR (sustainability reports) and AGMs mostly fall in June. Good primary reading.",
+   "source": "Pattern from FY26",
+   "url": ""
+  },
+  {
+   "date": "2028-02-05",
+   "approx": true,
+   "title": "Evos acquisition: indicative completion",
+   "company": "apsez",
+   "kind": "milestone",
+   "detail": "APSEZ gave an indicative completion window of 15 months from 5 November 2026, subject to EU and other approvals and works-council consultation.",
+   "source": "APSEZ Reg. 30 disclosure",
+   "url": "https://www.adaniports.com/-/media/project/ports/investor/corporate-governance/corporate-announcement/other-intimation/agreement-to-acquire-100_-stake-in-evos-bv.pdf"
+  },
+  {
+   "date": "2028-06-30",
+   "approx": true,
+   "title": "Ambuja cost target: about ₹4,000 per tonne (FY28)",
+   "company": "cement",
+   "kind": "target",
+   "detail": "Cost was ₹4,410 per tonne in Q2 FY27. The levers are green power, logistics and fuel.",
+   "source": "Ambuja Q2 FY27 deck",
+   "url": ""
+  },
+  {
+   "date": "2030-03-31",
+   "approx": true,
+   "title": "AGEL 50 GW and Ambuja 155 MTPA targets",
+   "company": "agel",
+   "kind": "target",
+   "detail": "These are long-range targets. Track progress each quarter.",
+   "source": "Company targets",
+   "url": ""
+  }
+ ]
+}

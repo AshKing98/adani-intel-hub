@@ -1,0 +1,62 @@
+{
+ "since-sep": {
+  "hash": "357e1eb409",
+  "file": "audio/modules/since-sep.mp3?v=357e1eb409",
+  "words": 578,
+  "secs": 359
+ },
+ "mental-model": {
+  "hash": "3ce38488b0",
+  "file": "audio/modules/mental-model.mp3?v=3ce38488b0",
+  "words": 170,
+  "secs": 98
+ },
+ "history": {
+  "hash": "ca90463f80",
+  "file": "audio/modules/history.mp3?v=ca90463f80",
+  "words": 186,
+  "secs": 132
+ },
+ "business-map": {
+  "hash": "2f79b10021",
+  "file": "audio/modules/business-map.mp3?v=2f79b10021",
+  "words": 534,
+  "secs": 359
+ },
+ "numbers": {
+  "hash": "04b2153711",
+  "file": "audio/modules/numbers.mp3?v=04b2153711",
+  "words": 209,
+  "secs": 132
+ },
+ "legal": {
+  "hash": "1fe8bf7638",
+  "file": "audio/modules/legal.mp3?v=1fe8bf7638",
+  "words": 358,
+  "secs": 224
+ },
+ "strategy": {
+  "hash": "2196a0ac46",
+  "file": "audio/modules/strategy.mp3?v=2196a0ac46",
+  "words": 193,
+  "secs": 124
+ },
+ "leadership": {
+  "hash": "0418543961",
+  "file": "audio/modules/leadership.mp3?v=0418543961",
+  "words": 225,
+  "secs": 185
+ },
+ "sector": {
+  "hash": "32c75d26b4",
+  "file": "audio/modules/sector.mp3?v=32c75d26b4",
+  "words": 380,
+  "secs": 253
+ },
+ "playbook": {
+  "hash": "d713603456",
+  "file": "audio/modules/playbook.mp3?v=d713603456",
+  "words": 272,
+  "secs": 153
+ }
+}

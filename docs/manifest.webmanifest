@@ -1,0 +1,19 @@
+{
+  "name": "Adani Intel Hub",
+  "short_name": "Adani Hub",
+  "description": "Daily Adani briefing, audio, learning modules and markets.",
+  "start_url": "./#today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E7EBE4",
+  "theme_color": "#0E2433",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "News", "url": "./#news"},
+    {"name": "Flashcards", "url": "./#learn/cards"}
+  ]
+}

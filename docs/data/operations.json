@@ -1,0 +1,941 @@
+{
+ "verified": "2026-11-24",
+ "note": "Operations and general-management lens. Figures are company-reported for the period shown (Q2 FY27 = quarter to 30 Sep 2026, H1 FY27 = six months to 30 Sep 2026, FY26 = year to 31 Mar 2026). Where sources disagree or a number is not disclosed, the card says so. Process steps are generalised from how each model works; they are not internal documents.",
+ "operations": [
+  {
+   "key": "apsez",
+   "name": "Ports and logistics (APSEZ)",
+   "cluster": "transport",
+   "question": "How does a port turn ships into revenue, and where does it lose time?",
+   "flow": [
+    "Vessel plans a call; the port berth planner allocates a berth and tide window",
+    "Pilotage, tug and mooring; berthing begins (the PCS upgrade cut pre-operation berthing time by 24%, per company)",
+    "Cargo is discharged or loaded: conveyors for coal, cranes for containers, pipelines and tanks for liquids",
+    "Yard and storage: dwell time, stacking, customs clearance and inland evacuation by rail or road",
+    "Billing on volume (per tonne or TEU) and on services; marine and logistics add their own revenue lines"
+   ],
+   "kpis": [
+    {
+     "l": "Domestic cargo, Q2 FY27",
+     "v": "118 MMT",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APSEZ Q2 FY27 release"
+    },
+    {
+     "l": "Domestic port EBITDA margin",
+     "v": "72.5%",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APSEZ Q2 FY27 release"
+    },
+    {
+     "l": "Mundra capacity vs throughput",
+     "v": "274 MMT installed, 192 MMT handled (≈70%)",
+     "p": "FY26",
+     "t": "official",
+     "src": "AEL integrated report 2025-26, ports section"
+    },
+    {
+     "l": "Mundra T2 container throughput",
+     "v": "1.48 mn TEU (record)",
+     "p": "FY26",
+     "t": "official",
+     "src": "AEL integrated report 2025-26"
+    },
+    {
+     "l": "Berthing time after PCS upgrade",
+     "v": "−24% pre-operation berthing time",
+     "p": "Company claim",
+     "t": "official",
+     "src": "APSEZ Ambition 2031 investor deck"
+    },
+    {
+     "l": "Berth productivity and turnaround time",
+     "v": "Not disclosed in these sources",
+     "p": "–",
+     "t": "reported",
+     "src": "Ask the ports team for the internal figure"
+    }
+   ],
+   "levers": [
+    "Berth and tide-window planning (more ships per berth)",
+    "Yard dwell time and evacuation speed (rail and road)",
+    "Commodity mix: coal, containers, liquids, RoRo",
+    "Volume growth in the hinterland rather than tariff increases"
+   ],
+   "bottlenecks": [
+    "Rail and road evacuation from the port gate",
+    "Tide windows and weather at deep-draft berths",
+    "Customs and documentation delays",
+    "Dredging and berth maintenance downtime"
+   ],
+   "systems": "Port community systems and a central monitoring hub (company calls it an AI-driven information hub, with NAVIS-based planning that the company says unlocked about 10% capacity).",
+   "ask": "What is the average turnaround time per vessel at Mundra, and what share of cargo leaves by rail?"
+  },
+  {
+   "key": "airports",
+   "name": "Airport operations (AAHL)",
+   "cluster": "transport",
+   "question": "How does an airport make money from more than the landing fee?",
+   "flow": [
+    "Airline schedules and slots set aircraft movements (ATMs)",
+    "Passengers pass security, immigration and check-in; the government sets service-level benchmarks for each step",
+    "Aero revenue comes from regulated charges (set by AERA) per passenger and per aircraft movement",
+    "Non-aero revenue comes from retail, food and beverage, duty free, car parks, lounges, advertising and leases",
+    "City-side land and real estate develop around the terminal over time"
+   ],
+   "kpis": [
+    {
+     "l": "Passengers, H1 FY27",
+     "v": "45.5 mn (vs 46.0 mn H1 FY26)",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Aero yield per passenger (YPP)",
+     "v": "₹550, up 13%",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Non-aero income per passenger (IPP)",
+     "v": "₹961, up 56%",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Non-aero share of revenue",
+     "v": "58% (H1 FY27 mix)",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Security check queue benchmark",
+     "v": "95% of peak passengers wait under 20 min (economy)",
+     "p": "Benchmark",
+     "t": "official",
+     "src": "AEL Q1 FY27 investor deck, operational efficiency"
+    }
+   ],
+   "levers": [
+    "Passenger throughput per gate and per security lane",
+    "Non-aero spend per passenger (food, retail, parking)",
+    "Airline mix and route launches (8 new routes in Q2)",
+    "Cargo handling growth"
+   ],
+   "bottlenecks": [
+    "Peak-hour queues at security and immigration",
+    "Airline slot constraints and fuel prices",
+    "Ramp-up of a new airport such as Navi Mumbai, where costs run ahead of traffic",
+    "Aircraft movement rules and airspace restrictions"
+   ],
+   "systems": "Passenger processing data, queue measurement at each checkpoint, and concession management for retail and F&B partners.",
+   "ask": "How does non-aero income per passenger differ between a mature airport and Navi Mumbai during ramp-up?"
+  },
+  {
+   "key": "power",
+   "name": "Thermal power (Adani Power)",
+   "cluster": "energy",
+   "question": "What decides whether a thermal plant earns its capacity charge?",
+   "flow": [
+    "Long-term PPA or PSA supplies contracted capacity; merchant and short-term sales fill the rest",
+    "Coal is bought (domestic linkage or imported) and moved by rail or conveyor to the plant",
+    "Boilers and turbines generate power; availability and heat rate determine efficiency",
+    "Power is dispatched to the grid by the load despatch centre, and billed as capacity plus energy charges",
+    "Ash is sold or used by cement makers; fuel costs are passed through under most PPAs"
+   ],
+   "kpis": [
+    {
+     "l": "Operating capacity",
+     "v": "18,150 MW",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "APL Q2 FY27 release"
+    },
+    {
+     "l": "Plant load factor (PLF)",
+     "v": "70.1% in Q2 FY27 (62.8% a year ago); 67% in FY26",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APL Q2 FY27 release; FY26 from APL FY26 results"
+    },
+    {
+     "l": "Plant availability",
+     "v": "89% (FY26)",
+     "p": "FY26",
+     "t": "official",
+     "src": "APL FY26 results"
+    },
+    {
+     "l": "PPA tariff realised",
+     "v": "₹6.4/kWh (continuing)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APL Q2 FY27 release"
+    },
+    {
+     "l": "Merchant realisation",
+     "v": "₹7.2/kWh, with 43% lower volumes",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APL Q2 FY27 release"
+    },
+    {
+     "l": "Fuel cost",
+     "v": "₹10,229 cr, up 41.8% (imported coal landed cost up about 50%)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "APL Q2 FY27 release"
+    }
+   ],
+   "levers": [
+    "Plant availability (fewer forced outages)",
+    "PLF, which is driven by contracted and merchant demand",
+    "Coal sourcing mix: linkage, imports, blending",
+    "Merchant versus PPA sales mix",
+    "Ash utilisation, which earns revenue from cement makers"
+   ],
+   "bottlenecks": [
+    "Imported coal prices and freight",
+    "Forced outages on ageing units",
+    "Grid evacuation for new capacity",
+    "Demand swings and weather (monsoon affects hydro and demand)"
+   ],
+   "systems": "Plant monitoring and AI-enabled O&M (the company describes predictive maintenance, anomaly detection and SCADA-based monitoring).",
+   "ask": "How much of the Q2 fuel-cost increase did PPA pass-through recover, and what did it leave on the company's books?"
+  },
+  {
+   "key": "agel",
+   "name": "Renewables (AGEL)",
+   "cluster": "energy",
+   "question": "How does a renewable portfolio keep generating after it is built?",
+   "flow": [
+    "Land and grid connection are secured, then solar, wind or hybrid plants are built in large parks (Khavda is the anchor)",
+    "Plants are commissioned and sell energy under 25-year PPAs at fixed tariffs",
+    "A remote operations centre monitors plants in 12 states; predictive maintenance reduces failures",
+    "Generation is delivered to the grid; transmission and curtailment decide how much is actually sold",
+    "Storage (battery and pumped hydro) adds firm output when the grid can take it"
+   ],
+   "kpis": [
+    {
+     "l": "Operational capacity",
+     "v": "20,763 MW",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AGEL H1 FY27 earnings deck"
+    },
+    {
+     "l": "CUF, FY26 (solar / wind / hybrid)",
+     "v": "24% / 26.6% / 35.2%",
+     "p": "FY26",
+     "t": "official",
+     "src": "AGEL FY26 results compendium"
+    },
+    {
+     "l": "Plant availability, FY26 (solar / wind / hybrid)",
+     "v": "99.2% / 95.6% / 98.5%",
+     "p": "FY26",
+     "t": "official",
+     "src": "AGEL FY26 results compendium"
+    },
+    {
+     "l": "Power supply EBITDA margin",
+     "v": "92–93%",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AGEL H1 FY27 release"
+    },
+    {
+     "l": "Battery storage",
+     "v": "6.63 GWh installed",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AGEL H1 FY27 release"
+    },
+    {
+     "l": "Net debt / run-rate EBITDA",
+     "v": "5.6x",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AGEL H1 FY27 release"
+    }
+   ],
+   "levers": [
+    "Plant availability and O&M response time (MTBF and MTTR)",
+    "Grid access, so curtailment does not cut sales",
+    "Build speed: capacity added per quarter",
+    "Storage that turns intermittent output into firm supply",
+    "Cost of capital on large capex"
+   ],
+   "bottlenecks": [
+    "Transmission and grid access (the company reports delayed grid access as a reason solar output fell short)",
+    "Curtailment by the grid operator during daytime peaks",
+    "Land and environmental approvals (Tarali is the live example)",
+    "Module and equipment supply chain"
+   ],
+   "systems": "Energy network operations centre in Ahmedabad (real-time monitoring of 12 states), predictive-maintenance tools, and an industrial-cloud partnership for analytics.",
+   "ask": "How much generation is lost to grid curtailment each quarter, and does the company have a plan to recover it?"
+  },
+  {
+   "key": "aesl",
+   "name": "Transmission and smart meters (AESL)",
+   "cluster": "energy",
+   "question": "How does a grid company earn fixed returns, and what breaks its schedules?",
+   "flow": [
+    "A transmission project is won by competitive bidding (TBCB) with an annual tariff for about 35 years",
+    "Land rights, forest and environmental clearances, then construction of lines and substations",
+    "Commissioning, then the asset is availability-tested (the regulator pays for availability)",
+    "In Mumbai, the distribution business (AEML) buys, delivers and bills power, and manages losses",
+    "Smart meters are installed on a rollout schedule under state and central programmes"
+   ],
+   "kpis": [
+    {
+     "l": "Transmission system availability",
+     "v": "99.8% (Q2 FY27)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 operational highlights"
+    },
+    {
+     "l": "Transmission network",
+     "v": "29,739 ckm (26,705 a year ago)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 operational highlights"
+    },
+    {
+     "l": "Under-construction transmission orderbook",
+     "v": "₹87,222 cr",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 operational highlights"
+    },
+    {
+     "l": "AEML distribution loss",
+     "v": "3.30% (Q2), 4.29% (H1)",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 operational highlights"
+    },
+    {
+     "l": "Cumulative smart meters installed",
+     "v": "14.8 mn; 1.3 mn installed in Q2",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 operational highlights"
+    },
+    {
+     "l": "Smart-meter orderbook",
+     "v": "24.6 mn meters",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AESL Q2 FY27 results release"
+    }
+   ],
+   "levers": [
+    "Construction pace and capex deployment (transmission capex up 1.7x in H1 FY27)",
+    "Availability of lines, since tariffs depend on it",
+    "Distribution losses and collection efficiency (100.28% in Q2)",
+    "Meter installation per month against the rollout schedule"
+   ],
+   "bottlenecks": [
+    "Right-of-way and forest clearances",
+    "Supply of transformers and conductors",
+    "Installer capacity and consumer acceptance for smart meters",
+    "Payment discipline of state distribution companies"
+   ],
+   "systems": "Substation monitoring, SCADA for lines, and meter-data management for the smart-meter base.",
+   "ask": "Which of the 15 transmission projects is most at risk of delay, and what is the cause?"
+  },
+  {
+   "key": "atgl",
+   "name": "City gas (ATGL)",
+   "cluster": "energy",
+   "question": "How does a city gas network grow, and what can it not control?",
+   "flow": [
+    "Gas is sourced: domestic allocation, long and medium-term LNG or pipeline contracts, and spot market purchases",
+    "Gas is delivered into the city network through steel pipelines to CNG stations and PNG homes",
+    "CNG stations sell fuel to vehicles; PNG meters bill households and industries",
+    "New areas are opened through government-awarded geographical areas (GAs)",
+    "Pricing is set by regulation for some segments, so input-cost shocks can squeeze margins"
+   ],
+   "kpis": [
+    {
+     "l": "Sales volume, Q2 FY27 (standalone)",
+     "v": "315 MMSCM, +12% YoY",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "ATGL Q2 FY27 release"
+    },
+    {
+     "l": "CNG sales, Q2 FY27",
+     "v": "223 MMSCM, +17% YoY",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "ATGL Q2 FY27 release"
+    },
+    {
+     "l": "CNG stations (standalone)",
+     "v": "723, with 16 added in Q2",
+     "p": "30 Sep 2026",
+     "t": "official",
+     "src": "ATGL Q2 FY27 release"
+    },
+    {
+     "l": "PNG home connections",
+     "v": "11.81 lakh, with 39,574 added in Q2",
+     "p": "30 Sep 2026",
+     "t": "official",
+     "src": "ATGL Q2 FY27 release"
+    },
+    {
+     "l": "Steel pipeline network",
+     "v": "16,305 inch-km",
+     "p": "30 Sep 2026",
+     "t": "official",
+     "src": "ATGL Q2 FY27 release"
+    }
+   ],
+   "levers": [
+    "Gas sourcing mix and cost pass-through",
+    "Station utilisation and new station roll-out",
+    "Industrial and commercial connections (higher-volume customers)",
+    "Network expansion into new geographical areas"
+   ],
+   "bottlenecks": [
+    "Gas availability and price (the company cites elevated prices from the West Asia crisis and rupee weakness)",
+    "Government allocation of domestic gas (a revised framework took effect from 5 July 2026)",
+    "Road digging permits and pipeline construction time",
+    "Competition for CNG demand from electric vehicles"
+   ],
+   "systems": "Gas dispatch and SCADA for the network, customer billing for PNG, and station-level sales data.",
+   "ask": "What share of gas cost is passed through to customers within a quarter, and what is the lag?"
+  },
+  {
+   "key": "cement",
+   "name": "Cement (Ambuja, ACC)",
+   "cluster": "materials",
+   "question": "Why is cement a cost game, and what does a plant manager control?",
+   "flow": [
+    "Limestone is quarried and crushed, then fed to a kiln to make clinker (the most energy-intensive step)",
+    "Clinker is ground with gypsum and blended materials into cement, either in an integrated plant or a grinding unit close to the market",
+    "Cement is dispatched by road, rail or ship (captive ships and bulk terminals), mostly to trade channels",
+    "Kiln fuel (coal, petcoke, alternative fuels) and power (green power share) drive the cost per tonne",
+    "Each plant's cost per tonne is compared across the network to decide where to add capacity"
+   ],
+   "kpis": [
+    {
+     "l": "Cement capacity",
+     "v": "113.5 MTPA; 24 integrated and 24 grinding units",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 investor deck"
+    },
+    {
+     "l": "Total cost per tonne",
+     "v": "₹4,410 (₹4,182 excluding geopolitical impact)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 media release"
+    },
+    {
+     "l": "Clinker factor",
+     "v": "66.3%",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 investor deck"
+    },
+    {
+     "l": "Green power share",
+     "v": "61% (48% in Q1)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 media release"
+    },
+    {
+     "l": "Primary lead distance (limestone to plant)",
+     "v": "254 km (from 265 km a year ago)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 media release"
+    },
+    {
+     "l": "Kiln fuel cost",
+     "v": "₹1.87 per '000 kcal (₹1.60 a year ago)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 media release"
+    },
+    {
+     "l": "Consolidated EBITDA per tonne",
+     "v": "₹770",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "Ambuja Q2 FY27 media release"
+    }
+   ],
+   "levers": [
+    "Clinker factor (less clinker per tonne of cement)",
+    "Lead distance: grind near the market",
+    "Green power share and kiln fuel mix (alternative fuels)",
+    "Premium and blended product share",
+    "Fixed-cost absorption through plant utilisation"
+   ],
+   "bottlenecks": [
+    "Petcoke, coal and diesel prices; constrained coal availability",
+    "Monsoon-related demand loss in Q2",
+    "Long clinker haul where grinding units are far from kilns",
+    "Equipment lead times for new lines"
+   ],
+   "systems": "Plant cost reporting per tonne and per '000 kcal, and fleet logistics tracking for trucks and ships.",
+   "ask": "What is the cost gap between the cheapest and the most expensive plant per tonne, and what would close it?"
+  },
+  {
+   "key": "copper",
+   "name": "Copper smelter (Kutch Copper)",
+   "cluster": "materials",
+   "question": "How does a smelter make a margin when its feed costs swing?",
+   "flow": [
+    "Copper feed is bought as concentrate, scrap or recycled anode, and moved to the Mundra complex by sea or rail",
+    "Smelting and refining produce copper cathode; cast rods are made for cable makers",
+    "By-products are recovered: sulphuric acid, gold, silver and selenium",
+    "Product is sold to cable, transmission and industrial buyers; BIS certification and LME registration support pricing",
+    "Utilisation drives fixed-cost absorption; the plant ramps up in stages"
+   ],
+   "kpis": [
+    {
+     "l": "Refined copper capacity",
+     "v": "500 KTPA, with a route to 1 MTPA",
+     "p": "FY26",
+     "t": "official",
+     "src": "AEL copper business page"
+    },
+    {
+     "l": "Plant utilisation",
+     "v": "~64% in Q2 FY27 (company figure; the Aug 2026 deck quoted ~52% for an earlier quarter)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Copper sales volume",
+     "v": "80.6 KT in Q2 (5.8x YoY); 145.3 KT in H1",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Copper EBITDA",
+     "v": "₹2,033 cr",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 earnings call"
+    },
+    {
+     "l": "Sulphuric acid capacity (by-product)",
+     "v": "1,500 KTPA",
+     "p": "FY26",
+     "t": "official",
+     "src": "AEL copper business page"
+    },
+    {
+     "l": "Import dependence",
+     "v": "About 44% of domestic copper consumption",
+     "p": "Company view",
+     "t": "official",
+     "src": "AEL investor deck, Oct 2026"
+    }
+   ],
+   "levers": [
+    "Feedstock procurement and its price (concentrate, scrap, recycled material)",
+    "Utilisation ramp-up",
+    "By-product value (acid, precious metals)",
+    "Power cost (green power helps)"
+   ],
+   "bottlenecks": [
+    "Reliable feed supply, since copper concentrate is largely imported",
+    "Commodity price swings and treatment charges",
+    "Ramp-up of a new smelter, with quality approvals from customers"
+   ],
+   "systems": "Lab quality control with NABL-accredited assays for precious metals, and plant-level production and by-product reporting.",
+   "ask": "How much of the feed is locked in under contracts, and how much is bought on the spot market?"
+  },
+  {
+   "key": "anil",
+   "name": "Solar and wind manufacturing (ANIL)",
+   "cluster": "energy",
+   "question": "How does a manufacturer move from factory capacity to sold output?",
+   "flow": [
+    "Ingots and wafers (2 GW operational), then cells (4 GW operational, 6 GW more due by FY27 end), then modules (10 GW line)",
+    "Wind turbine generators are assembled from blades, towers and nacelles, and listed under the government's approved model list",
+    "Output is sold to group developers (AGEL) first and third parties second, with domestic content rules applying",
+    "Lines are commissioned in stages; output lags nameplate capacity during ramp-up",
+    "Export offtake is balanced against domestic demand"
+   ],
+   "kpis": [
+    {
+     "l": "Module line capacity",
+     "v": "10 GW",
+     "p": "Oct 2026",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Cell line capacity",
+     "v": "4 GW operational; 6 GW due by FY27 end",
+     "p": "Oct 2026",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Module sales, H1 FY27",
+     "v": "2,818 MW (+15% YoY); Q2 1,478 MW, all domestic",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Wind turbine sets, H1 FY27",
+     "v": "99 (+57% YoY)",
+     "p": "H1 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Wind manufacturing capacity",
+     "v": "2.25 GW",
+     "p": "Oct 2026",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    }
+   ],
+   "levers": [
+    "Cell capacity, which is the bottleneck behind module output",
+    "Utilisation of each line during ramp-up",
+    "Domestic content compliance, which secures demand",
+    "Export mix"
+   ],
+   "bottlenecks": [
+    "Module capacity has been built faster than cell capacity",
+    "Equipment supplied from abroad and commissioning time",
+    "Price competition from imported modules"
+   ],
+   "systems": "Line-level production tracking, quality testing, and approved-model lists for wind turbines.",
+   "ask": "When the 6 GW cell line is commissioned, what is the expected utilisation for the first year?"
+  },
+  {
+   "key": "dc",
+   "name": "Data centres (AdaniConneX)",
+   "cluster": "digital",
+   "question": "How fast can a data-centre company turn signed capacity into live megawatts?",
+   "flow": [
+    "A hyperscale customer signs for capacity in megawatts of IT load, usually years before delivery",
+    "Land, grid connection and power purchase are secured first",
+    "Core and shell (buildings) are built, then mechanical and electrical fit-out (MEP)",
+    "Capacity is handed over to the customer in phases",
+    "Uptime and efficiency are managed against service-level agreements"
+   ],
+   "kpis": [
+    {
+     "l": "Operational capacity",
+     "v": "94.6 MW",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 earnings release"
+    },
+    {
+     "l": "Tied-up capacity",
+     "v": "1.2+ GW (including a 240 MW Navi Mumbai order)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 earnings release"
+    },
+    {
+     "l": "Target",
+     "v": "3 GW of tied-up capacity by 2031",
+     "p": "Target",
+     "t": "target",
+     "src": "AEL investor deck, Oct 2026"
+    },
+    {
+     "l": "Uptime reported across data centres",
+     "v": "100% (company claim)",
+     "p": "Q2 FY27",
+     "t": "official",
+     "src": "AEL Q2 FY27 investor deck"
+    },
+    {
+     "l": "Power usage effectiveness (PUE)",
+     "v": "Not disclosed in these sources",
+     "p": "–",
+     "t": "reported",
+     "src": "Ask the team for PUE and its trend"
+    }
+   ],
+   "levers": [
+    "Delivery speed: MW handed over per quarter",
+    "Power sourcing (renewable supply from the group)",
+    "Land and grid readiness for the next site",
+    "Cooling and PUE efficiency"
+   ],
+   "bottlenecks": [
+    "Grid connection and substation timelines",
+    "Equipment lead times for electrical gear",
+    "Construction in phases while live customers are operating",
+    "Power procurement at scale"
+   ],
+   "systems": "Building management systems, power monitoring and SLA reporting to customers.",
+   "ask": "Is delivery measured per phase or per megawatt, and how far is the Navi Mumbai build behind plan?"
+  }
+ ],
+ "gm": {
+  "mindset": [
+   "A general manager owns a P&L across functions, so you must see how a decision in one function moves cost or revenue in another.",
+   "Start every discussion from the operating metric, then the financial impact, then the decision. Not the other way round.",
+   "Always say what you would measure in the first 90 days, and who you would ask for the data."
+  ],
+  "pnl_tree": {
+   "title": "Driver tree for any business",
+   "root": "EBITDA",
+   "branches": [
+    {
+     "n": "Revenue",
+     "kids": [
+      "Volume (tonnes, MW, passengers, MMSCM)",
+      "Price or yield (tariff, cost per tonne, income per passenger)",
+      "Mix (product, route, contract type)"
+     ]
+    },
+    {
+     "n": "Variable cost",
+     "kids": [
+      "Input cost (fuel, power, feedstock)",
+      "Logistics and freight",
+      "Consumables and maintenance"
+     ]
+    },
+    {
+     "n": "Fixed cost",
+     "kids": [
+      "Employees and contractors",
+      "Overheads",
+      "Plant and equipment upkeep"
+     ]
+    }
+   ],
+   "use": "Pick the branch with the biggest unexplained change. Ask which operating metric moved it."
+  },
+  "memo": {
+   "title": "The one-page operations memo",
+   "sections": [
+    "Situation: what changed, with the number and period",
+    "Diagnosis: which driver moved and why (one chart)",
+    "Options: at least two, each with cost, time and risk",
+    "Recommendation and the metric that proves it worked",
+    "Owner, date and the decision you need"
+   ]
+  },
+  "first30": [
+   "Get the business's KPI pack for the last eight quarters and the plan for the year",
+   "Walk the process on the ground: a plant, port berth, station or site office",
+   "Meet the five people who own each step in the flow (ops, maintenance, finance, procurement, customer)",
+   "Map the top three bottlenecks and the data you need to size each one",
+   "Write the first problem statement and agree it with your mentor by day 30"
+  ],
+  "mentor_questions": [
+   "Which one number do you check first every morning, and why?",
+   "What did the last intern get wrong about this business?",
+   "Where are the decisions in this business made, and who makes them?",
+   "What would make you say a project failed, and at what point?"
+  ],
+  "frameworks": [
+   {
+    "n": "Capacity utilisation",
+    "d": "Output divided by available capacity. Fixed costs are spread over more units as utilisation rises, so small utilisation gains can have large margin effects."
+   },
+   {
+    "n": "Working capital cycle",
+    "d": "Days of receivables plus inventory minus days of payables. Cutting it frees cash without any change to profit."
+   },
+   {
+    "n": "Unit economics",
+    "d": "Revenue per unit minus variable cost per unit, times volume, minus fixed cost. Compare a business's unit economics with its nearest competitor's."
+   },
+   {
+    "n": "Payback and project return",
+    "d": "Payback = investment divided by annual cash flow. Also check IRR and NPV at the company's cost of capital."
+   },
+   {
+    "n": "Bottleneck test",
+    "d": "Find the step with the lowest throughput. Raising output anywhere else does not raise total output."
+   }
+  ]
+ },
+ "cases": [
+  {
+   "id": "tarali",
+   "title": "Tarali pumped storage: a permit and a cost question",
+   "setup": "The forest department halted work at AGEL's 1,500 MW Tarali pumped-storage project (13 November 2026). It says work started before the wildlife board's approval. Separately, a cost estimate of ₹5,675 crore was revised to ₹56.75 crore in a filing to the forest department, which reduces the conservation deposit. AGEL says all statutory clearances were obtained and no protected area is involved.",
+   "question": "You are an operations and general management intern on the project team. What do you do in the first week?",
+   "strong_answer_covers": [
+    "Separate the two issues: the permit sequence and the cost filing, which need different owners",
+    "Map the approvals timeline: what was cleared, when, and what is pending at the wildlife board",
+    "Cost the delay: stoppage days, idle contractors, financing carry",
+    "Recommend a single source of truth for documents before any further filing",
+    "Name the stakeholders: forest department, state government, lenders, contractors, local villagers"
+   ],
+   "src": "Indian Express and India Today reports, 16–17 Nov 2026; AGEL statement"
+  },
+  {
+   "id": "meters",
+   "title": "Smart-meter rollout: why not faster?",
+   "setup": "AESL has installed 14.8 million smart meters and holds an orderbook of 24.6 million meters with a revenue potential of about ₹29,500 crore. In Q2 it installed 1.3 million, down from 1.8 million a year earlier.",
+   "question": "The rollout is behind a plan you were given. Where do you look first, and what would you change?",
+   "strong_answer_covers": [
+    "Per-day installation rate by state, by installer and by month",
+    "Consumer acceptance and access issues (locked premises, disputes)",
+    "Installer capacity and training; meter and SIM supply",
+    "Payment and collection setup per state utility",
+    "A weekly dashboard with a clear owner per bottleneck"
+   ],
+   "src": "AESL Q2 FY27 operational highlights and results release"
+  },
+  {
+   "id": "evos",
+   "title": "Evos integration: the first 100 days",
+   "setup": "APSEZ agreed on 5 November 2026 to buy Evos for €2.56 billion enterprise value. Evos runs eight terminals in five European countries with a 56% EBITDA margin. The company gave a 15-month indicative completion window, subject to approvals and works-council consultation.",
+   "question": "Completion is months away. What operating plan do you prepare before closing?",
+   "strong_answer_covers": [
+    "Integration priorities: safety, customer contracts (take-or-pay), IT and reporting",
+    "What not to change in the first 100 days (operating teams, customer relationships)",
+    "Synergy list: procurement, shared services, commercial pricing",
+    "Governance: which decisions need head-office sign-off",
+    "Risks: labour consultation, regulatory conditions, currency exposure"
+   ],
+   "src": "APSEZ Evos release and Reg. 30 disclosure, 5 Nov 2026"
+  },
+  {
+   "id": "nmia",
+   "title": "Navi Mumbai airport: ramping up without losing the service standard",
+   "setup": "Navi Mumbai International Airport began commercial operations on 25 December 2025 and started international passenger services on 15 July 2026. Its passenger numbers are still building while the company carries a large fixed-cost base.",
+   "question": "How do you keep security and immigration queues within the benchmark while passenger numbers are still building?",
+   "strong_answer_covers": [
+    "Queue measurement at each checkpoint, against the 95th-percentile benchmark",
+    "Staffing and lane-opening rules tied to forecast peaks",
+    "Airline schedule coordination to smooth arrival waves",
+    "Non-aero offers that move passengers away from peak queues",
+    "Cost of over-capacity versus the penalty for missing service levels"
+   ],
+   "src": "AEL Q1 and Q2 FY27 investor decks"
+  },
+  {
+   "id": "copper",
+   "title": "Kutch Copper: feed, utilisation and a margin",
+   "setup": "The Mundra copper plant ran at about 64% of capacity in Q2 FY27, with sales up 5.8 times year on year. It buys feed that is largely imported and has agreed a recycled-copper supply deal reported at about $1 billion over three years.",
+   "question": "Utilisation is 64%. Would you push for higher output or look for a different constraint first?",
+   "strong_answer_covers": [
+    "Check whether feed or the plant is the constraint before you push volume",
+    "Unit margin at each utilisation level, including by-product credits",
+    "Feed contract cover and price risk; spot versus term share",
+    "Quality and customer approvals as a gating step for new volume",
+    "A test plan: one pilot line or month before scaling"
+   ],
+   "src": "AEL Q2 FY27 earnings call and investor deck; CNBC-TV18 report on the Attero deal"
+  }
+ ],
+ "metrics_cheatsheet": [
+  {
+   "t": "Plant availability",
+   "d": "Share of time a plant could run, regardless of whether it was dispatched. High availability with low PLF usually means weak demand, not a fault.",
+   "cat": "ops"
+  },
+  {
+   "t": "Heat rate",
+   "d": "Fuel energy used per unit of electricity sent out. Lower is better. Coal plants are compared on this figure; the sources here do not disclose the fleet heat rate.",
+   "cat": "ops"
+  },
+  {
+   "t": "Clinker factor",
+   "d": "Clinker used per tonne of cement. A lower figure means cheaper cement, because clinker is the costliest step.",
+   "cat": "ops"
+  },
+  {
+   "t": "Primary lead",
+   "d": "Average distance from the limestone mine to the plant. It drives freight cost.",
+   "cat": "ops"
+  },
+  {
+   "t": "Turnaround time (TAT)",
+   "d": "Time from a vessel's arrival to its departure, or a truck's gate-in to gate-out. Shorter means more capacity from the same berth or gate.",
+   "cat": "ops"
+  },
+  {
+   "t": "Yield per passenger (YPP) and income per passenger (IPP)",
+   "d": "Aero income per passenger (YPP) and non-aero income per passenger (IPP). They show how well an airport monetises each traveller.",
+   "cat": "ops"
+  },
+  {
+   "t": "Mean time between failures and to repair (MTBF, MTTR)",
+   "d": "MTBF measures reliability; MTTR measures how fast a fault is fixed. Good O&M raises the first and cuts the second.",
+   "cat": "ops"
+  },
+  {
+   "t": "Overall equipment effectiveness (OEE)",
+   "d": "Availability times performance times quality. A manufacturing score of how much of a line's theoretical output is good output.",
+   "cat": "ops"
+  },
+  {
+   "t": "Working capital days",
+   "d": "Receivable, inventory and payable days combined. Less cash tied up in the cycle means more free cash for the same profit.",
+   "cat": "ops"
+  },
+  {
+   "t": "Kiln fuel cost per '000 kcal",
+   "d": "Cost of the heat the kiln uses, in rupees per thousand kilocalories. The main cement cost lever after clinker factor.",
+   "cat": "ops"
+  }
+ ],
+ "reading": [
+  {
+   "t": "APSEZ Q2 FY27 results release",
+   "u": "https://www.adaniports.com/newsroom/media-releases/one-platform-four-growth-engines-apsez-delivers-24-revenue"
+  },
+  {
+   "t": "APSEZ Ambition 2031 investor presentation",
+   "u": "https://www.adaniports.com/-/media/project/ports/investor/investor-downloads/investors-presentation/investor-presentation---ambition-2031.pdf"
+  },
+  {
+   "t": "AEL Q2 FY27 results presentation (includes AAHL, ANIL, ACX, copper)",
+   "u": "https://www.adanienterprises.com/-/media/project/enterprisesv1/investors/investor-downloads/results-presentations/q2-fy-27.pdf"
+  },
+  {
+   "t": "APL Q2 FY27 release",
+   "u": "https://www.adanipower.com/newsroom/media-releases/adani-power-announces-q2-fy27-results"
+  },
+  {
+   "t": "AGEL H1 FY27 earnings presentation",
+   "u": "https://www.adanigreenenergy.com/-/media/project/greenenergy/investor-downloads/result-presentation-dynamic/agel----earnings-presentation---q2fy27_vf.pdf"
+  },
+  {
+   "t": "AESL Q2 FY27 operational highlights",
+   "u": "https://www.adanienergysolutions.com/-/media/project/transmission/investor/documents/quarterly-operational-highlights/aesl_q2fy27_provisional-operational-highlights_vf.pdf"
+  },
+  {
+   "t": "ATGL Q2 FY27 results",
+   "u": "https://www.adani.com/newsroom/media-releases/adani-total-gas-q2-and-h1fy27-results"
+  },
+  {
+   "t": "Ambuja Q2 FY27 media release",
+   "u": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Newsroom/2026-media-release/Media-Release--Ambuja-Cements-Q2-FY27.ashx"
+  },
+  {
+   "t": "Ambuja Q2 FY27 investor presentation",
+   "u": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Investor/Investor-Presentations/ACL_Investor-Presentation-1.ashx"
+  }
+ ]
+}
