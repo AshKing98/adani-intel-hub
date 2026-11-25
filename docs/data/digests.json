@@ -1,5 +1,246 @@
 [
  {
+  "date": "2026-11-25",
+  "headline": "Adani Group plans $120 billion capex, wins major power supply contract",
+  "summary": "Adani Group outlines a massive $120 billion 5-6 year capex plan, while subsidiary AESL secures a major 1,750 MW renewable energy contract in West Bengal. Adani Airports raises $300 million to expand non-aero infrastructure, and CRISIL upgrades Adani Power's credit rating to AA+.",
+  "stories": [
+   {
+    "id": "99ebc330d81b",
+    "company": "group",
+    "what": "Adani Group plans to invest over $120 billion over the next 5-6 years across infrastructure, energy, and data centres. Reported by Business Standard via a Jefferies research note, the group aims to keep its net debt below 3.5 times EBITDA during this expansion.",
+    "why": "Demonstrates the group's aggressive expansion strategy across core verticals while maintaining leverage discipline.",
+    "evidence": "independent",
+    "watch": "Execution timelines for data centres under AdaniConneX",
+    "terms": [
+     "capex",
+     "EBITDA",
+     "leverage"
+    ],
+    "title": "Adani Group planning $120 bn in capex over next 5-6 years: Jefferies",
+    "url": "https://www.business-standard.com/companies/news/adani-group-plans-120-billion-investment-over-next-5-6-years-jefferies-126112400462_1.html",
+    "source": "Business Standard",
+    "coverage": 9,
+    "also": [
+     {
+      "source": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/companies/adani-targets-120-billion-plus-in-capex-as-group-pitches-leverage-discipline-to-investors-14087956.html"
+     },
+     {
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQOFlVVUN3MXhIWGY4aG9udkZYaDFPcDRjU0hSSS1XdXM0SEZoSDhveUtGajFMUkVfTmhpQklUQWk0dzU2cVpldG12cFR1TEJxbnN4VzU4Tk5rdU40aEgxcncyTXhHWVk4NXdhMVNhaEVNU01zVVRRNHJwaDM4dHRUQzVtT29keGZfckl2bEozTFZiaFAwOW5TbVhMVi1HcWh1a1NOcWhRNWEybXpuWGtVUUwxeUxTbXBpekxQOFltSmNmYkZTOVhOaUR1NGg0aUVNcjE5VHZzU2IyamZ0R0VWbzdyazNlOWZ0ZlVTb2FITnpYMDIwdnJoV2JadTdFMjk2d19ybnhGOFd1eFNkSUpwWtIBowJBVV95cUxPYVRKUmlhWmtSaEpLU0gtbmRLTmdBYjc4MFI0NzI5WVY5VTFXQmNmQVpfV1dWWHF5cGY5ckZkQlFrcFExRk5ld1lYQWE5RGJhVnp3X3pSSlhnUFp0aUtfcDVCQ0VKd3VDRkIxcTN3TG9SX1ZDTkFmek16anNEZ0l3cE5VWjNJdl93ZkNBS3d5RUw4SkZOaDYwbHlROGQ5R2tNUWdEZWoxUTV4ZXN5WFlaZ3BlemhQdjJQSjg3enFNUFJTYlZ2ZDNNb3YyT05QUkNPc01xRzlYSjYxTEhzaU9TV1RFclpkWVlyeFlfcHMxRTNVaW0tTU81cXMxU2VIMmcwbUVPbWZ4VGZXOV9NUnNoTFctZ21NRFNxNTZNRmlOOWdDTWs?oc=5"
+     },
+     {
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUdIB8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUQ?oc=5"
+     },
+     {
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/business/adani-group-bets-big-on-infrastructure-data-centres-with-120-billion-plus-investment-plan-targets-debt-discipline"
+     }
+    ]
+   },
+   {
+    "id": "5968b5f5fadb",
+    "company": "aesl",
+    "what": "Powerpulse Trading Solutions, a subsidiary of Adani Energy Solutions Limited, received a Letter of Award from WBSEDCL to supply 1,750 MW of round-the-clock renewable energy for 25 years starting July 1, 2028. The contract includes a 750 MW greenshoe option.",
+    "why": "Secures long-term cash flow predictability and expands the group's presence in round-the-clock clean energy contracts.",
+    "evidence": "independent",
+    "watch": "Whether WBSEDCL exercises the 750 MW greenshoe option",
+    "terms": [
+     "RE-RTC",
+     "greenshoe option",
+     "e-reverse auction"
+    ],
+    "title": "AESL arm secures 1,750 MW RE-RTC supply contract from WBSEDCL",
+    "url": "https://powerline.net.in/news/aesl-arm-secures-1750-mw-re-rtc-supply-contract-from-wbsedcl-12833057",
+    "source": "Powerline Magazine",
+    "coverage": 8,
+    "also": [
+     {
+      "source": "BW Businessworld",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcm1TT3ptVGRkTTg2dENZU2E2V1hNSmw2blRNbHo2djJuRFN5Si1ZekxjQzE1VmpPa2RZaWFVYnByYnNja1J0X3l3Q211SU1ZRy14TTZoMG9CMERVa3NhS3hpYU9xUGlnSFFBdGFfRWgwbk1GbFNsakwzNmFoSzcybzFzTEtUbGFxTkE0VFFFd0lQUXF2SF9aUTNIQXpWS3hrVDk5ZVdmM2x1ejFhR1R3bEcydEh1VFNzZ1M3UTBn?oc=5"
+     },
+     {
+      "source": "Sahi",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzhlRmhQbWpabGxGa01wemxRbE1QZkxfdWtuM2ZDWDFyMXdtSzBPU1BZVU1vZFVFd2ZqcmhxVEtVRmYyR3I4TFJQNmY3NzFMTFRYU2pBZkNuMUx3SVlsYk03eWVCOEZwMkxCWUN6My1DRndUc2daaUJXV0k0WldzREdmdjFRYzVzLVY5Y0lhZElfblo2SDVHbFFUcjJzSWdBdnF0bHBNSjF0S0lyclE?oc=5"
+     },
+     {
+      "source": "Dainik Jagran MP CG",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLXlHQXVEM2h5WG1tcUgxalIybGdxY1FZaUViNG81VElTcFgtaGRBWGwydmQwcENzdWZ0V0IyTFR1Q3JOYmQtOEF5eUk0a2htak9DbmxWRUtkMTdBRkRPcGVIYlFUSm5fTVhsaWJjNnJZVG5OLURNQUlINEpkNTIzWXVDV1Z3Y21TR1loZ2tmck0yWDB0NTBhZmh4RFZTWXJnU2lTZkE4UU9NeURZeVlBOGs4QnRUUURhU1BuZlpDV2xlTzlx?oc=5"
+     },
+     {
+      "source": "SolarQuarter",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUJTbXRfOEwyYWJSem10aFIzajNQLVBLQkRtSEJKSE5NeGRBdE1CZTlsUmlCVUhZUWllMEMweHkyUTBUX3JxLW5pZTY5a3RtY2ZCWUY1TFZhUHQyeE84VG50VDItUzdVMHdZMTEteVZLbDZoNVgxY2FTNEgzcVV1YzlCQWRBSW5xaU1iaEJJTUtZX2c0d05PRm90V0VBOXNpcE5md2UzclMzQTF4d0x6V0JNOWVTQktsVlJrYl9B?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "20318000557c",
+    "company": "airports",
+    "what": "Adani Airport Holdings signed a binding agreement to raise ₹2,790 crore ($300 million) by selling up to a 1.55% stake to 360 ONE Asset. The funds will be used to develop non-aeronautical commercial infrastructure such as city-side hotels.",
+    "why": "Drives higher margin, non-regulated commercial revenue growth across airport properties.",
+    "evidence": "independent",
+    "watch": "Commercial monetization milestones for airport real estate",
+    "terms": [
+     "non-aero revenue",
+     "equity dilution"
+    ],
+    "title": "Adani Airports chases fast-growing non-aero revenues with latest $300-mn fund raise",
+    "url": "https://www.livemint.com/companies/news/india-adani-airports-raises-300-million-to-boost-non-aero-revenues-11795444352750.html",
+    "source": "Mint",
+    "coverage": 2,
+    "also": [
+     {
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMWlLbWU2OFEwNFg2Q3NSZEZ6TVpOWkl1WkJFdWtCMkJYYjQyZ256T1hHYmRWcFlJaEt6Y2I1MjFDSmlrc2RncFVkeUdqTno1aGZKVTFlcGtSU0F0eFNjeHdXcVhZZ2tTZjBoZmoyUGM5LVBDSzZJSlhIRXlKVVFPb2R1ZUpNbFR2SzBpank3bjJaRFp4Mm5zZ1p5VUdwZC1hSHFhZGdpanREV1RwY3gtT2tWNF9fWjNlYVFuV2pYRS11bEJV0gHKAUFVX3lxTFA2UTVvN1hKTTRKNEZuaW9pVjZIbDYyUnI0YjZIQVBmeERab3ltQXpzMDQ3V081YjhlNVdIZ3F0T0xRSnlYU3hIeVB1TE0tOG1TZWNDd0VvZkl0a194cVZEZ3VXQWI3OHJGVVcySWtlQkt2Q0lwRHNqQ2dUVWZwTmt1T2RhMV9hbTBvQU8wX0NUeEIxTW5DYTRxNkV4QmhhZTVkb3ZWZTY5eTE0MFFfZG01SnVjU1laMGZQZ1VIVzVMRmRESS1zdC1JRmc?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "63c9b347dfff",
+    "company": "power",
+    "what": "CRISIL upgraded Adani Power's credit rating to CRISIL AA+/Stable from CRISIL AA/Stable covering bank loans and NCD facilities worth ₹90,500 crore. The upgrade is attributed to a strong business profile and a high share of power purchase agreements.",
+    "why": "Lowers borrowing costs and signals improving balance sheet strength for thermal assets.",
+    "evidence": "official",
+    "watch": "Impact on future debt refinancing costs",
+    "terms": [
+     "credit rating",
+     "NCD",
+     "PPA"
+    ],
+    "title": "CRISIL upgrades Adani Power's rating to AA+/Stable",
+    "url": "https://www.psuconnect.in/power-sector-news/crisil-upgrades-adani-power-rating-to-aa-stable",
+    "source": "PSU Connect",
+    "coverage": 1,
+    "also": []
+   },
+   {
+    "id": "1bf1e0356b7a",
+    "company": "agel",
+    "what": "The Maharashtra Pollution Control Board directed Adani Green Energy to stop excavation work at its Tarali hydropower project over alleged missing permissions. The company stated the stopped work only involves support facilities, while main components hold statutory clearances.",
+    "why": "Highlights regulatory and environmental compliance friction risk in execution of hydro assets.",
+    "evidence": "independent",
+    "watch": "MPCB response to the company's clarification on support facilities",
+    "terms": [
+     "statutory clearance",
+     "MPCB"
+    ],
+    "title": "Adani’s Tarali project: The dispute over its cost and wildlife fee",
+    "url": "https://indianexpress.com/article/explained/adani-tarali-project-cost-affidavit-wildlife-deposit-row-10976406/",
+    "source": "The Indian Express",
+    "coverage": 4,
+    "also": [
+     {
+      "source": "Sangri Today",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXhSVUNuQ1ZNUl9rVERYZU5nVTBvWHZrYnFTNkpYRTFDMjlLZktKRlMwOFlTY0FCMS1nMVMtcEw3eEF5NGdSX3Nfd3dadThKT2xIdXhKOVVXdGdLSU9vS1lIU3J5ejFnbG9KeVBRNkFic1hlOFB0U2Y4Y2g3d1VZN1ZpOXVpWkQ3ZEY0UWU2aUNlcWt0SEZYaUhWY1VKRjhWNy1qSnZuMVFOQUJWdWfSAbMBQVVfeXFMTi16LVhVNmJ2YlF2LTd4Zk84bUFXdlJDZjJlY0k2OTVVTTNmdUhKZmJLVFlTaHVkdXJOWGxJUFBHZEgxUFE2MnMwT1Rfd3FNTDBWYXZvNmJZWkdCMFZsckdVQnNJQjhnYXhZa2JUYjRNdXlRLWNjUmtDR01IVnJqclJnblBxbG9pT2dleTVucHA4NlRTSWtHSEsyTE9Lb282Nzc2cDFuY3dUbnJGNlprcmtNVlk?oc=5"
+     },
+     {
+      "source": "Prop News Time",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOS1IaTJrYURpODV4d2lfVndqTm9TdE9TZXlvSG5PSXlwbW96VFR4UzBybEs4LV8zMmFTWE8zMnFONVFPeURtdWlXLWNQb1RiTlYtRjh2UC1jb0hsMElfNVk1dy04Q0hZeGV6RHR4YXp3SnJCSkFzZmlmbHZOd1JnSE5TdGlNekhQRUNBZVFkTlBGNjB4TUdXcWRWOXItdTJ0aEVfM3NncDlhNVc2MzJDT3RpUGlyZU5ScGNwSjdPMWtGS0JFXzljY1hWdWdVOFQ5ZHFGcEwzX0FaY1U?oc=5"
+     },
+     {
+      "source": "theopenpress.in",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUTUtiVlBkdDhQMEpXaFY4MGo3bkxfYUQxcEo4VW1pdUVXNUtlUmdyaER3dEpaYUZYbU82NUREZlF5VjhHVGV0RV85LVcwTzR4YjBtYjVSM21OckF4Ul82elBZajRSWjVRX25yUENJYUFEOUFq?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "b9b926936c8c",
+    "company": "group",
+    "what": "Adani signed a 3-year copper supply deal with Attero, as reported by Moneycontrol. India currently holds nearly 1.3 million tonnes per year of refining capacity but remains reliant on imports.",
+    "why": "Secures essential raw material feedstocks for expanding electrical equipment and grid infrastructure businesses.",
+    "evidence": "independent",
+    "watch": "Ramp up of domestic copper processing volume",
+    "terms": [
+     "tpy",
+     "refining capacity"
+    ],
+    "title": "Adani signs 3-year copper supply deal with Attero: Report",
+    "url": "https://www.moneycontrol.com/news/business/companies/adani-signs-3-year-copper-supply-deal-with-attero-report-14087993.html",
+    "source": "Moneycontrol",
+    "coverage": 17,
+    "also": [
+     {
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/latest/corporate/story/adanis-1-billion-copper-deal-with-attero-can-recycled-metal-reduce-indias-import-dependence-569246-2026-11-24"
+     },
+     {
+      "source": "CNBCTV18",
+      "url": "https://www.cnbctv18.com/business/companies/adani-signs-usd-1-billion-copper-supply-deal-with-recycler-attero-to-cut-import-dependence-reuters-20040525.htm"
+     },
+     {
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUjVXaWxRMzZOZGdsLWo3S2MzZnk3YXc0RjRVcGFIZzBVc25Vb2VtVklsSllVSnk1X0htN0JIcWNNbld5YUtnSFVWTUw1dzQ5dmhvNHFsay1ldzB1YlpCWEZnVjc0NTR4T3paMWowV1JidnNWQXZMLU8tNUFzRFFZcEI3aGlhNjdXQnctOEN3dHVMUWNyekxtYWVBd0FlRkZjUzNYenN5MkNDclVGTk1JT1N0c2tiTXc?oc=5"
+     },
+     {
+      "source": "CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWnJ0V05vZTkzNnlmald1WE5WZDR4aDB1YnlySFVRRm1TMndzVjN2dmNITkp5X3BjbXdUdEFsN3JxeFkxZ0U1UlFiNUtjSVZDOWZLdkhsbWFTYlk1aDFidTlndmotb2RvVHlRb2I3UndyYUpMbW1iN0NuZGdPTVR5VTZuVkFUVV9ZWElCcGZ6clNTOVg1alFJc25TMnNjWGxMRVZDQlRNYUh0WkNuUmplT2pZbi1ZWE1KVmZ4bGFLeDJFT1R0SkRuQ19ma3lsMC05dnJRSHdjZlJ4TWRiUDRUVU0wTW43ZmhMeHV30gHwAUFVX3lxTE1GVFpteExhNnRNNHF1SDJQdUVwejZZYVRNb3JDRnI3TEJoSktIakd4NkhsRzBmZlRvaUFyTWtsUW1COXBNeEVpeVhBbjQzRmJ5U2hXVG1NakVfSnNkWE1QdkJ4WVdmSHI0SXpIbkp0SGlDSUtsZzRpOHpkSTNwVFJ6ZW9scDQzamEwNmZfQlU0YkNrTEpQLVEzNzFHY0t6ZkdBWXpCRzAwX0dMbmFfdlQ1Z2hQc012TmdqNWF3NWtmdzhBOE1hd1lFS3BIVm9IazdMbG15QjE5REZ3N3hRM1lISnJSd0pJaTRTNy1uakNfZg?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "2f5085bda6d6",
+    "company": "cement",
+    "what": "Adani Cement announced plans to deploy 410 heavy-duty electric trucks to move clinker and cement, with initial units deployed at its Sanghi plant in Gujarat and full fleet operational by March 2027.",
+    "why": "Reduces carbon intensity in cement logistics while lowering operational fuel costs.",
+    "evidence": "other",
+    "watch": "Target deployment speed ahead of the March 2027 deadline",
+    "terms": [
+     "clinker",
+     "EV fleet"
+    ],
+    "title": "Adani Cement to deploy 410 heavy-duty electric trucks",
+    "url": "https://www.electrive.com/2026/11/23/adani-cement-to-deploy-410-heavy-duty-electric-trucks/",
+    "source": "electrive.com",
+    "coverage": 4,
+    "also": [
+     {
+      "source": "CleanTechnica",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVi1Uc1lPMUFzVHJqT1RCZ1VRN0lmdGt2NFB6QnhwUFFCWDhhWFNzZi1FeWtjSEJQbkZyR1p6eWp5clYxYnhtckhCWDhOQXdLaFAxeExHTTdqczA3UEQ2VGJFRnZKdHQtUktLVEtSNlBRN3hiYzcwN1JNMWM4T2RyMVlyS1pJSXFBdDVtX1A1aW1RSGFJWTFvQkZDcw?oc=5"
+     },
+     {
+      "source": "RTV News",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1Zi01YWpfWTNjcE52Vi1NWWdjTE50ZkNBZGZNb0x0RnVDTGhjRk9ERnRZRVB1eU1fdmFTS3VfaWRKWGx0a1pyazBucVM3aUJNSFhWeERfWmhDOW9POUNJ?oc=5"
+     },
+     {
+      "source": "FlipItMoney",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUG4tZTZxaVY0b0JmUE40T0VlaEZ0bE5fY1AyYU96WkZybWF5ZTREVy0yQlNmRGR3SHBabFhKb1VEZUM0anNfMXl6WnlxRmhwN2U3MlU0aDNDU2Z2T1JScFVFMVJFdmtXN2tzblhfYVZsR3ljcEltazM0clNxQ2k5bm5XeTJwXzlxN0pPOGRqaVUtWFVLTnhHV2xPQm96VTFDemFKLTNYX0lGQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "f989a6d9f717",
+    "company": "defence",
+    "what": "Adani Defence & Aerospace announced that its Bagheera AT1 vehicle-mounted anti-tank guided missile completed No Cost No Commitment demonstration trials at Pokhran. CEO Ashish Rajvanshi stated the system has 60% indigenous content.",
+    "why": "Demonstrates progress in building domestic defence manufacturing capabilities under the Make in India framework.",
+    "evidence": "other",
+    "watch": "Potential procurement orders from the Indian Armed Forces",
+    "terms": [
+     "indigenous content",
+     "NCNC trials"
+    ],
+    "title": "'Screwdrivergiri' at work again? Is Adani's Bagheera AT1 vehicle-mounted anti-tank guided missile a Russian weapon in Indian clothing?",
+    "url": "https://www.defencewatch.in/defence-manufacturing/adani-defences-bagheera-at1-has-60-indigenous-content-says-ceo-ashish-rajvanshi",
+    "source": "The Week",
+    "coverage": 11,
+    "also": [
+     {
+      "source": "Defence Watch",
+      "url": "https://www.defencewatch.in/defence-manufacturing/adani-defences-bagheera-at1-has-60-indigenous-content-says-ceo-ashish-rajvanshi"
+     }
+    ]
+   }
+  ],
+  "concept": {
+   "term": "Greenshoe Option",
+   "explain": "A greenshoe option is a provision in a contract or offer that allows the issuer or seller to expand the transaction size beyond the initial target. In today's power deal, WBSEDCL secured 1,750 MW of power with an option to purchase an extra 750 MW under identical terms. For infrastructure players, it provides a built-in upside to scale revenues without re-bidding."
+  },
+  "question": {
+   "q": "Why is Adani Airports raising private equity for non-aeronautical infrastructure instead of core airport operations?",
+   "a": "Aeronautical revenues are heavily regulated based on cost-plus tariffs set by regulators. Non-aeronautical assets like city-side hotels, retail, and duty-free offer unregulated, higher-margin growth, making equity funding attractive for rapid commercial development."
+  }
+ },
+ {
   "date": "2026-11-24",
   "headline": "Adani expands across airports, green power, defense, and power transmission infrastructure.",
   "summary": "Adani Airport Holdings raised $300 million to boost non-aero revenues, while Adani Energy Solutions secured major renewable supply and transmission contracts in West Bengal and Bihar. Meanwhile, Adani Power received a CRISIL credit rating upgrade, and Adani Defence successfully demonstrated its Bagheera AT1 missile system in Pokhran.",
