@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "date": "2026-11-26",
+  "kind": "daily",
+  "title": "Adani Group expands port footprint, raises airport capital, and secures transmission orders",
+  "file": "audio/daily/2026-11-26.mp3",
+  "words": 548,
+  "secs": 297
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "daily",
+  "title": "Adani Group plans $120 billion capex, wins major power supply contract",
+  "file": "audio/daily/2026-11-25.mp3",
+  "words": 391,
+  "secs": 214
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "weekly",
+  "title": "Week in review",
+  "file": "audio/weekly/2026-11-24.mp3",
+  "secs": 136
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "daily",
+  "title": "Adani expands across airports, green power, defense, and power transmission infrastructure.",
+  "file": "audio/daily/2026-11-24.mp3",
+  "words": 490,
+  "secs": 267
+ }
+]
