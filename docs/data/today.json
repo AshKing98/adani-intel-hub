@@ -1,220 +1,266 @@
 {
  "headline": "Top Adani headlines",
- "summary": "50 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+ "summary": "56 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
  "stories": [
   {
-   "id": "b9b926936c8c",
+   "id": "3bf0a558abf8",
    "company": "group",
-   "what": "India has copper refining capacity of nearly 1.3 million tpy but remains dependent on imported concentrates and refined metal, as some processors operate below capacity, as per the federal mines minis ...",
+   "what": "The Adani Ahmedabad Marathon is gearing up to commemorate its 10th edition on November 29, with prominent institutional partners.",
    "why": "",
    "evidence": "independent",
    "watch": "",
-   "title": "Adani signs 3-year copper supply deal with Attero: Report",
-   "url": "https://www.moneycontrol.com/news/business/companies/adani-signs-3-year-copper-supply-deal-with-attero-report-14087993.html",
-   "source": "Moneycontrol",
-   "coverage": 16,
+   "brief": {
+    "views": [
+     "The Hans India reports: Adani Ahmedabad Marathon celebrates its 10th edition on November 29 with leading partners and World Athletics Global Calendar recognition."
+    ],
+    "extractive": true
+   },
+   "title": "10th Adani Ahmedabad Marathon Brings Together Leading Brands Across Multiple Categories",
+   "url": "https://sportsmintmedia.com/10th-adani-ahmedabad-marathon-brings-together-leading-brands-across-multiple-categories/",
+   "source": "SportsMint Media",
+   "coverage": 6,
    "also": [
     {
-     "source": "Business Today",
-     "url": "https://www.businesstoday.in/latest/corporate/story/adanis-1-billion-copper-deal-with-attero-can-recycled-metal-reduce-indias-import-dependence-569246-2026-11-24"
+     "source": "The Hans India",
+     "url": "https://www.thehansindia.com/sports/adani-ahmedabad-marathon-marks-10th-edition-with-continued-support-from-leading-institutional-partners-1145893"
     },
     {
-     "source": "CNBCTV18",
-     "url": "https://www.cnbctv18.com/business/companies/adani-signs-usd-1-billion-copper-supply-deal-with-recycler-attero-to-cut-import-dependence-reuters-20040525.htm"
+     "source": "Indian Television Dot Com",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWElWLWdtdkd3dXFSYkMtc1VfbzdRZTVqeXVfZDM5bE1QbmZwczF6T0tUV3FsaU9NRjlLU3NEQzRqVWtORTNlNFNnY0FHc3dXejlPXzBwUzZ3ZzJEeXVXN2VRbW43R0NBWVg4LVNGREdOVTJwV3BhQnBzWk5pXzQ5a0Q0ZWo5ZmJtWC1oVHJ3Qm9SUUF6U0Z1U1BILXVyOGpBQlpF?oc=5"
+    },
+    {
+     "source": "NDTV Sports",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUhMUHZnazF3b2tGd29XUnlfSDdfeWFsaGI5RTJ0dWRGa1YtY0JmYkJNOVBlenZ1S3lwM3l4QzZINzU5V0JITXJrTWlNVl91RjdRMXJMd3JwaTRNcGNlSGpLdHk1RUdkaEs2M2lTX0ZlZFdXU3ZxT2ZUbWI5WVJBMENXVTZSRHFCZ0I5Y3RrZFVMdkkzQS1yZ3pObkxsS0RjdVdUaDg4OUpyNE9BaUVQTmxtQ2hBSDRhaU1LbU1mM3JSX1lzSFBEQTFBaER0Tnhtckw0OGtYOVJIUGJjNEE?oc=5"
+    },
+    {
+     "source": "IANS LIVE",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaUNVQ2lWdkhjaTNGTDF3czZyZVpodzJOTUpHU3VYa1ozZkR2Wnh3ZnJ3TDN5THBjQ04zLXZSTncxZ2xoRGY0SGR5ZHhMa3Mzc1dkQjZ1Z05oNjhHZVFjb280SUhoV25xNWxsdHhJSnRvb2xOTi1jZEVVQTZIelJJUjBiWXBRZFRDalVHRlBuN19KbEluQ1ZxWm00eGJyQ0dlWHNUZEdVeC1ydERGT1RzekNNaEJsWVA5eF9IWWtzN0Rpb3MtT2VuaVVTZmtJMWVMUFpTSw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "685e708fc54c",
+   "company": "ael",
+   "what": "Adani Enterprises and Adani Power are planning public bond offerings to raise at least Rs 20 billion ($220 million), according to sources. The fundraising could help revive India",
+   "why": "",
+   "evidence": "independent",
+   "watch": "",
+   "brief": {
+    "views": [
+     "The Economic Times reports: Adani Enterprises and Adani Power are planning public bond offerings to raise at least Rs 20 billion ($220 million), according to sources. The fundraising could help revive India's subdued public debt market, where issuances have lagged the previous fiscal year's levels. Both com",
+     "Moneycontrol reports: 15 Start --> Start --> Start --> Start --> Start --> Start --> Start --> Start --> Start --> --> Trending Topics --> Trending Topics Sensex Today Kalyan Krishnamurthy Monomark Engineering IPO Shapoor Mistry Gold and Silver Price Today --> Adani firms plan public bond sale to rais"
+    ],
+    "extractive": true
+   },
+   "title": "Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr",
+   "url": "https://economictimes.indiatimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/articleshow/136178950.cms",
+   "source": "Business Standard",
+   "coverage": 14,
+   "also": [
+    {
+     "source": "The Economic Times",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/articleshow/136178950.cms"
+    },
+    {
+     "source": "Moneycontrol",
+     "url": "https://www.moneycontrol.com/news/business/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million-14089399.html"
+    },
+    {
+     "source": "Bloomberg.com",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2ZJdmYtYjc2UFM0QzY3Sldoamk2TzVYb0VPMXRPSkpiaDF0a1NSSlBVNXpQZ1lWR3I4YzRBeWs5Yk05UmRlTVQ4d2VYV1MxYXBFVl9WR084RGpoc3NrZkhMUnl0bjYyZjFoMWR4elowMTBia2lYTExLQlR5RUNxLV84em1GTDVfdmNENW5iRl9QbFpEZ2w3a3djcWI3TDdlLWpZdWw0dlVYVUhMR2FVODRhNnY?oc=5"
+    },
+    {
+     "source": "tradersunion",
+     "url": "https://tradersunion.com/news/companies/show/4424096-adani-enterprises-public-bond-india/"
     },
     {
      "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUjVXaWxRMzZOZGdsLWo3S2MzZnk3YXc0RjRVcGFIZzBVc25Vb2VtVklsSllVSnk1X0htN0JIcWNNbld5YUtnSFVWTUw1dzQ5dmhvNHFsay1ldzB1YlpCWEZnVjc0NTR4T3paMWowV1JidnNWQXZMLU8tNUFzRFFZcEI3aGlhNjdXQnctOEN3dHVMUWNyekxtYWVBd0FlRkZjUzNYenN5MkNDclVGTk1JT1N0c2tiTXc?oc=5"
-    },
-    {
-     "source": "CNBC TV18",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWnJ0V05vZTkzNnlmald1WE5WZDR4aDB1YnlySFVRRm1TMndzVjN2dmNITkp5X3BjbXdUdEFsN3JxeFkxZ0U1UlFiNUtjSVZDOWZLdkhsbWFTYlk1aDFidTlndmotb2RvVHlRb2I3UndyYUpMbW1iN0NuZGdPTVR5VTZuVkFUVV9ZWElCcGZ6clNTOVg1alFJc25TMnNjWGxMRVZDQlRNYUh0WkNuUmplT2pZbi1ZWE1KVmZ4bGFLeDJFT1R0SkRuQ19ma3lsMC05dnJRSHdjZlJ4TWRiUDRUVU0wTW43ZmhMeHV30gHwAUFVX3lxTE1GVFpteExhNnRNNHF1SDJQdUVwejZZYVRNb3JDRnI3TEJoSktIakd4NkhsRzBmZlRvaUFyTWtsUW1COXBNeEVpeVhBbjQzRmJ5U2hXVG1NakVfSnNkWE1QdkJ4WVdmSHI0SXpIbkp0SGlDSUtsZzRpOHpkSTNwVFJ6ZW9scDQzamEwNmZfQlU0YkNrTEpQLVEzNzFHY0t6ZkdBWXpCRzAwX0dMbmFfdlQ1Z2hQc012TmdqNWF3NWtmdzhBOE1hd1lFS3BIVm9IazdMbG15QjE5REZ3N3hRM1lISnJSd0pJaTRTNy1uakNfZg?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFRZanhYeGM2UmlOMkhCR3IzZW1KMnZ3X05ISlFYdmJUSHFxN0dWWnZraXZYTU95bjdKd2hoeE5PZnh4bEp3UXZxQjhzR1J6X2R5ZjdaWWFmSTB1cHF3MklYaVk2Si1KZEVsV3NZOGtwOUJXeEpOSFRiNGtLQWd1MEtMYzRHRUJ6RnRCcDJXZmctVk1pRmFmUnZUX0dsemFJa3htenVkUzIwd3VzclJlQnI2OE1lZ3Nx?oc=5"
     }
    ]
   },
   {
-   "id": "99ebc330d81b",
-   "company": "group",
-   "what": "The group plans annual capex of ₹2 trillion-₹2.2 trillion from FY27 to FY31, even as Jefferies estimates its net debt-to-Ebitda ratio at 3.7 times in FY27 and FY28",
+   "id": "c298f28e40a7",
+   "company": "cement",
+   "what": "Ambuja Cements firms up its next growth phase with ~30 MTPA expansion",
    "why": "",
    "evidence": "independent",
    "watch": "",
-   "title": "Adani Group planning $120 bn in capex over next 5-6 years: Jefferies",
-   "url": "https://www.business-standard.com/companies/news/adani-group-plans-120-billion-investment-over-next-5-6-years-jefferies-126112400462_1.html",
-   "source": "Business Standard",
-   "coverage": 9,
-   "also": [
-    {
-     "source": "Moneycontrol",
-     "url": "https://www.moneycontrol.com/news/business/companies/adani-targets-120-billion-plus-in-capex-as-group-pitches-leverage-discipline-to-investors-14087956.html"
-    },
-    {
-     "source": "The Economic Times",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQOFlVVUN3MXhIWGY4aG9udkZYaDFPcDRjU0hSSS1XdXM0SEZoSDhveUtGajFMUkVfTmhpQklUQWk0dzU2cVpldG12cFR1TEJxbnN4VzU4Tk5rdU40aEgxcncyTXhHWVk4NXdhMVNhaEVNU01zVVRRNHJwaDM4dHRUQzVtT29keGZfckl2bEozTFZiaFAwOW5TbVhMVi1HcWh1a1NOcWhRNWEybXpuWGtVUUwxeUxTbXBpekxQOFltSmNmYkZTOVhOaUR1NGg0aUVNcjE5VHZzU2IyamZ0R0VWbzdyazNlOWZ0ZlVTb2FITnpYMDIwdnJoV2JadTdFMjk2d19ybnhGOFd1eFNkSUpwWtIBowJBVV95cUxPYVRKUmlhWmtSaEpLU0gtbmRLTmdBYjc4MFI0NzI5WVY5VTFXQmNmQVpfV1dWWHF5cGY5ckZkQlFrcFExRk5ld1lYQWE5RGJhVnp3X3pSSlhnUFp0aUtfcDVCQ0VKd3VDRkIxcTN3TG9SX1ZDTkFmek16anNEZ0l3cE5VWjNJdl93ZkNBS3d5RUw4SkZOaDYwbHlROGQ5R2tNUWdEZWoxUTV4ZXN5WFlaZ3BlemhQdjJQSjg3enFNUFJTYlZ2ZDNNb3YyT05QUkNPc01xRzlYSjYxTEhzaU9TV1RFclpkWVlyeFlfcHMxRTNVaW0tTU81cXMxU2VIMmcwbUVPbWZ4VGZXOV9NUnNoTFctZ21NRFNxNTZNRmlOOWdDTWs?oc=5"
-    },
-    {
-     "source": "Moneycontrol.com",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUdIB8gFBVV95cUxPbzRtMWpnQ0NGVmZrUDN0SXhQUGFYV1NVenQ5NWQ2N2lnYTYzUzdDX1VFblF4RTZlS0RCeDRnSVN3b1RiSUZKRV8tRlJXaUgzdF9ucVFjVjZRaGlxVVJhaXhvb3k5cDR1MThIS3RzSUN4ME9NM1VMVHdmN05NQUZWUjlWd3Y5eGJpNWxFUGZ3YURIWmtrRFB2M0Vad1lOVEo5ZzV0anlSdDdTRHpyUTV3Tm9MQUFsRFZUbE5fbnFfU1ExanVzME1yWHVCTkFQMkdzaU1YZUc0TWNTRXBYbnNsdVg3N0RjaXNEYW5hZHVDRHRKUQ?oc=5"
-    },
-    {
-     "source": "Free Press Journal",
-     "url": "https://www.freepressjournal.in/business/adani-group-bets-big-on-infrastructure-data-centres-with-120-billion-plus-investment-plan-targets-debt-discipline"
-    }
-   ]
-  },
-  {
-   "id": "1bf1e0356b7a",
-   "company": "agel",
-   "what": "Adani Green’s Tarali hydropower project is facing scrutiny after an affidavit cited a sharply lower cost, reducing the proposed wildlife conservation deposit. Maharashtra has halted work, with an inquiry pending.",
-   "why": "",
-   "evidence": "independent",
-   "watch": "",
-   "title": "Adani’s Tarali project: The dispute over its cost and wildlife fee",
-   "url": "https://indianexpress.com/article/explained/adani-tarali-project-cost-affidavit-wildlife-deposit-row-10976406/",
-   "source": "The Indian Express",
+   "brief": {
+    "views": [
+     "World Cement reports: Ambuja Cements Limited, part of the Adani Portfolio and one of India's leading building materials solutions providers, has firmed up its next phase of expansion, with new greenfield and brownfield projects planned to add ~30 MTPA of cement capacity across key markets. The program",
+     "Global Cement reports: Australia: Calix says it is progressing its partnership with the Adani Group’s Ambuja Cements to develop a commercial-scale demonstration project at the Sanghi cement plant in Gujarat, India. It made the statement at its 2026 Annual General Meeting (AGM) on Monday, 23 November. A"
+    ],
+    "extractive": true
+   },
+   "title": "India: Calix advances carbon capture demonstration project with Ambuja Cements at Sanghi plant",
+   "url": "https://www.worldcement.com/indian-subcontinent/25112026/ambuja-cements-firms-up-its-next-growth-phase-with-30-mtpa-expansion/",
+   "source": "BigMint",
    "coverage": 4,
    "also": [
     {
-     "source": "Sangri Today",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXhSVUNuQ1ZNUl9rVERYZU5nVTBvWHZrYnFTNkpYRTFDMjlLZktKRlMwOFlTY0FCMS1nMVMtcEw3eEF5NGdSX3Nfd3dadThKT2xIdXhKOVVXdGdLSU9vS1lIU3J5ejFnbG9KeVBRNkFic1hlOFB0U2Y4Y2g3d1VZN1ZpOXVpWkQ3ZEY0UWU2aUNlcWt0SEZYaUhWY1VKRjhWNy1qSnZuMVFOQUJWdWfSAbMBQVVfeXFMTi16LVhVNmJ2YlF2LTd4Zk84bUFXdlJDZjJlY0k2OTVVTTNmdUhKZmJLVFlTaHVkdXJOWGxJUFBHZEgxUFE2MnMwT1Rfd3FNTDBWYXZvNmJZWkdCMFZsckdVQnNJQjhnYXhZa2JUYjRNdXlRLWNjUmtDR01IVnJqclJnblBxbG9pT2dleTVucHA4NlRTSWtHSEsyTE9Lb282Nzc2cDFuY3dUbnJGNlprcmtNVlk?oc=5"
+     "source": "World Cement",
+     "url": "https://www.worldcement.com/indian-subcontinent/25112026/ambuja-cements-firms-up-its-next-growth-phase-with-30-mtpa-expansion/"
     },
     {
-     "source": "Prop News Time",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOS1IaTJrYURpODV4d2lfVndqTm9TdE9TZXlvSG5PSXlwbW96VFR4UzBybEs4LV8zMmFTWE8zMnFONVFPeURtdWlXLWNQb1RiTlYtRjh2UC1jb0hsMElfNVk1dy04Q0hZeGV6RHR4YXp3SnJCSkFzZmlmbHZOd1JnSE5TdGlNekhQRUNBZVFkTlBGNjB4TUdXcWRWOXItdTJ0aEVfM3NncDlhNVc2MzJDT3RpUGlyZU5ScGNwSjdPMWtGS0JFXzljY1hWdWdVOFQ5ZHFGcEwzX0FaY1U?oc=5"
+     "source": "Global Cement",
+     "url": "https://www.globalcement.com/news/21532-calix-reports-progress-on-commercial-scale-project-with-ambuja-cements"
     },
     {
-     "source": "theopenpress.in",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUTUtiVlBkdDhQMEpXaFY4MGo3bkxfYUQxcEo4VW1pdUVXNUtlUmdyaER3dEpaYUZYbU82NUREZlF5VjhHVGV0RV85LVcwTzR4YjBtYjVSM21OckF4Ul82elBZajRSWjVRX25yUENJYUFEOUFq?oc=5"
+     "source": "IndexBox",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmJqX3pvVFd1aWlqMGp2U0ZMdWZJWVRWN1J2eFhoMERGUTFjVWhYLWVHd3ZNWldVZGY5RFlNOGx2ZVNTaXNTaDZ4eGozb2FEa1p1NC11NnNKbkxmUGJpSGV5Q0UtSkt5M3o1UkRONE9MN0lOc0t3djFqM0tFNTRvd3YyRmc2VUFVMGU1eHZxN21JMGJHTDJZS05qVU14a0tLbnRSaHNyTQ?oc=5"
     }
    ]
   },
   {
-   "id": "4d034fcf3a88",
-   "company": "airports",
-   "what": "Adani Airports raises $300 million from 360 ONE Asset to expand infrastructure, airport cities, and non-aeronautical services.",
+   "id": "31b9f4262fa2",
+   "company": "group",
+   "what": "The festival, running from November 24 to 29, features 400 publishers, 600 book stalls, literary discussions, cultural performances and interactive activities for children, offering a diverse experience for book lovers.",
    "why": "",
-   "evidence": "official",
+   "evidence": "independent",
    "watch": "",
-   "title": "Adani Airports raises ~USD 300 million primary equity from 360 ONE Asset",
-   "url": "https://www.adani.com/newsroom/media-releases/adani-airports-raises-usd-300-million-primary-equity-from-360-one-asset",
-   "source": "Adani newsroom · Adani Airports",
-   "coverage": 57,
+   "brief": {
+    "views": [
+     "Free Press Journal reports: Mumbai: Adani Group Chairman Gautam Adani on Wednesday attended the Mumbai Book Festival 2026, being held at the University of Mumbai's Kalina campus, which has drawn thousands of book lovers.",
+     "Awaz The Voice reports: Adani Group Chairman Gautam Adani on Wednesday attended the Mumbai Book Festival 2026 and encouraged children and citizens to make the most of the books and learning resources available at the event."
+    ],
+    "extractive": true
+   },
+   "title": "'Read more books, learn from them': Gautam Adani appeals to Indians at Mumbai Book Festival 2026",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-book-festival-2026-gautam-adani-visits-kalina-campus-lauds-students-enthusiasm-calls-initiative-very-unique-video-mumbai-news",
+   "source": "Deccan Herald",
+   "coverage": 14,
    "also": [
     {
-     "source": "Adani",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDFqN3VTNTU3WVBYR0dKRk9FTS1vRTdSemN5V1B3QTM0VjI4RTRQdVhIZmZaNW1QNnV4bmdpcnZtMWRlWmlrcGZ3X210eWRGNmFTTm9lN285YnFaMXZqb191ZUVhUV82aGVpWkh4T0pvN1hsYlpYZHpwYmx4Z2JQUkF2NV9QRUVSTFc5SDhMVncxdm9MZmFnbm9HeGNoWXMyUlUyS2FaYU9Kc2FpOEVkemhraXpaY0Vn?oc=5"
+     "source": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-book-festival-2026-gautam-adani-visits-kalina-campus-lauds-students-enthusiasm-calls-initiative-very-unique-video-mumbai-news"
     },
     {
-     "source": "The Hindu BusinessLine",
-     "url": "https://www.thehindubusinessline.com/markets/adani-airports-to-raise-300-million-from-360-one-asset/article71734749.ece"
+     "source": "Awaz The Voice",
+     "url": "https://www.awazthevoice.in/india-news/gautam-adani-calls-for-wider-readership-at-mumbai-book-festival-71423.html"
     },
     {
-     "source": "CNBCTV18",
-     "url": "https://www.cnbctv18.com/market/stocks/adani-airports-raises-rs-2790-crore-from-360-one-asset-total-fundraise-hits-1-35-billion-20040063.htm"
+     "source": "Rediff Money",
+     "url": "https://money.rediff.com/news/market/gautam-adani-urges-indians-to-read-more-books/58734620261125"
+    },
+    {
+     "source": "IANS LIVE",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcEtCMXVlYVQxWGJFQlZPMWl1U05QcVFhNFFiNkhmVmJiakp1OW5pQnlpQVNrMjlST3ptanhaMk1xOWNkU3BzdExIYmFDQm1GYzZPR2NPSEJYNmwxTHNpYUJxUDQtMExkQ3lhNmJ3YktaaFU4TkIyVHNGYXRlekk4QkY2elZULXlWMmZrWGdpM1BYNlFpQlQ4UGtqZ0d3RHJvX1BDX2prNWZYUHdwMXhldjFrYXJzWXh6dWFuRTR2TWh1SmRzYWc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "cecd079a14c4",
+   "company": "power",
+   "what": "Bangladesh News: One of Adani's two generating power units at its Godda plant in Jharkhand, which supplies 1,496 MW to Bangladesh, is going offline for a scheduled overhaul until December 18. While the maintenance is planned, Bangladesh will have to make do with half the power supply. This comes amid protests and political uncertainties in Bangladesh.",
+   "why": "",
+   "evidence": "independent",
+   "watch": "",
+   "brief": null,
+   "title": "Bangladesh loses half its power supply from Adani's Godda plant as unit is shut down",
+   "url": "https://www.indiatoday.in/world/story/adani-godda-plant-maintenance-halve-bangladesh-power-supply-25-days-sheikh-hasina-itspc-3046755-2026-11-25",
+   "source": "India Today",
+   "coverage": 11,
+   "also": [
+    {
+     "source": "Daily Times Of Bangladesh",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT2cyNHZtMDJiRHVRTko3VnRudmUzSkZGc193TGI0bFBKVHdTUnowdnppS0J5d1BxOGVrVllqUkMtTnkwT3FLOGs4MmZzejh2MzdiNDFXTVMySTJIUExDVkVvWnhsb2wzQmxQcEZKX0pJZTBIeVRmS1hKbGdydzZtTg?oc=5"
+    },
+    {
+     "source": "New Age BD",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDhvSHA1ZENWR3RQdlFzM3VSV2RZZGg0bEZkQmNXWkpWRkwxV1JmUER4WWt4ZmpabUh3MDBNSDM2ckVxcVhNWkw0SW5UTTh3aEFoTnNsN0pmczdaNS03X0NyZWNyelV1MnV6ZWNUMVpHM2VjOE1FVllpTWdYYTBKWFZGeGxmUFQwb2hfaUNTdUpXLUxkc09DdndOaWo?oc=5"
+    },
+    {
+     "source": "Bangladesh Post",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaGRsWkdFdFhHelFyQ19HZWliZG9PN0JUSlJZaVp5blpVV04xX3N3aXAxRnpUQUROVlo2SHk2dUFia093NG1qeVNyQXhZTjdMdXVITDN3YnYyRklkeXh0d1NoZ043VDYyWW1xRENoUlh2dE1va0VqQnd5LXVrTWxfUW9FX0xZS0g2eU51eWljTk9SdWZtMVJTaGtvNXJsVEU?oc=5"
+    },
+    {
+     "source": "Ajker Patrika",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5obUlyWXdVbVJLaEpkVldBTW84d2lGRHdRejdMZ1BDcExCTk1LSk9tXzRNMkJvdlRBSHBWTUZUTWxobzNrWmZPRkpSUEppcjFaX1VnaHYwcHVjbE9ZZnU0ejlnQkdaY1U?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "c2b449e660d7",
+   "company": "apsez",
+   "what": "CAM advises Adani Ports on its proposed 100% acquisition of Evos B.V. through a competitive global auction process.",
+   "why": "",
+   "evidence": "independent",
+   "watch": "",
+   "brief": null,
+   "title": "Cyril Amarchand Mangaldas advises Adani Ports on proposed Evos acquisition",
+   "url": "https://www.scconline.com/blog/post/2026/11/25/cyril-amarchand-mangaldas-adani-ports-evos-acquisition/",
+   "source": "ETLegalWorld",
+   "coverage": 4,
+   "also": [
+    {
+     "source": "SCC Online",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVVk1RFhvM1JDMUNmU2J2MkJtWmxjbVctVl9zUlJ0bDBmZm84YWQ0NDRaZ2hpb3NjV3VIRDZkRjYweThPX0RqZ01TRVk0T29fOTZocXlldzhid0hXR1RRYjFYRThoZ1FNSTdhUV9PSUM3Z2pfSE45dl8wbDhzTGU1Z2lSQlBqaVY2Nng3MktIaGg0OG1HWEFyUXc1eUotYmRSSHl2TQ?oc=5"
+    },
+    {
+     "source": "Bar and Bench",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcF9xY3pvU3RKZVNwSF9UbmlvYkRweU5uWktJYUJKeFAySXJndW1iVTFPVnFDVlI4ZGVCNGRDa0xJOTA0b0UyU2ZkTkp0T1UtQy14QWZnS1BYV0RxTzR2YjRkMFlsTDUtbFRvOGdUckFBbExrNVNDRHdjQVByTXlpSmZ5QmFBM2Jvdy10eUF0N0x5MV9XSWRBOE1PNmhNbG1HRFkyVkhULXl6X1k1cERkRWlSdlpNZEdsV2phSjRVS3FLZGtwZ0HSAdMBQVVfeXFMT0wyUDFNRDlXaFFvdkpmTUpMWUVuT004SVQ5WGhqcTFHYUdNOURQV3lZX1R3Q1pYa09qUmhNclFQV3FRU0RlaU1TTnJVblc2OFVyUFVlTlNxNXgyVmozV3dYWjNfMXZEdmlNX1c2RHVCOTJYXzU0dUpGNTlMRXQ2ODc1Y2stSzN2NHZJWHRMaFAyWTcwNk15Y1BsMEZ0UTJiXzAxZnBUVDgwbkhIaWs1X3hWamtJR2Zya052RWRZYTJwNjE1dF9JT2doejVoUVd4VWdxNA?oc=5"
+    },
+    {
+     "source": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNNkI0VnB3TEtsV19iSnpQX3JibW03S2tzWlFkT29Ba0xqczU5ZkxtbDFoaGFUSHQ0SFJobmxvOVY1WE9RMVBzZTI2QkxjQjZVckpVbWNWMHNNRjF0Tk9QY05YYXFFUFE0endneEtINXdHYXdEeW9EaGUyN2ZUeVBEenY3dE9JNGQyeC1YVVQxRFM1NFRSX1Zmek5HQzlLSHcwc3RCMWJLdTVPV1FhV2dpZHh1WVBNeGx6MWV1bURPRXNnWWRiYnQtbV9uUmo2LW5nZ25hdkRqV05WQS11MFBqTkJqNDZld3lQQ20yTlBfUG4xUmhaU0hIcWgtQ25KMHc4TmlkclNNazF1MnZqdE5HWlhpNzBzVF9ib2d0UGxUSkxxMFpZWS1ycWZLRnp1alpDc2l3Y3lxdHN0NTJ2aHFWd3RRVFRiRjZQZHo2ag?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "298315fe3561",
+   "company": "group",
+   "what": "The deliveries will be made on a month-wise basis in line with the project schedule and are scheduled to be completed by December 31, 2027. The orders are on a delivered-at-site basis.",
+   "why": "",
+   "evidence": "independent",
+   "watch": "",
+   "brief": null,
+   "title": "Diamond Power Infrastructure bags fresh ₹488 crore orders for Adani's Bhadla-Fatehpur HVDC project",
+   "url": "https://www.cnbctv18.com/market/stocks/diamond-power-infrastructure-share-price-bags-fresh-rs-488-crore-orders-for-adanis-bhadla-fatehpur-hvdc-project-20041446.htm",
+   "source": "CNBCTV18",
+   "coverage": 7,
+   "also": [
+    {
+     "source": "Powerline Magazine",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnAyTkNYOGF5czExalNzU1JfVWhaX2xEc25aaW5SSXhnckczQzc1TmgtM0FUcm80Yy1DMmEtV2JVd0ZacmF2OHAzS2RwUEFCbVVLbVJFMFRxNFZfb0wwN0dfbU5KWkVSR3l5cHNHM0g1MVJVOGNSOUJLSkctbzlMMlJ3SXVGUGt1UDQ0Vm9RNENpMUp2Q1NvTVUtbm52OTA3bTFac2lTM2pnbFVabDg1TVhZc0E?oc=5"
+    },
+    {
+     "source": "CNBC TV18",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWHhLdldLTHlibGtUbWp6ZHFjVlZILXBlbzhtMUtObm9uX0RvZW02YjU4ZXVjeTN0aHpRRTU3cTlVdlVsTjg1bFA0VkdEVjB3aFloUm5NS2hjNnJMaWtPejFFclZQYVRmRDh3X2JFSzIxRmE5VVBPZGxMUEFkbHhySWVpejlHWmE4MVc2UG1sZXVvSW1nVXplVGtQMDZVaHY5Rlg3V0hKeFRFRHM5LWpUREw4T01NZWVzdGdkN0NJUERhZnk4WjRYZGFFSTB0VzFpMjA3cVFhYkNJNUMxbFdnZGc2NERERklNVzJIOGd0WWQzaV9hSkHSAfsBQVVfeXFMTkJFd0VCdlNReHhMbWNJU3N6MUZPcTFiY05jblRTZkxkZkpWSm1jZHpxeUFsRDNENElNMk9Ba0xwNEo1a0t6Z21kWUFEZzNhamdhSlY4OUo3WENPT3BZZkZEYjZzYWF6c3R4cHcyYllZaDZBOHhiS0hNQWUtbk1sMm9uZDI2T2YxZlRlVFk0Q2pHb00xYmIyTTZ1cjJtZ2pRM3VraFRhTFg0SzE1MW5hU1lsaUlEeXNZX1ROQWpHa212YnBXczMyUER3a3U3UHM5UGFKUUNteXI4eHlDS2prV2NzQUc1RFpUemo4VGxGVjNia29YcHJkbkh5Tzg?oc=5"
+    },
+    {
+     "source": "Business Standard",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTm1ZNVRBRlhGZUNiTXY4UDBJaU5vXzhQZWJpMXh6SHhwcllKWUZwR3ZYNkZ5MlpYSUg2YXc0bXpHNkpObHhqRUtHcVlhYnYyWXByZ3NfRmp2akx4ZTBkTlB6UW13TGtHNGdNVGppNkx6N1BNUVdYZlhMOUxWSmtDY0hKdF83MmNFWm9aWDFIeFhhY1kyamJkMk80QmJiWHZ2UW9yZDh3LVF5dTF0OTBrTXl3RTJHV1BydmxDUlhwM3RfNWhKYWdhWl9rVGppdmFQR1hJ0gHYAUFVX3lxTFBIZEpmODVfcmZVSGluSmtmY3picnFjNTNBMzAyOVNYVXYySVlKNkJld0hORDl6Uk9hYWwzazVzM0VlOVhUbDVsb0J0UXlNMTVTT0Vta1owUlVJNHN5NUlLelBqTjgyQjdFN0xRWVNnaWlQY0xQd3MyMk1HUWlBZFlNbnZmbVlockpwbVdGanBUOWw2aHRlZlFDNGZqTmoyb2I4N3p6MFhwOUVwMG0xV1hXUkdjbHdBampIdnRWNFpiSnM2SldmZHQ1VTRFVWh5T3pKUVZqTXBwWA?oc=5"
     },
     {
      "source": "The Financial Express",
-     "url": "https://www.financialexpress.com/business/airlines-aviation-adani-airports-raises-rs-2790-crore-from-360-one-asset-at-18-billion-valuation-4391890/"
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOXJYaHVBWFdINDZ4VzdlQ1VFQ2ZuMXg2Y2w1WXFvcXplZmxTaFQ2RzVKZGtTOHFvT1E4NXF2akwzRXRsSlFHNGtNOWRpNlNzb014VTFZTnRMcUQyel94a2tUR0ZGYXZ0TjB5SkFjdXhLNk5Pcm9ZQ1Q4Q1lLZUFGcVdRb0VSY3BlbU5KbVR3Y09IeVV6d0ZkZHlpOE0wZ2tXS2dBU3JKUzU5c1FERUF4dm5OTTZJcFpGNDR4Sjczd0J2WW1aNkdFenZfTTdxTlZMQ3ZmM3JudTnSAd8BQVVfeXFMTzZ6TzNtUTJNYVZ2WU9qQzM0d3Qtb0hjTjNLQ3lGeEl4bldMNkMtdVpLeTk2cFFvcGhjQ0xjT1hidTJoZXBXS255UURmVGFHbmZvWmVHaEllaXhtT2RPRlNSaHB3SjdMMjUyalVLLVZMbTVVSzIyTE85UE12RzV4MVBwLXdYNmdocWlacE5FVmllcEI1TGROandubE1uUkg2dzc3Vi1jOVFPaEo1WV9Mc2gwYmRRVm5Ud0o1cFpncEFubWt0X0F6WHJYU0EzREZtck15NmRwWWhfUnp4U2tUQQ?oc=5"
     }
    ]
   },
   {
-   "id": "280ff013f3cf",
+   "id": "277f69c91cec",
    "company": "group",
-   "what": "New Delhi, Nov 24 (SocialNews.XYZ) The Adani Foundation has supported the accessibility of all 78 episodes of Ramanand Sagar",
+   "what": "Other Releases - Adani Group",
    "why": "",
-   "evidence": "other",
+   "evidence": "official",
    "watch": "",
-   "title": "Adani Foundation supports audio-described Ramayan for blind, low-vision audiences",
-   "url": "https://www.socialnews.xyz/2026/11/24/adani-foundation-supports-audio-described-ramayan-for-blind-low-vision-audiences/amp/",
-   "source": "Social News XYZ",
-   "coverage": 3,
-   "also": [
-    {
-     "source": "Lokmat Times",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0ZNQ1Y2ZWZHcFRENksxUnlhajVzWjBoWkQ4TjVsSWRnYi01UlVXUDdDcVpUM3FqRXp0blhFRTN1UmxXMTkySWZfdlR2eHI5LWxPN3JBUEpfNG1LY2tKU002d2FLM2dTcEFxTWdVUVo3WFV2dlVrUGpjRFdNWUh6OHFGazhuUmhQZ0o2QXNFZ0V6QlFRZzBaTW53dnRBejdxTlN6TS1RWDZhTFZUeW1GWFYwSjU3aWE2bmhqM9IBwgFBVV95cUxQZ2N1RGNOZkZzVEtEWEJDVGw4RkZYQ1Itbi1lRnRwc1FfVmdIWkhhbS1Kc2N3ejZvM2duVjJIZlVIdlkxT1V4V2JOV29vaHZmNzdSb3B6RnBhMDVhQ2RISHhFUWh2MkxQaW5pb3ZsU2ZuZEVvNFgwN1VUaVdUN1lrVnJEem5vb0pjbno5U29pcTZHTm5oV3BjdDZPX0JwNU82VHJFVnBxcDZhRTFqVml6ZktIbm9lNmFEek0wbjNFSUJPdw?oc=5"
-    },
-    {
-     "source": "tennews.in",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGRSRUdFNVJRM05iMzJVaGViZ0VrVHFTaDlIOW5WLV93WXA5UlI0OGhSZFcyd3pab3RyQUxEODJJT1NOQ01fOG9tQ05vcVZXOXpkZGhTRGg2eHhBUVFVUkMwRl84Q0toSlBpbVo2YkVJM3lXNEUzem9xN09SM2xKbm1MMlp6d1R3TjV1RGVtNEVCVjZYdHhQbF9mNmJEWnVYdXc?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1e5ff54b8430",
-   "company": "dc",
-   "what": "The early traction marks a significant step in the Diamond Power’s efforts to diversify beyond the Adani Group, which has dominated its order book.",
-   "why": "",
-   "evidence": "independent",
-   "watch": "",
-   "title": "New data centre cable business helps Diamond Power reduce reliance on Adani Group",
-   "url": "https://www.livemint.com/companies/news/new-data-centre-cable-business-helps-diamond-power-reduce-reliance-on-adani-group-11795442059444.html",
-   "source": "Mint",
-   "coverage": 3,
-   "also": [
-    {
-     "source": "Livemint",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzFoLUdVUVFDazBFTkQ1ZjU0cFJVRC1IdlJKcWtadTRIcmRzZTQ1VFl0c0tOelhLeUR0N0llbnpFX1A0SHBkeUpMeXpBd1BVaVEtdmpoUk9qdTdObWw4WnpQazZ0Nl9BVXpIS1RhUE9tSkNmN1JVcHJhSkItSUpoYWR3QmUzUzVsUXdGMjJtOFdNODRzN0RLWXNUTVRqNlVvYW05Y01NZGt1ZGdJZ0lvWVBDekpHcmpfNmxScGJZTVB3YU1rc0VGanpLT1k1SVpHb1FQck05S1TSAd4BQVVfeXFMUER2cHhIT1k4c2tBNF9ibzJtUUhXRjcxdF9LbXFrWUctLWs5Qlp6N0diTTNsQXJVU0Y2QllJaTRPTXpLSVlHNnpicUxyT09pelpRYUFKc0RaeXVvMXVrUVZuYmJ6R1psZmFnczVtSDY1S0tZMk5KMkppQm5DV3NsUkJPQk5KTGNMTWNfVmdqXzRtbzlCSHR2Zjdhb2RwQnVQalVZdmFXVEVOVFQ5WEJLTjBrZXJobmtiQ2xoNExYVXFxdFc3RlJ0bHQ1WVlDZUEwTGI0c1F3bVAyNE5fc3Bn?oc=5"
-    },
-    {
-     "source": "https://megaproject.com/",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1NjRk5EdXk2SDZEMjNUQ1JLMHZDN0dDSmp2X0FlRW1BSzRMNms5LVdUbXMtcm9VeEJCdWFySkQyWkRRbjRiM3hmMXRLeGRWTHBsMjFTdkZUT2JEOE5adkhYN0RzWEVlVEpOLWNhVHh3aUZ3eGNCVzNfSG12Qm83aEhKb0E5eFdTY0RIVmZBY09FWFN2NkpPRmowYjlUd2ZYRUhYOXRR?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "1453cb4c2e6f",
-   "company": "agel",
-   "what": "The 1,750 MW deal could rise to 2,500 MW if WBSEDCL exercises the greenshoe option, expanding West Bengal’s long-term renewable power procurement.",
-   "why": "",
-   "evidence": "independent",
-   "watch": "",
-   "title": "Adani Energy Receives 1,750 MW RTC Renewable Power Supply Deal from WBSEDCL",
-   "url": "https://www.saurenergy.com/solar-energy-news/adani-energy-solutions-wins-1750-mw-rtc-renewable-power-supply-deal-from-wbsedcl-12832928",
-   "source": "Saur Energy",
-   "coverage": 8,
-   "also": [
-    {
-     "source": "Urban Acres",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX05EbGEwSUpuVjB3RlBQRmUwZEZtTEIwalRiOF9PaEFWRy02ekZqVUlBVl9hSl9ucDBSei1vWEFRX3JsandmdVRRTnlGXzF4X1c0a1lEVEJrdEhSRnlqalJiRFVrR3ZuQXNWcUgtQVVWM203NUtDZm9GUWNuSm5sMXRDWjJHR0ZKN0FCN2I4Sy1uQTVkNjdtbDkwbFJWbUp2?oc=5"
-    },
-    {
-     "source": "https://megaproject.com/",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGxoeDAzT1NCR3hlclU1UEF3YXpKRWZxTTZ3LUhMOFlyLWlyZ2JNMmxhMnpkd3YwUHZnVlpDZDBrQ3h6U2NjZVJReGJXMEIySlE1d2lHalU4MEk5N0J2SUhtNmo3M2JDX1JZeUVIZzNnWjZ0bDZxaFppNmtya0NDN0Q4REh2VGVMTWFyWTMtYnhvWUw4dWEteU1PWDFXcW9lX19tRU5qMWNEdw?oc=5"
-    }
-   ]
-  },
-  {
-   "id": "7fbd1c34b213",
-   "company": "group",
-   "what": "Shiv Nadar tops India’s philanthropy list with ₹2,593 crore donation; Adani’s giving jumps 127%.",
-   "why": "",
-   "evidence": "independent",
-   "watch": "",
-   "title": "From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?",
-   "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478",
-   "source": "ET Education",
-   "coverage": 3,
-   "also": [
-    {
-     "source": "People Matters",
-     "url": "https://www.peoplematters.in/news/leadership/hcls-nadar-most-generous-indian-adani-doubles-donations-ambanis-support-down-1-pc-report-53478"
-    },
-    {
-     "source": "People Matters - HR News",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcVFESmJJMi1KZkwyTWxRalBGUW5aSGJjYm1vM2xDUkl2cUNNZWduXy13MU9IUjdBOHk3bkRrekNoUUFzQU9nd3ZyZHI5N2lBN2stY0l3SGlsMG1XRlhvM0txUll6bmktRGNfWlpPUFF4UFA1M25iQkV1aDF4UExIUFMxYVhQdTJnWnVvYUZ3V012UmdTRFR0dUpBWkZnWWRndWNPMTJHdXItZDZLQXhmTzJNdU1RSElMYVZJZUw5cEc1UTZ1STdEWmpiVlpib0k1clk4VDR5WmRvdzg?oc=5"
-    }
-   ]
+   "brief": null,
+   "title": "Other Releases - Adani Group",
+   "url": "https://www.adani.com/de/newsroom/media-releases/adani-group-deploys-india-first-hydrogen-powered-truck-for-mining-logistics",
+   "source": "Adani",
+   "coverage": 1,
+   "also": []
   }
  ],
  "concept": null,
  "question": null,
- "script": "Good morning, Aashish. Here is your Adani briefing for Tuesday, 24 November. The AI summary was unavailable today, so these are the top headlines. Story 1, Adani Group. Adani signs 3-year copper supply deal with Attero: Report. Source: Moneycontrol. Story 2, Adani Group. Adani Group planning $120 bn in capex over next 5-6 years: Jefferies. Source: Business Standard. Story 3, Adani Green Energy. Adani’s Tarali project: The dispute over its cost and wildlife fee. Source: The Indian Express. Story 4, Adani Airports. Adani Airports raises ~USD 300 million primary equity from 360 ONE Asset. Source: Adani newsroom · Adani Airports. Story 5, Adani Group. Adani Foundation supports audio-described Ramayan for blind, low-vision audiences. Source: Social News XYZ. Story 6, AdaniConneX (data centres). New data centre cable business helps Diamond Power reduce reliance on Adani Group. Source: Mint. Story 7, Adani Green Energy. Adani Energy Receives 1,750 MW RTC Renewable Power Supply Deal from WBSEDCL. Source: Saur Energy. Story 8, Adani Group. From Nadar's ₹1,047 crore to Adani's ₹563 crore: Who is funding India's education?. Source: ET Education. Open the app to read the full stories. That's all for today.",
+ "script": "Good morning. Here is your Adani briefing for Thursday, 26 November. The AI summary was unavailable today, so these are the top headlines. Story 1, Adani Group. 10th Adani Ahmedabad Marathon Brings Together Leading Brands Across Multiple Categories. Source: SportsMint Media. Story 2, Adani Enterprises. Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr. Source: Business Standard. Story 3, Ambuja / ACC / Orient. India: Calix advances carbon capture demonstration project with Ambuja Cements at Sanghi plant. Source: BigMint. Story 4, Adani Group. 'Read more books, learn from them': Gautam Adani appeals to Indians at Mumbai Book Festival 2026. Source: Deccan Herald. Story 5, Adani Power. Bangladesh loses half its power supply from Adani's Godda plant as unit is shut down. Source: India Today. Story 6, Adani Ports & SEZ. Cyril Amarchand Mangaldas advises Adani Ports on proposed Evos acquisition. Source: ETLegalWorld. Story 7, Adani Group. Diamond Power Infrastructure bags fresh ₹488 crore orders for Adani's Bhadla-Fatehpur HVDC project. Source: CNBCTV18. Story 8, Adani Group. Other Releases - Adani Group. Source: Adani. Open the app to read the full stories. That's all for today.",
  "_model": "fallback",
- "date": "2026-11-24",
- "generated": "2026-11-24T23:40:13.791782+05:30",
+ "date": "2026-11-26",
+ "generated": "2026-11-26T16:27:26.451812+05:30",
  "counts": {
-  "fresh": 50,
-  "archive": 72
+  "fresh": 56,
+  "archive": 61
  }
 }

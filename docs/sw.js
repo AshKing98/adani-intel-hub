@@ -3,7 +3,7 @@
    - data/*.json: network-first, falling back to the last good copy (read on a flight).
    - audio: cached on first full play; Range requests are answered with proper 206 slices so seeking/resume work. */
 // Bump SHELL on every front-end change so all shell files update together.
-const SHELL = "aih-shell-v6", DATA = "aih-data-v1", AUDIO = "aih-audio-v1";
+const SHELL = "aih-shell-v8", DATA = "aih-data-v1", AUDIO = "aih-audio-v1";
 const OURS = [SHELL, DATA, AUDIO];
 const FILES = ["./", "index.html", "styles.css", "app.js", "diagrams.js", "manifest.webmanifest", "fonts/archivo.woff2", "fonts/sourceserif.woff2", "icons/icon-192.png"];
 

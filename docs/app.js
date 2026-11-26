@@ -38,7 +38,7 @@ async function getJSON(name, fallback) {
   } catch { return fallback; }
 }
 async function load() {
-  const names = ["today", "digests", "news_archive", "episodes", "markets", "modules", "glossary", "module_audio", "watch", "settings", "companies", "events", "operations"];
+  const names = ["today", "digests", "news_archive", "episodes", "markets", "modules", "glossary", "module_audio", "watch", "settings", "companies", "events", "operations", "storylines", "storyline_links"];
   const vals = await Promise.all(names.map(n => getJSON(n, null)));
   names.forEach((n, i) => D[n] = vals[i]);
   NAMES = { group: "Adani Group", legal: "Legal & regulatory" };
@@ -65,6 +65,8 @@ const ev = t => `<button class="ev ${esc(t)}" data-evhelp="${esc(t)}" aria-label
 function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("on"); setTimeout(() => t.classList.remove("on"), 2200); }
 const inr = n => n == null ? "–" : n.toLocaleString("en-IN", { maximumFractionDigits: 2 });
 const pct = n => n == null ? '<span class="muted">–</span>' : `<span class="${n >= 0 ? "up" : "down"}">${n >= 0 ? "+" : ""}${n.toFixed(1)}%</span>`;
+const JUNKP = /(outdated browser|upgrade your browser|enable javascript|\| ?image:|access denied)/i;
+const cleanParas = ps => (ps || []).filter(p => typeof p === "string" && p.length > 60 && !JUNKP.test(p));
 const readMins = txt => Math.max(1, Math.round(String(txt).split(/\s+/).length / 200));
 
 /* Escape text, then underline known glossary terms (first occurrence of each only). */
@@ -179,7 +181,7 @@ function storyById(id) {
   const a = (D.news_archive || []).find(n => n.id === id);
   const s = (D.today?.stories || []).find(x => x.id === id) || (D.digests || []).flatMap(d => d.stories || []).find(x => x.id === id);
   if (!a && !s) return null;
-  return { ...(a || {}), ...(s ? { what: s.what, why: s.why, watch: s.watch, evidence: s.evidence, company: s.company } : {}), id };
+  return { ...(a || {}), ...(s ? { what: s.what, why: s.why, watch: s.watch, evidence: s.evidence, company: s.company, brief: s.brief } : {}), id };
 }
 const storyCard = (n, opts = {}) => {
   const read = n.read || {}, lead = n.what || read.desc || (read.paras || [])[0] || "";
@@ -236,7 +238,7 @@ function renderToday() {
       <a class="tile" href="#companies"><b>Group map</b><span>15 businesses on one diagram</span></a>
       <a class="tile" href="#learn/mental-model"><b>How Adani works</b><span>The flywheel in 3 minutes</span></a>
       <a class="tile" href="#learn/history"><b>Timeline</b><span>1988 to today</span></a>
-      <a class="tile" href="#learn/legal"><b>Legal status</b><span>Four separate tracks</span></a>
+      <a class="tile" href="#tracker"><b>Issue trackers</b><span>Context and timelines, one issue at a time</span></a>
     </div></section>`;
   const sa = $('[data-say="brief"]'); if (sa) sa.onclick = () => Speech.toggle(briefText, "brief");
 }
@@ -245,10 +247,11 @@ function renderToday() {
 function renderStory(id) {
   const n = storyById(id), el = $("#v-news");
   if (!n) { el.innerHTML = `<button class="back" data-back>‹ Back</button><div class="empty">This story is no longer in the archive.</div>`; return; }
-  const read = n.read || {}, paras = read.paras || [], co = n.company || n.companies?.[0];
+  const read = n.read || {}, paras = cleanParas(read.paras), co = n.company || n.companies?.[0];
   const link = read.link || n.url;
   const related = (D.news_archive || []).filter(x => x.id !== id && x.companies?.some(c => (n.companies || [co]).includes(c))).slice(0, 4);
-  const listenText = [n.title, n.what, n.why, ...paras].filter(Boolean).join(". ");
+  const bf = n.brief || null, more = (read.more || []).map(m => ({ ...m, paras: cleanParas(m.paras) })).filter(m => m.paras.length), tks = trackersFor(n);
+  const listenText = [n.title, bf?.happened || n.what, bf?.background, ...(bf?.numbers || []), ...(bf?.views || []), bf?.next || n.watch, n.why, ...(bf ? [] : paras)].filter(Boolean).join(". ");
   el.innerHTML = `<article class="reader">
     <button class="back" data-back>‹ Back</button>
     <p class="kicker"><a href="#co/${esc(co)}" style="--c:${clusterColor(co)}" class="co-link">${esc(NAMES[co] || co)}</a> · ${esc(fmtLong(n.date))}</p>
@@ -258,16 +261,29 @@ function renderStory(id) {
       <button class="say" data-save="${esc(id)}">${Saved.has(id) ? ICON.bmOn : ICON.bm}<span>${Saved.has(id) ? "Saved" : "Save"}</span></button>
       <a class="say" href="${esc(safeUrl(link))}" target="_blank" rel="noopener">${ICON.ext}<span>Original</span></a></div>
 
-    ${n.what || n.why ? `<div class="keybox">
+    ${tks.length ? `<div class="tk-strip">Part of a bigger story: ${tks.map(l => `<a href="#tracker/${esc(l.id)}"><b>${esc(l.title)}</b><span>${esc(l.status)} · ${l.timeline.length} dated entries</span></a>`).join("")}</div>` : ""}
+
+    ${bf && !bf.extractive ? `<div class="brief">
+      <p class="eyebrow">The brief</p>
+      ${bf.happened ? `<h4>What happened</h4><p class="read">${rich(bf.happened)}</p>` : ""}
+      ${n.why ? `<h4>Why it matters</h4><p class="read">${rich(n.why)}</p>` : ""}
+      ${bf.background ? `<h4>Background</h4><p class="read">${rich(bf.background)}</p>` : ""}
+      ${bf.numbers?.length ? `<h4>Key numbers</h4><ul class="ticks">${bf.numbers.map(x => `<li>${rich(x)}</li>`).join("")}</ul>` : ""}
+      ${bf.views?.length ? `<h4>Who says what</h4><ul class="ticks">${bf.views.map(x => `<li>${rich(x)}</li>`).join("")}</ul>` : ""}
+      ${bf.next || n.watch ? `<h4>What to watch</h4><p class="read">${rich(bf.next || n.watch)}</p>` : ""}
+      <p class="small muted">Written by AI from the coverage of ${1 + more.length} outlet${more.length ? "s" : ""}, below. Check figures against the sources.</p></div>`
+     : (n.what || n.why ? `<div class="keybox">
       ${n.what ? `<p class="eyebrow">What happened</p><p class="read">${rich(n.what)}</p>` : ""}
       ${n.why ? `<p class="eyebrow">Why it matters</p><p class="read">${rich(n.why)}</p>` : ""}
-      ${n.watch ? `<p class="eyebrow">Watch next</p><p class="read">${rich(n.watch)}</p>` : ""}</div>` : ""}
+      ${n.watch ? `<p class="eyebrow">Watch next</p><p class="read">${rich(n.watch)}</p>` : ""}</div>` : "")}
 
     ${paras.length ? `<div class="excerpt"><p class="eyebrow">From the article</p>${paras.map(p => `<p class="read">${rich(p)}</p>`).join("")}
        <p class="small muted">Excerpt. <a href="${esc(safeUrl(link))}" target="_blank" rel="noopener">Read the full story at ${esc(n.source)}</a>.</p></div>`
       : read.desc ? `<div class="excerpt"><p class="read">${rich(read.desc)}</p><p class="small muted"><a href="${esc(safeUrl(link))}" target="_blank" rel="noopener">Read the full story at ${esc(n.source)}</a></p></div>`
       : `<div class="excerpt"><p class="read muted">The publisher doesn't allow previews. <a href="${esc(safeUrl(link))}" target="_blank" rel="noopener">Open the story at ${esc(n.source)}</a>.</p></div>`}
 
+    ${more.length ? `<div class="sec">What other outlets report</div>${more.map(m => `<div class="excerpt alt"><p class="eyebrow">${esc(m.source)}</p>${m.paras.map(p => `<p class="read">${rich(p)}</p>`).join("")}
+       <p class="small muted"><a href="${esc(safeUrl(m.link))}" target="_blank" rel="noopener">Read at ${esc(m.source)}</a></p></div>`).join("")}` : ""}
     ${(n.also || []).length ? `<div class="sec">Also covered by</div><ul class="plain">${n.also.map(a => `<li><a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a></li>`).join("")}</ul>` : ""}
     ${noteBox("story:" + id)}
     ${CO[co] ? `<a class="tile wide" href="#co/${esc(co)}"><b>About ${esc(CO[co].name)}</b><span>${esc(CO[co].role)}</span></a>` : ""}
@@ -291,7 +307,7 @@ function renderNews() {
   if (newsQ) list = list.filter(n => (n.title + " " + (n.read?.desc || "") + " " + n.source).toLowerCase().includes(newsQ));
   // group by day
   const days = {}; list.slice(0, 120).forEach(n => (days[n.date.slice(0, 10)] ??= []).push(n));
-  el.innerHTML = `<h2>News</h2>
+  el.innerHTML = `<h2>News</h2>${tkSwitch("news")}
     <input class="search" id="nq" type="search" placeholder="Search stories, e.g. Evos, Khavda, SEBI" value="${esc(newsQ)}" aria-label="Search news">
     <div class="chips">${[["all", `All ${all.length}`], ["verified", "Verified sources"], ["saved", `Saved ${Object.keys(Saved.all()).length}`], ...keys.map(k => [k, `${NAMES[k] || k} ${counts[k]}`])]
       .map(([k, l]) => `<button class="chip" data-f="${esc(k)}" aria-pressed="${newsFilter === k}">${esc(l)}</button>`).join("")}</div>
@@ -300,6 +316,82 @@ function renderNews() {
     <p class="note">Evidence tags: <b>Company</b> = Adani's own release · <b>Regulator</b> = official order · <b>Independent</b> = established outlet · <b>Unverified</b> = check before repeating.</p>`;
   $$(".chip", el).forEach(c => c.onclick = () => { newsFilter = c.dataset.f; renderNews(); });
   const q = $("#nq"); q.oninput = () => { clearTimeout(q._t); q._t = setTimeout(() => { newsQ = q.value.trim().toLowerCase(); renderNews(); const nq = $("#nq"); nq.focus(); nq.setSelectionRange(nq.value.length, nq.value.length); }, 250); };
+}
+
+
+/* ------------------------------------------------------------------ TRACKERS (storylines) */
+const TK_KIND = { event: "Reported", concern: "Allegation or criticism", company: "Company's account", official: "Official record" };
+const STATUS_CLS = s => /open|ongoing|unresolved|active|under way|operating/i.test(s) ? "live" : /settled|closed|improving/i.test(s) ? "done" : "mid";
+let tkCat = "all";
+const tkLines = () => D.storylines?.lines || [];
+const tkLinked = id => (D.storyline_links?.[id] || []);
+function tkSwitch(active) {
+  return `<div class="seg" role="tablist"><button role="tab" data-go="#news" aria-selected="${active === "news"}">Latest news</button>
+    <button role="tab" data-go="#tracker" aria-selected="${active === "tracker"}">Trackers</button></div>`;
+}
+function renderTrackers() {
+  const el = $("#v-news"), doc = D.storylines;
+  if (!doc) { el.innerHTML = `<h2>News</h2>${tkSwitch("tracker")}<div class="empty">Trackers load after the next update.</div>`; return; }
+  const cats = [["all", "All"], ...doc.cats.map(c => [c.id, c.name])];
+  const lines = tkLines().filter(l => tkCat === "all" || l.cat === tkCat);
+  el.innerHTML = `<h2>News</h2>${tkSwitch("tracker")}
+    <p class="dek">Instead of reading stories one by one, read each long-running issue once: what it is, why it matters, a dated timeline, where it stands now and what to watch. Each entry shows who is saying what.</p>
+    <div class="chips">${cats.map(([k, l]) => `<button class="chip" data-tc="${esc(k)}" aria-pressed="${tkCat === k}">${esc(l)}</button>`).join("")}</div>
+    <div class="list">${lines.map(l => {
+      const nw = tkLinked(l.id).length;
+      return `<a class="tk-card" href="#tracker/${esc(l.id)}"><div class="tk-top"><span class="status ${STATUS_CLS(l.status)}">${esc(l.status)}</span>
+        <span class="muted small">${esc(doc.cats.find(c => c.id === l.cat)?.name || "")}</span></div>
+        <h3>${esc(l.title)}</h3><p>${esc(l.status_note)}</p>
+        <div class="sc-foot"><span>${l.timeline.length} dated entries</span><span>${esc(l.first.slice(0, 4))}–${esc(l.last.slice(0, 4))}</span>${nw ? `<span class="newtag">${nw} newer ${nw > 1 ? "stories" : "story"}</span>` : ""}</div></a>`;
+    }).join("") || `<div class="empty">No trackers here yet.</div>`}</div>
+    <p class="note">Trackers are written and checked by hand from regulator documents, court orders, company releases and news reports, and every entry links to its source. They are refreshed when something major happens. Newer matching stories are flagged automatically but are not added to the timeline until checked. Verified ${esc(doc.verified)}.</p>`;
+  $$("[data-tc]", el).forEach(b => b.onclick = () => { tkCat = b.dataset.tc; renderTrackers(); });
+}
+
+function renderTracker(id) {
+  const el = $("#v-news"), l = tkLines().find(x => x.id === id);
+  if (!l) return renderTrackers();
+  const doc = D.storylines, linked = tkLinked(id);
+  const years = [...new Set(l.timeline.map(e => e.d.slice(0, 4)))];
+  const listen = [l.title, l.short, l.why, ...l.timeline.map(e => `${fmtTk(e)}. ${e.h}. ${e.x}`), "Still open.", ...(l.open || [])].join(" ");
+  el.innerHTML = `<article class="reader">
+    <button class="back" data-back>‹ Trackers</button>
+    <p class="kicker">${esc(doc.cats.find(c => c.id === l.cat)?.name || "")} · updated ${esc(fmtDate(l.updated))}</p>
+    <h2 class="story-h">${esc(l.title)}</h2>
+    <div class="row-btns"><span class="status big ${STATUS_CLS(l.status)}">${esc(l.status)}</span>${sayBtn("tk-" + id)}
+      <button class="say" data-save-tk="${esc(id)}">${Saved.has("tk:" + id) ? ICON.bmOn : ICON.bm}<span>${Saved.has("tk:" + id) ? "Saved" : "Save"}</span></button></div>
+
+    <div class="keybox"><p class="eyebrow">Where it stands</p><p class="read">${rich(l.status_note)}</p></div>
+    <div class="sec">The short version</div><p class="read">${rich(l.short)}</p>
+    <div class="sec">Why it matters to you</div><p class="read">${rich(l.why)}</p>
+    ${(l.companies || []).filter(c => CO[c]).length ? `<p class="small">Businesses involved: ${l.companies.filter(c => CO[c]).map(c => `<a href="#co/${esc(c)}">${esc(CO[c].short)}</a>`).join(" · ")}</p>` : ""}
+
+    <div class="sec">Timeline <small>${l.timeline.length} entries · ${esc(years[0])}${years.length > 1 ? "–" + esc(years[years.length - 1]) : ""}</small></div>
+    <div class="tl-legend">${Object.entries(TK_KIND).map(([k, v]) => `<span class="tlk ${k}"><i></i>${esc(v)}</span>`).join("")}</div>
+    <div class="tl2">${l.timeline.map(e => `<div class="tl-i ${esc(e.k)}"><span class="tl-d">${esc(fmtTk(e))}</span>
+      <div class="tl-b"><div class="tl-h"><b>${esc(e.h)}</b></div>
+        <div class="tl-m">${ev(e.tier)}<span class="tlk-name">${esc(TK_KIND[e.k] || e.k)}</span></div>
+        <p class="read">${rich(e.x)}</p>
+        <p class="tl-s">${e.s.map(s => `<a href="${esc(safeUrl(s.u))}" target="_blank" rel="noopener">${esc(s.t)}</a>`).join(" · ")}</p></div></div>`).join("")}</div>
+
+    ${l.open?.length ? `<div class="sec">Still open: what to watch</div><ul class="ticks">${l.open.map(x => `<li>${rich(x)}</li>`).join("")}</ul>` : ""}
+    ${l.gaps?.length ? `<details class="reveal"><summary>What I could not verify</summary><ul class="ticks">${l.gaps.map(x => `<li>${rich(x)}</li>`).join("")}</ul></details>` : ""}
+    ${linked.length ? `<div class="sec">Possibly related, newer than the timeline <small>not yet checked or added</small></div>
+      <ul class="hl">${linked.map(h => `<li><a href="#story/${esc(h.id)}">${esc(h.title)}</a><div class="m">${ev(h.tier)}<span>${esc(h.source)}</span><span>${esc(fmtDate(h.date))}</span></div></li>`).join("")}</ul>` : ""}
+    ${noteBox("tk:" + id, "Your takeaway, and the question you would ask…")}
+    <p class="note">Labels show what kind of statement each entry is. Allegations are shown as allegations. A dismissal or settlement is described exactly as the document says, and is not the same as a ruling on whether the claims were true. Verified ${esc(doc.verified)}.</p>
+  </article>`;
+  $(`[data-say="${CSS.escape("tk-" + id)}"]`).onclick = () => Speech.toggle(listen, "tk-" + id);
+  $("[data-save-tk]").onclick = () => { Saved.toggle("tk:" + id, { kind: "tracker", id, title: l.title }); renderTracker(id); };
+}
+const fmtTk = e => {
+  const d = new Date(e.d + "T00:00:00");
+  return e.approx ? d.toLocaleDateString("en-IN", { month: "short", year: "numeric" }).replace(/^/, "c. ") : d.toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" });
+};
+/* trackers a story may belong to (shown on the story page) */
+function trackersFor(n) {
+  const txt = ((n.title || "") + " " + (n.read?.desc || "") + " " + (n.snippet || "")).toLowerCase();
+  return tkLines().filter(l => (l.match || []).some(k => new RegExp("(?<![a-z0-9])" + k.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).test(txt))).slice(0, 2);
 }
 
 /* ------------------------------------------------------------------ COMPANIES */
@@ -533,14 +625,16 @@ function meFit(mt) {
 function meSaved(mt) {
   const s = Saved.all(), notes = store.get("notes", {});
   const ids = Object.keys(s).sort((a, b) => s[b].at - s[a].at);
-  const stories = ids.filter(i => !i.startsWith("mod:")).map(storyById).filter(Boolean);
+  const stories = ids.filter(i => !i.startsWith("mod:") && !i.startsWith("tk:")).map(storyById).filter(Boolean);
+  const tks = ids.filter(i => i.startsWith("tk:")).map(i => tkLines().find(l => l.id === i.slice(3))).filter(Boolean);
   const mods = ids.filter(i => i.startsWith("mod:")).map(i => s[i]);
   const noteKeys = Object.keys(notes);
-  const label = k => k.startsWith("story:") ? (storyById(k.slice(6))?.title || "Story") : k.startsWith("co:") ? NAMES[k.slice(3)] : k.startsWith("mod:") ? (D.modules?.modules.find(m => m.id === k.slice(4))?.title || "Module") : k;
-  const href = k => k.startsWith("story:") ? "#story/" + k.slice(6) : k.startsWith("co:") ? "#co/" + k.slice(3) : "#learn/" + k.slice(4);
+  const label = k => k.startsWith("tk:") ? (tkLines().find(l => l.id === k.slice(3))?.title || "Tracker") : k.startsWith("story:") ? (storyById(k.slice(6))?.title || "Story") : k.startsWith("co:") ? NAMES[k.slice(3)] : k.startsWith("mod:") ? (D.modules?.modules.find(m => m.id === k.slice(4))?.title || "Module") : k;
+  const href = k => k.startsWith("tk:") ? "#tracker/" + k.slice(3) : k.startsWith("story:") ? "#story/" + k.slice(6) : k.startsWith("co:") ? "#co/" + k.slice(3) : "#learn/" + k.slice(4);
   mt.innerHTML = `${noteKeys.length ? `<div class="sec">Your notes <small>${noteKeys.length}</small> <button class="linkbtn more" id="exp">Copy all</button></div>
       ${noteKeys.map(k => `<a class="note-card" href="${esc(href(k))}"><b>${esc(label(k))}</b><p>${esc(notes[k])}</p></a>`).join("")}` : ""}
     <div class="sec">Saved stories <small>${stories.length}</small></div>${stories.length ? `<div class="list">${stories.map(n => storyCard(n)).join("")}</div>` : `<p class="muted">Tap <b>Save</b> on any story to keep it here for prep.</p>`}
+    ${tks.length ? `<div class="sec">Saved trackers</div>${tks.map(l => `<a class="mod" href="#tracker/${esc(l.id)}"><span class="mod-ic">⌛</span><span><b>${esc(l.title)}</b><small>${esc(l.status)}</small></span></a>`).join("")}` : ""}
     ${mods.length ? `<div class="sec">Saved modules</div>${mods.map(m => `<a class="mod" href="#learn/${esc(m.id)}"><span class="mod-ic">★</span><span><b>${esc(m.title)}</b></span></a>`).join("")}` : ""}`;
   const ex = $("#exp"); if (ex) ex.onclick = async () => {
     const txt = noteKeys.map(k => `## ${label(k)}\n${notes[k]}`).join("\n\n");
@@ -671,6 +765,7 @@ function searchIndex() {
   (D.companies?.companies || []).forEach(c => idx.push({ k: "Company", t: c.name, s: c.role + " " + c.model, h: "#co/" + c.key }));
   (D.operations?.operations || []).forEach(o => idx.push({ k: "Operations", t: o.name, s: o.question + " " + o.flow.join(" ") + " " + o.levers.join(" ") + " " + o.bottlenecks.join(" "), h: "#ops/" + o.key }));
   (D.operations?.cases || []).forEach(c => idx.push({ k: "Case", t: c.title, s: c.setup, h: "#ops/cases" }));
+  tkLines().forEach(l => idx.push({ k: "Tracker", t: l.title, s: l.short + " " + l.timeline.map(e => e.h + " " + e.x).join(" "), h: "#tracker/" + l.id }));
   (D.modules?.modules || []).forEach(m => idx.push({ k: "Module", t: m.title, s: modText(m), h: "#learn/" + m.id }));
   (D.glossary?.terms || []).forEach(t => idx.push({ k: "Term", t: t.t, s: t.d, h: "#learn/glossary", term: t.t }));
   (D.operations?.metrics_cheatsheet || []).forEach(t => idx.push({ k: "Ops metric", t: t.t, s: t.d, h: "#ops/metrics" }));
@@ -728,12 +823,12 @@ function applyPrefs() {
 }
 const scrollMem = {};
 let navCount = 0;
-const parentOf = h => ({ story: "news", co: "companies", ops: "ops", learn: "learn", me: "me" }[h.split("/")[0]] || "today");
+const parentOf = h => ({ story: "news", tracker: "tracker", co: "companies", ops: "ops", learn: "learn", me: "me" }[h.split("/")[0]] || "today");
 function route() {
   navCount++;
   const h = (location.hash || "#today").slice(1), [a, b0] = h.split("/");
   let b = b0; try { b = b0 && decodeURIComponent(b0); } catch { b = ""; }
-  const tab = { story: "news", co: "companies", ops: "ops" }[a] || (VIEWS.includes(a) ? a : "today");
+  const tab = { story: "news", tracker: "news", co: "companies", ops: "ops" }[a] || (VIEWS.includes(a) ? a : "today");
   Speech.stop(); closeSheet();
   $$(".view").forEach(s => s.classList.toggle("on", s.id === "v-" + tab));
   $$(".tabs button").forEach(x => x.dataset.v === tab ? x.setAttribute("aria-current", "page") : x.removeAttribute("aria-current"));
@@ -741,12 +836,13 @@ function route() {
   else if (a === "co") renderCompany(b);
   else if (a === "learn") renderLearn(b);
   else if (a === "me") renderMe(b);
+  else if (a === "tracker") (b ? renderTracker(b) : renderTrackers());
   else if (a === "news") renderNews();
   else if (a === "companies") renderCompanies();
   else if (a === "ops") (b && (D.operations?.operations || []).some(x => x.key === b) ? renderOpsBusiness(b) : renderOps(b));
   else renderToday();
   Player.ui();
-  const deep = a === "story" || a === "co" || (a === "ops" && b) || (a === "learn" && b && !["modules", "glossary", "cards", "audio"].includes(b));
+  const deep = a === "story" || (a === "tracker" && b) || a === "co" || (a === "ops" && b) || (a === "learn" && b && !["modules", "glossary", "cards", "audio"].includes(b));
   scrollTo(0, deep ? 0 : (scrollMem[h] || 0));
 }
 addEventListener("scroll", () => { scrollMem[(location.hash || "#today").slice(1)] = scrollY; }, { passive: true });

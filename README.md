@@ -77,7 +77,8 @@ The app is built for **reading first**. Every screen also has a small **Listen**
 |---|---|
 | **Today** | The day's headline and summary, then the picked stories as readable cards. Tap a card to open the story. Below them: concept of the day, a question a senior might ask (with a hidden answer), the next 3 events, and shortcuts to the key diagrams. |
 | **News** | Every story from the last 14 days, grouped by day. Search, filter by company or "verified sources", and see your saved stories. |
-| **Story page** | What happened, why it matters, the article's lead paragraphs (fetched by the daily job), other outlets that covered it, **Save**, your **note**, a link to the original, and related stories. |
+| **Trackers** (News tab → Trackers) | 12 long-running issues, each as a story you read once: where it stands now, a short version, why it matters, a dated, colour-coded timeline (each entry labelled as reported fact, allegation or criticism, the company's own account, or an official record, with source links), what is still open, and what could not be verified. Topics: environment and community (Tarali, Hasdeo, Carmichael, Khavda), legal (Hindenburg and SEBI; US cases), politics and overseas (Kenya, West Bengal, Bangladesh, Dharavi), money (debt and ratings) and business decisions. Each morning the app flags newer matching stories as "possibly related"; they are added to a timeline only after being checked. |
+| **Story page** | What happened, why it matters, a structured brief (what happened, why it matters, background, key numbers, who says what, what to watch) written from several outlets' coverage, the lead paragraphs from the main outlet and from others, and a link to any tracker the story belongs to; other outlets that covered it, **Save**, your **note**, a link to the original, and related stories. |
 | **Companies** | Four diagrams: the **group map** (tap any tile), **how they connect** (who supplies whom), an **ESG comparison**, and a list. Each of the 15 company pages shows key numbers, a chart, how it makes money, where it sits in the value chain, ownership, ESG, people, a watch list, upcoming events, your fit and its latest news. NSE prices sit below. |
 | **Ops** | **How each runs:** for 10 businesses, the step-by-step flow of the work, the operating numbers (with period and source), what managers pull, where work gets stuck, and one question to ask in your first week. **GM toolkit:** how a GM thinks, a driver tree for EBITDA, a one-page memo template, a 30-day plan, questions for your mentor, and core frameworks. **Cases:** five real situations from the group (Tarali permit, smart-meter rollout, Evos integration, Navi Mumbai ramp-up, Kutch Copper), each with an outline of a strong answer. **Metrics:** plain definitions of the ops terms (heat rate, clinker factor, TAT, YPP/IPP, MTBF/MTTR, OEE). |
 | **Learn** | 10 modules in a suggested order. Each starts with "In 30 seconds" bullets and a diagram (flywheel, timeline, group map, leverage chart, legal tracks, strategy chain). Also: glossary, flashcards (10 new a day) and all audio. |
@@ -132,6 +133,7 @@ adani-intel-hub/
 │   ├─ modules.json   the 10 Learn modules (with 30-second summaries + diagram links)
 │   ├─ companies.json the 15 company profiles, clusters, value-chain links, timeline
 │   ├─ milestones.json upcoming milestones for the calendar
+│   ├─ storylines.json the 12 issue trackers (hand-written and sourced; edit this file to add or correct entries)
 │   ├─ operations.json operations flows, KPIs, GM toolkit, cases, metrics (each figure carries its period and source)
 │   ├─ glossary.json  terms + flashcard facts
 │   └─ settings.json  your focus businesses
@@ -148,3 +150,8 @@ adani-intel-hub/
 - **Keep it safe:** turn on two-factor authentication on your GitHub and Google accounts; never paste your keys into chat, email or a file; don't add collaborators to the repo.
 
 This is an educational reference, not legal, investment or regulatory advice. It is not affiliated with or endorsed by the Adani Group.
+
+
+## Keeping the trackers current
+
+The trackers are the one part of the hub where accuracy depends on a person. The daily job only **suggests** newer stories (shown as "possibly related"). To add an entry, open `content/storylines.json` on GitHub and add an item to the right `timeline` list: `d` date (YYYY-MM-DD), `k` one of `event` / `concern` / `company` / `official`, `tier` one of `official` / `regulator` / `independent` / `other`, `h` headline, `x` the text, and `s` at least one source `{t, u}`. Update the tracker's `status`, `status_note`, `last` and `updated` fields. Describe outcomes exactly as the document says: a settlement, a dismissal and a finding are three different things.

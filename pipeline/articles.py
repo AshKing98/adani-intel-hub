@@ -22,7 +22,8 @@ MAX_PARAS = 5
 MAX_CHARS = 1800
 JUNK = re.compile(r"(cookie|subscribe|newsletter|sign up|log ?in|advertis|all rights reserved|follow us|"
                   r"download (the )?app|read more|also read|click here|whatsapp|telegram channel|©|reference #|edgesuite|"
-                  r"access denied|catch all the|breaking news and latest|enable javascript)", re.I)
+                  r"access denied|catch all the|breaking news and latest|enable javascript|outdated browser|upgrade your browser|"
+                  r"image:\s*(bloomberg|reuters|pti|ani|getty)|\|\s*image|photo:\s*(pti|ani|reuters)|your browser)", re.I)
 PLAYER = re.compile(r"^(listen|play)\s+\d{1,2}:\d{2}(\s+[\d.]+x)*\s*", re.I)
 
 
@@ -154,3 +155,27 @@ def enrich(items: list, archive: list, limit: int = 25) -> None:
         time.sleep(1.0)          # be polite
     ok = sum(1 for i in items if i.get("read", {}).get("paras") or i.get("read", {}).get("desc"))
     print(f"[articles] fetched {done}, readable {ok}/{len(items)}")
+
+
+def enrich_multi(items: list, limit: int = 10, budget: int = 240) -> None:
+    """For the top stories, also pull the lead paragraphs from up to two OTHER outlets that ran the same story,
+    so the briefing can compare accounts (who says what). Skips Google redirect links; stays inside a time budget."""
+    deadline = time.monotonic() + budget
+    done = 0
+    for it in items[:limit]:
+        rd = it.get("read")
+        if rd is None or rd.get("more") is not None:
+            continue
+        if time.monotonic() > deadline:
+            break
+        others = [a for a in it.get("also", []) if "news.google.com" not in a.get("url", "") and a.get("source") != it.get("source")][:2]
+        more = []
+        for a in others:
+            r = extract(a["url"], it["title"])
+            ps = r["paras"][:2] if r["paras"] else ([r["desc"]] if r["desc"] else [])
+            if ps:
+                more.append({"source": a["source"], "link": r["link"], "paras": [p[:600] for p in ps]})
+            time.sleep(0.8)
+        rd["more"] = more
+        done += 1
+    print(f"[articles] extra outlets read for {done} stories")

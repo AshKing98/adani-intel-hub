@@ -59,6 +59,10 @@ RULES
 - Plain, crisp English. Indian numbering (crore, lakh) is fine.
 - Several headlines often describe ONE event (e.g. "$300 mn" and "₹2,790 cr" for the same deal). Merge them: one story per event, using the best-evidence id.
 - Pick at most 8 stories that matter most to someone who wants to sound informed in an Adani meeting.
+- Each headline has a "text" field. It may contain the lead paragraphs from the main outlet and, marked like [Outlet name], from
+  other outlets. Use ALL of it to write the brief, and attribute: say what the company says, what a regulator or court says, and what
+  each outlet reports. If outlets disagree, say so. Never blend an allegation into a fact.
+- Write the "brief" for each story from that text only. If the text is thin, write less; never pad and never invent.
 
 Return JSON with exactly this shape:
 {{
@@ -67,6 +71,11 @@ Return JSON with exactly this shape:
  "stories": [{{"id": "<id from input>", "company": "<company key from input>",
                "what": "2-3 sentences: what happened, with the key number if any",
                "why": "1-2 sentences: why it matters for the group's strategy / what a manager would care about",
+               "brief": {{"happened": "80-110 words: what happened, who is involved, dates and key numbers",
+                          "background": "50-80 words: the context a newcomer needs (what led here), only if present in the text",
+                          "numbers": ["up to 5 short facts with figures, e.g. '₹2,790 crore for a 1.55% stake'"],
+                          "views": ["up to 4 lines, each starting with who says it, e.g. 'Company says ...', 'Indian Express reports ...'"],
+                          "next": "one sentence: what is pending or comes next"}},
                "evidence": "official|regulator|independent|other",
                "watch": "one thing to watch next (optional, may be empty)",
                "terms": ["0-3 jargon terms used, e.g. PLF, take-or-pay"]}}],
@@ -173,6 +182,41 @@ def _clean_text(v, limit):
     return re.sub(r"\s+", " ", t).strip()[:limit]
 
 
+def _story_text(i: dict, rank: int) -> str:
+    """Source text handed to the model. Top stories get the main outlet plus lead paragraphs from other outlets."""
+    r = i.get("read") or {}
+    main = " ".join((r.get("paras") or [])[:3])[:900] or r.get("desc", "") or i.get("snippet", "")
+    if rank >= 10:
+        return main[:300]
+    extra = " ".join(f"[{m['source']}] " + " ".join(m["paras"])[:500] for m in (r.get("more") or [])[:2] if m.get("paras"))
+    return (main + " " + extra).strip()[:2000]
+
+
+def _clean_brief(b):
+    if not isinstance(b, dict):
+        return None
+    out = {}
+    for k, n in (("happened", 900), ("background", 700), ("next", 300)):
+        v = _clean_text(b.get(k), n)
+        if v:
+            out[k] = v
+    for k in ("numbers", "views"):
+        v = b.get(k)
+        if isinstance(v, list):
+            items = [_clean_text(x, 260) for x in v[:5] if isinstance(x, str)]
+            items = [x for x in items if x]
+            if items:
+                out[k] = items
+    return out or None
+
+
+def _fallback_brief(it: dict):
+    """Without the AI: show what the other outlets report (extractive, always attributed)."""
+    r = it.get("read") or {}
+    views = [f"{m['source']} reports: {m['paras'][0][:280]}" for m in (r.get("more") or [])[:3] if m.get("paras")]
+    return {"views": views, "extractive": True} if views else None
+
+
 def _validate(out: dict, valid_ids: set) -> dict:
     """Reject replies with the wrong shape so a single odd response can't crash the run."""
     if not isinstance(out.get("script"), str) or len(out["script"]) < 100:
@@ -190,6 +234,7 @@ def _validate(out: dict, valid_ids: set) -> dict:
         for k, n in (("what", 500), ("why", 500), ("watch", 300)):
             st[k] = _clean_text(st.get(k), n)
         st["evidence"] = st.get("evidence") if st.get("evidence") in ("official", "regulator", "independent", "affiliated", "other") else "other"
+        st["brief"] = _clean_brief(st.get("brief"))
     for k in ("concept", "question"):
         if out.get(k):
             out[k] = {kk: _clean_text(vv, 700) for kk, vv in out[k].items() if kk in ("term", "explain", "q", "a")}
@@ -211,7 +256,7 @@ def _fallback(items: list, today: datetime, total: int) -> dict:
         "summary": f"{total} unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
         "stories": [{"id": it["id"], "company": it["companies"][0],
                      "what": ((it.get("read") or {}).get("desc") or it["title"]), "why": "",
-                     "evidence": it["tier"], "watch": ""} for it in top],
+                     "evidence": it["tier"], "watch": "", "brief": _fallback_brief(it)} for it in top],
         "concept": None, "question": None, "script": " ".join(lines), "_model": "fallback",
     }
 
@@ -249,8 +294,7 @@ def build(items: list, focus: list) -> dict:
     if GEMINI_KEY:
         slim = [{"id": i["id"], "title": i["title"], "source": i["source"], "tier": i["tier"],
                  "companies": i["companies"], "date": i["date"][:10], "outlets": i.get("coverage", 1),
-                 "text": " ".join(((i.get("read") or {}).get("paras") or [])[:2])[:600]
-                         or (i.get("read") or {}).get("desc", "")} for i in ranked]
+                 "text": _story_text(i, n)} for n, i in enumerate(ranked)]
         try:
             out = _gemini(PROMPT.format(today=today.strftime("%d %B %Y"),
                                         spoken_date=today.strftime("%A, %d %B"),

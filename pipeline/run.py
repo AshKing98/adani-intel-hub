@@ -23,6 +23,7 @@ import news  # noqa: E402
 import notify  # noqa: E402
 import articles  # noqa: E402
 import events  # noqa: E402
+import storylines  # noqa: E402
 from config import AUDIO, CONTENT, DATA, KEEP_DAILY_AUDIO_DAYS, UA, WATCH_PAGES  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -51,6 +52,8 @@ def merge_archive(new_items: list) -> list:
             old["coverage"] = max(old.get("coverage", 1), it.get("coverage", 1))
             if it.get("read") and (not old.get("read") or (it["read"].get("paras") and not old["read"].get("paras"))):
                 old["read"] = it["read"]
+            elif it.get("read", {}).get("more") and old.get("read") is not None and old["read"].get("more") is None:
+                old["read"]["more"] = it["read"]["more"]
         else:
             it["first_seen"] = datetime.now(IST).isoformat()
             by_id[it["id"]] = it
@@ -174,7 +177,7 @@ def main():
     a = ap.parse_args()
 
     # publish evergreen content (you edit content/, the app reads docs/data/)
-    for name in ("modules.json", "glossary.json", "settings.json", "companies.json", "operations.json", "milestones.json"):
+    for name in ("modules.json", "glossary.json", "settings.json", "companies.json", "operations.json", "milestones.json", "storylines.json"):
         if (CONTENT / name).exists():
             (DATA / name).write_text((CONTENT / name).read_text(encoding="utf-8"), encoding="utf-8")
 
@@ -189,6 +192,7 @@ def main():
     fresh.sort(key=lambda x: digest.priority(x, focus), reverse=True)
     try:
         articles.enrich(fresh, jload(DATA / "news_archive.json", []), limit=25)
+        articles.enrich_multi(fresh, limit=10)
     except Exception as e:
         print(f"[articles] {e}")
     arc = merge_archive(items)
@@ -206,6 +210,11 @@ def main():
     except Exception as e:
         print(f"[markets] {e}")
     watch_pages()
+    try:                                  # hybrid trackers: find fresh stories that may belong to a storyline
+        doc = jload(DATA / "storylines.json", {"lines": []})
+        jsave(DATA / "storyline_links.json", storylines.link(arc, doc))
+    except Exception as e:
+        print("[storylines]", type(e).__name__)
     try:
         jsave(DATA / "events.json", events.collect(DATA))
     except Exception as e:

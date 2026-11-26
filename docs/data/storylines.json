@@ -1,0 +1,1850 @@
+{
+ "verified": "2026-11-26",
+ "note": "Each timeline entry carries its sources and an evidence label. 'concern' means an allegation or criticism, 'company' is the company's own account, 'official' is a regulator, court or filing, 'event' is a reported fact. Dismissal, settlement and clearance are described exactly as the document says.",
+ "cats": [
+  {
+   "id": "environment",
+   "name": "Environment and community"
+  },
+  {
+   "id": "legal",
+   "name": "Legal and regulatory"
+  },
+  {
+   "id": "politics",
+   "name": "Politics, governance and overseas"
+  },
+  {
+   "id": "money",
+   "name": "Money: debt, funding and ratings"
+  },
+  {
+   "id": "decisions",
+   "name": "Business decisions"
+  }
+ ],
+ "lines": [
+  {
+   "id": "tarali",
+   "cat": "environment",
+   "title": "Tarali pumped-storage project (Satara, Maharashtra)",
+   "status": "Open",
+   "status_note": "Work halted by two agencies. Wildlife-board approval, an inquiry into the cost declaration and the village water complaints are all still pending.",
+   "short": "Tarali is a 1,500 MW pumped-storage project that Adani Green is building in Satara district, Maharashtra. In November 2026 it was hit by a forest-department stop-work order (13 Nov), a pollution-board stop-work letter for one site (20 Nov) and a village dispute over water. The forest department says wildlife-board (NBWL) approval was missing. Adani Green says it holds the clearances it needs and that no forest land or protected area is involved.",
+   "why": "It shows how the order of approvals (environment clearance, state consents, wildlife approval) and a project-cost declaration can stop a project that is already under construction, and how one local dispute becomes a group-level reputational issue. Pumped storage is also central to AGEL's plan to make renewable power firm.",
+   "companies": [
+    "agel"
+   ],
+   "match": [
+    "tarali"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Will the National Board for Wildlife (NBWL) clear the project, and when?",
+    "What will the inquiry the environment ministry ordered on 6 Nov conclude about the ₹56.75 crore cost declaration?",
+    "Will the forest-department and pollution-board stop-work orders be lifted, and on what conditions?",
+    "Will the state's water-source review in the three villages find damage from blasting?"
+   ],
+   "gaps": [
+    "The original ₹5,675 crore cost comes from the environment-clearance letter as quoted by the Indian Express; I have not seen the letter itself."
+   ],
+   "timeline": [
+    {
+     "d": "2024-01-23",
+     "k": "company",
+     "tier": "official",
+     "h": "'No forest land' certificate",
+     "x": "AGEL says it received a no-forest-land certificate on this date. It cites this, with the environment clearance and state consent, as proof the project is on private land.",
+     "s": [
+      {
+       "t": "India Today, 17 Nov 2026",
+       "u": "https://www.indiatoday.in/business/story/adani-green-tarali-project-clarification-maharashtra-stop-work-notice-3040447-2026-11-17"
+      }
+     ]
+    },
+    {
+     "d": "2025-02-11",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Environment clearance granted",
+     "x": "The environment ministry (MoEFCC) grants environmental clearance. The clearance letter lists the project cost as ₹5,675 crore.",
+     "s": [
+      {
+       "t": "Indian Express, 16 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/adani-hydropower-project-maharashtra-forest-department-work-halted-10965184"
+      }
+     ]
+    },
+    {
+     "d": "2025-04-07",
+     "k": "official",
+     "tier": "regulator",
+     "h": "State pollution board consent to establish",
+     "x": "Maharashtra grants the Consent to Establish. AGEL says construction began after this.",
+     "s": [
+      {
+       "t": "Indian Express, 16 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/adani-hydropower-project-maharashtra-forest-department-work-halted-10965184"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-08",
+     "k": "company",
+     "tier": "official",
+     "h": "Cost declared as ₹56.75 crore",
+     "x": "In a notarised affidavit to Maharashtra's chief forest conservator, AGEL's chief operating officer asks that the project cost be taken as ₹56.75 crore, one hundredth of the figure in the clearance letter. The cost sets the size of the conservation deposit.",
+     "s": [
+      {
+       "t": "Indian Express, 17 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/minister-shambhuraj-desai-asks-satara-collector-meeting-villagers-water-concerns-adani-green-energy-project-10966846"
+      }
+     ]
+    },
+    {
+     "d": "2026-10-12",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Forest officials accept the revised cost",
+     "x": "A forest official informs AGEL that ₹56.75 crore is accepted. AGEL is asked to deposit 1% (₹56.75 lakh) now and a further 3% (₹1.7075 crore) once NBWL approves.",
+     "s": [
+      {
+       "t": "Indian Express, 17 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/minister-shambhuraj-desai-asks-satara-collector-meeting-villagers-water-concerns-adani-green-energy-project-10966846"
+      }
+     ]
+    },
+    {
+     "d": "2026-10-30",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Complaint over the cost",
+     "x": "The Satara district honorary wildlife warden, Rohan Bhate, files a complaint on the Prime Minister's grievance portal and the state's portal, alleging the project cost is incorrect.",
+     "s": [
+      {
+       "t": "Indian Express, 17 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/minister-shambhuraj-desai-asks-satara-collector-meeting-villagers-water-concerns-adani-green-energy-project-10966846"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-06",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Centre orders an inquiry",
+     "x": "The environment ministry directs the state forest department to investigate the matter on priority.",
+     "s": [
+      {
+       "t": "Indian Express, 17 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/minister-shambhuraj-desai-asks-satara-collector-meeting-villagers-water-concerns-adani-green-energy-project-10966846"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-13",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Report on the 99% cost cut, and a stop-work order",
+     "x": "The Indian Express reports that the revised cost would cut the conservation deposit from ₹227 crore to ₹2.27 crore. The same day the forest department orders work stopped: it says the project began without NBWL approval and lies in the deemed eco-sensitive zone of the Sahyadri Tiger Reserve.",
+     "s": [
+      {
+       "t": "Indian Express, 16 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/adani-hydropower-project-maharashtra-forest-department-work-halted-10965184"
+      },
+      {
+       "t": "India Today, 17 Nov 2026",
+       "u": "https://www.indiatoday.in/business/story/adani-green-tarali-project-clarification-maharashtra-stop-work-notice-3040447-2026-11-17"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-16",
+     "k": "company",
+     "tier": "official",
+     "h": "AGEL's response",
+     "x": "AGEL says no part of the project is in a notified protected area, no forest land is involved, and the needed permissions were obtained. It says the wildlife-clearance proposal is pending before NBWL as part of the clearance process. On the cost it said all elements are on private land.",
+     "s": [
+      {
+       "t": "Indian Express, 16 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/adani-hydropower-project-maharashtra-forest-department-work-halted-10965184"
+      },
+      {
+       "t": "India Today, 17 Nov 2026",
+       "u": "https://www.indiatoday.in/business/story/adani-green-tarali-project-clarification-maharashtra-stop-work-notice-3040447-2026-11-17"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-17",
+     "k": "event",
+     "tier": "independent",
+     "h": "State forest minister meets Adani executives",
+     "x": "Maharashtra's forest minister, Ganesh Naik, meets Adani Group executives a day after the stop-work order.",
+     "s": [
+      {
+       "t": "Indian Express, 17 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/minister-shambhuraj-desai-asks-satara-collector-meeting-villagers-water-concerns-adani-green-energy-project-10966846"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-20",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Pollution board orders work stopped at one site",
+     "x": "The Maharashtra Pollution Control Board writes to AGEL to stop work in Sawarghar village: excavation for a temporary labour camp and storage was done without consent. The company says these are construction-support facilities, not permanent project components.",
+     "s": [
+      {
+       "t": "Indian Express, 21 Nov 2026",
+       "u": "https://indianexpress.com/article/cities/pune/maharashtra-pollution-adani-tarali-pump-storage-project-excavation-sawarghar-satara-10972591/"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-20",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Villagers raise water concerns",
+     "x": "At a meeting chaired by Satara's guardian minister Shambhuraj Desai, villagers of Dafarwadi, Kenjalwadi and Kalambe say blasting has damaged natural water sources. The minister says the issues 'have not been resolved yet' and promises another round.",
+     "s": [
+      {
+       "t": "Indian Express, 21 Nov 2026",
+       "u": "http://indianexpress.com/article/pune/satara-villagers-protest-adani-tarali-pump-storage-project-shambhuraj-desai-meeting-10972453"
+      }
+     ]
+    }
+   ],
+   "first": "2024-01-23",
+   "last": "2026-11-20"
+  },
+  {
+   "id": "hasdeo",
+   "cat": "environment",
+   "title": "Hasdeo Arand coal mining (Chhattisgarh)",
+   "status": "Ongoing",
+   "status_note": "Mining and tree felling continue. Courts and the green tribunal have let the project proceed, largely on grounds of procedure and finality. One Supreme Court petition was pending as of May 2025.",
+   "short": "Hasdeo Arand is a dense forest in Chhattisgarh sitting on large coal reserves. The Parsa East and Kete Basan (PEKB) block belongs to a Rajasthan state power utility, RRVUNL, and Adani is reported to be the mine developer and operator. Tribal communities and activists have opposed forest clearance and tree felling for over a decade. The central and state governments, the green tribunal (NGT) and the Chhattisgarh High Court have so far let the mine go ahead.",
+   "why": "Coal from this block feeds power supply that the group's thermal and logistics businesses depend on, and forest-rights disputes are its most persistent community-relations issue in India. Be precise: the courts mostly ruled on procedure (standing, finality), which is not the same as ruling that every allegation was wrong.",
+   "companies": [
+    "ael",
+    "power"
+   ],
+   "match": [
+    "hasdeo",
+    "parsa east",
+    "kete basan",
+    "kente basan"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Supreme Court Writ Petition (C) 510 of 2023 asks for mining to stop and for Hasdeo to be declared a conservation reserve. It was pending as of May 2025; I have not verified its current status.",
+    "Whether any action followed the state Scheduled Tribes Commission's reported finding on falsified gram sabha papers.",
+    "How much of the approved forest area will actually be felled, and over what period."
+   ],
+   "gaps": [
+    "I could not find a current Adani statement on this dispute in primary sources, so the company's position is not quoted here. Add it when you find one.",
+    "Adani's role as mine developer and operator comes from media and activist reports; the court orders name only the state utility RRVUNL."
+   ],
+   "timeline": [
+    {
+     "d": "2007-01-01",
+     "k": "event",
+     "tier": "regulator",
+     "h": "Coal block allotted to a Rajasthan utility",
+     "x": "The Ministry of Coal allots the Parsa East and Kete Basan captive coal block to RRVUNL, a Rajasthan government entity, in 2006-07.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2011-05-15",
+     "k": "concern",
+     "tier": "regulator",
+     "h": "Expert sub-committee flags issues",
+     "x": "A sub-committee of the Forest Advisory Committee visits in May 2011 and raises forest density, wildlife habitat and the incomplete Forest Rights Act process in the villages.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ]
+    },
+    {
+     "d": "2014-03-24",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Green tribunal sets aside early clearances",
+     "x": "The NGT sets aside the 2011-12 forest clearance and diversion orders and sends the matter back for fresh advice. RRVUNL appeals, and on 28 Apr 2014 the Supreme Court stays the NGT's direction.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ]
+    },
+    {
+     "d": "2021-08-03",
+     "k": "concern",
+     "tier": "other",
+     "h": "Villagers allege forged consent",
+     "x": "Residents of Salhi, Hariharpur, Fatehpur and Ghatbarra complain to the Chhattisgarh State Scheduled Tribes Commission that approval for the nearby Parsa block rested on forged gram sabha consent. (As reported by AdaniWatch, an activist outlet.)",
+     "s": [
+      {
+       "t": "AdaniWatch, 23 Nov 2024",
+       "u": "https://www.adaniwatch.org/documents_falsified_to_enable_new_adani_coal_mine_to_proceed"
+      }
+     ]
+    },
+    {
+     "d": "2021-10-21",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Final forest approval for Parsa",
+     "x": "The environment ministry gives final approval under the Forest (Conservation) Act for 841.538 hectares of forest land for the Parsa open-cast project (5 MTPA), in favour of RRVUNL.",
+     "s": [
+      {
+       "t": "MoEFCC approval letter",
+       "u": "https://forestsclearance.nic.in/writereaddata/RO_Approved/102120211download.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2022-02-02",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Phase II mining permitted at PEKB",
+     "x": "The environment ministry permits non-forest use of the remaining 1,136 hectares in PEKB for Phase II. The state follows with its diversion order on 25 Mar 2022, and a final approval for Parsa on 6 Apr 2022.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      },
+      {
+       "t": "Land Conflict Watch",
+       "u": "https://www.landconflictwatch.org/conflicts/government-approves-coal-mining-in-biodiversity-rich-hasdeo-arand-forest-in-chhattisgarh"
+      }
+     ]
+    },
+    {
+     "d": "2023-10-16",
+     "k": "official",
+     "tier": "regulator",
+     "h": "RRVUNL's Supreme Court appeal ends",
+     "x": "RRVUNL does not press its appeal against the 2014 NGT order after Phase II was approved, and the Supreme Court disposes of it. Petitioners say this made the NGT order final; the state disputes the relevance.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ]
+    },
+    {
+     "d": "2023-12-22",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Tree felling resumes; NGT takes notice",
+     "x": "News reports say deforestation for Phase II has resumed and that locals were detained. The NGT registers cases on the strength of these reports.",
+     "s": [
+      {
+       "t": "NGT order, 28 May 2025",
+       "u": "https://cmtb2b.s3.ap-south-1.amazonaws.com/dev/order_docs/ngt/070110200215-2024_28-05-2025-judgement-8.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2024-01-22",
+     "k": "official",
+     "tier": "regulator",
+     "h": "State tells the NGT how many trees were felled",
+     "x": "The Chhattisgarh forest department tells the NGT that 81,866 trees have been felled in the area since mining began (50,014 between 2012-13 and 2017-18, and 31,852 between 2018-19 and 2022-23). It says felling follows central and state approvals and is phased over 15-20 years. Activists dispute the count and say over 3.5 lakh trees have gone since 2012.",
+     "s": [
+      {
+       "t": "Chhattisgarh reply to NGT",
+       "u": "https://www.greentribunal.gov.in/sites/default/files/news_updates/REPORT%20BY%20STATE%20OF%20CHHATTISGARH%20IN%20OA%20NO.%2059%20of%202024%20NEWS%20ITEM%20TITLED%20DEFORESTATION%20FOR%20MINING%20RESUMES%20IN%20HASDEO%20LOCALS%20ACTIVISTS%20ALLEGE%20DETENTION%20APPEARING%20IN%20THE%20HINDU%20DATED%2022.12.2023.pdf"
+      },
+      {
+       "t": "Frontline, Jan 2025",
+       "u": "https://frontline.thehindu.com/environment/chhattisgarhs-hasdeo-arand-forest-corporate-nexus-environment-tribal-rights-adani-enterprises-ltd/article69104150.ece"
+      }
+     ]
+    },
+    {
+     "d": "2024-10-17",
+     "k": "concern",
+     "tier": "other",
+     "h": "Clashes at the Parsa felling",
+     "x": "Police and tribal protesters clash when trees are felled for the Parsa block; both sides are injured. (As reported by AdaniWatch.)",
+     "s": [
+      {
+       "t": "AdaniWatch, 23 Nov 2024",
+       "u": "https://www.adaniwatch.org/documents_falsified_to_enable_new_adani_coal_mine_to_proceed"
+      }
+     ]
+    },
+    {
+     "d": "2024-11-06",
+     "k": "concern",
+     "tier": "other",
+     "h": "State commission reportedly finds falsified consent",
+     "x": "The Chhattisgarh State Scheduled Tribes Commission reportedly states that the Parsa environmental approval relied on falsified records of village-council consent. (As reported by AdaniWatch; I have not seen the report.)",
+     "s": [
+      {
+       "t": "AdaniWatch, 23 Nov 2024",
+       "u": "https://www.adaniwatch.org/documents_falsified_to_enable_new_adani_coal_mine_to_proceed"
+      }
+     ]
+    },
+    {
+     "d": "2025-05-28",
+     "k": "official",
+     "tier": "regulator",
+     "h": "NGT closes its cases",
+     "x": "The NGT finds no reason to continue: a joint committee had noted that permissions were in place for the Phase II mining and tree cutting, and it directs that necessary plantation be done to maintain the ecology.",
+     "s": [
+      {
+       "t": "NGT order, 28 May 2025",
+       "u": "https://cmtb2b.s3.ap-south-1.amazonaws.com/dev/order_docs/ngt/070110200215-2024_28-05-2025-judgement-8.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2025-10-08",
+     "k": "official",
+     "tier": "regulator",
+     "h": "High Court single judge dismisses the main petition",
+     "x": "The Chhattisgarh High Court's single judge dismisses the villagers' petition (WPC 1346 of 2016), among other grounds because the original petitioner withdrew and the remaining petitioners did not show authorisation.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ]
+    },
+    {
+     "d": "2026-04-21",
+     "k": "official",
+     "tier": "regulator",
+     "h": "High Court division bench dismisses the appeal",
+     "x": "The bench upholds the dismissal. It holds the petition was a collateral attack on cases decided in 2022 (which had dismissed challenges to the land acquisition) and notes the petitioners had not challenged the 2011-12 orders. It rules on authorisation and finality, not on whether every forest-rights allegation was true.",
+     "s": [
+      {
+       "t": "Chhattisgarh High Court order, 21 Apr 2026",
+       "u": "https://indiankanoon.org/doc/118873176/"
+      }
+     ]
+    }
+   ],
+   "first": "2007-01-01",
+   "last": "2026-04-21"
+  },
+  {
+   "id": "carmichael",
+   "cat": "environment",
+   "title": "Carmichael coal mine (Queensland, Australia)",
+   "status": "Operating",
+   "status_note": "Producing over 10 Mtpa and planning 16 Mtpa. Groundwater and finch-protection conditions are still monitored by the Queensland regulator, and a 2023 groundwater order is being challenged by the company in court.",
+   "short": "Carmichael is a thermal-coal mine in the Galilee Basin, now run by Adani Mining trading as Bravus. It took about eight years of approvals and drew Australia's 'Stop Adani' campaign. Opponents and the regulator focused on groundwater-dependent springs, the endangered black-throated finch and climate impact. Bravus says it met some of the strictest conditions ever set for a mine and now produces over 10 million tonnes a year.",
+   "why": "It shows the group's willingness to see out long permitting fights, and the tension between this coal asset and the group's renewable-energy story. International investors and lenders watch it closely, so it affects the group's ESG reputation and financing.",
+   "companies": [
+    "ael"
+   ],
+   "match": [
+    "carmichael",
+    "bravus"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "How the Planning and Environment Court rules on Bravus's challenge to the 2023 Environmental Protection Order.",
+    "Whether Bravus can plan underground mining without affecting the Doongmabulla Springs (its approval limit is a 20 cm fall in spring water levels).",
+    "Whether the planned rise to 16 Mtpa meets all approval conditions."
+   ],
+   "gaps": [
+    "The outcome of Bravus's court challenge to the 2023 order is not in my sources. Check the Queensland Planning and Environment Court.",
+    "'Stop Adani' campaign claims are described by the company; I did not find a neutral summary of the campaign's arguments."
+   ],
+   "timeline": [
+    {
+     "d": "2010-01-01",
+     "k": "event",
+     "tier": "official",
+     "h": "Adani buys the coal tenement",
+     "x": "Adani buys a greenfield coal tenement in Queensland's Galilee Basin in 2010, the Abbot Point export terminal in 2011 and land for the mine site in 2012.",
+     "s": [
+      {
+       "t": "Bravus: about us",
+       "u": "https://www.bravus.com.au/about"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2014-05-07",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Queensland approves the environmental statement",
+     "x": "The Queensland Coordinator-General's report, released 7 May 2014, recommends approval with conditions.",
+     "s": [
+      {
+       "t": "Bravus submission to Queensland Parliament, Oct 2026",
+       "u": "https://documents.parliament.qld.gov.au/com/PIRC-1135/MROLAB2026-4295/submissions/00000127.pdf"
+      },
+      {
+       "t": "Queensland government",
+       "u": "https://environment.qld.gov.au/management/monitoring/locations-of-interest/adani-carmichael"
+      }
+     ]
+    },
+    {
+     "d": "2016-02-02",
+     "k": "official",
+     "tier": "regulator",
+     "h": "First environmental authority issued",
+     "x": "After a Land Court hearing, Queensland's environment department issues the mine's first Environmental Authority. It requires a groundwater-ecosystem plan and a black-throated finch plan before significant mining.",
+     "s": [
+      {
+       "t": "Queensland government",
+       "u": "https://environment.qld.gov.au/management/monitoring/locations-of-interest/adani-carmichael"
+      }
+     ]
+    },
+    {
+     "d": "2018-01-01",
+     "k": "company",
+     "tier": "official",
+     "h": "Adani scales the project down",
+     "x": "The group says it will self-finance a scaled-down 10 Mtpa mine (about A$2 billion) with a shorter narrow-gauge rail line. Bravus says the 'Stop Adani' campaign delayed the project; it describes the campaign as organised and partly overseas-funded.",
+     "s": [
+      {
+       "t": "Bravus: about us",
+       "u": "https://www.bravus.com.au/about"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2019-06-13",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Final plans approved",
+     "x": "Queensland approves the black-throated finch plan (31 May 2019) and the groundwater-dependent-ecosystem plan (13 June 2019). Construction begins in June 2019. The site holds Australia's most significant southern black-throated finch population, which is endangered.",
+     "s": [
+      {
+       "t": "Queensland government",
+       "u": "https://environment.qld.gov.au/management/monitoring/locations-of-interest/adani-carmichael"
+      },
+      {
+       "t": "Bravus: about us",
+       "u": "https://www.bravus.com.au/about"
+      }
+     ]
+    },
+    {
+     "d": "2020-01-01",
+     "k": "event",
+     "tier": "regulator",
+     "h": "Open-cut mining starts",
+     "x": "Bravus begins open-cut mining in 2020. The Queensland regulator reviews monitoring data and handles compliance.",
+     "s": [
+      {
+       "t": "Queensland government",
+       "u": "https://environment.qld.gov.au/management/monitoring/locations-of-interest/adani-carmichael"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2023-01-01",
+     "k": "concern",
+     "tier": "regulator",
+     "h": "Environmental Protection Order on groundwater",
+     "x": "Queensland issues an Environmental Protection Order after Bravus's updated groundwater model showed more work was needed before any underground mining, to keep the Doongmabulla Springs from falling more than 20 cm. Bravus says no breach occurred and open-cut mining is unaffected.",
+     "s": [
+      {
+       "t": "Bravus statement, 1 May 2024",
+       "u": "https://www.bravusmining.com.au/bravus-takes-queensland-government-to-court-for-regulatory-failure"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2024-05-01",
+     "k": "company",
+     "tier": "official",
+     "h": "Bravus challenges the order in court",
+     "x": "Bravus applies to the Planning and Environment Court to review the 2023 order, calling it regulatory overreach.",
+     "s": [
+      {
+       "t": "Bravus statement, 1 May 2024",
+       "u": "https://www.bravusmining.com.au/bravus-takes-queensland-government-to-court-for-regulatory-failure"
+      }
+     ]
+    },
+    {
+     "d": "2025-08-19",
+     "k": "company",
+     "tier": "official",
+     "h": "Plan to raise output by a third",
+     "x": "Bravus announces investment to raise Carmichael's output to 16 Mtpa over four years, citing demand from industrialising nations.",
+     "s": [
+      {
+       "t": "Bravus announcement",
+       "u": "https://www.bravusmining.com.au/bravus-mining-and-resources-commits-to-major-investment-to-increase-mine-production-in-central-queensland"
+      }
+     ]
+    },
+    {
+     "d": "2026-10-12",
+     "k": "event",
+     "tier": "official",
+     "h": "Among Queensland's largest mines",
+     "x": "In a submission to Queensland's Parliament, Bravus says Carmichael was among the state's three largest coal mines by saleable production in each of the last three financial years, and the largest in 2024-25.",
+     "s": [
+      {
+       "t": "Bravus submission to Queensland Parliament, Oct 2026",
+       "u": "https://documents.parliament.qld.gov.au/com/PIRC-1135/MROLAB2026-4295/submissions/00000127.pdf"
+      }
+     ]
+    }
+   ],
+   "first": "2010-01-01",
+   "last": "2026-10-12"
+  },
+  {
+   "id": "khavda",
+   "cat": "environment",
+   "title": "Khavda: wildlife rules and grid delays",
+   "status": "Ongoing",
+   "status_note": "Wildlife rules for power lines are now settled by the Supreme Court; the grid delay is a live earnings issue.",
+   "short": "Khavda in Gujarat is the anchor of AGEL's expansion, which the company calls the world's largest single-location renewable build. Two issues sit on top of it. First, a Supreme Court case on protecting the Great Indian Bustard from power-line collisions, which covers all renewable developers in Rajasthan and Gujarat and is not about Adani alone. Second, delays to a transmission corridor that cost AGEL about ₹724 crore of earnings in the first half of FY27.",
+   "why": "Khavda shows that building generation is the easy part. Evacuation lines, land and wildlife rules decide how much power is actually sold. It also links AGEL (generation) with AESL (transmission), two companies with different lenders and timelines.",
+   "companies": [
+    "agel",
+    "aesl"
+   ],
+   "match": [
+    "khavda",
+    "great indian bustard",
+    "halvad"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "When will the Halvad Phase III Part A transmission corridor (7 GW) be commissioned? The company links its capacity-addition target to it.",
+    "How will the Supreme Court's bustard rules (restricted new overhead lines in priority areas) affect future Kutch projects? The sources do not say whether any AGEL project sits inside a priority area.",
+    "Will battery storage (6.63 GWh installed) reduce losses from grid curtailment?"
+   ],
+   "gaps": [
+    "The ₹724 crore figure comes from a media report of AGEL's earnings call (Urban Acres), not from AGEL's own document."
+   ],
+   "timeline": [
+    {
+     "d": "2019-01-01",
+     "k": "event",
+     "tier": "regulator",
+     "h": "Bustard petition reaches the Supreme Court",
+     "x": "Conservationist M K Ranjitsinh asks the Supreme Court to act urgently to protect the critically endangered Great Indian Bustard, whose numbers had fallen to about 150, partly through collisions with power lines.",
+     "s": [
+      {
+       "t": "Indian Express explainer, Dec 2025",
+       "u": "https://indianexpress.com/article/explained/supreme-court-order-safeguards-great-indian-bustard-power-10441540"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2024-03-21",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Supreme Court judgment",
+     "x": "The Supreme Court recognises a right against the adverse effects of climate change and modifies its earlier order to bury power lines. Adani Green, ReNew and Acme all have large projects in the Thar and Kutch regions.",
+     "s": [
+      {
+       "t": "Elgar chapter on the case",
+       "u": "https://www.elgaronline.com/edcollchap-oa/book/9781035343188/chapter12.xml"
+      },
+      {
+       "t": "Mongabay India, Apr 2024",
+       "u": "https://india.mongabay.com/2024/04/climate-litigation-has-entered-the-room-but-could-great-indian-bustards-be-inched-out"
+      }
+     ]
+    },
+    {
+     "d": "2025-12-19",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Final directions on bustard areas",
+     "x": "The Court adopts an expert committee's recommendations: priority areas expand to 14,013 sq km in Rajasthan and 740 sq km in Gujarat, and future renewable projects and new overhead power lines are restricted there. It sets a mechanism to reroute lines.",
+     "s": [
+      {
+       "t": "Indian Express explainer, Dec 2025",
+       "u": "https://indianexpress.com/article/explained/supreme-court-order-safeguards-great-indian-bustard-power-10441540"
+      },
+      {
+       "t": "Elgar chapter on the case",
+       "u": "https://www.elgaronline.com/edcollchap-oa/book/9781035343188/chapter12.xml"
+      }
+     ]
+    },
+    {
+     "d": "2025-12-31",
+     "k": "event",
+     "tier": "other",
+     "h": "Original schedule for the Halvad corridor",
+     "x": "The Phase III Part A transmission system, built by AESL through Halvad Transmission to evacuate 7 GW from Khavda, was initially due for commissioning in December 2025.",
+     "s": [
+      {
+       "t": "Urban Acres, 23 Oct 2026",
+       "u": "https://urbanacres.in/khavda-transmission-delay-costs-adani-green-%E2%82%B9724-crore-in-h1"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2026-03-01",
+     "k": "event",
+     "tier": "other",
+     "h": "Schedule slips to June 2026",
+     "x": "A Western Region Power Committee report in March 2026 revises completion to June 2026, citing construction delays and right-of-way issues.",
+     "s": [
+      {
+       "t": "Urban Acres, 23 Oct 2026",
+       "u": "https://urbanacres.in/khavda-transmission-delay-costs-adani-green-%E2%82%B9724-crore-in-h1"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2026-10-22",
+     "k": "company",
+     "tier": "other",
+     "h": "AGEL quantifies the cost",
+     "x": "On its earnings call AGEL says curtailment from the delayed corridor reduced H1 FY27 EBITDA by about ₹724 crore (actual ₹8,276 crore, could have been near ₹9,000 crore). Its 4.5-5 GW capacity addition target is now linked to the corridor. It installed 6,632 MWh of battery storage by end-September.",
+     "s": [
+      {
+       "t": "Urban Acres, 23 Oct 2026",
+       "u": "https://urbanacres.in/khavda-transmission-delay-costs-adani-green-%E2%82%B9724-crore-in-h1"
+      }
+     ]
+    }
+   ],
+   "first": "2019-01-01",
+   "last": "2026-10-22"
+  },
+  {
+   "id": "hindenburg-sebi",
+   "cat": "legal",
+   "title": "Hindenburg report and SEBI's cases (India)",
+   "status": "Largely settled",
+   "status_note": "Two main SEBI strands ended in September 2026 by settlement or disposal. SEBI can reopen a settlement if representations prove untrue, and Reuters sources said in 2025 that more allegations were still under review.",
+   "short": "On 24 January 2023 US short-seller Hindenburg Research accused the group of stock manipulation and accounting fraud. The group denied it. Share prices fell sharply, a planned share sale was withdrawn, and the Supreme Court and SEBI investigated. In September 2025 SEBI said two of Hindenburg's allegations were not established. In September 2026 SEBI closed the related-party disclosure case and the public-shareholding case through settlement orders.",
+   "why": "This is the event behind the group's 2023 financing stress and its later deleveraging. In meetings, keep the strands separate: the Hindenburg allegations, the Supreme Court's review, SEBI's own cases, and the US cases are different proceedings with different outcomes.",
+   "companies": [
+    "group",
+    "ael",
+    "power",
+    "apsez",
+    "agel",
+    "aesl",
+    "atgl"
+   ],
+   "match": [
+    "hindenburg",
+    "sebi"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Reuters sources said in Sep 2025 that SEBI was still reviewing more than a dozen other allegations. I have not found how many remain open.",
+    "The September 2026 minimum-public-shareholding final order also covers other noticees, including Vinod Adani and offshore entities. I have not verified their outcome; read the order.",
+    "SEBI keeps the right to restore a settled case if the applicants' statements prove untrue."
+   ],
+   "gaps": [
+    "A report that SEBI was pursuing offshore-trading actions around the Hindenburg episode (Reuters, 4 Sep 2026) comes from earlier notes and has not been re-verified."
+   ],
+   "timeline": [
+    {
+     "d": "2023-01-24",
+     "k": "concern",
+     "tier": "other",
+     "h": "Hindenburg publishes its report",
+     "x": "Hindenburg alleges decades of stock manipulation and accounting fraud, undisclosed related parties and offshore 'public' shareholders that were really tied to the promoters. It discloses short positions through US-traded bonds and non-Indian derivatives.",
+     "s": [
+      {
+       "t": "Hindenburg Research report",
+       "u": "https://hindenburgresearch.com/adani"
+      }
+     ]
+    },
+    {
+     "d": "2023-01-29",
+     "k": "company",
+     "tier": "official",
+     "h": "Group rejects the allegations",
+     "x": "The group releases a 413-page reply calling the report a 'calculated attack' on India and the allegations 'nothing but a lie'. Hindenburg stands by its report on 30 Jan.",
+     "s": [
+      {
+       "t": "CNBC-TV18 timeline",
+       "u": "https://www.cnbctv18.com/market/stocks/adani-enterprises-fpo-called-off-timeline-with-hindenburg-row-15828411.htm"
+      }
+     ]
+    },
+    {
+     "d": "2023-02-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "Share sale withdrawn; SEBI probe reported",
+     "x": "Adani Enterprises withdraws its ₹20,000 crore follow-on offer after the stock rout, which Reuters puts at $86 billion of market value. Reuters reports that SEBI has begun a probe.",
+     "s": [
+      {
+       "t": "Reuters, 1 Feb 2023",
+       "u": "https://www.reuters.com/world/india/indias-adani-ditches-25-bln-share-sale-after-86-bln-rout-2023-02-01/"
+      },
+      {
+       "t": "CNBC-TV18 timeline",
+       "u": "https://www.cnbctv18.com/market/stocks/adani-enterprises-fpo-called-off-timeline-with-hindenburg-row-15828411.htm"
+      }
+     ]
+    },
+    {
+     "d": "2023-03-02",
+     "k": "event",
+     "tier": "official",
+     "h": "GQG Partners invests $1.87 billion",
+     "x": "US investor GQG buys ₹15,446 crore of shares in four group companies, the first major outside investment after the rout.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-portfolio-companies"
+      },
+      {
+       "t": "Reuters, 2 Mar 2023",
+       "u": "https://www.reuters.com/markets/deals/gqg-partners-buy-shares-worth-187-bln-adani-group-firms-2023-03-02/"
+      }
+     ]
+    },
+    {
+     "d": "2024-01-03",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Supreme Court declines a special probe",
+     "x": "The Supreme Court refuses to hand the probe to the CBI or a special investigation team. SEBI had completed 22 of 24 investigations; it is told to finish the rest within three months. The Court also asks the Centre and SEBI to examine losses from short-selling.",
+     "s": [
+      {
+       "t": "Supreme Court Observer",
+       "u": "https://www.scobserver.in/journal/adani-hindenburg-controversy-judgement-pronouncement"
+      },
+      {
+       "t": "Reuters, 3 Jan 2024",
+       "u": "https://www.reuters.com/world/india/indias-top-court-asks-regulator-complete-adani-group-probe-within-3-months-2024-01-03"
+      }
+     ]
+    },
+    {
+     "d": "2024-02-15",
+     "k": "official",
+     "tier": "regulator",
+     "h": "SEBI show-cause notice on related-party disclosures",
+     "x": "SEBI issues notices to Adani Enterprises, Adani Total Gas, AWL (formerly Adani Wilmar), Adani Green and Adani Energy Solutions over alleged lapses in disclosing related-party transactions.",
+     "s": [
+      {
+       "t": "SEBI settlement order, 22 Sep 2026",
+       "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790075703744_1.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2025-09-18",
+     "k": "official",
+     "tier": "regulator",
+     "h": "SEBI dismisses two Hindenburg allegations",
+     "x": "SEBI orders find the allegations not established over transactions with Milestone Tradelinks and Rehvar Infrastructure (and a separate Adicorp order). Proceedings are disposed of without direction. Reuters reports SEBI dismissed the stock-manipulation and related-party non-disclosure allegations.",
+     "s": [
+      {
+       "t": "SEBI order",
+       "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2025/order_matter_milestone_rehvar.pdf"
+      },
+      {
+       "t": "Reuters, 18 Sep 2025",
+       "u": "https://www.reuters.com/legal/government/india-markets-regulator-dismisses-hindenburgs-manipulation-allegations-against-2025-09-18"
+      }
+     ]
+    },
+    {
+     "d": "2025-09-19",
+     "k": "event",
+     "tier": "independent",
+     "h": "Other allegations still under review",
+     "x": "Reuters, citing two sources, reports SEBI is still looking into more than a dozen other allegations that the group and its offshore funds broke securities rules.",
+     "s": [
+      {
+       "t": "Reuters, 19 Sep 2025",
+       "u": "https://www.reuters.com/sustainability/boards-policy-regulation/india-regulator-still-reviewing-more-than-dozen-allegations-against-adani-2025-09-19/"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-10",
+     "k": "official",
+     "tier": "independent",
+     "h": "APSEZ's CEO and CFO settle a disclosure case",
+     "x": "Adani Ports' CEO and CFO settle a case about transactions involving PMC Projects by paying about ₹13.7 lakh each, without admitting or denying wrongdoing.",
+     "s": [
+      {
+       "t": "Reuters, 10 Sep 2026",
+       "u": "https://www.reuters.com/legal/government/india-market-regulator-settles-disclosure-violation-charges-against-adani-ports-2026-09-10"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-22",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Related-party disclosure case settled",
+     "x": "SEBI disposes of the notices against five group companies after settlement payments totalling about ₹1.5 crore. The order says SEBI may restore proceedings if the applicants' representations prove untrue.",
+     "s": [
+      {
+       "t": "SEBI settlement order",
+       "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790075703744_1.pdf"
+      },
+      {
+       "t": "Reuters, 22 Sep 2026",
+       "u": "https://www.reuters.com/world/india/adani-firms-settle-markets-regulator-proceedings-over-disclosure-violations-2026-09-22"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-28",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Public-shareholding case: settlement and final order",
+     "x": "SEBI passes a settlement order for Gautam Adani and several group companies, and a separate final order in the minimum public shareholding (MPS) matter. The final order records that for the noticees who settled (₹1.482 crore in total, without admission of guilt) an MPS violation does not stand established. It also covers other noticees whose outcome I have not verified.",
+     "s": [
+      {
+       "t": "SEBI final order",
+       "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/ORDER_1790584774.pdf"
+      },
+      {
+       "t": "SEBI settlement order",
+       "u": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1790605373798.pdf"
+      },
+      {
+       "t": "Reuters, 28 Sep 2026",
+       "u": "https://www.reuters.com/legal/government/indias-market-regulator-disposes-proceedings-against-adani-group-companies-2026-09-28"
+      }
+     ]
+    }
+   ],
+   "first": "2023-01-24",
+   "last": "2026-09-28"
+  },
+  {
+   "id": "us-cases",
+   "cat": "legal",
+   "title": "US criminal, SEC and OFAC cases",
+   "status": "Mostly closed",
+   "status_note": "The US criminal case was dismissed with prejudice for the defendants who appeared. The SEC consent judgments were filed but I have not verified court approval. The OFAC sanctions settlement was announced separately.",
+   "short": "In November 2024 US prosecutors indicted Gautam Adani, Sagar Adani and others over an alleged bribery scheme, and the SEC filed a civil case over statements in a 2021 bond offering by Adani Green. The group has denied wrongdoing. In May 2026 the SEC proposed consent judgments and the Justice Department moved to drop the criminal case; a federal judge dismissed it with prejudice on 10 August 2026. OFAC separately settled with Adani Enterprises over Iran-linked LPG imports.",
+   "why": "These are three separate proceedings with different outcomes, and 'dismissed with prejudice' is not the same as a finding that the allegations were false. Keep the SEC settlement (a civil penalty, without admitting or denying) and the OFAC settlement ($275 million) separate from the dismissal.",
+   "companies": [
+    "group",
+    "agel",
+    "ael"
+   ],
+   "match": [
+    "ofac",
+    "doj",
+    "indictment",
+    "bribery",
+    "u.s. court",
+    "us court",
+    "sec settlement",
+    "sec consent"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Has the court approved the SEC consent judgments (penalties of $6 million and $12 million)? I have not verified this.",
+    "The court reserved judgment on two counts as to five non-appearing defendants, pending the Justice Department meeting the dismissal rule's requirements.",
+    "Any follow-up to OFAC's findings on due diligence, and how AEL's remedial steps are tested."
+   ],
+   "gaps": [
+    "I did not find a current statement from the group on the August 2026 dismissal in primary sources."
+   ],
+   "timeline": [
+    {
+     "d": "2024-10-24",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Grand jury returns an indictment",
+     "x": "A grand jury in the Eastern District of New York returns an indictment against the defendants. The charges were announced on 20 November.",
+     "s": [
+      {
+       "t": "Court order, 10 Aug 2026",
+       "u": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_24-cr-00433/pdf/USCOURTS-nyed-1_24-cr-00433-2.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2024-11-20",
+     "k": "concern",
+     "tier": "regulator",
+     "h": "SEC files a civil complaint",
+     "x": "The SEC alleges that Gautam Adani and Sagar Adani orchestrated a scheme to pay or promise bribes worth hundreds of millions of dollars to Indian officials for energy purchase commitments, and that the September 2021 $750 million Adani Green bond offering (over $175 million raised from US investors) contained false statements about anti-bribery compliance.",
+     "s": [
+      {
+       "t": "SEC Litigation Release 26554",
+       "u": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26554"
+      }
+     ]
+    },
+    {
+     "d": "2024-11-21",
+     "k": "event",
+     "tier": "independent",
+     "h": "Kenya cancels its Adani deals",
+     "x": "Kenya's president orders cancellation of an airport and power-transmission deal after the indictment.",
+     "s": [
+      {
+       "t": "Reuters, 21 Nov 2024",
+       "u": "https://www.reuters.com/markets/deals/kenya-cancels-proposed-deals-with-adani-group-2024-11-21"
+      }
+     ]
+    },
+    {
+     "d": "2026-05-14",
+     "k": "official",
+     "tier": "regulator",
+     "h": "SEC files proposed consent judgments",
+     "x": "Gautam and Sagar Adani agree, without admitting or denying the allegations, to be barred from future violations and to pay civil penalties of $6 million and $12 million, subject to court approval. Revised judgments follow on 30 May.",
+     "s": [
+      {
+       "t": "SEC Litigation Release 26554",
+       "u": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26554"
+      },
+      {
+       "t": "Court order, 10 Aug 2026",
+       "u": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_24-cr-00433/pdf/USCOURTS-nyed-1_24-cr-00433-2.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-05-18",
+     "k": "official",
+     "tier": "regulator",
+     "h": "OFAC announces a $275 million settlement",
+     "x": "Adani Enterprises settles 32 apparent violations of Iran sanctions. From November 2023 to June 2025 AEL bought LPG from a Dubai trader supplying cargo that was actually of Iranian origin; US banks processed about $192 million of payments. OFAC called the case egregious and not voluntarily self-disclosed, and noted AEL's remedial measures and cooperation.",
+     "s": [
+      {
+       "t": "OFAC enforcement release",
+       "u": "https://ofac.treasury.gov/media/935631/download"
+      },
+      {
+       "t": "OFAC recent actions",
+       "u": "https://ofac.treasury.gov/recent-actions/20260518"
+      }
+     ]
+    },
+    {
+     "d": "2026-05-18",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Justice Department moves to drop the criminal case",
+     "x": "The department asks the court to dismiss the indictment with prejudice. Its one-paragraph motion says it decided, in its prosecutorial discretion, not to devote further resources to the charges. Two department lawyers on the case withdrew two days later.",
+     "s": [
+      {
+       "t": "Court order, 10 Aug 2026",
+       "u": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_24-cr-00433/pdf/USCOURTS-nyed-1_24-cr-00433-2.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-08-10",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Judge dismisses the case with prejudice",
+     "x": "Judge Nicholas Garaufis dismisses the indictment with prejudice as to the defendants who appeared. He reserves judgment on two counts as to five non-appearing defendants and notes that no one involved in bringing the charges signed the motion. 'With prejudice' bars refiling the same charges; it is not a ruling on the truth of the allegations.",
+     "s": [
+      {
+       "t": "Court order, 10 Aug 2026",
+       "u": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_24-cr-00433/pdf/USCOURTS-nyed-1_24-cr-00433-2.pdf"
+      }
+     ]
+    }
+   ],
+   "first": "2024-10-24",
+   "last": "2026-08-10"
+  },
+  {
+   "id": "kenya",
+   "cat": "politics",
+   "title": "Kenya: cancelled airport and power-line deals",
+   "status": "Unresolved",
+   "status_note": "Kenya cancelled both deals in November 2024. The exit from the power-line contract was still not complete at June 2026, with an estimated termination liability of about Sh44 billion.",
+   "short": "In October 2024 Kenya's transmission company signed a 30-year, Sh95.68 billion (about $736 million) public-private partnership with Adani Energy Solutions to build two power lines. A proposed airport concession was also in progress. After the US indictment, Kenya's president ordered both cancelled on 21 November 2024. Kenya's Treasury now estimates what it would owe to exit the power-line contract.",
+   "why": "It is the clearest example of how US legal action turned into a commercial loss overseas: a signed contract with commercial close reached was undone within a month. It also shows that governments cancelling a deal can still face a termination bill.",
+   "companies": [
+    "aesl",
+    "group"
+   ],
+   "match": [
+    "kenya",
+    "ketraco",
+    "jkia"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "How much of the estimated Sh43.94 billion will actually be paid, and when? The Treasury calls it a contingent liability and says it uses a 6% probability of termination by the contracting authority.",
+    "What verified pre-termination costs has AESL submitted? The Treasury report does not say.",
+    "Does the 'mutual separation' path being pursued by KETRACO and the PPP directorate settle the matter without arbitration?"
+   ],
+   "gaps": [
+    "The group's own view of the termination is not in these sources; AESL has not been quoted here."
+   ],
+   "timeline": [
+    {
+     "d": "2024-10-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "Power-line PPP signed",
+     "x": "KETRACO and Adani Energy Solutions sign a 30-year PPP worth Sh95.68 billion (about $736 million) to design, finance, build, operate and then transfer two lines: Lessos–Loosuk (400 kV) and Kisumu–Kakamega–Musaga (220 kV). The projects reach commercial close.",
+     "s": [
+      {
+       "t": "Business Kenya, 23 Nov 2026",
+       "u": "https://business.co.ke/kenya-faces-sh44-billion-bill-to-exit-cancelled-adani-power-lines-ppp"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2024-11-21",
+     "k": "event",
+     "tier": "independent",
+     "h": "Kenya's president cancels both deals",
+     "x": "President William Ruto orders cancellation of the airport procurement and the power-line agreement after the US indictment, citing new information from investigative agencies and partner nations, public opposition and legal challenges.",
+     "s": [
+      {
+       "t": "Reuters, 21 Nov 2024",
+       "u": "https://www.reuters.com/markets/deals/kenya-cancels-proposed-deals-with-adani-group-2024-11-21"
+      },
+      {
+       "t": "Capital FM Kenya, 23 Nov 2026",
+       "u": "https://capitalfm.africa/kenya-faces-sh44bn-bill-to-terminate-adani-power-deal"
+      }
+     ]
+    },
+    {
+     "d": "2026-06-30",
+     "k": "official",
+     "tier": "regulator",
+     "h": "Termination still not complete",
+     "x": "Kenya's Treasury annual PPP report shows the KETRACO–Adani termination, begun in FY2024/25, was still ongoing at the end of FY2025/26. KETRACO and the PPP directorate are pursuing a mutual separation to settle verified pre-termination costs.",
+     "s": [
+      {
+       "t": "Capital FM Kenya, 23 Nov 2026",
+       "u": "https://capitalfm.africa/kenya-faces-sh44bn-bill-to-terminate-adani-power-deal"
+      },
+      {
+       "t": "Business Kenya, 23 Nov 2026",
+       "u": "https://business.co.ke/kenya-faces-sh44-billion-bill-to-exit-cancelled-adani-power-lines-ppp"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-23",
+     "k": "event",
+     "tier": "independent",
+     "h": "Treasury estimate reported: about Sh44 billion",
+     "x": "Media report the Treasury's estimated termination payment at Sh43.94 billion (about $338 million), higher than the projects' combined estimated cost of Sh41 billion. The Treasury presents this as a contingent liability, not an amount due now.",
+     "s": [
+      {
+       "t": "Capital FM Kenya, 23 Nov 2026",
+       "u": "https://capitalfm.africa/kenya-faces-sh44bn-bill-to-terminate-adani-power-deal"
+      },
+      {
+       "t": "Business Kenya, 23 Nov 2026",
+       "u": "https://business.co.ke/kenya-faces-sh44-billion-bill-to-exit-cancelled-adani-power-lines-ppp"
+      }
+     ]
+    }
+   ],
+   "first": "2024-10-01",
+   "last": "2026-11-23"
+  },
+  {
+   "id": "west-bengal",
+   "cat": "politics",
+   "title": "West Bengal's 25-year power deal",
+   "status": "Open",
+   "status_note": "A letter of award was issued on 21 November 2026. A 750 MW option has not been exercised. The opposition is questioning it.",
+   "short": "On 21 November 2026 Adani Energy Solutions' trading arm, Powerpulse Trading Solutions, received a letter of award from West Bengal's distribution company, WBSEDCL, for 1,750 MW of renewable round-the-clock power for 25 years, after winning an electronic reverse auction. The award includes a 750 MW option that would take the total to 2,500 MW. The opposition Trinamool Congress said long-term power contracts need transparency, not preferential access for corporate giants.",
+   "why": "Long-term power contracts with state utilities are the group's core revenue model, and they attract political scrutiny whenever the state government changes. Note the facts that matter in a meeting: it was won through competitive bidding, supply starts in 2028, and the opposition is questioning the process, not alleging a specific violation.",
+   "companies": [
+    "aesl",
+    "agel",
+    "group"
+   ],
+   "match": [
+    "west bengal",
+    "wbsedcl",
+    "trinamool",
+    "tmc "
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Will WBSEDCL exercise the 750 MW option?",
+    "Will the opposition's call for transparency lead to any formal challenge? The sources show only statements.",
+    "How AESL will source the supply: it has tied up about 4.6 GW of solar and wind and about 3.5 GWh of storage for its supply business."
+   ],
+   "gaps": [
+    "I have not seen the auction tariff, so I cannot say how competitive the price was."
+   ],
+   "timeline": [
+    {
+     "d": "2026-09-24",
+     "k": "event",
+     "tier": "independent",
+     "h": "Gautam Adani meets West Bengal's chief minister",
+     "x": "Gautam Adani meets Chief Minister Suvendu Adhikari in Kolkata. A photo caption of the meeting is in The Hindu's report.",
+     "s": [
+      {
+       "t": "The Hindu, 22 Nov 2026",
+       "u": "https://www.thehindu.com/news/national/west-bengal/adani-group-forays-into-west-bengals-power-sector-trinamool-calls-for-transparency/article71730885.ece"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-21",
+     "k": "company",
+     "tier": "official",
+     "h": "Letter of award issued",
+     "x": "AESL says Powerpulse Trading Solutions has received a letter of award for 1,750 MW RE-RTC power for 25 years from WBSEDCL, after winning an e-reverse auction. Supply is to begin on 1 July 2028 for 1,750 MW, and on 1 April 2029 for the extra 750 MW if the option is exercised.",
+     "s": [
+      {
+       "t": "Adani release, 21 Nov 2026",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-energy-solutions-receives-loa-for-2500-mw-renewable-round-the-clock-power-supply-to-wbsedcl"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-22",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Opposition calls for transparency",
+     "x": "The Trinamool Congress says long-term power contracts deserve transparency, not preferential access for corporate giants.",
+     "s": [
+      {
+       "t": "The Hindu, 22 Nov 2026",
+       "u": "https://www.thehindu.com/news/national/west-bengal/adani-group-forays-into-west-bengals-power-sector-trinamool-calls-for-transparency/article71730885.ece"
+      }
+     ]
+    }
+   ],
+   "first": "2026-09-24",
+   "last": "2026-11-22"
+  },
+  {
+   "id": "bangladesh",
+   "cat": "politics",
+   "title": "Godda power supply to Bangladesh",
+   "status": "Operating, with a dues dispute",
+   "status_note": "The plant supplies Bangladesh but one unit is offline for planned maintenance until 18 December 2026. The two sides disagree on how much is owed ($711.7 million per Adani, $384.8 million acknowledged by BPDB, as of 31 July 2026) and a narrow fuel-pricing arbitration is under way.",
+   "short": "Adani Power's 1,600 MW Godda plant in Jharkhand sells its output to Bangladesh under a 25-year agreement signed in 2017. It has been a repeated source of friction: Adani halved supply in November 2024 over unpaid bills, Bangladesh disputed the coal-price method, and the two sides now disagree on how much is owed. Planned maintenance has halved supply again from 26 November to 18 December 2026.",
+   "why": "It is a revenue stream tied to one foreign state utility, so receivables, payment security and the contract's pricing terms matter as much as plant output. It also shows how a planned outage can read as a crisis when it lands during political stress in the buyer's country.",
+   "companies": [
+    "power"
+   ],
+   "match": [
+    "godda",
+    "bangladesh",
+    "bpdb",
+    "bpdb "
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "How large the real arrears are: Adani says $711.7m, BPDB acknowledges $384.8m (31 July 2026). Bangladesh's press reported about $400m in July.",
+    "The outcome of the arbitration on imported-fuel pricing and indices (the expert has been accepted by both sides, per Adani).",
+    "Whether supply returns to both units on 18 December as scheduled.",
+    "Whether the 2017 contract is renegotiated: Bangladesh's interim government had said contracts with 'anomalies' should be renegotiated."
+   ],
+   "gaps": [
+    "Reports that coal supply by rail was a constraint from August 2026 come from the Global Energy Monitor wiki and have not been confirmed in the company's filings.",
+    "The September 2026 outage is described differently across sources (a 10 September trip per the Financial Express; a 30 September trip per the wiki); I used the Financial Express."
+   ],
+   "timeline": [
+    {
+     "d": "2017-11-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "25-year power purchase agreement signed",
+     "x": "Bangladesh's utility BPDB signs a 25-year agreement with Adani Power for the 1,600 MW Godda plant in Jharkhand, under an unsolicited offer. The contract requires 1,496 MW net supply. Adani built the plant for about $2 billion; the first unit fed the Bangladesh grid from 9 March 2023.",
+     "s": [
+      {
+       "t": "The Business Standard (Bangladesh), 25 Nov 2026",
+       "u": "https://www.tbsnews.net/economy/energy/adanis-godda-unit-stay-shut-25-day-overhaul-halving-supply-bangladesh-1613781"
+      },
+      {
+       "t": "Financial Express (Bangladesh), 25 Nov 2026",
+       "u": "https://thefinancialexpress.com.bd/home/adani-maintenance-to-hit-bangladesh-power-supply"
+      }
+     ]
+    },
+    {
+     "d": "2024-11-01",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Supply halved over unpaid bills",
+     "x": "Adani Power shuts one of the two units, halving exports, because of mounting payment arrears, and warns it will stop the other from 7 November. It withdraws that threat after BPDB pays $170 million through a letter of credit opened by Bangladesh Krishi Bank.",
+     "s": [
+      {
+       "t": "Financial Express (Bangladesh), 7 Jul 2026",
+       "u": "https://today.thefinancialexpress.com.bd/public/first-page/adani-power-dues-drop-to-400m-1783363799"
+      }
+     ]
+    },
+    {
+     "d": "2024-12-31",
+     "k": "concern",
+     "tier": "other",
+     "h": "Bangladesh disputes the pricing",
+     "x": "As of end-2024 BPDB says it owed $630 million and that Adani's coal-pricing method was flawed, giving a $141 million overestimate. The interim government reviews the contract; a court-ordered probe of the PPA was due by end-February 2025. (Global Energy Monitor wiki; secondary source.)",
+     "s": [
+      {
+       "t": "Global Energy Monitor wiki",
+       "u": "https://www.gem.wiki/Adani_Godda_power_station"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2025-03-01",
+     "k": "event",
+     "tier": "other",
+     "h": "Full supply resumes",
+     "x": "Adani resumes supply from both units after Bangladesh's interim government begins clearing dues. (Global Energy Monitor wiki.)",
+     "s": [
+      {
+       "t": "Global Energy Monitor wiki",
+       "u": "https://www.gem.wiki/Adani_Godda_power_station"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2026-06-25",
+     "k": "company",
+     "tier": "independent",
+     "h": "Adani Power's update to shareholders",
+     "x": "At the AGM, MD Anil Sardana says Bangladesh continues to draw power from Godda and is clearing arrears, including a late-payment surcharge that Bangladesh has admitted. He says the arbitration, in which Bangladesh's utility accepted the expert, is limited to imported-fuel pricing and indices. The annual report says a significant portion of FY26 receivables was recovered.",
+     "s": [
+      {
+       "t": "BusinessLine, 25 Jun 2026",
+       "u": "https://www.thehindubusinessline.com/news/bangladesh-clearing-dues-confident-of-resolving-arbitration-issues-over-godda-project-adani-power/article71146057.ece"
+      }
+     ]
+    },
+    {
+     "d": "2026-07-05",
+     "k": "event",
+     "tier": "independent",
+     "h": "Arrears reported down to about $400 million",
+     "x": "Bangladesh's Financial Express reports arrears have fallen to about $400 million from about $900 million a year earlier, with both units supplying about 1,450 MW.",
+     "s": [
+      {
+       "t": "Financial Express (Bangladesh), 7 Jul 2026",
+       "u": "https://today.thefinancialexpress.com.bd/public/first-page/adani-power-dues-drop-to-400m-1783363799"
+      }
+     ]
+    },
+    {
+     "d": "2026-08-21",
+     "k": "company",
+     "tier": "independent",
+     "h": "Adani disputes BPDB's deductions",
+     "x": "In a letter to BPDB's chairman, Adani Power says outstanding dues were $711.72 million at 31 July 2026, against $384.81 million that BPDB acknowledges (including late-payment surcharge). It rejects BPDB's deductions for April to July over the coal-price calculation, dependable capacity and a power-factor adjustment, and reserves its legal rights.",
+     "s": [
+      {
+       "t": "Just Energy News, 1 Sep 2026",
+       "u": "https://justenergynews24.com/adani-rejects-bpdb-deductions-claims-712m-in-unpaid-dues/"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-10",
+     "k": "event",
+     "tier": "independent",
+     "h": "Unit trips; supply halves for three days",
+     "x": "The second unit goes offline with a technical fault and returns three days later. Supply at the evening peak falls from about 1,430 MW on 9 September to about 691 MW on 10 September (National Load Despatch Centre data, via the Financial Express).",
+     "s": [
+      {
+       "t": "Financial Express (Bangladesh), 25 Nov 2026",
+       "u": "https://thefinancialexpress.com.bd/home/adani-maintenance-to-hit-bangladesh-power-supply"
+      },
+      {
+       "t": "India Today, 25 Nov 2026",
+       "u": "https://www.indiatoday.in/world/story/adani-godda-plant-maintenance-halve-bangladesh-power-supply-25-days-sheikh-hasina-itspc-3046755-2026-11-25"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-25",
+     "k": "company",
+     "tier": "independent",
+     "h": "Planned annual overhaul halves supply again",
+     "x": "One 800 MW unit goes offline from midnight until 18 December for a scheduled annual overhaul, which Adani Power says BPDB approved on 26 October. BPDB says plants routinely schedule overhauls in winter when demand falls. India Today notes it is planned and unrelated to protests in Bangladesh.",
+     "s": [
+      {
+       "t": "The Business Standard (Bangladesh), 25 Nov 2026",
+       "u": "https://www.tbsnews.net/economy/energy/adanis-godda-unit-stay-shut-25-day-overhaul-halving-supply-bangladesh-1613781"
+      },
+      {
+       "t": "Financial Express (Bangladesh), 25 Nov 2026",
+       "u": "https://thefinancialexpress.com.bd/home/adani-maintenance-to-hit-bangladesh-power-supply"
+      },
+      {
+       "t": "India Today, 25 Nov 2026",
+       "u": "https://www.indiatoday.in/world/story/adani-godda-plant-maintenance-halve-bangladesh-power-supply-25-days-sheikh-hasina-itspc-3046755-2026-11-25"
+      }
+     ]
+    }
+   ],
+   "first": "2017-11-01",
+   "last": "2026-11-25"
+  },
+  {
+   "id": "dharavi",
+   "cat": "politics",
+   "title": "Dharavi redevelopment (Mumbai)",
+   "status": "Under way",
+   "status_note": "Construction of the first rehabilitation homes began on 12 October 2026. Critics say the plan misses how Dharavi's economy works.",
+   "short": "Adani won the Dharavi redevelopment bid in November 2022 with an offer of ₹5,069 crore against DLF's ₹2,025 crore. The project is run through a special-purpose company owned 80% by the Adani Group and 20% by the Maharashtra government. In October 2026 construction began on 10 towers with 10,432 rehabilitation homes at a Matunga railway site. Opposition parties and resident groups allege the tender terms were changed to favour Adani; critics say the plan underrates Dharavi's live-work economy.",
+   "why": "It is the group's largest urban project and carries the highest social and political scrutiny: tens of thousands of residents and small businesses. For an operations lens, rehousing sequencing and livelihoods matter more than the real-estate value.",
+   "companies": [
+    "group",
+    "ael"
+   ],
+   "match": [
+    "dharavi",
+    "navbharat"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Will eligible residents move in on the schedule promised, and will livelihoods be protected?",
+    "Do the allegations about the tender change lead to any formal outcome? The sources show allegations, not findings."
+   ],
+   "gaps": [
+    "The company is named differently across sources (Navbharat Mega Developers in the Pulitzer Center story, Adani Navbharat Developers in the company's own release). They refer to the project's special-purpose company."
+   ],
+   "timeline": [
+    {
+     "d": "2019-01-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "Earlier tender won, then cancelled",
+     "x": "A tender won by Dubai-based SecLink Group in 2019 is cancelled.",
+     "s": [
+      {
+       "t": "Pulitzer Center / Frontline, 26 May 2026",
+       "u": "https://pulitzercenter.org/stories/how-dharavis-redevelopment-plan-fails-understand-dharavi"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2022-11-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "Adani wins the new bid",
+     "x": "Adani Properties offers ₹5,069 crore (about $612 million) against DLF's ₹2,025 crore. Opposition parties and resident groups allege the tender conditions were tweaked to ensure Adani won.",
+     "s": [
+      {
+       "t": "Pulitzer Center / Frontline, 26 May 2026",
+       "u": "https://pulitzercenter.org/stories/how-dharavis-redevelopment-plan-fails-understand-dharavi"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2026-05-26",
+     "k": "concern",
+     "tier": "independent",
+     "h": "Critical long-form reporting",
+     "x": "A Pulitzer Center-backed Frontline investigation argues the plan treats Dharavi as a housing problem when it is also a dense economic system of live-work homes and informal industries. It cites a master plan with total investment of ₹95,790 crore.",
+     "s": [
+      {
+       "t": "Pulitzer Center / Frontline, 26 May 2026",
+       "u": "https://pulitzercenter.org/stories/how-dharavis-redevelopment-plan-fails-understand-dharavi"
+      }
+     ]
+    },
+    {
+     "d": "2026-10-12",
+     "k": "company",
+     "tier": "official",
+     "h": "Rehabilitation construction begins",
+     "x": "Pranav Adani performs the bhoomi pujan at the 22-acre Matunga railway site. The first phase is 10 towers with 10,432 rehabilitation apartments and 1,379 commercial and industrial units; eligible residents are promised 350 sq ft homes.",
+     "s": [
+      {
+       "t": "Adani release, 12 Oct 2026",
+       "u": "https://www.adani.com/newsroom/media-releases/puja-performed-for-dharavi-rehabilitation-homes"
+      },
+      {
+       "t": "Hindustan Times, 14 Oct 2026",
+       "u": "https://www.hindustantimes.com/real-estate/real-estate-guide/dharavi-redevelopment-construction-begins-on-10-432-homes-5-things-to-know-about-the-project-and-completion-deadlines-101791903560514.html"
+      }
+     ]
+    }
+   ],
+   "first": "2019-01-01",
+   "last": "2026-10-12"
+  },
+  {
+   "id": "debt-funding",
+   "cat": "money",
+   "title": "From the 2023 shock to 'AA' ratings: how the group funded itself",
+   "status": "Improving",
+   "status_note": "Ratings are at multi-year highs and leverage is below its 2019-23 peak. A very large capex plan is the main thing to watch.",
+   "short": "After the January 2023 Hindenburg report cut the group's share prices and shut it out of some markets, it sold minority stakes to long-term investors (GQG in March 2023), raised equity (a ₹24,930 crore rights issue at Adani Enterprises in FY26 and a ₹15,000 crore QIP in July 2026), and cut debt costs. By November 2026 the group says 92% of its portfolio is rated AA- or above, and Adani Enterprises' ICRA rating rose to AA. At the same time it plans over $120 billion of capex over five to six years.",
+   "why": "Capital access is the group's real constraint: it builds infrastructure with long payback, so its cost and availability of funds drive growth. The 2023 shock showed how fast that can change, and today's higher ratings are the reason it can fund a much larger plan.",
+   "companies": [
+    "group",
+    "ael",
+    "apsez",
+    "agel",
+    "aesl",
+    "power",
+    "atgl"
+   ],
+   "match": [
+    "qip",
+    "rights issue",
+    "credit rating",
+    "rating upgrade",
+    "upgraded to aa",
+    "net debt",
+    "gqg",
+    "bond issue",
+    "public bond",
+    "bond sale",
+    "capex plan",
+    "fundraise",
+    "fund raise",
+    "deleverag",
+    "leverage discipline"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "Jefferies forecasts the listed companies' net debt/EBITDA at 3.7x in FY27 and FY28 (about 4.0x including the Ambuja acquisition debt), against the group's own ceiling of 3.5x. Which view proves right?",
+    "Can funds from operations (about $120 billion over ten years, per management) match a capex plan of similar size?",
+    "Credit raters list promoter support and market access as key monitorables for Adani Enterprises."
+   ],
+   "gaps": [
+    "The group's own figures (credit summary, investor-conference remarks) are company statements; the Jefferies figures are one broker's view."
+   ],
+   "timeline": [
+    {
+     "d": "2023-02-01",
+     "k": "event",
+     "tier": "independent",
+     "h": "Follow-on share sale withdrawn",
+     "x": "Adani Enterprises withdraws its ₹20,000 crore FPO amid the stock rout. Reuters puts the market-value loss at $86 billion.",
+     "s": [
+      {
+       "t": "Reuters, 1 Feb 2023",
+       "u": "https://www.reuters.com/world/india/indias-adani-ditches-25-bln-share-sale-after-86-bln-rout-2023-02-01/"
+      },
+      {
+       "t": "CNBC-TV18 timeline",
+       "u": "https://www.cnbctv18.com/market/stocks/adani-enterprises-fpo-called-off-timeline-with-hindenburg-row-15828411.htm"
+      }
+     ]
+    },
+    {
+     "d": "2023-03-02",
+     "k": "event",
+     "tier": "official",
+     "h": "GQG Partners invests $1.87 billion",
+     "x": "GQG buys ₹15,446 crore of shares in AEL, APSEZ, Adani Transmission (now AESL) and AGEL via secondary block trades. It is the first major outside investment after the rout.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-portfolio-companies"
+      }
+     ]
+    },
+    {
+     "d": "2023-04-01",
+     "k": "official",
+     "tier": "official",
+     "h": "Ratings under pressure",
+     "x": "In April 2023, the group's own credit summary shows several listed entities on 'Negative' outlook (for example AEL A+/Negative, APSEZ AA+/Negative).",
+     "s": [
+      {
+       "t": "Adani credit summary, FY26",
+       "u": "https://www.adani.com/-/media/project/adaniv1/investors/compendium/2026/q4/adani-portfolio-fy26-credit-summary.pdf"
+      }
+     ],
+     "approx": true
+    },
+    {
+     "d": "2025-07-17",
+     "k": "event",
+     "tier": "independent",
+     "h": "Exit from the Wilmar joint venture",
+     "x": "Adani agrees to exit its consumer-goods JV with Wilmar in a $1.3 billion deal, saying it wants to bolster infrastructure.",
+     "s": [
+      {
+       "t": "Reuters, 17 Jul 2025",
+       "u": "https://www.reuters.com/world/india/indias-adani-exit-wilmar-joint-venture-awl-agri-2025-07-17"
+      }
+     ]
+    },
+    {
+     "d": "2026-03-31",
+     "k": "official",
+     "tier": "official",
+     "h": "Ratings improve across the portfolio",
+     "x": "By March 2026, the group's credit summary shows AEL at AA-/Stable, AGEL AA/Stable, APL AA/Stable, ATGL AA+/Stable, APSEZ AAA/Stable and Ambuja AAA/Stable. AEL raised a ₹24,930 crore rights issue during FY26, mainly to repay promoter loans and fund growth (ICRA).",
+     "s": [
+      {
+       "t": "Adani credit summary, FY26",
+       "u": "https://www.adani.com/-/media/project/adaniv1/investors/compendium/2026/q4/adani-portfolio-fy26-credit-summary.pdf"
+      },
+      {
+       "t": "ICRA, 17 Nov 2026",
+       "u": "http://www.adanienterprises.com/-/media/project/enterprisesv1/investors/credit-rating/icra_ael_nov2026.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-07-01",
+     "k": "event",
+     "tier": "official",
+     "h": "₹15,000 crore QIP",
+     "x": "Adani Enterprises completes India's largest QIP by a non-financial corporate, drawing bids of 3.8x the base issue. AESL separately raises ₹3,500 crore. Promoter holding in AEL falls to 71.97%.",
+     "s": [
+      {
+       "t": "AEL Q1 FY27 investor deck",
+       "u": "https://www.adanienterprises.com/-/media/project/enterprisesv1/investors/investor-downloads/results-presentations/ael_investor_q1-fy-2026-27.pdf"
+      },
+      {
+       "t": "Adani credit summary, Q1 FY27",
+       "u": "https://www.adani.com/-/media/project/adaniv1/investors/compendium/2027/q1/adani-portfolio-q1fy27-credit-summary.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-10-07",
+     "k": "official",
+     "tier": "regulator",
+     "h": "CareEdge upgrades AEL to AA",
+     "x": "CareEdge raises Adani Enterprises' long-term rating to AA/Stable and lists the factors to watch, including promoter support and net external debt to EBITDA staying below 4.75-5.00x.",
+     "s": [
+      {
+       "t": "CareEdge press release",
+       "u": "http://www.adanienterprises.com/-/media/project/enterprisesv1/investors/credit-rating/care_ael_oct2026.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-17",
+     "k": "official",
+     "tier": "regulator",
+     "h": "ICRA upgrades AEL to AA",
+     "x": "ICRA raises Adani Enterprises' long-term rating to [ICRA]AA (Stable), citing the rights issue, the QIP and a primary equity commitment of ₹9,825 crore into Adani Airport Holdings at a pre-money valuation of about ₹1.67 lakh crore. The company calls it its highest-ever rating.",
+     "s": [
+      {
+       "t": "ICRA rating rationale",
+       "u": "http://www.adanienterprises.com/-/media/project/enterprisesv1/investors/credit-rating/icra_ael_nov2026.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-24",
+     "k": "event",
+     "tier": "independent",
+     "h": "$120 billion capex plan and a leverage pitch",
+     "x": "At its investor conference the group says net debt/EBITDA has fallen from about 3.6-3.8x (2019-23) and aims to keep it below 3.5x. Total debt was $43.2 billion at end-September, 91% long-term; average borrowing cost is about 7.5%, down from about 10% in 2019. Jefferies' own forecasts for six listed companies are 3.7x in FY27-28. (Economic Times / PTI, citing a Jefferies note.)",
+     "s": [
+      {
+       "t": "Economic Times / PTI, 24 Nov 2026",
+       "u": "http://widgets.economictimes.com/news/company/corporate-trends/adani-group-plans-120-billion-investment-over-5-years-amid-debt-discipline-and-investor-confidence-rebuilding/articleshow/136125119.cms"
+      }
+     ]
+    }
+   ],
+   "first": "2023-02-01",
+   "last": "2026-11-24"
+  },
+  {
+   "id": "business-moves",
+   "cat": "decisions",
+   "title": "Major business decisions: buy, build, exit",
+   "status": "Active",
+   "status_note": "Several deals are pending: the Ambuja–ACC–Orient merger awaits NCLT sanction, and the Evos acquisition awaits approvals.",
+   "short": "Reading the group's big decisions together shows a pattern: buy a scarce asset or platform (cement, ports abroad, airport services), consolidate it, and exit businesses that are not infrastructure (the Wilmar consumer-goods joint venture). Each entry below gives the deal, its date, and why the group said it did it.",
+   "why": "For a general-management intern, these are the decisions behind the businesses you may join. They show how the group chooses between buying, building and exiting, and what it expects from synergies, so you can ask sharper questions about integration.",
+   "companies": [
+    "group",
+    "cement",
+    "apsez",
+    "airports",
+    "defence",
+    "ael"
+   ],
+   "match": [
+    "evos",
+    "orient cement",
+    "acquire",
+    "acquisition",
+    "amalgamation",
+    "merger",
+    "stake sale",
+    "engine mro",
+    "air works",
+    "indamer",
+    "nqxt",
+    "jaiprakash",
+    "vikramshila"
+   ],
+   "updated": "2026-11-26",
+   "open": [
+    "NCLT sanction of the Ambuja–ACC–Orient merger (expected by January 2027).",
+    "Regulatory approvals and works-council consultation for Evos (indicative completion within 15 months of 5 Nov 2026).",
+    "Whether the engine-MRO plan turns into a signed deal with CFM International or Pratt & Whitney (Adani's CEO says within about 18 months)."
+   ],
+   "gaps": [
+    "I did not research every acquisition. Others, such as bids for insolvent companies, are not covered here."
+   ],
+   "timeline": [
+    {
+     "d": "2022-05-15",
+     "k": "event",
+     "tier": "official",
+     "h": "Buys Holcim's Indian cement businesses",
+     "x": "The Adani family, via an offshore vehicle, agrees to acquire Holcim's stakes in Ambuja Cements and ACC. The company puts the value of the stakes and open offers at about $10.5 billion, its largest acquisition and India's largest in infrastructure and materials. Capacity at the time was about 70 MTPA. The group framed it as a fit with its ports, energy and real-estate businesses.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-to-acquire-holcims-stake-in-ambuja-cements-and-acc-limited"
+      }
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "k": "event",
+     "tier": "official",
+     "h": "Ambuja agrees to buy Orient Cement",
+     "x": "Ambuja signs a binding agreement for a 46.8% stake in Orient Cement at an equity value of ₹8,100 crore, funded from internal accruals. It adds 16.6 MTPA of capacity (8.5 operational) and brings Ambuja closer to a 100 MTPA target.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-acquires-orient-cement-at-inr-8100-crore-equity-value"
+      }
+     ]
+    },
+    {
+     "d": "2025-04-17",
+     "k": "event",
+     "tier": "official",
+     "h": "APSEZ acquires NQXT (Australia)",
+     "x": "APSEZ announces the acquisition of the 50 MTPA North Queensland Export Terminal, as a step towards 1 billion tonnes a year by 2030. The acquisition completes on 23 December 2025.",
+     "s": [
+      {
+       "t": "APSEZ media releases",
+       "u": "https://www.adaniports.com/Newsroom/Media-Releases"
+      }
+     ]
+    },
+    {
+     "d": "2025-07-17",
+     "k": "event",
+     "tier": "independent",
+     "h": "Exits the Wilmar consumer-goods JV",
+     "x": "Adani agrees to sell its stake in the AWL Agri Business joint venture to Wilmar in a $1.3 billion deal. In November 2025 Wilmar gave notice to buy a further 13% at ₹275 a share (about ₹4,650 crore).",
+     "s": [
+      {
+       "t": "Reuters, 17 Jul 2025",
+       "u": "https://www.reuters.com/world/india/indias-adani-exit-wilmar-joint-venture-awl-agri-2025-07-17"
+      },
+      {
+       "t": "Wilmar announcement, 11 Nov 2025",
+       "u": "https://media-wilmar.todayir.com/2025111121535151631764_en.pdf"
+      }
+     ]
+    },
+    {
+     "d": "2025-08-11",
+     "k": "event",
+     "tier": "official",
+     "h": "Defence arm enters aircraft maintenance",
+     "x": "Adani Defence Systems and Technologies signs a definitive agreement through its 50:50 venture with Prime Aero to buy 100% of Indamer Technics, a private-sector maintenance, repair and overhaul (MRO) company. It follows the earlier acquisition of Air Works.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/adani-defence-and-aerospace-partners-with-prime-aero-to-expand-aviation-mro-footprint"
+      }
+     ]
+    },
+    {
+     "d": "2025-12-22",
+     "k": "official",
+     "tier": "official",
+     "h": "Board approves 'One Cement' mergers",
+     "x": "Ambuja's board approves merging ACC and Orient into Ambuja. Share ratios: 328 Ambuja shares for every 100 ACC shares and 33 for every 100 Orient shares. The company expects at least ₹100 per tonne of margin improvement from simplified branding, networks and spend.",
+     "s": [
+      {
+       "t": "Adani release",
+       "u": "https://www.adani.com/newsroom/media-releases/ambuja-cements-limited-board-approves-amalgamation-of-acc-limited-and-orient-cement-limited"
+      }
+     ]
+    },
+    {
+     "d": "2026-09-29",
+     "k": "official",
+     "tier": "official",
+     "h": "Shareholders approve the mergers",
+     "x": "Ambuja shareholders approve the ACC and Orient amalgamations at NCLT-convened meetings on 29 and 28 September. NCLT approval is expected to complete the process in FY27.",
+     "s": [
+      {
+       "t": "Ambuja Q2 FY27 investor deck",
+       "u": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Investor/Investor-Presentations/ACL_Investor-Presentation-1.ashx"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-03",
+     "k": "company",
+     "tier": "independent",
+     "h": "Plans for an aircraft-engine MRO",
+     "x": "Adani Defence and Aerospace's CEO says plans for an MRO for narrow-body aircraft engines will be firmed up within 18 months, with a final-assembly line possible later. He told Aviation Week the group expects to sign with CFM International or Pratt & Whitney.",
+     "s": [
+      {
+       "t": "Economic Times / PTI, 3 Nov 2026",
+       "u": "https://m.economictimes.com/news/defence/adani-defence-plans-mro-for-narrow-body-aircraft-engines/articleshow/135503294.cms"
+      },
+      {
+       "t": "Aviation Week, 10 Nov 2026",
+       "u": "https://aviationweek.com/mro/supply-chain/adani-makes-its-pitch-engine-mro-race-india-heats"
+      }
+     ]
+    },
+    {
+     "d": "2026-11-05",
+     "k": "event",
+     "tier": "official",
+     "h": "APSEZ agrees to buy Evos for €2.56 billion",
+     "x": "An all-cash, debt-funded purchase of Europe's second-largest independent liquid-storage operator (eight terminals, 56% EBITDA margin) at 11.7x EBITDA. Completion is indicated within 15 months, subject to approvals and works-council consultation.",
+     "s": [
+      {
+       "t": "APSEZ release",
+       "u": "https://www.adaniports.com/newsroom/media-releases/apsez-agrees-to-acquire-100-percent-of-evos-bv"
+      }
+     ]
+    }
+   ],
+   "first": "2022-05-15",
+   "last": "2026-11-05"
+  }
+ ]
+}
