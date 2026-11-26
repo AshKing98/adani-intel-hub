@@ -1,57 +1,37 @@
 [
  {
   "date": "2026-11-26",
-  "headline": "Top Adani headlines",
-  "summary": "56 unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+  "headline": "Adani Portfolio Advances Debt, Capacity Expansion, and International Logistics Deals",
+  "summary": "Adani Group firms are expanding their financial and operational footprint through public bond plans, major cement and copper supply expansions, and port acquisitions in Europe. Meanwhile, power plants undergo maintenance, and infrastructure projects secure critical supply orders.",
   "stories": [
-   {
-    "id": "3bf0a558abf8",
-    "company": "group",
-    "what": "The Adani Ahmedabad Marathon is gearing up to commemorate its 10th edition on November 29, with prominent institutional partners.",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
-    "brief": null,
-    "title": "10th Adani Ahmedabad Marathon Brings Together Leading Brands Across Multiple Categories",
-    "url": "https://sportsmintmedia.com/10th-adani-ahmedabad-marathon-brings-together-leading-brands-across-multiple-categories/",
-    "source": "SportsMint Media",
-    "coverage": 10,
-    "also": [
-     {
-      "source": "Mediabrief",
-      "url": "https://mediabrief.com/adani-ahmedabad-marathon-names-adani-ports-ambuja-cement-as-partners-for-10th-edition/"
-     },
-     {
-      "source": "Indian Television Dot Com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWElWLWdtdkd3dXFSYkMtc1VfbzdRZTVqeXVfZDM5bE1QbmZwczF6T0tUV3FsaU9NRjlLU3NEQzRqVWtORTNlNFNnY0FHc3dXejlPXzBwUzZ3ZzJEeXVXN2VRbW43R0NBWVg4LVNGREdOVTJwV3BhQnBzWk5pXzQ5a0Q0ZWo5ZmJtWC1oVHJ3Qm9SUUF6U0Z1U1BILXVyOGpBQlpF?oc=5"
-     },
-     {
-      "source": "NDTV Sports",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUhMUHZnazF3b2tGd29XUnlfSDdfeWFsaGI5RTJ0dWRGa1YtY0JmYkJNOVBlenZ1S3lwM3l4QzZINzU5V0JITXJrTWlNVl91RjdRMXJMd3JwaTRNcGNlSGpLdHk1RUdkaEs2M2lTX0ZlZFdXU3ZxT2ZUbWI5WVJBMENXVTZSRHFCZ0I5Y3RrZFVMdkkzQS1yZ3pObkxsS0RjdVdUaDg4OUpyNE9BaUVQTmxtQ2hBSDRhaU1LbU1mM3JSX1lzSFBEQTFBaER0Tnhtckw0OGtYOVJIUGJjNEE?oc=5"
-     },
-     {
-      "source": "Social News XYZ",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOTUd4alg3RVNXQ1RmT3A0MzVLMThia3ZQZDVoOFhyM0dpemZkdDJBaDBKc0VYczNmeTZVNWVSTm4ya3kyRkhfS0ViZEV3QmVYOEpvMTB6SU9Ja3lPa2dRRmdfVk9XbzVackNFNEQtUE43QlJtdkRaTHNQbU14QlI4aVpEZERSVmdnMDc4R1MzNDhCdXNIOTZQcTFaVjNBc1Y0MC10ZU9rS3pnTUpEM3lOMlF4eFZhSGo2UWpISlBzdEN4M29qUlhtYU5QQ1I3UG80ZnJwMkh6Q3J4QlMxeS16MHNzQ3ZjQUhSbWdLMW5XYnk4ejVfLUpiM2RNaFRLdGF4aVpsUWhTUXNiLW5vaFJrcFhfc1hvUHZFTFFBSjdrWDF0aVNHYnR6SHBucElJYWRfb1FzWjJfbzM3ZFktRXNHRVZWdzRvV3lOYjctbFE2MTVUQmpFNzU5MWhmWFJaaVJVUnJ3QzJPNEI2bmZ0cjJtNlFxcGVXa2lzUzB4eHZuZ29MQWtBUTlheXNLZ2p0bVBnYlBJdklCTEN0MEHSAZsDQVVfeXFMTk1HeGpYN0VTV0NUZk9wNDM1SzE4Ymt2UGQ1aDhYcjNHaXpmZHQyQWgwSnNFWHMzZnk2VTVlUk5uMmt5MkZIX0tFYmRFd0JlWDhKbzEweklPSWt5T2tnUUZnX1ZPV281WnJDRTRELVBON0JSbXZEWkxzUG1NeEJSOGlaRGREUlZnZzA3OEdTMzQ4QnVzSDk2UHExWlYzQXNWNDAtdGVPa0t6Z01KRDN5TjJReHhWYUhqNlFqSEpQc3RDeDNvalJYbWFOUENSN1BvNGZycDJIekNyeEJTMXktejBzc0N2Y0FIUm1nSzFuV2J5OHo1Xy1KYjNkTWhUS3RheGlabFFoU1FzYi1ub2hSa3BYX3NYb1B2RUxRQUo3a1gxdGlTR2J0ekhwbnBJSWFkX29Rc1oyX28zN2RZLUVzR0VWVnc0b1d5TmI3LWxRNjE1VEJqRTc1OTFoZlhSWmlSVVJyd0MyTzRCNm5mdHIybTZRcXBlV2tpc1MweHh2bmdvTEFrQVE5YXlzS2dqdG1QZ2JQSXZJQkxDdDBB?oc=5"
-     }
-    ]
-   },
    {
     "id": "685e708fc54c",
     "company": "ael",
-    "what": "Public offerings account for only a fraction of India’s corporate bond sales, which are dominated by private placements.",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
+    "what": "Adani Enterprises and Adani Power are planning a public bond sale to raise at least ₹2,000 crore ($220 million). The firms are working with local arrangers to tap the domestic public debt market.",
+    "why": "Diversifying funding sources away from private placements toward public bond markets helps broaden the investor base and optimize capital structure for flagship and utility entities.",
     "brief": {
-     "views": [
-      "Moneycontrol reports: 15 Start --> Start --> Start --> Start --> Start --> Start --> Start --> Start --> Start --> --> Trending Topics --> Trending Topics Sensex Today Kalyan Krishnamurthy Monomark Engineering IPO Shapoor Mistry Gold and Silver Price Today --> Adani firms plan public bond sale to rais"
+     "happened": "Two companies controlled by Gautam Adani, Adani Enterprises Ltd. and Adani Power Ltd., are looking to sell public bonds to raise at least 20 billion rupees ($220 million). The firms are working with local bond arrangers, with a targeted offering expected by the end of the period, according to people familiar with the matter reported by Bloomberg. Public offerings account for only a fraction of India’s corporate bond sales, which are predominantly driven by private placements.",
+     "background": "India's corporate bond market has traditionally been dominated by private placements rather than public offerings, leaving room for large corporate issuers to pioneer public debt issuances.",
+     "next": "An offering is targeted by the end of the period.",
+     "numbers": [
+      "₹2,000 crore ($220 million) target raise",
+      "Two companies involved: Adani Enterprises and Adani Power"
      ],
-     "extractive": true
+     "views": [
+      "Bloomberg reports two companies controlled by Gautam Adani are planning a public bond sale.",
+      "Market sources note the move would boost India's subdued domestic public debt market."
+     ]
     },
+    "evidence": "independent",
+    "watch": "Final pricing and launch timeline of the public bond issue.",
+    "terms": [
+     "Private placement",
+     "Public bond sale"
+    ],
     "title": "Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr",
     "url": "https://www.moneycontrol.com/news/business/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million-14089399.html",
     "source": "Business Standard",
-    "coverage": 13,
+    "coverage": 11,
     "also": [
      {
       "source": "Moneycontrol",
@@ -68,27 +48,35 @@
      {
       "source": "tradersunion",
       "url": "https://tradersunion.com/news/companies/show/4424096-adani-enterprises-public-bond-india/"
-     },
-     {
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFRZanhYeGM2UmlOMkhCR3IzZW1KMnZ3X05ISlFYdmJUSHFxN0dWWnZraXZYTU95bjdKd2hoeE5PZnh4bEp3UXZxQjhzR1J6X2R5ZjdaWWFmSTB1cHF3MklYaVk2Si1KZEVsV3NZOGtwOUJXeEpOSFRiNGtLQWd1MEtMYzRHRUJ6RnRCcDJXZmctVk1pRmFmUnZUX0dsemFJa3htenVkUzIwd3VzclJlQnI2OE1lZ3Nx?oc=5"
      }
     ]
    },
    {
     "id": "c298f28e40a7",
     "company": "cement",
-    "what": "Ambuja Cements firms up its next growth phase with ~30 MTPA expansion",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
+    "what": "Ambuja Cements is planning greenfield and brownfield projects to add ~30 MTPA of cement capacity across India, alongside progressing a carbon capture demonstration project with Calix at the Sanghi plant.",
+    "why": "Scaling cement capacity reinforces market share while carbon capture investments address long-term environmental sustainability and regulatory compliance in heavy manufacturing.",
     "brief": {
-     "views": [
-      "World Cement reports: Ambuja Cements Limited, part of the Adani Portfolio and one of India's leading building materials solutions providers, has firmed up its next phase of expansion, with new greenfield and brownfield projects planned to add ~30 MTPA of cement capacity across key markets. The program",
-      "Global Cement reports: Australia: Calix says it is progressing its partnership with the Adani Group’s Ambuja Cements to develop a commercial-scale demonstration project at the Sanghi cement plant in Gujarat, India. It made the statement at its 2026 Annual General Meeting (AGM) on Monday, 23 November. A"
+     "happened": "Ambuja Cements Limited firmed up its next phase of expansion, planning greenfield and brownfield projects to add ~30 MTPA of cement capacity across key markets, building on its current 113.5 MTPA pan-India capacity. BigMint and World Cement report that the expansion includes grinding capacities of ~15.5 MTPA in the West Cluster, 11.6 MTPA in the East Cluster, and 2.9 MTPA in the North Cluster. Separately, Australia-based Calix stated at its AGM that it is progressing its partnership with Ambuja Cements to develop a commercial-scale carbon capture demonstration project at the Sanghi cement plant in Gujarat.",
+     "background": "Ambuja operates 24 integrated plants and 24 grinding units across India, while Calix partners with the company to explore lower-emissions cement production pathways.",
+     "next": "A Go/No-Go decision on the Sanghi carbon capture project during the 2027 financial year.",
+     "numbers": [
+      "~30 MTPA planned capacity addition",
+      "113.5 MTPA current pan-India cement capacity",
+      "24 integrated plants and 24 grinding units"
      ],
-     "extractive": true
+     "views": [
+      "BigMint and World Cement report Ambuja's pan-India capacity expansion plans across East, West, and North clusters.",
+      "Calix states an initial engineering study is underway with a Go/No-Go decision aimed for FY 2027."
+     ]
     },
+    "evidence": "independent",
+    "watch": "Execution milestones for the regional grinding and integrated plant additions.",
+    "terms": [
+     "MTPA",
+     "Brownfield expansion",
+     "Greenfield expansion"
+    ],
     "title": "India: Calix advances carbon capture demonstration project with Ambuja Cements at Sanghi plant",
     "url": "https://www.worldcement.com/indian-subcontinent/25112026/ambuja-cements-firms-up-its-next-growth-phase-with-30-mtpa-expansion/",
     "source": "BigMint",
@@ -111,11 +99,28 @@
    {
     "id": "39eaaccf941d",
     "company": "group",
-    "what": "Attero will supply 72,000 t of recycled anodes over 3 years Deal expected to cut Adani",
-    "why": "",
+    "what": "Adani Enterprises signed a three-year copper supply agreement with Attero to procure 2,000 tonnes monthly of copper anodes for its Kutch Copper facility in Mundra.",
+    "why": "Securing domestic recycled feedstock reduces dependence on imported concentrates amid global supply tightness and supports sustainable sourcing.",
+    "brief": {
+     "happened": "Adani Enterprises reportedly signed a three-year copper supply agreement with Noida-based recycler Attero to procure copper anodes for its Kutch Copper facility in Mundra, Gujarat. BigMint reports that Attero will supply 2,000 tonnes monthly, totaling 24,000 tonnes annually and 72,000 tonnes over three years. Sources estimate the deal value at around $1 billion. The arrangement aims to reduce Adani's imported feedstock dependence by approximately 5%, as Attero recovers copper from electronic waste and discarded batteries.",
+     "background": "Adani entered India's copper industry in March 2024 by commissioning the Kutch Copper facility, operating against a backdrop of persistent tightness in global copper concentrate availability.",
+     "next": "Ongoing monthly deliveries from Attero to the Kutch Copper refinery.",
+     "numbers": [
+      "$1 billion estimated deal value",
+      "2,000 tonnes monthly supply (24,000 tonnes annually)",
+      "5% reduction in imported feedstock dependence"
+     ],
+     "views": [
+      "BigMint reports the details of the three-year supply agreement signed three months ago.",
+      "Industry sources estimate the contract value at approximately $1 billion."
+     ]
+    },
     "evidence": "independent",
-    "watch": "",
-    "brief": null,
+    "watch": "Ramp-up of domestic scrap-derived feedstock integration at Mundra.",
+    "terms": [
+     "Copper anode",
+     "Feedstock"
+    ],
     "title": "India: Adani signs 3-year copper supply deal with Attero",
     "url": "https://www.bigmint.co/insights/detail/india-adani-signs-3-year-copper-supply-deal-with-attero-811928",
     "source": "BigMint",
@@ -140,50 +145,30 @@
     ]
    },
    {
-    "id": "31b9f4262fa2",
-    "company": "group",
-    "what": "Mumbai Book Festival: Billionaire Gautam Adani appealed to citizens and students to read more books during his visit to the Mumbai Book Festival 2026.",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
-    "brief": {
-     "views": [
-      "Free Press Journal reports: Mumbai: Adani Group Chairman Gautam Adani on Wednesday attended the Mumbai Book Festival 2026, being held at the University of Mumbai's Kalina campus, which has drawn thousands of book lovers.",
-      "Awaz The Voice reports: Adani Group Chairman Gautam Adani on Wednesday attended the Mumbai Book Festival 2026 and encouraged children and citizens to make the most of the books and learning resources available at the event."
-     ],
-     "extractive": true
-    },
-    "title": "'Read more books, learn from them': Gautam Adani appeals to Indians at Mumbai Book Festival 2026",
-    "url": "https://www.deccanherald.com/india/maharashtra/read-more-books-learn-from-them-gautam-adani-appeals-to-indians-at-mumbai-book-festival-2026-4230944",
-    "source": "Deccan Herald",
-    "coverage": 14,
-    "also": [
-     {
-      "source": "Social News XYZ",
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOeVhrU0RnczRocE05Tmt3RTRwWHhNc1Q2ODhVNjZfNTduN3Y4OGFCVDQyRm4xdFJYNElST29IT1dTU2x2VTZyVGlBMFpvaHJVSkZDUXptUUltc2FzSjY0ckJpbUJXa01KVU9wVElYYWt5WXpqMTNZSk4wcjhFYTAzSjZxanNFU29JVWdxRnVSem5tcUtqcUFreDlNMEFra01YZ3ZKb19vT2lpbzNHcEpKb2dkd1JhV3Y2LWJCb1RIYTZzYUdGclpaekFmbWhFcnk4dTVIRGZPMGJCMUFNTEpWQU9XbWtMSHNjaDdrcVhIMk00TXhfQjV2U01WWFB0eUZacU5CX2VlaEhWSW80LWZpZ01sal9ycFhaS1NEWFVyRlVFYXJOQ3YtLUlhUUhpaWJvTVBKZENwdk9RUU9WRkZUcGZoaFJPMGsxMTlvdENCRWN2SGJITmVhR25PZ2tEOWtiVVI3cEFDWWQyWHVsVFdYTkNXZTFnYmJNUUVGN0Z30gH-AkFVX3lxTE55WGtTRGdzNGhwTTlOa3dFNHBYeE1zVDY4OFU2Nl81N243djg4YUJUNDJGbjF0Ulg0SVJPb0hPV1NTbHZVNnJUaUEwWm9oclVKRkNRem1RSW1zYXNKNjRyQmltQldrTUpVT3BUSVhha3lZemoxM1lKTjByOEVhMDNKNnFqc0VTb0lVZ3FGdVJ6bm1xS2pxQWt4OU0wQWtrTVhndkpvX29PaWlvM0dwSkpvZ2R3UmFXdjYtYkJvVEhhNnNhR0ZyWlp6QWZtaEVyeTh1NUhEZk8wYkIxQU1MSlZBT1dta0xIc2NoN2txWEgyTTRNeF9CNXZTTVZYUHR5RlpxTkJfZWVoSFZJbzQtZmlnTWxqX3JwWFpLU0RYVXJGVUVhck5Ddi0tSWFRSGlpYm9NUEpkQ3B2T1FRT1ZGRlRwZmhoUk8wazExOW90Q0JFY3ZIYkhOZWFHbk9na0Q5a2JVUjdwQUNZZDJYdWxUV1hOQ1dlMWdiYk1RRUY3Rnc?oc=5"
-     },
-     {
-      "source": "IANS LIVE",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcEtCMXVlYVQxWGJFQlZPMWl1U05QcVFhNFFiNkhmVmJiakp1OW5pQnlpQVNrMjlST3ptanhaMk1xOWNkU3BzdExIYmFDQm1GYzZPR2NPSEJYNmwxTHNpYUJxUDQtMExkQ3lhNmJ3YktaaFU4TkIyVHNGYXRlekk4QkY2elZULXlWMmZrWGdpM1BYNlFpQlQ4UGtqZ0d3RHJvX1BDX2prNWZYUHdwMXhldjFrYXJzWXh6dWFuRTR2TWh1SmRzYWc?oc=5"
-     },
-     {
-      "source": "Prokerala",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ01VLVFKWVFXejN0SlpaU2dnc3ZZUWNTOG5ZT3FtdlJxaU1nd205RC1FS3AwNlVaUWNOdlZub0dzdTgwTW9HWDhQLWZpSmVjdkJUaVNRaGFhZGJBUkNQT2dTMVhlY25lUmVsVDFTZVJXblF4ekEwZ0NPeUdxTUNRcmliYXg0ZUtadG40TlNid2c2ZkhnQUlNdkFocHZuUQ?oc=5"
-     },
-     {
-      "source": "The News Mill",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnpCTzNGZVdRSU9aM0pHWFhqQV9jQm5TMFI4NjFlaDgzTF9NRjlQb3pIQXRGcW9DN19JNlpZY0VkaTlwNC1ZV2N0bThkay1hanpkNFNxMjE1eGhSbUNHb3BtQ0N4SDNOYzhEMk5iallhTUFid1NVeWJXV29hdmJWakN5TmFLOG8yOGpzb3h4MmhBMC0xaXVFMVQ1MXl1c2ZE?oc=5"
-     }
-    ]
-   },
-   {
     "id": "733bb26f33e8",
     "company": "power",
-    "what": "Adani's Godda unit to stay shut for 25-day overhaul, halving supply to Bangladesh",
-    "why": "",
+    "what": "Adani Power's Godda plant in Jharkhand is taking one 800 MW unit offline for a 25-day annual overhaul, temporarily halving electricity supply to Bangladesh.",
+    "why": "Scheduled maintenance ensures long-term plant reliability but requires transparent coordination with international off-takers like the Bangladesh Power Development Board.",
+    "brief": {
+     "happened": "Electricity supply from Adani Power to Bangladesh is set to halve as one of the two 800 MW units at its Godda plant goes offline for scheduled maintenance. The Business Standard reports that the 25-day Annual Overhaul is scheduled to run from November 25 until December 18. Adani Power stated that the shutdown was scheduled in advance in coordination with the Bangladesh Power Development Board, which granted clearance for the maintenance on October 26.",
+     "background": "The Godda plant consists of two 800 MW thermal units dedicated to supplying power cross-border to Bangladesh under long-term power purchase agreements.",
+     "next": "Completion of maintenance and restoration of full plant capacity by December 18.",
+     "numbers": [
+      "25-day duration for the overhaul",
+      "800 MW unit capacity going offline (halving plant output)",
+      "December 18 scheduled completion date"
+     ],
+     "views": [
+      "The Business Standard reports the supply halving based on media statements.",
+      "Adani Power confirms coordination and clearance from the Bangladesh Power Development Board."
+     ]
+    },
     "evidence": "independent",
-    "watch": "",
-    "brief": null,
+    "watch": "Timely resumption of generation from the overhauled Godda unit.",
+    "terms": [
+     "Annual Overhaul",
+     "Off-taker"
+    ],
     "title": "Adani's Godda unit to stay shut for 25-day overhaul, halving supply to Bangladesh",
     "url": "https://www.tbsnews.net/economy/energy/adanis-godda-unit-stay-shut-25-day-overhaul-halving-supply-bangladesh-1613781",
     "source": "The Business Standard",
@@ -210,11 +195,28 @@
    {
     "id": "c2b449e660d7",
     "company": "apsez",
-    "what": "CAM advises Adani Ports on its proposed 100% acquisition of Evos B.V. through a competitive global auction process.",
-    "why": "",
+    "what": "Cyril Amarchand Mangaldas advised Adani Ports on its proposed acquisition of a 100% stake in European liquid storage operator Evos B.V.",
+    "why": "Expanding into European liquid storage through Evos aligns with APSEZ's global port and logistics expansion strategy across key energy hubs.",
+    "brief": {
+     "happened": "Cyril Amarchand Mangaldas advised Adani Ports and Special Economic Zone Limited on its proposed acquisition of 100% of the share capital of Evos B.V. from F.S. Amelia S.à r.l. and Evos Manco B.V. ETText LegalWorld reports that the transaction was conducted through a competitive global auction process. Evos is Europe's second-largest independent liquid storage operator, featuring eight port-based terminals across the Netherlands, Belgium, Germany, Spain, and Malta with 452 tanks.",
+     "background": "Evos' terminal network spans key European energy hubs including the Amsterdam-Rotterdam-Antwerp region, Hamburg, and the Mediterranean, providing integrated pipeline connectivity.",
+     "next": "Regulatory approvals and closing of the Evos acquisition.",
+     "numbers": [
+      "100% share capital acquisition proposed",
+      "8 strategically located port-based terminals",
+      "452 tanks and 63 vessels/barge berths"
+     ],
+     "views": [
+      "ETLegalWorld reports on the legal advisory role played by Cyril Amarchand Mangaldas.",
+      "Industry details note Evos' standing as Europe's second-largest independent liquid storage operator."
+     ]
+    },
     "evidence": "independent",
-    "watch": "",
-    "brief": null,
+    "watch": "Closing conditions and regulatory clearances for the European acquisition.",
+    "terms": [
+     "Liquid storage terminal",
+     "Competitive global auction"
+    ],
     "title": "Cyril Amarchand Mangaldas advises Adani Ports on proposed Evos acquisition",
     "url": "https://www.scconline.com/blog/post/2026/11/25/cyril-amarchand-mangaldas-adani-ports-evos-acquisition/",
     "source": "ETLegalWorld",
@@ -237,20 +239,32 @@
    {
     "id": "298315fe3561",
     "company": "group",
-    "what": "The deliveries will be made on a month-wise basis in line with the project schedule and are scheduled to be completed by December 31, 2027. The orders are on a delivered-at-site basis.",
-    "why": "",
-    "evidence": "independent",
-    "watch": "",
+    "what": "Diamond Power Infrastructure bagged fresh orders worth up to ₹488 crore to supply AL-59 conductors for Adani's Bhadla-Fatehpur HVDC transmission project.",
+    "why": "Securing reliable high-voltage conductors is critical for executing major inter-state transmission infrastructure projects efficiently.",
     "brief": {
-     "views": [
-      "The Financial Express reports: The aggregate value of the orders is Rs 488.18 crore, including GST, and Rs 413.71 crore, excluding GST, according to the filing."
+     "happened": "Diamond Power Infrastructure secured fresh orders for the supply of 6,659.66 km of AL-59 conductors for the Uttar Pradesh and Madhya Pradesh portions of the ±800 kV Bhadla-Fatehpur High Voltage Direct Current transmission project. CNBCTV18 and The Financial Express report that the orders comprise 5,692.66 km of Lapwing conductors and 967 km of Zebra conductors. The aggregate value stands at ₹488.18 crore including GST, and ₹413.71 crore excluding GST, with deliveries to be completed by December 31, 2027.",
+     "background": "The Bhadla-Fatehpur HVDC project forms part of India's high-capacity transmission backbone to evacuate renewable and thermal power across northern and central corridors.",
+     "next": "Month-wise deliveries leading up to the December 2027 completion deadline.",
+     "numbers": [
+      "₹488.18 crore aggregate order value (including GST)",
+      "₹413.71 crore basic order value (excluding GST)",
+      "6,659.66 km of AL-59 conductors across Lapwing and Zebra types"
      ],
-     "extractive": true
+     "views": [
+      "CNBCTV18 and The Financial Express report order specifics based on company filings.",
+      "Deliveries are scheduled on a month-wise, delivered-at-site basis ending December 31, 2027."
+     ]
     },
+    "evidence": "independent",
+    "watch": "Execution and delivery adherence against the project timeline.",
+    "terms": [
+     "HVDC",
+     "AL-59 conductor"
+    ],
     "title": "Diamond Power Infrastructure bags fresh ₹488 crore orders for Adani's Bhadla-Fatehpur HVDC project",
     "url": "https://www.cnbctv18.com/market/stocks/diamond-power-infrastructure-share-price-bags-fresh-rs-488-crore-orders-for-adanis-bhadla-fatehpur-hvdc-project-20041446.htm",
     "source": "CNBCTV18",
-    "coverage": 6,
+    "coverage": 7,
     "also": [
      {
       "source": "Powerline Magazine",
@@ -265,10 +279,73 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSUNQTXZzSGtnMEZSOHZ6T0Jla1dOUnVPYWFxSktZbVpmSGVIYWJ5TUNKYlc2b3ZJVGJkTTNTQ2VPajRHbnlicWVYZ3c2NTMxcnlxUTVWTUZ0TmJsOU5NdlB0VUNsa2ktbHo5S3pxQ3JQSFpvSFp2OUFZTUpwUWs2c2xOdHlYOEtvakV3M2NqQ0wtVHJiNnV0a09oWGZLS3oyQ0M5aUp4aXY1eHB3eTRIVWpLX3VDN1Z6Q0ljMlo5YTZBSGw3Q0RGMjNjWS1UbWstYVd2aHM0WENvcFJEVUdENC1n?oc=5"
      }
     ]
+   },
+   {
+    "id": "a3998f1dec89",
+    "company": "airports",
+    "what": "Adani Airport Holdings agreed to raise $300 million from 360 ONE Asset, bringing its planned primary equity fundraising to approximately $1.35 billion.",
+    "why": "Strong institutional backing supports capital expenditure plans and financial flexibility across the group's airport portfolio.",
+    "brief": {
+     "happened": "Adani Airport Holdings Ltd has agreed to raise $300 million from 360 ONE Asset, taking its planned primary equity fundraising to approximately $1.35 billion. Magzter reports that the investment follows an earlier $1 billion commitment from a consortium of institutional investors, valuing the airport operator ahead of further development phases.",
+     "background": "The fundraising builds upon prior capital commitments secured from institutional investors to support infrastructure upgrades across Adani's major airports.",
+     "next": "Deployment of capital into airport infrastructure development.",
+     "numbers": [
+      "$300 million raised from 360 ONE Asset",
+      "$1.35 billion total planned primary equity fundraising",
+      "$1 billion earlier institutional commitment"
+     ],
+     "views": [
+      "Magzter reports the investment agreement between Adani Airport Holdings and 360 ONE Asset."
+     ]
+    },
+    "evidence": "other",
+    "watch": "Final disbursement and utilization of raised equity funds.",
+    "terms": [
+     "Primary equity fundraising"
+    ],
+    "title": "Adani Airports raises $300 million from 360 ONE Asset | The Daily Guardian - newspaper",
+    "url": "https://propnewstime.com/latestnewsstories/NDEwMDM\\u003d/adani-airports-raises-usd-300-million-from-360-one-asset-targets-200-million-passenger-capacity",
+    "source": "Magzter",
+    "coverage": 6,
+    "also": []
+   },
+   {
+    "id": "358096dbb9f8",
+    "company": "airports",
+    "what": "The Supreme Court issued notice to the Union government on a plea challenging a Bombay High Court ruling regarding nicotine pouch sales at Mumbai airport duty-free shops.",
+    "why": "Litigation regarding regulatory exemptions at duty-free retail impacts commercial leasing and retail revenue models at major airports.",
+    "brief": {
+     "happened": "The Supreme Court issued notice to the Union government on a plea challenging a Bombay High Court ruling which held that duty-free shops selling nicotine pouches at Mumbai airport cannot claim exemption from Indian regulatory laws. Livemint reports that the bench comprising Justice Aravind Kumar and Justice Vipul M. Pancholi heard the challenge brought by an Adani-backed retailer.",
+     "background": "The Bombay High Court had previously ruled against exemptions for nicotine pouch sales, prompting the current appeal before the Supreme Court.",
+     "next": "Union government response and subsequent hearings in the Supreme Court.",
+     "numbers": [
+      "Supreme Court bench comprising two justices"
+     ],
+     "views": [
+      "Livemint reports the Supreme Court issued notice on the retailer's challenge."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Supreme Court proceedings on regulatory applicability at duty-free outlets.",
+    "terms": [
+     "Duty-free shop",
+     "Special leave petition"
+    ],
+    "title": "SC notice to Centre on Adani-backed retailer’s challenge over nicotine pouch sales at Mumbai airport",
+    "url": "https://www.livemint.com/industry/retail/sc-adani-group-retailer-nicotine-pouch-sales-at-mumbai-airport-11795588625033.html",
+    "source": "Livemint",
+    "coverage": 1,
+    "also": []
    }
   ],
-  "concept": null,
-  "question": null
+  "concept": {
+   "term": "HVDC Transmission",
+   "explain": "High Voltage Direct Current systems are used for efficient bulk power transmission over very long distances with lower electrical losses compared to alternating current lines. Today's news highlights orders for AL-59 conductors destined for the major Bhadla-Fatehpur HVDC corridor, which facilitates the evacuation of large blocks of power across northern and central India. For infrastructure managers, understanding HVDC logistics and conductor specifications is crucial for managing supply chain bottlenecks in major transmission projects."
+  },
+  "question": {
+   "q": "With Adani Power undertaking a 25-day overhaul at the Godda plant while simultaneously planning public bond issuances with Adani Enterprises, how do scheduled plant maintenance cycles intersect with corporate capital raising strategies?",
+   "a": "Scheduled maintenance temporarily reduces output and near-term cash generation from specific operating assets like Godda, making predictable cash flow management essential. Concurrently, tapping public bond markets diversifies debt instruments to maintain strong liquidity buffers across group entities, ensuring that operational downtime in one unit does not impair broader financial stability."
+  }
  },
  {
   "date": "2026-11-25",
