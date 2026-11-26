@@ -1,11 +1,18 @@
 [
  {
   "date": "2026-11-26",
+  "kind": "weekly",
+  "title": "Week in review",
+  "file": "audio/weekly/2026-11-26.mp3",
+  "secs": 140
+ },
+ {
+  "date": "2026-11-26",
   "kind": "daily",
-  "title": "Adani Group expands port footprint, raises airport capital, and secures transmission orders",
+  "title": "Top Adani headlines",
   "file": "audio/daily/2026-11-26.mp3",
-  "words": 548,
-  "secs": 297
+  "words": 191,
+  "secs": 123
  },
  {
   "date": "2026-11-25",
