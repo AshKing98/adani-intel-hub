@@ -1,5 +1,14 @@
 {
- "tarali": [],
+ "tarali": [
+  {
+   "id": "1bf1e0356b7a",
+   "title": "Adani’s Tarali project: The dispute over its cost and wildlife fee",
+   "source": "The Indian Express",
+   "tier": "independent",
+   "date": "2026-11-24T07:45:00+05:30",
+   "url": "https://indianexpress.com/article/explained/adani-tarali-project-cost-affidavit-wildlife-deposit-row-10976406/"
+  }
+ ],
  "hasdeo": [],
  "carmichael": [],
  "khavda": [],
@@ -14,6 +23,22 @@
    "tier": "independent",
    "date": "2026-11-26T00:08:41+05:30",
    "url": "https://m.economictimes.com/news/economy/infrastructure/from-ropeways-to-ring-roads-karan-adani-reveals-the-groups-next-big-bets-at-et-bengal-ascends/articleshow/136171190.cms"
+  },
+  {
+   "id": "2d857b35466a",
+   "title": "Adani Energy Solutions Secures 1,750 MW Renewable Power Contract From WBSEDCL",
+   "source": "BW Businessworld",
+   "tier": "independent",
+   "date": "2026-11-24T14:02:39+05:30",
+   "url": "https://propnewstime.com/latestnewsstories/NDA4OTU\\u003d/adani-energy-solutions-subsidiary-secures-1-750-mw-renewable-power-supply-contract-from-west-bengal-discom"
+  },
+  {
+   "id": "4a4d391fd7d7",
+   "title": "TMC questions 25-year Adani power deal with Bengal government, alleges favouritism",
+   "source": "Telegraph India",
+   "tier": "independent",
+   "date": "2026-11-23T20:41:00+05:30",
+   "url": "https://www.telegraphindia.com/west-bengal/tmc-questions-adani-groups-25-year-power-deal-with-bengal-government-alleges-favouritism-prnt/cid/2190796"
   }
  ],
  "bangladesh": [],
@@ -36,6 +61,14 @@
    "tier": "independent",
    "date": "2026-11-25T21:19:50+05:30",
    "url": "https://www.scconline.com/blog/post/2026/11/25/cyril-amarchand-mangaldas-adani-ports-evos-acquisition/"
+  },
+  {
+   "id": "3290aac6be25",
+   "title": "Adani Energy Solutions stock to be in focus after signing deal to acquire Vikramshila Power",
+   "source": "The Economic Times",
+   "tier": "independent",
+   "date": "2026-11-23T01:10:00+05:30",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-energy-solutions-stock-to-be-in-focus-after-signing-deal-to-acquire-vikramshila-power/articleshow/136088334.cms"
   }
  ]
 }
