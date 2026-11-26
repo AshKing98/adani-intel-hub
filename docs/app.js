@@ -219,7 +219,7 @@ function renderToday() {
       ${ep ? audioBtn(ep.file, "Briefing · " + fmtDate(ep.date), `Listen · ${mins(ep)} min`) : sayBtn("brief", "Listen")}
       <a class="say" href="#news">All news</a>
     </div>
-    ${t._model === "fallback" ? `<p class="small muted">The AI summary isn't switched on yet, so stories show the publisher's own summary.</p>` : ""}
+    ${t._model === "fallback" ? `<p class="small muted">The AI summary wasn't available on this run (the AI service was busy), so stories show the publisher's own summary. It retries on the next run.</p>` : ""}
   </header>
 
   ${watch.map(w => `<div class="alert"><b>Heads-up:</b> the official ${esc(w.page)} page changed on ${esc(fmtDate(w.date))}. ${w.added?.length ? `New: ${esc(w.added.slice(0, 4).join("; "))}.` : ""} <a href="${esc(safeUrl(w.url))}" target="_blank" rel="noopener">Check it</a></div>`).join("")}

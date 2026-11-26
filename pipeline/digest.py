@@ -117,31 +117,40 @@ def _discover_models() -> list:
 def _gemini(prompt: str) -> dict:
     """Call Gemini with a hard time budget. Candidates = your override, models your key can actually use, then defaults.
     Every attempt is recorded so the log shows exactly what happened with each model."""
-    deadline = time.monotonic() + 420
+    # Hard cap per call: a busy Gemini must never hold the daily build for long (the weekly episode calls this too).
+    deadline = time.monotonic() + 240
     candidates, seen = [], set()
     for m in [m for m in GEMINI_MODELS[:1] if os.environ.get("GEMINI_MODEL")] + _discover_models()[:4] + GEMINI_MODELS:
         if m and m not in seen:
             seen.add(m); candidates.append(m)
     trail = []
-    for model in candidates[:6]:
+    # Busy (503/429) models are skipped at once and retried in the next round, so one overloaded model
+    # can't eat the whole time budget. Rounds are separated by a pause.
+    rounds = [m for _ in range(3) for m in candidates[:6]]
+    for i, model in enumerate(rounds):
+        if i and i % len(candidates[:6]) == 0:
+            if deadline - time.monotonic() < 60:
+                break
+            time.sleep(15)
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        for fast, attempt in ((True, 0), (True, 1), (True, 2), (False, 0)):
-            if time.monotonic() > deadline:
+        for fast, _ in ((True, 0), (False, 0)):
+            left = deadline - time.monotonic()
+            if left <= 5:
                 trail.append("time budget used up")
                 raise RuntimeError("Gemini unavailable (" + "; ".join(trail) + ")")
+            req_timeout = (min(10, left), min(120, left))
             cfg = {"responseMimeType": "application/json", "temperature": 0.4, "maxOutputTokens": 8192}
             if fast:
                 cfg["thinkingConfig"] = {"thinkingBudget": 0}
             try:
                 r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg},
-                                  headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
+                                  headers={"x-goog-api-key": GEMINI_KEY}, timeout=req_timeout)
                 if r.status_code == 400 and fast:
                     trail.append(f"{model}: 400 with thinking option, retrying without")
-                    attempt = 0
                     fast = False
                     cfg.pop("thinkingConfig", None)
                     r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": cfg},
-                                      headers={"x-goog-api-key": GEMINI_KEY}, timeout=(10, 120))
+                                      headers={"x-goog-api-key": GEMINI_KEY}, timeout=req_timeout)
                     if r.status_code != 200:
                         trail.append(f"{model}: HTTP {r.status_code}")
                         break
@@ -151,10 +160,7 @@ def _gemini(prompt: str) -> dict:
                     except Exception:
                         msg = ""
                     trail.append(f"{model}: HTTP {r.status_code} {msg}".strip())
-                    if r.status_code in (429, 503) and attempt < 2:
-                        time.sleep(20 * (attempt + 1))      # busy: wait, then retry the same model
-                        continue
-                    break                                   # next model
+                    break                                   # busy or failed: next model, retry in next round
                 txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip())
                 out = json.loads(txt)
@@ -253,7 +259,7 @@ def _fallback(items: list, today: datetime, total: int) -> dict:
     lines.append("Open the app to read the full stories. That's all for today.")
     return {
         "headline": "Top Adani headlines",
-        "summary": f"{total} unique Adani stories in the last 48 hours. Add a Gemini key for an AI briefing with the why-it-matters for each.",
+        "summary": f"{total} unique Adani stories in the last 48 hours. The AI briefing was unavailable on this run, so these are the headlines only.",
         "stories": [{"id": it["id"], "company": it["companies"][0],
                      "what": ((it.get("read") or {}).get("desc") or it["title"]), "why": "",
                      "evidence": it["tier"], "watch": "", "brief": _fallback_brief(it)} for it in top],
