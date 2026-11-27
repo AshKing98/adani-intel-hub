@@ -1,5 +1,340 @@
 [
  {
+  "date": "2026-11-27",
+  "headline": "Adani plans bond sales, secures power deals, and expands cement footprint.",
+  "summary": "Adani Group flagships are targeting ₹2,000 crore via domestic public bonds while securing a major 1,750 MW round-the-clock renewable contract in West Bengal. Meanwhile, Ambuja Cements advances a 30 MTPA expansion and a carbon capture pilot, and Adani Defence negotiates a manufacturing joint venture with Embraer.",
+  "stories": [
+   {
+    "id": "685e708fc54c",
+    "company": "ael",
+    "what": "Adani Enterprises and Adani Power are planning to raise at least ₹2,000 crore ($220 million) through public bond issuances. The companies are currently working with local bond arrangers to execute the offerings.",
+    "why": "Public bond issues remain rare in India's corporate debt market, which is heavily dominated by private placements. Successfully tapping retail and institutional public bond buyers expands the group's domestic funding sources.",
+    "brief": {
+     "happened": "Adani Enterprises Ltd and Adani Power Ltd are preparing to enter the domestic retail and public bond market to raise at least ₹2,000 crore ($220 million). According to reports from Bloomberg and Business Standard on 26 November 2026, the two companies are currently working with local bond arrangers. One of the public offerings is targeted to launch by the end of the current period.",
+     "background": "Public offerings account for only a small fraction of corporate bond sales in India, as the market relies mostly on private placement deals with institutional investors.",
+     "next": "The launch of the first public bond offering is targeted by the end of the current cycle.",
+     "numbers": [
+      "₹2,000 crore ($220 million) target public bond raise"
+     ],
+     "views": [
+      "Business Standard reports Adani Enterprises and Adani Power are planning a public bond sale.",
+      "Bloomberg reports the companies are working with local bond arrangers on the issue."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Launch timeline and pricing of the public bond issues.",
+    "terms": [
+     "private placement",
+     "public bond sale"
+    ],
+    "title": "Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr",
+    "url": "https://www.moneycontrol.com/news/business/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million-14089399.html",
+    "source": "Business Standard",
+    "coverage": 14,
+    "also": [
+     {
+      "source": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million-14089399.html"
+     },
+     {
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2ZJdmYtYjc2UFM0QzY3Sldoamk2TzVYb0VPMXRPSkpiaDF0a1NSSlBVNXpQZ1lWR3I4YzRBeWs5Yk05UmRlTVQ4d2VYV1MxYXBFVl9WR084RGpoc3NrZkhMUnl0bjYyZjFoMWR4elowMTBia2lYTExLQlR5RUNxLV84em1GTDVfdmNENW5iRl9QbFpEZ2w3a3djcWI3TDdlLWpZdWw0dlVYVUhMR2FVODRhNnY?oc=5"
+     },
+     {
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWUNwTkhqay1HakF2VzdORFpwNHkxSGFQYVRLbVQ5Z2prNUs4bTV3YU1OTzJkdW9GajBEUkVHTnhLWXEtUFI4TEdlWjZnUHpHTVlVanR2Q1U5UFJWcmtKdzhQQzMyalVRQjQ1alRBeGw3TEdtNmw5eWdfX0lkME1mNDd6TW81cUx4Uk41c0tlU21YdjlmX010dzdJa25vWmE3eXI0a3NfVzVuWXlJakRMQ3ptYVlaQVZQVXJ2NmRyalBkQ0JrMEs0VFFBWDZnNjU30gHQAUFVX3lxTE9ZQ3BOSGprLUdqQXZXN05EWnA0eTFIYVBhVEttVDlnams1SzhtNXdhTU5PMmR1b0ZqMERSRUdOeEtZcS1QUjhMR2VaNmdQekdNWVVqdHZDVTlQUlZya0p3OFBDMzJqVVFCNDVqVEF4bDdMR202bDl5Z19fSWQwTWY0N3pNbzVxTHhSTjVzS2VTbVh2OWZfTXR3N0lrbm9aYTd5cjRrc19XNW5ZeUlqRExDem1hWVpBVlBVcnY2ZHJqUGRDQmswSzRUUUFYNmc2NTc?oc=5"
+     },
+     {
+      "source": "tradersunion",
+      "url": "https://tradersunion.com/news/companies/show/4424096-adani-enterprises-public-bond-india/"
+     }
+    ]
+   },
+   {
+    "id": "2d857b35466a",
+    "company": "aesl",
+    "what": "Adani Energy Solutions subsidiary Powerpulse Trading Solutions won a Letter of Award from WBSEDCL to supply 1,750 MW of round-the-clock renewable power over 25 years. The deal includes a greenshoe option to expand supply by an additional 750 MW.",
+    "why": "Securing long-term, 25-year round-the-clock power purchase agreements strengthens steady cash flows for the energy transmission and trading arm.",
+    "brief": {
+     "happened": "Adani Energy Solutions Ltd announced that its wholly owned subsidiary, Powerpulse Trading Solutions Ltd, received a Letter of Award on 21 November 2026 from West Bengal State Electricity Distribution Company Ltd. The contract mandates supplying 1,750 MW of round-the-clock renewable energy for 25 years starting July 2028. An optional 750 MW greenshoe extension can scale total supply to 2,500 MW starting April 2029.",
+     "background": "State discoms are increasingly contracting round-the-clock green power to meet baseline demand while fulfilling clean energy mandates.",
+     "next": "Base supply is scheduled to commence in July 2028, with the greenshoe portion starting April 2029.",
+     "numbers": [
+      "1,750 MW base round-the-clock power contract",
+      "750 MW additional greenshoe option",
+      "2,500 MW potential total capacity",
+      "25-year contract duration"
+     ],
+     "views": [
+      "BW Businessworld reports AESL secured the LOA via Powerpulse Trading Solutions Ltd."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Execution of the power purchase agreement and exercise of the greenshoe option by WBSEDCL.",
+    "terms": [
+     "round-the-clock renewable energy",
+     "greenshoe option"
+    ],
+    "title": "Adani Energy Solutions Secures 1,750 MW Renewable Power Contract From WBSEDCL",
+    "url": "https://propnewstime.com/latestnewsstories/NDA4OTU\\u003d/adani-energy-solutions-subsidiary-secures-1-750-mw-renewable-power-supply-contract-from-west-bengal-discom",
+    "source": "BW Businessworld",
+    "coverage": 2,
+    "also": [
+     {
+      "source": "Prop News Time",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOT2Y0cmlGWmxTTmxfREd6NjFYMWdBOEJIaVViMi1WOVJlYkN6NWszazRWanB4RDdlU0RSOGJsc0wyUC1NZGZMN2VNNGlOSENQWEFsTjgzYzYyTkxRcGpJaHd5bnFrcEdnVVF0U1otSFlpSkxOR3dsSE9ubEd1MVY1SElydzU4UVZFQmdCUlRseFdIdVJta3g2aHMtNmNtVVRLNzFRX20zM2tRb3JFUHN3dUd0NDRqWVhpVi0waGczTVg1OFpndVFKcDM4azFYemFBS3hWRWxqQktiMDNNOHRac0JTZGlMbmk3bWlZeEJ0SQ?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "c298f28e40a7",
+    "company": "cement",
+    "what": "Ambuja Cements is planning to add ~30 MTPA of cement capacity across India, while partner Calix progresses a carbon capture demonstration project at the Sanghi cement plant in Gujarat.",
+    "why": "Expanding manufacturing capacity reinforces market leadership in building materials, while testing carbon capture technologies addresses long-term sustainability and emission targets.",
+    "brief": {
+     "happened": "Ambuja Cements Limited announced expansion plans to add ~30 MTPA of cement capacity across its East, West, and North clusters, building on its existing 113.5 MTPA capacity across 24 integrated plants and 24 grinding units. Separately, technology partner Calix announced at its AGM on 23 November 2026 that engineering studies are underway for a commercial-scale carbon capture demonstration facility at Ambuja's Sanghi plant in Gujarat.",
+     "background": "Ambuja Cements is part of the Adani Portfolio and is scaling up its building materials network aggressively across major regional markets in India.",
+     "next": "Partners aim to make a Go/No-Go decision on the Sanghi carbon capture project during fiscal year 2027.",
+     "numbers": [
+      "30 MTPA planned capacity addition",
+      "113.5 MTPA current pan-India cement capacity",
+      "15.5 MTPA new grinding capacity in West Cluster",
+      "11.6 MTPA new grinding capacity in East Cluster",
+      "2.9 MTPA new grinding capacity in North Cluster"
+     ],
+     "views": [
+      "World Cement reports Ambuja Cements planned a ~30 MTPA capacity expansion.",
+      "Global Cement reports Calix is carrying out an initial engineering study at the Sanghi plant."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Final investment decision on the Sanghi plant carbon capture project in FY2027.",
+    "terms": [
+     "MTPA",
+     "carbon capture",
+     "greenfield"
+    ],
+    "title": "India: Calix advances carbon capture demonstration project with Ambuja Cements at Sanghi plant",
+    "url": "https://www.worldcement.com/indian-subcontinent/25112026/ambuja-cements-firms-up-its-next-growth-phase-with-30-mtpa-expansion/",
+    "source": "BigMint",
+    "coverage": 4,
+    "also": [
+     {
+      "source": "World Cement",
+      "url": "https://www.worldcement.com/indian-subcontinent/25112026/ambuja-cements-firms-up-its-next-growth-phase-with-30-mtpa-expansion/"
+     },
+     {
+      "source": "Global Cement",
+      "url": "https://www.globalcement.com/news/21532-calix-reports-progress-on-commercial-scale-project-with-ambuja-cements"
+     },
+     {
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmJqX3pvVFd1aWlqMGp2U0ZMdWZJWVRWN1J2eFhoMERGUTFjVWhYLWVHd3ZNWldVZGY5RFlNOGx2ZVNTaXNTaDZ4eGozb2FEa1p1NC11NnNKbkxmUGJpSGV5Q0UtSkt5M3o1UkRONE9MN0lOc0t3djFqM0tFNTRvd3YyRmc2VUFVMGU1eHZxN21JMGJHTDJZS05qVU14a0tLbnRSaHNyTQ?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "cbb441109bc0",
+    "company": "group",
+    "what": "Adani Defence & Aerospace and Brazilian manufacturer Embraer are in talks to form a joint venture to manufacture civilian aircraft in India, though shareholding terms remain unresolved.",
+    "why": "Establishing a domestic civil aircraft manufacturing facility advances the group's aerospace ambitions and supports local manufacturing capabilities.",
+    "brief": {
+     "happened": "Adani Defence & Aerospace is negotiating joint venture terms with Brazilian planemaker Embraer to manufacture civilian aircraft in India, according to industry sources reported by BusinessLine on 26 November 2026. Ownership structure is the main point of contention, with Embraer seeking a 51% majority stake to ensure quality control and technology transfer compliance, while Adani desires a 51% stake in its own favor.",
+     "background": "India is pushing to develop domestic aerospace assembly and manufacturing infrastructure through strategic foreign partnerships.",
+     "next": "Finalization of equity ownership structure between Adani Defence and Embraer.",
+     "numbers": [
+      "51:49 proposed equity shareholding splits being negotiated"
+     ],
+     "views": [
+      "BusinessLine reports Embraer insists on a 51% stake for quality control.",
+      "BusinessLine reports Adani wants a 51:49 majority ownership in its favor."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Final equity shareholding agreement between Adani Defence and Embraer.",
+    "terms": [
+     "joint venture",
+     "technology transfer"
+    ],
+    "title": "Adani, Embraer work on JV structure; shareholding a sticking point",
+    "url": "https://www.thehindubusinessline.com/companies/adani-embraer-work-on-jv-structure-shareholding-a-sticking-point/article71745180.ece",
+    "source": "The Hindu BusinessLine",
+    "coverage": 2,
+    "also": [
+     {
+      "source": "BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSnJia2otU0FnN2VfOUhNemRMZEJyaHZhRER4bzZVMnVlN2JoS3BkVDJmLTJVd2hWU2E0VU01dmYtYzdrTlFoR0VqXzRQT2ZIZnAxUVdiczk1bXZWN3Y2cjJFVU1jVHNPMjUyMm9GeUg0ODVxNTgxeEVVamNhY3hYUkt1RTY4UkJ5N0laeW92aDVzanE3QmMwX2ZUaVJsYVp6REhhZ2JjZ2hjWFM0cVpQTVpxeUd0OGxQamtuaEVqMXhlNG1pZF91N0IxNNIB0gFBVV95cUxPdVUtdWo1R09nRkpUVGZ1RGZBOVFwRWtxSUdmODEtU2lZTElPLVZDN1NzN1dyUVZrWklmVUd2dGdzbXRGc0syT0xYdWNNM09rYk9lb2tSSmt3WTR1WW9Ec1VmLW1EdDdyaWxlWldZdWNIWFJ2NjZZVVBjU1dsMkh5UHhvcEFBMGROTjBheXZXcHFJVXFNVVh4WERCYjQwTVp5enQtdThFV1V3MEZ2VjliWk9xN3RGMDZCZEVyUkpRZU94YW9Ca1QyZFpiT1otQzZOZXc?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "cecd079a14c4",
+    "company": "power",
+    "what": "Adani Power shut down one 800-MW unit at its Godda thermal power plant for scheduled annual maintenance, temporarily halving electricity exports to Bangladesh.",
+    "why": "Routine maintenance of generation units is necessary for plant reliability, though short-term disruptions impact cross-border power supply arrangements.",
+    "brief": {
+     "happened": "Adani Power temporarily shut down one of the two 800-MW units at its Godda power plant in Jharkhand starting midnight on 25 November 2026 for routine annual overhaul. The scheduled maintenance will run until 18 December 2026. The plant's remaining 800-MW unit continues to operate normally, supplying power under agreement to Bangladesh.",
+     "background": "The Godda power plant consists of two 800-MW thermal units dedicated to exporting electricity to the Bangladesh Power Development Board.",
+     "next": "The shut-down 800-MW unit is scheduled to resume operation on 18 December 2026.",
+     "numbers": [
+      "800 MW capacity offline for maintenance",
+      "1,600 MW total plant capacity across two units"
+     ],
+     "views": [
+      "Adani Power stated the maintenance is a planned routine upkeep approved by BPDB.",
+      "India Today reports the shutdown temporarily halves supply during ongoing Bangladesh power shortages."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Re-commissioning of the 800-MW unit on 18 December 2026.",
+    "terms": [
+     "annual overhaul",
+     "base load capacity"
+    ],
+    "title": "Bangladesh loses half its power supply from Adani's Godda plant as unit is shut down",
+    "url": "https://www.indiatoday.in/world/story/adani-godda-plant-maintenance-halve-bangladesh-power-supply-25-days-sheikh-hasina-itspc-3046755-2026-11-25",
+    "source": "India Today",
+    "coverage": 9,
+    "also": [
+     {
+      "source": "Daily Times Of Bangladesh",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT2cyNHZtMDJiRHVRTko3VnRudmUzSkZGc193TGI0bFBKVHdTUnowdnppS0J5d1BxOGVrVllqUkMtTnkwT3FLOGs4MmZzejh2MzdiNDFXTVMySTJIUExDVkVvWnhsb2wzQmxQcEZKX0pJZTBIeVRmS1hKbGdydzZtTg?oc=5"
+     },
+     {
+      "source": "New Age BD",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDhvSHA1ZENWR3RQdlFzM3VSV2RZZGg0bEZkQmNXWkpWRkwxV1JmUER4WWt4ZmpabUh3MDBNSDM2ckVxcVhNWkw0SW5UTTh3aEFoTnNsN0pmczdaNS03X0NyZWNyelV1MnV6ZWNUMVpHM2VjOE1FVllpTWdYYTBKWFZGeGxmUFQwb2hfaUNTdUpXLUxkc09DdndOaWo?oc=5"
+     },
+     {
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTZTd04zVWp1bjJtQ0dacnJsalFEM1hSVWlnaHpZakxfYlJEb052WHl1N25Id2RidWdtQU41elNZRG5ZY21XWU1OUkdmUFRNTko1VldqbkE3YlFjdzJLbExjd1RuMERaSjhyYXNBV0FIUzJlZnpfQXJFUFBqazBPWGIxcDkta0xFVnpiV2FOVFNKMmI2dU9DLUJScw?oc=5"
+     },
+     {
+      "source": "Daily Sun",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEotRUJaMTNlZ2ZVbUhPdTg4WF94Tk1ZRVJ3UDVMS1hGUklBb0VFYzd2RVZ4LUxHWkRRdVlIUDZuMzh2LVo1Z09HYmJBMUVOek5qTDFtQ09VcGRYVmhmY3Z4NWJLa3RNZWdDZmhqQXRmbVNJUUJwbjEwTXhTQ0ZWV0JuVFNPNjlxSVhVTGlHai1tMmhpbXExcWFqR0RqYjVCckJiQldQbS1xNEoyRG5kM0NmdVNVbHdFTGJOcFZaOEwyR1p6N2NvcU9n?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "298315fe3561",
+    "company": "group",
+    "what": "Diamond Power Infrastructure secured orders worth ₹488.18 crore (including GST) to supply 6,659.66 km of conductor cables for Adani's Bhadla-Fatehpur HVDC transmission project.",
+    "why": "Procuring critical transmission line components ensures timely construction of high-voltage corridors linking renewable hubs in Rajasthan to regional demand centers.",
+    "brief": {
+     "happened": "Diamond Power Infrastructure received orders valued at ₹488.18 crore (₹413.71 crore excluding GST) to supply AL-59 conductors for Adani's ±800 kV Bhadla-Fatehpur High Voltage Direct Current project. The supply contracts cover 6,659.66 km of conductor wires (5,692.66 km of Lapwing and 967 km of Zebra variants) across Uttar Pradesh and Madhya Pradesh segments.",
+     "background": "The Bhadla-Fatehpur HVDC link is built to transmit large volumes of renewable power from Rajasthan to northern and central Indian grid infrastructure.",
+     "next": "Monthly deliveries are scheduled for completion by 31 December 2027.",
+     "numbers": [
+      "₹488.18 crore total contract value including GST",
+      "₹413.71 crore base order value excluding GST",
+      "6,659.66 km total AL-59 conductor wire ordered"
+     ],
+     "views": [
+      "CNBCTV18 reports Diamond Power received the supply order on a delivered-at-site basis.",
+      "The Financial Express confirms order details and breakdown of AL-59 Lapwing and Zebra cables."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Execution and delivery milestones through December 2027.",
+    "terms": [
+     "HVDC",
+     "AL-59 conductor"
+    ],
+    "title": "Diamond Power Infrastructure bags fresh ₹488 crore orders for Adani's Bhadla-Fatehpur HVDC project",
+    "url": "https://www.cnbctv18.com/market/stocks/diamond-power-infrastructure-share-price-bags-fresh-rs-488-crore-orders-for-adanis-bhadla-fatehpur-hvdc-project-20041446.htm",
+    "source": "CNBCTV18",
+    "coverage": 7,
+    "also": [
+     {
+      "source": "Powerline Magazine",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnAyTkNYOGF5czExalNzU1JfVWhaX2xEc25aaW5SSXhnckczQzc1TmgtM0FUcm80Yy1DMmEtV2JVd0ZacmF2OHAzS2RwUEFCbVVLbVJFMFRxNFZfb0wwN0dfbU5KWkVSR3l5cHNHM0g1MVJVOGNSOUJLSkctbzlMMlJ3SXVGUGt1UDQ0Vm9RNENpMUp2Q1NvTVUtbm52OTA3bTFac2lTM2pnbFVabDg1TVhZc0E?oc=5"
+     },
+     {
+      "source": "CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQkV3RUJ2U1F4eExtY0lTc3oxRk9xMWJjTmNuVFNmTGRmSlZKbWNkenF5QWxEM0Q0SU0yT0FrTHA0SjVrS3pnbWRZQURnM2FqZ2FKVjg5SjdYQ09PcFlmRkRiNnNhYXpzdHhwdzJiWVloNkE4eGJLSE1BZS1uTWwyb25kMjZPZjFmVGVUWTRDakdvTTFiYjJNNnVyMm1nalEzdWtoVGFMWDRLMTUxbmFTWWxpSUR5c1lfVE5BakdrbXZicFdzMzJQRHdrdTdQczlQYUpRQ215cjh4eUNLamtXY3NBRzVEWlR6ajhUbEZWM2Jrb1hwcmRuSHlPONIB-wFBVV95cUxOQkV3RUJ2U1F4eExtY0lTc3oxRk9xMWJjTmNuVFNmTGRmSlZKbWNkenF5QWxEM0Q0SU0yT0FrTHA0SjVrS3pnbWRZQURnM2FqZ2FKVjg5SjdYQ09PcFlmRkRiNnNhYXpzdHhwdzJiWVloNkE4eGJLSE1BZS1uTWwyb25kMjZPZjFmVGVUWTRDakdvTTFiYjJNNnVyMm1nalEzdWtoVGFMWDRLMTUxbmFTWWxpSUR5c1lfVE5BakdrbXZicFdzMzJQRHdrdTdQczlQYUpRQ215cjh4eUNLamtXY3NBRzVEWlR6ajhUbEZWM2Jrb1hwcmRuSHlPOA?oc=5"
+     },
+     {
+      "source": "Construction World",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSUNQTXZzSGtnMEZSOHZ6T0Jla1dOUnVPYWFxSktZbVpmSGVIYWJ5TUNKYlc2b3ZJVGJkTTNTQ2VPajRHbnlicWVYZ3c2NTMxcnlxUTVWTUZ0TmJsOU5NdlB0VUNsa2ktbHo5S3pxQ3JQSFpvSFp2OUFZTUpwUWs2c2xOdHlYOEtvakV3M2NqQ0wtVHJiNnV0a09oWGZLS3oyQ0M5aUp4aXY1eHB3eTRIVWpLX3VDN1Z6Q0ljMlo5YTZBSGw3Q0RGMjNjWS1UbWstYVd2aHM0WENvcFJEVUdENC1n?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "358096dbb9f8",
+    "company": "airports",
+    "what": "The Supreme Court of India issued a notice to the Central Government regarding an appeal by an Adani-backed duty-free retailer against a High Court order on Mumbai airport sales.",
+    "why": "Clarifies legal and regulatory boundaries for retail and duty-free operations at major airport hubs managed by Adani Airports.",
+    "brief": {
+     "happened": "The Supreme Court of India issued a notice to the Union Government on 25 November 2026 following a petition filed by an Adani-backed duty-free retailer. The plea challenges a Bombay High Court ruling which held that duty-free operations at Mumbai airport selling nicotine pouches are not exempt from Indian domestic regulatory laws.",
+     "background": "The Bombay High Court previously ruled that duty-free status does not grant immunity from national health and product regulation laws within airport premises.",
+     "next": "Central government response and further hearing before the Supreme Court bench.",
+     "views": [
+      "Livemint reports the Supreme Court bench of Justice Aravind Kumar and Justice Vipul M. Pancholi issued notice to the Centre."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Supreme Court hearing date and government response.",
+    "terms": [
+     "duty-free exemption",
+     "notice to Centre"
+    ],
+    "title": "SC notice to Centre on Adani-backed retailer’s challenge over nicotine pouch sales at Mumbai airport",
+    "url": "https://www.livemint.com/industry/retail/sc-adani-group-retailer-nicotine-pouch-sales-at-mumbai-airport-11795588625033.html",
+    "source": "Livemint",
+    "coverage": 1,
+    "also": []
+   },
+   {
+    "id": "c2b449e660d7",
+    "company": "apsez",
+    "what": "Legal firm Cyril Amarchand Mangaldas advised Adani Ports and Special Economic Zone on its proposed acquisition of 100% of European terminal operator Evos B.V.",
+    "why": "Acquiring international tank terminal operations expands APSEZ's liquid storage footprint and global port portfolio.",
+    "brief": {
+     "happened": "Law firm Cyril Amarchand Mangaldas announced it acted as legal advisor to Adani Ports and Special Economic Zone Limited (APSEZ) for its proposed 100% equity stake acquisition of Evos B.V. The acquisition of the European liquid storage platform was pursued via a competitive global auction from sellers F.S. Amelia S.à r.l. and Evos Manco B.V.",
+     "background": "APSEZ has been expanding its international logistics network through strategic port and terminal acquisitions across key trade corridors.",
+     "next": "Completion of regulatory approvals and closing procedures for the Evos acquisition.",
+     "numbers": [
+      "100% equity acquisition of Evos B.V."
+     ],
+     "views": [
+      "ETLegalWorld reports Cyril Amarchand Mangaldas advised APSEZ on the global auction deal."
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Regulatory approvals and financial closure of the Evos B.V. purchase.",
+    "terms": [
+     "equity acquisition",
+     "global auction"
+    ],
+    "title": "Cyril Amarchand Mangaldas advises Adani Ports on proposed Evos acquisition",
+    "url": "https://www.scconline.com/blog/post/2026/11/25/cyril-amarchand-mangaldas-adani-ports-evos-acquisition/",
+    "source": "ETLegalWorld",
+    "coverage": 4,
+    "also": [
+     {
+      "source": "SCC Online",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVVk1RFhvM1JDMUNmU2J2MkJtWmxjbVctVl9zUlJ0bDBmZm84YWQ0NDRaZ2hpb3NjV3VIRDZkRjYweThPX0RqZ01TRVk0T29fOTZocXlldzhid0hXR1RRYjFYRThoZ1FNSTdhUV9PSUM3Z2pfSE45dl8wbDhzTGU1Z2lSQlBqaVY2Nng3MktIaGg0OG1HWEFyUXc1eUotYmRSSHl2TQ?oc=5"
+     },
+     {
+      "source": "Bar and Bench",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcF9xY3pvU3RKZVNwSF9UbmlvYkRweU5uWktJYUJKeFAySXJndW1iVTFPVnFDVlI4ZGVCNGRDa0xJOTA0b0UyU2ZkTkp0T1UtQy14QWZnS1BYV0RxTzR2YjRkMFlsTDUtbFRvOGdUckFBbExrNVNDRHdjQVByTXlpSmZ5QmFBM2Jvdy10eUF0N0x5MV9XSWRBOE1PNmhNbG1HRFkyVkhULXl6X1k1cERkRWlSdlpNZEdsV2phSjRVS3FLZGtwZ0HSAdMBQVVfeXFMT0wyUDFNRDlXaFFvdkpmTUpMWUVuT004SVQ5WGhqcTFHYUdNOURQV3lZX1R3Q1pYa09qUmhNclFQV3FRU0RlaU1TTnJVblc2OFVyUFVlTlNxNXgyVmozV3dYWjNfMXZEdmlNX1c2RHVCOTJYXzU0dUpGNTlMRXQ2ODc1Y2stSzN2NHZJWHRMaFAyWTcwNk15Y1BsMEZ0UTJiXzAxZnBUVDgwbkhIaWs1X3hWamtJR2Zya052RWRZYTJwNjE1dF9JT2doejVoUVd4VWdxNA?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNNkI0VnB3TEtsV19iSnpQX3JibW03S2tzWlFkT29Ba0xqczU5ZkxtbDFoaGFUSHQ0SFJobmxvOVY1WE9RMVBzZTI2QkxjQjZVckpVbWNWMHNNRjF0Tk9QY05YYXFFUFE0endneEtINXdHYXdEeW9EaGUyN2ZUeVBEenY3dE9JNGQyeC1YVVQxRFM1NFRSX1Zmek5HQzlLSHcwc3RCMWJLdTVPV1FhV2dpZHh1WVBNeGx6MWV1bURPRXNnWWRiYnQtbV9uUmo2LW5nZ25hdkRqV05WQS11MFBqTkJqNDZld3lQQ20yTlBfUG4xUmhaU0hIcWgtQ25KMHc4TmlkclNNazF1MnZqdE5HWlhpNzBzVF9ib2d0UGxUSkxxMFpZWS1ycWZLRnp1alpDc2l3Y3lxdHN0NTJ2aHFWd3RRVFRiRjZQZHo2ag?oc=5"
+     }
+    ]
+   }
+  ],
+  "concept": {
+   "term": "Greenshoe Option",
+   "explain": "A greenshoe option is a clause in a supply or underwriting contract that allows the buyer or underwriter to purchase additional goods or shares beyond the initial agreed quantity at the set contract price. In today's news, West Bengal State Electricity Distribution Company Ltd holds an option to purchase an additional 750 MW of power from Adani Energy Solutions beyond the primary 1,750 MW commitment. This provides flexibility to scale volume without re-tendering."
+  },
+  "question": {
+   "q": "Why would Adani Enterprises and Adani Power look to raise ₹2,000 crore via public corporate bonds rather than standard private placements?",
+   "a": "While Indian corporate debt is heavily reliant on institutional private placements, launching public bond issues allows the group to diversify its lender base toward retail and high-net-worth investors. It helps build a deeper domestic retail debt market presence, lowers concentration risk among institutional lenders, and establishes public benchmarks for future corporate debt issuances."
+  }
+ },
+ {
   "date": "2026-11-26",
   "headline": "Adani Portfolio Advances Debt, Capacity Expansion, and International Logistics Deals",
   "summary": "Adani Group firms are expanding their financial and operational footprint through public bond plans, major cement and copper supply expansions, and port acquisitions in Europe. Meanwhile, power plants undergo maintenance, and infrastructure projects secure critical supply orders.",
