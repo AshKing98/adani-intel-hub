@@ -45,12 +45,44 @@
  "dharavi": [],
  "debt-funding": [
   {
+   "id": "ef0141b9481f",
+   "title": "Adani Group capex: ₹2.2 lakh crore investment planned for FY27",
+   "source": "BusinessLine",
+   "tier": "independent",
+   "date": "2026-11-27T18:15:03+05:30",
+   "url": "https://www.thehindubusinessline.com/companies/adani-group-targets-22-lakh-crore-capex-investment-in-fy27/article71750655.ece"
+  },
+  {
+   "id": "f17336f711b0",
+   "title": "This week in aviation: Air India’s savings targets, Adani Airports’ fundraise",
+   "source": "Forbes India",
+   "tier": "independent",
+   "date": "2026-11-27T16:19:56+05:30",
+   "url": "https://www.forbesindia.com/business/aviation/this-week-in-aviation-air-indias-savings-targets-adani-airports-fundraise-photogallery/3001107"
+  },
+  {
+   "id": "c51586f346c9",
+   "title": "Adani Group to list airport business in FY28; plans $140 billion capex over five years",
+   "source": "The Hindu BusinessLine",
+   "tier": "independent",
+   "date": "2026-11-27T05:25:00+05:30",
+   "url": "https://www.thehindubusinessline.com/companies/adani-group-to-list-airport-business-in-fy28-plans-140-billion-capex-over-five-years/article71751162.ece"
+  },
+  {
    "id": "1cc57c675bb0",
    "title": "India's Adani flagship unit eyes December public bond sale, bankers say",
    "source": "Reuters",
    "tier": "independent",
    "date": "2026-11-26T11:24:00+05:30",
-   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4770D6:0-india-s-adani-flagship-unit-eyes-december-public-bond-sale-bankers-say/"
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/adani-enterprises-stock-plans-public-bond-sale-of-up-to-20-billion-rupees/70557295"
+  },
+  {
+   "id": "729859ccdff3",
+   "title": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million",
+   "source": "Bloomberg.com",
+   "tier": "independent",
+   "date": "2026-11-26T09:12:00+05:30",
+   "url": "https://m.economictimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/amp_articleshow/136178950.cms"
   }
  ],
  "business-moves": [

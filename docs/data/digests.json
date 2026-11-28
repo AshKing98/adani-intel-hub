@@ -1,5 +1,368 @@
 [
  {
+  "date": "2026-11-28",
+  "headline": "Adani charts major aviation expansion, ₹2.2 trillion FY27 capex, and bond offerings",
+  "summary": "Adani Group is seeking government permission to invest in airlines while planning a potential FY28 listing or demerger for its airport business. The conglomerate outlined a ₹2.2 trillion capital expenditure plan for FY27 alongside a $10 billion data centre expansion, as flagship entities prepare public bond issuances.",
+  "stories": [
+   {
+    "id": "46ca64b3a855",
+    "company": "group",
+    "what": "Adani Group has requested Indian government permission to invest in airlines, funds, or backing entrepreneurs launching new carriers. Group CFO Jugeshinder Robbie Singh noted that India's daily flight operations must grow tenfold to 30,000 to serve an untapped pool of 600 million potential passengers.",
+    "why": "Entering airline investments signals an expansion across the aviation value chain beyond airport ownership, though existing concession rules limit operators from holding over 10% in scheduled carriers to curb conflicts of interest.",
+    "brief": {
+     "happened": "Adani Group approached the Indian government seeking approval to invest in existing airlines, dedicated aviation funds, or back new airline entrepreneurs, Group CFO Jugeshinder (Robbie) Singh stated on 27 November 2026. Speaking on the sidelines of the India Debt Capital Market Summit in Mumbai, Singh stated that India operates 3,200 to 3,300 daily flights, but requires nearly 30,000 flights to address demand from 60 crore potential passengers. Singh emphasized the group would prefer acting as an investor while letting entrepreneurs operate the carriers, confirming on-record interest in entering the airline industry.",
+     "background": "Airport concession agreements in India currently prevent airport operators from owning more than a 10% equity stake in domestic scheduled commercial airlines to avoid conflicts of interest.",
+     "next": "The group awaits government deliberation regarding regulatory caps governing airport operator ownership in scheduled airlines.",
+     "numbers": [
+      "60 crore (600 million) underserved potential flyers estimated in India",
+      "3,200 to 3,300 daily flights currently operating nationwide",
+      "30,000 daily flights estimated to meet long-term demand",
+      "10% maximum equity cap currently permitted for airport operators in domestic airlines"
+     ],
+     "views": [
+      "Company says it requested government approval to facilitate airline development through investments or supporting entrepreneurs",
+      "Group CFO Robbie Singh says the group prefers to remain an investor rather than run the carrier",
+      "CNBCTV18 reports this marks the first public confirmation by a senior executive of Adani's airline investment ambitions",
+      "Business Standard reports the move comes months after ruling out an airline entry"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Policy amendments by the Ministry of Civil Aviation concerning ownership restrictions in concession agreements",
+    "terms": [
+     "concession agreement",
+     "scheduled carrier",
+     "conflict of interest"
+    ],
+    "title": "Adani seeks nod to invest in airline ventures",
+    "url": "https://www.businessworld.in/article/adani-group-seeks-govt-nod-to-invest-in-airline-business-635578",
+    "source": "The Financial Express",
+    "coverage": 7,
+    "also": [
+     {
+      "source": "BW Businessworld",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmVFdndaSE5GRlpWemlDbS1ITlZmY2J3eGl0alJrb3pSdjkwYktPN0M3LUNQbmlqRlVLaktnT0h0a3Fjckt0djVRUDJta3JIV1g1ZWxLbmRmaVI4MkdtY1dZYko5ZEduenJFU09CcmVEc1FJOUF6OWZlVFZtN1d2T0Z6cWpVbWxIMkp0bW1HblRjX083MXEybkxROVZWT3FnTUE?oc=5"
+     },
+     {
+      "source": "Telegraph India",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFaOW5NQXYwOVM1aGtvRXFEVkFSazhrbHdxNmg0X1VCRHQ3QTY3LXZNTlNZWFk0aElWYmk4clZ5NEY1aFNlclZOcEwzekg1V2wwMEdaRU03NTRvbnRyYWJ2VFFWQk1RSjlpdkJ4cmtxOTktb1V1Ri1sWWJ4eE14aGVGRlc0RzZ6UzdlSTctM2JKVVpSOVdieGh1WE40aUh2dkw3QjJ4TGRRaF9uY2pqMUpHdERLX3lrRUxB0gHAAUFVX3lxTE1oYzJvUS1FWWZYa2FHSTVJZkwxWDJ0TFVZemdqUUd5c1UxeDhQR193emh0ZHhYeU1LeTJmTkpWREF1Tmp6cFdXZ0tpRGNjd2Q5UkhsQkVibWFGQmRLaEZGalE2Z1pCVVA1OXFWNzlBT0xQUTBKUDBGaWtjXzdpWHQ5VVJxQ0l0V3A3VWZXeHBXRUp1VG8yeFB4RUFCN3l6ZjVnRktsLVE5QlVHaDFLYUVJNWlNcVByLVExM0UtZGNkbQ?oc=5"
+     },
+     {
+      "source": "Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaDI0b2RkNFFuMkV0LVVkTnBIa3R6ZzV3QmZsVkt2eFVQNHIyT094Z0o1YWI1VFNnbXRDOGhyVkQ1dENhVWV5V3IwUXViQUlvanF3M0EzZFNfdmdhVDFXUzZZa3dueWpKcnJYSDY5MjRmaFZ5M2tQSEQza2R3ZDc4N3lnbld4Ui15OG04djJIVXJ2eDY1QmFiQkhTUnNlVTBYazhmdTZlYVNlWnNERURLNzhB0gGyAUFVX3lxTFBoMjRvZGQ0UW4yRXQtVWROcEhrdHpnNXdCZmxWS3Z4VVA0cjJPT3hnSjVhYjVUU2dtdEM4aHJWRDV0Q2FVZXlXcjBRdWJBSW9qcXczQTNkU192Z2FUMVdTNllrd255akpyclhINjkyNGZoVnkza1BIRDNrZHdkNzg3eWduV3hSLXk4bTh2MkhVcnZ4NjVCYWJCSFNSc2VVMFhrOGZ1NmVhU2Vac0RFREs3OEE?oc=5"
+     },
+     {
+      "source": "Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOejZLeDRoX2NYUFZjbXZGazR5QmI4YmdWM2ZVU0hEYm5rNndFbHdxalFQY2JPVl8tZ1RLZFFsSXNldTZ0ZDQ4THRoYVpQUzB4U205czlFUWlHWTQ1Ui03WW9FSHRUMFkxYmJkdExTQTRLV252NFg4OWV3YzdYNnQ2U21yRHpMYkkxNHhPcXdXTjA1SnZOS3NKNU5iMmw?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "c51586f346c9",
+    "company": "airports",
+    "what": "Adani Airport Holdings is being structured for a potential demerger or initial public offering in FY28, with its internal corporate setup slated for completion next year. The arm is increasing its non-aeronautical revenue contribution from 60% toward 65% or higher.",
+    "why": "Preparing the airport vertical for independent capital generation ensures the infrastructure arm can self-fund future investment cycles without reliance on group balance sheets.",
+    "brief": {
+     "happened": "The Adani Group is preparing the ground to list its airport division, targeting an initial public offering or corporate demerger by FY28, Group CFO Jugeshinder Singh said in Mumbai on 27 November 2026. Singh noted that the business's corporate structure will be ready next year to ensure the business can independently fund its ongoing investment programme. Non-aeronautical revenue currently accounts for approximately 60% of Adani's airport business revenues, and management expects this proportion to expand to 65% or more over time.",
+     "background": "Adani Group operates eight airports across India and plans a broader $140 billion capital expenditure program across group companies over five years.",
+     "next": "Completion of Adani Airport Holdings' structural preparation in 2027 ahead of listing steps in FY28.",
+     "numbers": [
+      "FY28 targeted timeline for potential listing or demerger",
+      "60% current share of non-aeronautical revenue",
+      "65% or more long-term target for non-aeronautical revenue share",
+      "$140 billion total capex planned across group entities over five years"
+     ],
+     "views": [
+      "Company says corporate structure will be finalised in 2027 to allow self-funded capital programmes",
+      "Group CFO Robbie Singh says non-aero revenue must rise to align with proposed valuation structures"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Filing of regulatory scheme of arrangement for the airport demerger",
+    "terms": [
+     "demerger",
+     "IPO",
+     "non-aeronautical revenue"
+    ],
+    "title": "Adani Group to list airport business in FY28; plans $140 billion capex over five years",
+    "url": "https://www.thehindubusinessline.com/companies/adani-group-to-list-airport-business-in-fy28-plans-140-billion-capex-over-five-years/article71751162.ece",
+    "source": "The Hindu BusinessLine",
+    "coverage": 20,
+    "also": [
+     {
+      "source": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/adani-airports-could-be-ready-for-listing-by-2027-says-adani-group-cfo-14090510.html"
+     },
+     {
+      "source": "CNBCTV18",
+      "url": "https://www.cnbctv18.com/business/aviation/adani-wants-to-invest-in-airlines-says-india-needs-30000-flights-a-day-cfo-robbie-singh-20043359.htm"
+     },
+     {
+      "source": "Deccan Herald",
+      "url": "https://www.deccanherald.com/business/companies/adani-group-seeks-government-nod-to-invest-in-airline-sector-cfo-4233618"
+     },
+     {
+      "source": "The Indian Express",
+      "url": "https://indianexpress.com/article/business/adani-group-cfo-jugeshinder-robbie-singh-confirms-government-request-invest-in-airlines-omda-cross-holding-rules-10981682/"
+     }
+    ]
+   },
+   {
+    "id": "93b4de04e724",
+    "company": "group",
+    "what": "Adani Group projected capital expenditure of ₹2.2 lakh crore ($23.72 billion) for FY27 alongside plans to invest up to $10 billion in data centres over the next four years. Annual group borrowings are estimated at ₹1.3 lakh crore to ₹1.4 lakh crore across FY27 and FY28.",
+    "why": "The figures lay bare the conglomerate's scale of ongoing leverage and expansion, showing that flagship infrastructure ventures continue to rely on heavy debt financing.",
+    "brief": {
+     "happened": "Adani Group plans ₹2.2 trillion (around $23.72 billion) in capital expenditure for FY27, Group CFO Robbie Singh announced at the India Debt Capital Market Summit 2026 on 27 November. Singh projected annual borrowings of ₹1.3 to ₹1.4 lakh crore each in FY27 and FY28 from domestic and global credit markets. Concurrently, the conglomerate intends to deploy up to $10 billion over four years into digital infrastructure through AdaniConneX, its data centre joint venture with EdgeConneX supported by group renewable power.",
+     "background": "The group's digital infrastructure platform operates via AdaniConneX, a 50-50 joint venture between Adani Enterprises and EdgeConneX powered by renewable supply from group entities.",
+     "next": "Syndication and debt raising across domestic and international bond markets starting early 2027.",
+     "numbers": [
+      "₹2.2 lakh crore ($23.72 billion) planned capex for FY27",
+      "₹1.3-1.4 lakh crore expected borrowings annually in FY27 and FY28",
+      "$10 billion targeted capex in data centres over four years",
+      "$50-60 billion annual capex targeted by FY32"
+     ],
+     "views": [
+      "Company says borrowings will remain steady at ₹1.3-1.4 trillion across each of the next two fiscal years",
+      "Bloomberg reports the group will direct up to $10 billion towards data centres over the next four years",
+      "Financial Express reports long-term plans to triple capex to $50-60 billion annually by FY32"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Domestic and foreign debt issuances funding the FY27 capital pipeline",
+    "terms": [
+     "capex",
+     "debt market",
+     "joint venture"
+    ],
+    "title": "Adani Group plans ₹2.2 trillion capex in FY27, eyes airport business demerger next year",
+    "url": "https://www.cnbctv18.com/business/companies/adani-group-plans-rs-2-trillion-capex-in-fy27-eyes-airport-business-demerger-in-2027-20043244.htm",
+    "source": "CNBCTV18",
+    "coverage": 5,
+    "also": [
+     {
+      "source": "CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbVhqM0tCZXlSbDEwQ29TR0xpYVVEMDZsSVh4UnhpMUxycHlvUkVEaDVEa0FaaGY4RzlrNnRoZk12RVNlb3V6UUpnSDlTdi1KSE5adGEwX3B0X0JHWDQ3dmZ6MDk3c1p5QmZYZHVsOTZoMjlLWkZSM2drYlVZaWU2aEp4bVJwWjljV0RZaHFCZmViaENvVEpXTlUzMUppc0pfWjB4M1lJdWpKa2VRckM1MmpTYXplOXJnSy0wblk3LVhGNHNxVDd2TmtlckMtQ094LV9sbTluejZMcEc3UmfSAd4BQVVfeXFMUG1YajNLQmV5UmwxMENvU0dMaWFVRDA2bElYeFJ4aTFMcnB5b1JFRGg1RGtBWmhmOEc5azZ0aGZNdkVTZW91elFKZ0g5U3YtSkhOWnRhMF9wdF9CR1g0N3ZmejA5N3NaeUJmWGR1bDk2aDI5S1pGUjNna2JVWWllNmhKeG1ScFo5Y1dEWWhxQmZlYmhDb1RKV05VMzFKaXNKX1oweDNZSXVqSmtlUXJDNTJqU2F6ZTlyZ0stMG5ZNy1YRjRzcVQ3dk5rZXJDLUNPeC1fbG05bno2THBHN1Jn?oc=5"
+     },
+     {
+      "source": "Sahi",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONXVJeUhWbVFMVzdTRWRQTEdfYTdoSXhSRlZpdTFFcjlRM2VoZEZ5UW5maHRGOXl1V0o5Xy1NcWt2M19ld2ZNeDVVUE01UEdwNjF4aTY0VHBVbzVsMVBwcFhsUFBkUlYxbDh2MF9JeDB1WFhYeExNNlBST0Fqend4Yi1qdk1PRGRTcmhoWE1DZ2ZsYnBZT1RpUFJ3UQ?oc=5"
+     },
+     {
+      "source": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWd0RW4wWHhvbDZoWVNBZmRRZ0ltUkN4bmZVQUhjVjRMRTlYbklpM1VYLXlBUm8wN1Vwd194NWppeE5Zc0JHb1hJZjY2SnBKcU1LV1RLQ1dDZnlvTHN6azl2VmZ1bTdqU3h4bm5yX1BxSnk5UWtNSUZXZVItWjFzTlU3NTdFX0lHNWhXbXVYQVRwWG9lbDBQNXo0R0M?oc=5"
+     },
+     {
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2Y0Vy01M3RIRTJrMlRPVk9xU25ZSzd0TmxuZHZXZy1veTJUem9mQVhxMUsxSW5WMjNOT0d2V3VZeTNnSFlrVTZ3bFlvMVctNHBiemkxbFhacm5GNXJTNTcxZ1dVSWxPbUlabzFPQTBMdjBma3hMaUNTODRkbHlUSjU2UWcyX3BuS0hFRHBadzd6WVZUZnQ3RlRPMTZRcmtaVUxvZE1oMNIBpwFBVV95cUxQT2Y0Vy01M3RIRTJrMlRPVk9xU25ZSzd0TmxuZHZXZy1veTJUem9mQVhxMUsxSW5WMjNOT0d2V3VZeTNnSFlrVTZ3bFlvMVctNHBiemkxbFhacm5GNXJTNTcxZ1dVSWxPbUlabzFPQTBMdjBma3hMaUNTODRkbHlUSjU2UWcyX3BuS0hFRHBadzd6WVZUZnQ3RlRPMTZRcmtaVUxvZE1oMA?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "729859ccdff3",
+    "company": "group",
+    "what": "Adani Enterprises and Adani Power are preparing public bond sales in India to raise at least ₹20 billion ($220 million). Flagship Adani Enterprises is targeting ₹10 billion to ₹20 billion with an issuance expected in early December 2026.",
+    "why": "Tapping local public retail and institutional bond markets diversifies funding sources away from foreign credit lines and private institutional placements.",
+    "brief": {
+     "happened": "Adani Enterprises and Adani Power are preparing public bond offerings targeting at least ₹20 billion ($220 million), sources reported on 26 November 2026. Merchant bankers indicated that Adani Enterprises aims to raise between ₹10 billion and ₹20 billion through a public issue planned to launch in the first half of December. The issues represent key domestic capital generation steps as the conglomerate taps wider pools of Indian onshore liquidity to support growth.",
+     "background": "The planned issuances would be among the prominent public debt offerings by the flagship units in the onshore domestic bond market.",
+     "next": "Filing of bond prospectus with domestic stock exchanges and debt regulators ahead of December launch.",
+     "numbers": [
+      "At least ₹20 billion ($220 million) combined bond target across Adani Enterprises and Adani Power",
+      "₹10 billion to ₹20 billion planned tranche size for Adani Enterprises",
+      "First half of December 2026 targeted for launch"
+     ],
+     "views": [
+      "Reuters reports bankers confirmed Adani Enterprises plans an issue of 10 to 20 billion rupees",
+      "Bloomberg reports the issuances could help revive activity in India's onshore debt market"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Pricing spreads and anchor investor response upon opening in December",
+    "terms": [
+     "public bond sale",
+     "merchant banker",
+     "onshore debt"
+    ],
+    "title": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million",
+    "url": "https://m.economictimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/amp_articleshow/136178950.cms",
+    "source": "Bloomberg.com",
+    "coverage": 12,
+    "also": [
+     {
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWUNwTkhqay1HakF2VzdORFpwNHkxSGFQYVRLbVQ5Z2prNUs4bTV3YU1OTzJkdW9GajBEUkVHTnhLWXEtUFI4TEdlWjZnUHpHTVlVanR2Q1U5UFJWcmtKdzhQQzMyalVRQjQ1alRBeGw3TEdtNmw5eWdfX0lkME1mNDd6TW81cUx4Uk41c0tlU21YdjlmX010dzdJa25vWmE3eXI0a3NfVzVuWXlJakRMQ3ptYVlaQVZQVXJ2NmRyalBkQ0JrMEs0VFFBWDZnNjU30gHQAUFVX3lxTE9ZQ3BOSGprLUdqQXZXN05EWnA0eTFIYVBhVEttVDlnams1SzhtNXdhTU5PMmR1b0ZqMERSRUdOeEtZcS1QUjhMR2VaNmdQekdNWVVqdHZDVTlQUlZya0p3OFBDMzJqVVFCNDVqVEF4bDdMR202bDl5Z19fSWQwTWY0N3pNbzVxTHhSTjVzS2VTbVh2OWZfTXR3N0lrbm9aYTd5cjRrc19XNW5ZeUlqRExDem1hWVpBVlBVcnY2ZHJqUGRDQmswSzRUUUFYNmc2NTc?oc=5"
+     },
+     {
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0l2LUpJU2pyZExJYVA2ZGMwVmRha3hJd1ZfX2h1LUcxWVBySmhlYk5XRWhqeW9oaFFadXJoVDB0bGlkQlQ4YWdIRzhQV3R6MTByOFRpaWg5eVFuUksyXzljUjNKT01FNU9fSC1CY0w3ZS12SEx4Tk9ra0NTY2xfLUoySlhvSGlpV0NmVGVUZV9SanlFMktxUHotV2R5T2FzLWN6V1FFcEMtTGlSODZwanhTRDJlOUtHZjhUVTY3ZExnZTRmR0V5aWxvTndCMElmWGx2NU1kMS1DUdIB3wFBVV95cUxPcVY3OVZyelV0UUR4N3VhLWctM3R3b0pMSGdPb29DZTZpcDlqU0ppNU44NnIyVmZqNWVuLUduTHFiWXBKMFFkN1ZVbXlSZ20wZk84UkdIRWg0Q3RMeFVkYlUwVUdCT190UEMwQ3VzQnR3NGZDSXlIaTFSOXNNOEVqSXB2SGJzUGJpYUlPUjFRaTJtYjdQRS1BZDRHczA2NXFpWkhUXzByMHM2OVNMcDZGQll3c2x4RVUwdkNYb2wybVhZT29zNzNTRkZRYWhMaFhPOEMwRWNhRHlacTdybVBj?oc=5"
+     },
+     {
+      "source": "BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSnFKOTNxVWc4eU9MS0lUMzFDVzR4OVRHNEVhVWFMRncyTFJEMHhZdDlYcHQtckZtMGY4eWZYd0xnb01YVGhMQ1NhSXdqSUFOOWMyaFhVaWozMU9HQTFGdXhPSkhNYWU0MzZrdmV2b192U0ZEaE1KYXZuclg2ZlFMNm1GYnlOS3FyY0QyS2wycHVjdzVqaTJMVnJBOFNOVmFsa2luSEhQRU5UWjBiT3M1QzQ2QzNqZDVUaGRFZVNMWHRmNmt1bWpLcy1UOUNjOEJEdndWb3owWWNWdHJTclQ2S0xkaWtpTlHSAe4BQVVfeXFMT282VWx6RXNJQTVkN0ZRdk1KSUNFMWNYUldFVEV0ZFl6TFpFS1FvTExRWkJGVXFRSzlJZWcyejRrWWJvOEhEbkhBSDV6ZWEyQnBieEVKRlFWNkVmR1NpVWpqR0ZfNlFjRE1hZmhjMFZfYzc0NE5pcUJ2bHBKc2w2bFZiWExIX2VpSVZ6VVVhSWMxU2FLeUhZQUdGTDhSSVBjMU94OHR1NkJja2hTZEM4UVktaWpwRnFXbVJFOURJNDRyTWNPY0x1dVNrb2YtYlB3TzUta2MzQnNEQmk1RDdveHpmYTVQWHBzSHp1WHQ5QQ?oc=5"
+     },
+     {
+      "source": "The Edge Singapore",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2F0OFZmQ29SZ0pvdVFxN2VxMVh0M3IxQlpuTFpxUFlfbjNJc2k0SE16M2NqV1BCWXZHTEllaHhsa1d5ZzNjR1BCeXJDRDEyeW01RXRVdVpIenJTTHJqa2FTTWJ5bmE2YmhXS2xmdVUwWTFqZlJzQ1VFZHJxdlFWeWdxd2pVMTN2Z2trb18yd0IzaVZqdE1QMVVoWXBZOE5tNFE1VlBQWEJtWno1?oc=5"
+     },
+     {
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYzdSeU0yanFGSmhDV21VbTFxN05ETW1NNGdjdTdrMS1DOEdSbzhiOEo0LTlHbGlzVW9zc1duZEJsaElaWFNOLW1ibm1uWFZFSTJTNE1HcG53bXQzU3lGdEZhWjQxU1MxRVFaU1k3UTRhVWl6Ym56bVBTRDB0MC13QXVXaTl4a2dCcEphdVZyNHpQTjg?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "5e27447aab18",
+    "company": "group",
+    "what": "Adani Energy Solutions Limited awarded two purchase orders to Diamond Power Infrastructure for the supply of AL-59 conductors. The conductors are earmarked for the Bhadla-Fatehpur ±800 kV high-voltage direct current transmission corridor.",
+    "why": "Procurement of critical transmission conductors reflects continued equipment execution on key inter-state green power evacuation corridors.",
+    "brief": {
+     "happened": "Adani Energy Solutions Limited awarded two procurement contracts on 25 November 2026 to Diamond Power Infrastructure Limited. The orders mandate the supply of AL-59 grade conductors for the Uttar Pradesh and Madhya Pradesh sections of the Bhadla-Fatehpur ±800 kV high-voltage direct current (HVDC) transmission link, resulting in Diamond Power's stock gaining 2% on 26 November.",
+     "background": "The Bhadla-Fatehpur HVDC transmission line is designed to evacuate bulk renewable power generated in Western India into Northern load centres.",
+     "next": "Delivery schedules and execution across the UP and MP transmission segments.",
+     "numbers": [
+      "±800 kV rating of the Bhadla-Fatehpur HVDC corridor",
+      "2 purchase orders issued dated 25 November 2026",
+      "2% gain in supplier Diamond Power's equity shares"
+     ],
+     "views": [
+      "Diamond Power Infrastructure disclosed receipt of the orders from Adani Energy Solutions Limited"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Project completion milestones for the Bhadla-Fatehpur HVDC line",
+    "terms": [
+     "HVDC",
+     "conductors",
+     "evacuation corridor"
+    ],
+    "title": "Multibagger stock Diamond Power gains 2% on order wins from Adani group",
+    "url": "https://powerpeakdigest.com/diamond-power-adani-bhadla-fatehpur-hvdc/",
+    "source": "Business Standard",
+    "coverage": 3,
+    "also": [
+     {
+      "source": "The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOXJYaHVBWFdINDZ4VzdlQ1VFQ2ZuMXg2Y2w1WXFvcXplZmxTaFQ2RzVKZGtTOHFvT1E4NXF2akwzRXRsSlFHNGtNOWRpNlNzb014VTFZTnRMcUQyel94a2tUR0ZGYXZ0TjB5SkFjdXhLNk5Pcm9ZQ1Q4Q1lLZUFGcVdRb0VSY3BlbU5KbVR3Y09IeVV6d0ZkZHlpOE0wZ2tXS2dBU3JKUzU5c1FERUF4dm5OTTZJcFpGNDR4Sjczd0J2WW1aNkdFenZfTTdxTlZMQ3ZmM3JudTnSAd8BQVVfeXFMTzZ6TzNtUTJNYVZ2WU9qQzM0d3Qtb0hjTjNLQ3lGeEl4bldMNkMtdVpLeTk2cFFvcGhjQ0xjT1hidTJoZXBXS255UURmVGFHbmZvWmVHaEllaXhtT2RPRlNSaHB3SjdMMjUyalVLLVZMbTVVSzIyTE85UE12RzV4MVBwLXdYNmdocWlacE5FVmllcEI1TGROandubE1uUkg2dzc3Vi1jOVFPaEo1WV9Mc2gwYmRRVm5Ud0o1cFpncEFubWt0X0F6WHJYU0EzREZtck15NmRwWWhfUnp4U2tUQQ?oc=5"
+     },
+     {
+      "source": "Power Peak Digest",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUcENyTDdRQVFrd2lrbWFrQmRqM2hDMTNRR28tU3FXOG5HOGxBRmh0aFQ0UmdIRGdPS3RZZlNIOEotdXdLNDZGdERYU18waVRjNWVCQVdBbjRjYzNubC1Wb0l1RVE5NVJaUy0wZEJ2UjMzYzkxcDZYMw?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "36b734c72add",
+    "company": "agel",
+    "what": "Punjabi artist Diljit Dosanjh visited Adani Green Energy's 538-square-kilometre hybrid renewable energy and battery storage plant at Khavda, Gujarat, during his national concert tour.",
+    "why": "Public and cultural visits draw attention to the Khavda facility's positioning as one of the world's largest concentrated clean energy installations.",
+    "brief": {
+     "happened": "Music performer Diljit Dosanjh visited the 538-square-kilometre Khavda Renewable Energy Plant in Kutch, Gujarat, during the state leg of his national concert tour on 27 November 2026. Dosanjh toured the project's viewing tower and central control room, interacting with site engineers regarding engineering operations located 70 to 100 kilometres from human settlements, publicly praising the frontline workforce driving India's energy transition.",
+     "background": "Adani Green Energy is developing the massive solar, wind, and battery storage hybrid facility across remote saline terrain in the Rann of Kutch.",
+     "next": "Ongoing capacity additions and phased commissioning across Khavda's solar and wind parcels.",
+     "numbers": [
+      "538 sq km total area of the Khavda renewable project",
+      "70 to 100 km distance from the plant to the nearest human settlements"
+     ],
+     "views": [
+      "Diljit Dosanjh called the site 'Bohot Vadhiya' and commended the engineering teams"
+     ]
+    },
+    "evidence": "other",
+    "watch": "Phase-wise generation capacity synchronisation onto the national grid",
+    "terms": [
+     "battery storage",
+     "hybrid plant"
+    ],
+    "title": "Diljit Dosanjh Calls Adani's Khavda Renewable Energy Project Bohot Vadhiya After Site Visit",
+    "url": "https://www.oneindia.com/india/khavda-renewable-energy-project-worlds-largest-plant-giant-012-8271563.html",
+    "source": "Oneindia",
+    "coverage": 10,
+    "also": [
+     {
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVWdLR2h3Ny0wVU5jLTJZYkZzRzVPempDUkRrM2dtZ2hNTEdfVnktR1dwbHhLMXBzSEhJbzJkLUl4aDdyRU5PYXdkbmx0MXRLdk1SV3pSbzJPSi1qa3lyTGptSmhkbEhHWDRNZkp4dmJ6ZjlEUHVWdXc4ZHF4WHlaWEZGdUxnVDVmT0RMS1haSWZTMmxqMmFFVFV3cTJuQTdsZ1E5NnA4WFRJV3FPS3hxNEFVd1U0a0VGemdHcUdmSdIBvwFBVV95cUxNVWdLR2h3Ny0wVU5jLTJZYkZzRzVPempDUkRrM2dtZ2hNTEdfVnktR1dwbHhLMXBzSEhJbzJkLUl4aDdyRU5PYXdkbmx0MXRLdk1SV3pSbzJPSi1qa3lyTGptSmhkbEhHWDRNZkp4dmJ6ZjlEUHVWdXc4ZHF4WHlaWEZGdUxnVDVmT0RMS1haSWZTMmxqMmFFVFV3cTJuQTdsZ1E5NnA4WFRJV3FPS3hxNEFVd1U0a0VGemdHcUdmSQ?oc=5"
+     },
+     {
+      "source": "شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxejhKNUx3LUsyeFROZHVnMjNUNjZrc1dXUjVUR2oxaUQ0WUxWdFhkRUYyNElfdFNsOTdzX0FIcnZOTG9lY0d3U1U1dXZpMWQxM1RN?oc=5"
+     },
+     {
+      "source": "NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVJuWUdlUGNzSGNwNm9QdW01X1BndUQwSzNQX0tKaWtGR091T1dLSVR6UTJDOW84SkRycjM2bFNibHVSd2ZZbF9UdjdLanZ2QlRUSWhiSGlJR1pBM3NWcTZnQVVMVm5IQlhEM2JOZEp6cTBQcldVYUJGM0JEOUtjMnFPQ09hN1JORWkzeDBKQ2JSUGhQSnBnSzJxc0ZBcW9HRGhIa1Q1WUtjQ0VSeDFpM2w4NGFsNllfeVZYSV91Tm5xeDNKZnNIei1HOHBaZjA4aW9J0gHbAUFVX3lxTE51MjIzLUdMQmpBNlhHazJ0bnAwX3k5X1h6djcwMnRhc0txSk1KZURTcWdjMXhLNXlKWEp6RHNYV2FEQWNYcUtwSW1nckdxSVhCTVFRbGFyaW5xdzhvektjVXFEeWltTDk3a3FUUS16bUhiaG1nLXJpVmlGaGkwMVpVd2hyN21uc0lkMzIwbmJRTlBMemNsbGdOWTBHVWp0WEk0QmN3YzJuRWhLTmhaTFpERjNkOTM5c1lteXFlNXFadGRyVVBlN0F5SEpIRk8wVmpiR2RVU3pXOGo4NA?oc=5"
+     },
+     {
+      "source": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWkg4WGNBY3B2ZEtNS0lSZXVfSE1BVlZZTVVTcFFjLVdrT2dNU1dVc0oxTUtWY3h4MUc1dEZscXI1Vk9HTG5jRHlaMnBoeURLOW1lems4SG1DYUt4RnRON1JIcjk4VkNXdlk0Q2tiR1p6LWZEc29yNnVWelBOa2tWc3NyTndRbWtBV0k1TXNNQTIxUXpaTDMxajd2MU1wT3NWdzZkRlE1RUxud0w3bDlibWlYTlc3NGZ6bm51dg?oc=5"
+     }
+    ]
+   },
+   {
+    "id": "50f10df7f2a5",
+    "company": "group",
+    "what": "The Andhra Pradesh state cabinet approved an investment project by the Adani Group valued at ₹13,667 crore alongside an automobile expansion proposal by Kia.",
+    "why": "Securing state cabinet approvals reinforces project clearance momentum for capital deployment across industrial state corridors.",
+    "brief": {
+     "happened": "The Andhra Pradesh cabinet granted formal approval on 28 November 2026 to a ₹13,667-crore project proposed by the Adani Group. The clearance was cleared alongside a ₹19,000-crore expansion project by Kia Motors as part of state industrial approvals.",
+     "background": "Adani Group maintains strategic exposure in Andhra Pradesh spanning port infrastructure, logistics, and power utilities.",
+     "next": "Detailed concession signing or land allotment announcements from the state government.",
+     "numbers": [
+      "₹13,667 crore capital value of the approved Adani project",
+      "₹19,000 crore investment approved concurrently for Kia"
+     ],
+     "views": [
+      "Times of India reports state cabinet approval for the investment"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Details on the operational vertical designated for the ₹13,667 crore investment",
+    "terms": [
+     "cabinet approval",
+     "capex allocation"
+    ],
+    "title": "Kia's ₹19,000-cr expansion, Adani's ₹13,667-cr project get AP cabinet nod",
+    "url": "https://timesofindia.indiatimes.com/city/vijayawada/kias-19000-cr-expansion-adanis-13667-cr-project-get-ap-cabinet-nod/articleshow/136230311.cms",
+    "source": "The Times of India",
+    "coverage": 1,
+    "also": []
+   },
+   {
+    "id": "3ff104a54178",
+    "company": "group",
+    "what": "Adani Group Chairman Gautam Adani addressed students at the Mumbai Book Festival 2026 held at Mumbai University's Kalina campus, urging youth to read extensively.",
+    "why": "High-profile civic engagements highlight top leadership outreach across educational and public forums in Mumbai.",
+    "brief": {
+     "happened": "Gautam Adani visited the Mumbai Book Festival 2026 at the University of Mumbai's Kalina campus on 25 November 2026. Speaking at the literary festival organised by the National Book Trust under the Ministry of Education, Adani lauded student turnout and encouraged participants to read actively.",
+     "background": "The six-day festival is coordinated annually by the National Book Trust to promote literary engagement among students.",
+     "next": "Conclusion of the ongoing university literary showcase.",
+     "numbers": [
+      "6-day duration of the Mumbai Book Festival 2026"
+     ],
+     "views": [
+      "Gautam Adani expressed pleasant surprise at the massive student turnout"
+     ]
+    },
+    "evidence": "independent",
+    "watch": "Adani Foundation-led community outreach initiatives in educational domains",
+    "terms": [
+     "outreach"
+    ],
+    "title": "\"Read As Much As You Can\": Gautam Adani’s Inspiring Message To Students In Mumbai",
+    "url": "https://www.businesstoday.in/bt-tv/short-video/read-as-much-as-you-can-gautam-adanis-inspiring-message-to-students-in-mumbai-569504-2026-11-26",
+    "source": "Business Today",
+    "coverage": 1,
+    "also": []
+   }
+  ],
+  "concept": {
+   "term": "Non-Aeronautical Revenue",
+   "explain": "Non-aeronautical revenue refers to income an airport operator generates outside core aviation services like aircraft landing and parking fees. It includes duty-free sales, retail, food and beverage concessions, car parking, and real estate leasing within terminals. For airport operators, expanding this stream from 60% to over 65% stabilizes operating cash flow because retail and concession margins are unregulated and provide higher yields than aeronautical tariffs set by regulators."
+  },
+  "question": {
+   "q": "Why is the Adani Group seeking regulatory clearance to invest in airlines instead of operating one directly, and what is the strategic hurdle?",
+   "a": "Concession agreements bar airport operators from owning more than 10% in scheduled domestic carriers to prevent anti-competitive behaviour and conflict of interest. Adani wants clearance to back entrepreneurs or invest passively, stimulating domestic flight volume from 3,300 toward 30,000 daily flights to fill capacity across its eight airports without taking on operational carrier liabilities."
+  }
+ },
+ {
   "date": "2026-11-27",
   "headline": "Adani plans bond sales, secures power deals, and expands cement footprint.",
   "summary": "Adani Group flagships are targeting ₹2,000 crore via domestic public bonds while securing a major 1,750 MW round-the-clock renewable contract in West Bengal. Meanwhile, Ambuja Cements advances a 30 MTPA expansion and a carbon capture pilot, and Adani Defence negotiates a manufacturing joint venture with Embraer.",
